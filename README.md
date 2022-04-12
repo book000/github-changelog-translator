@@ -1,5 +1,7 @@
 # github-changelog-translator
 
+[English](README.md) | [Japanese](README-ja.md)
+
 Automatically deliver the title and text translated from the RSS feed of the [GitHub Changelogs article](https://github.blog/changelog/).
 
 Currently, only translation into Japanese is supported.
