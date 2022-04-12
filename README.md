@@ -1,4 +1,4 @@
-# github-changelog-translater
+# github-changelog-translator
 
 Automatically deliver the title and text translated from the RSS feed of the [GitHub Changelogs article](https://github.blog/changelog/).
 
@@ -8,4 +8,4 @@ Currently, only translation into Japanese is supported.
 
 Translated RSS is available on GitHub Pages. Please use the following URL:
 
-https://book000.github.io/github-changelog-translater/changelog.xml
+https://book000.github.io/github-changelog-translator/changelog.xml

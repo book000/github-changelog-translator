@@ -1,9 +1,9 @@
 {
-  "name": "github-changelog-translater",
+  "name": "github-changelog-translator",
   "version": "1.0.1",
-  "description": "GitHub Changelog Translater",
+  "description": "GitHub Changelog Translator",
   "main": "dist/main.js",
-  "repository": "git@github.com:book000/github-changelog-translater.git",
+  "repository": "git@github.com:book000/github-changelog-translator.git",
   "author": "Tomachi",
   "license": "MIT",
   "private": true,
