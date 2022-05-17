@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"><channel><title>Changelogs &amp;#8211; The GitHub Blog</title><atom:link href="https://github.blog/changelog/feed/" rel="self" type="application/rss+xml"></atom:link><link>https://github.blog</link><description>Updates, ideas, and inspiration from GitHub to help developers build and design software.</description><lastBuildDate>Fri, 13 May 2022 19:08:00 +0000</lastBuildDate><language>en-US</language><sy:updatePeriod>hourly</sy:updatePeriod><sy:updateFrequency>1</sy:updateFrequency><generator>https://wordpress.org/?v=5.9.3</generator><image><url>https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=32%2C32</url><title>Changelogs &amp;#8211; The GitHub Blog</title><link>https://github.blog</link><width>32</width><height>32</height></image><site xmlns="com-wordpress:feed-additions:1">153214340</site><item><title>企業全体のDependabotアラートを表示する</title><link>https://github.blog/changelog/2022-05-13-view-dependabot-alerts-across-the-enterprise</link><dc:creator>Sidi Merzouk</dc:creator><pubDate>Fri, 13 May 2022 19:08:00 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2022-05-13-view-dependabot-alerts-across-the-enterprise</guid><description>View Dependabot alerts across the enterprise</description><content:encoded>&lt;p&gt;GitHub Advanced Securityのお客様は、企業レベルでDependabotアラートの概要を確認できるようになりました。このページでは、アプリケーションのセキュリティリスクのリポジトリ中心のビューと、すべてのシークレットスキャンおよび現在のDependabotアラートのアラート中心のビューを提供します。ビューはベータ版であり、今後数か月以内にコードスキャン用のアラート中心のビューが続きます。 &lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"><channel><title>Changelogs &amp;#8211; The GitHub Blog</title><atom:link href="https://github.blog/changelog/feed/" rel="self" type="application/rss+xml"></atom:link><link>https://github.blog</link><description>Updates, ideas, and inspiration from GitHub to help developers build and design software.</description><lastBuildDate>Mon, 16 May 2022 19:54:05 +0000</lastBuildDate><language>en-US</language><sy:updatePeriod>hourly</sy:updatePeriod><sy:updateFrequency>1</sy:updateFrequency><generator>https://wordpress.org/?v=5.9.3</generator><image><url>https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=32%2C32</url><title>Changelogs &amp;#8211; The GitHub Blog</title><link>https://github.blog</link><width>32</width><height>32</height></image><site xmlns="com-wordpress:feed-additions:1">153214340</site><item><title>Dependabotアラートは、脆弱な関数呼び出しの影響を受けるすべてのファイルを表示します（Pythonベータ版）</title><link>https://github.blog/changelog/2022-05-16-dependabot-alerts-show-all-affected-files-for-vulnerable-function-calls-python-beta</link><dc:creator>Sidi Merzouk</dc:creator><pubDate>Mon, 16 May 2022 19:54:05 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2022-05-16-dependabot-alerts-show-all-affected-files-for-vulnerable-function-calls-python-beta</guid><description>Dependabot alerts show all affected files for vulnerable function calls (Python Beta)</description><content:encoded>&lt;p&gt;リポジトリコードが依存関係の脆弱性から既知の脆弱な関数を呼び出している場合、Dependabotアラートは影響を受けるすべてのファイルを表示するようになりました。以前は、アラートの詳細ページでこれらの一致の1つのみを強調表示していましたが、ユーザーは影響を受けるすべてのファイルを表示できるようになりました。&lt;/p&gt;
+&lt;p&gt;この機能は、Pythonアラートの&lt;a href=&quot;https://github.blog/2022-04-14-dependabot-alerts-now-surface-if-code-is-calling-vulnerability&quot;&gt;露出検出&lt;/a&gt;のパブリックベータをサポートします。 Pythonでベータテストを行った後、他のエコシステムのサポートを追加します。詳細については、&lt;a href=&quot;https://github.com/github/roadmap&quot;&gt;公開ロードマップに注目してください&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;詳細については、 &lt;a href=&quot;https://docs.github.com/en/code-security/dependabot/dependabot-alerts/viewing-and-updating-dependabot-alerts#about-the-detection-of-calls-to-vulnerable-functions&quot;&gt;製品ドキュメント&lt;/a&gt;を参照してください。&lt;/p&gt;
+</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">64996</post-id></item><item><title>エンタープライズピープルページにメンバーの概要が表示されます</title><link>https://github.blog/changelog/2022-05-16-member-summary-now-on-enterprise-people-page</link><dc:creator>Sidi Merzouk</dc:creator><pubDate>Mon, 16 May 2022 18:57:11 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2022-05-16-member-summary-now-on-enterprise-people-page</guid><description>Member Summary Now on Enterprise People Page</description><content:encoded>&lt;p&gt;エンタープライズ管理者は、エンタープライズアカウントのメンバーのページ（ &lt;code&gt;https://github.com/enterprises/ /people&lt;/code&gt; ）で、エンタープライズに関連付けられているメンバーの概要を表示できるようになりました。&lt;enterprise&gt; &lt;code&gt;https://github.com/enterprises/ /people&lt;/code&gt; 。この新しい概要セクションでは、企業に適用可能な役割、ライセンス、および展開全体のユーザー数を分類します。&lt;/p&gt;
+</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">64995</post-id></item><item><title>ISO / IEC 27001：2013認証が利用可能になりました</title><link>https://github.blog/changelog/2022-05-16-iso-iec-270012013-certification-now-available</link><dc:creator>Sidi Merzouk</dc:creator><pubDate>Mon, 16 May 2022 17:32:28 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2022-05-16-iso-iec-270012013-certification-now-available</guid><description>ISO/IEC 27001:2013 Certification Now Available</description><content:encoded>&lt;p&gt;新しく入手可能なISO/IEC 27001：2013認証レポートを今すぐダウンロードできます。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;企業の場合、管理者は企業アカウントの[ &lt;code&gt;Compliance&lt;/code&gt; ]タブに移動してこのレポートをダウンロードできます： &lt;code&gt;https://github.com/enterprises/&quot;your-enterprise&quot;/settings/compliance&lt;/code&gt; ：//github.com/enterprises/ &quot;your-enterprise&quot; / settings/compliance。&lt;/li&gt;
+&lt;li&gt;組織の場合、所有者は、組織の[セキュリティ]&gt; [ &lt;code&gt;Authentication Security&lt;/code&gt;設定]タブでこれらのレポートを見つけることができます： &lt;code&gt;https://github.com/organizations/&quot;your-org&quot;/settings/security&lt;/code&gt; ：//github.com/organizations/ &quot;your-org&quot; / settings/security。&lt;/li&gt;
+&lt;li&gt;他のすべての人は、GitHubセキュリティページ（ &lt;a href=&quot;https://github.com/security&quot;&gt;https://github.com/security&lt;/a&gt; ）に移動して、いつでもこのレポートをダウンロードできます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;この新しいレポートの詳細については&lt;a href=&quot;https://github.blog/2022-05-16-github-achieves-iso-iec-270012013-certification&quot;&gt;、ブログ投稿&lt;/a&gt;をご覧ください。&lt;/p&gt;
+</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">64994</post-id></item><item><title>MicrosoftTeamsおよびSlack用のGitHubアプリの新しいヘルプと開始エクスペリエンス</title><link>https://github.blog/changelog/2022-05-16-new-help-and-getting-started-experience-in-github-app-for-microsoft-teams-and-slack</link><dc:creator>Kevin Duck</dc:creator><pubDate>Mon, 16 May 2022 16:58:06 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2022-05-16-auto-draft</guid><description>We have now improved the help and getting started experience in GitHub app for Microsoft Teams and Slack. From the moment you install or access the app for the first time, you are guided step by step until you have successfully used the app. Learning about the app functionalities is simplified with the new &amp;#8220;help&amp;#8221; [&amp;#8230;]</description><content:encoded>&lt;p&gt;これで、MicrosoftTeamsおよびSlack用のGitHubアプリのヘルプと開始エクスペリエンスが改善されました。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;アプリを初めてインストールまたはアクセスした瞬間から、アプリを正常に使用するまで段階的にガイドされます。&lt;/li&gt;
+&lt;li&gt;新しい「ヘルプ」エクスペリエンスにより、アプリの機能についての学習が簡素化されます。 &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&quot;https://i0.wp.com/user-images.githubusercontent.com/2196784/168559962-ea947456-0f6c-4867-a789-bdd6b99110b8.png?ssl=1&quot; alt=&quot;チームは助けます&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i0.wp.com/user-images.githubusercontent.com/2196784/168559986-33bae65f-9ff3-46de-8e01-f7c1605c7bd8.png?ssl=1&quot; alt=&quot;チームは助けます&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;詳細については、 &lt;a href=&quot;https://github.com/integrations/slack/blob/master/README.md&quot;&gt;GitHub&lt;/a&gt; &lt;a href=&quot;https://github.com/integrations/microsoft-teams/blob/master/Readme.md&quot;&gt;forMicrosoftTeams&lt;/a&gt;またはGitHubforSlackの完全なドキュメントを参照してください。&lt;/p&gt;
+</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">64991</post-id></item><item><title>ブランチ間の違いを比較する</title><link>https://github.blog/changelog/2022-05-16-compare-differences-between-branches</link><dc:creator>Sidi Merzouk</dc:creator><pubDate>Mon, 16 May 2022 15:44:37 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2022-05-16-compare-differences-between-branches</guid><description>Compare differences between branches</description><content:encoded>&lt;p&gt;アップストリームブランチとは異なるブランチのリポジトリビューに拡張機能を追加しました。以前、ブランチがアップストリームの前または後ろにあるコミットの数を示しましたが、違いを示す簡単な方法はありませんでした。これで、比較ページに移動するリンクをクリックして、違いを確認できます。 &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i0.wp.com/user-images.githubusercontent.com/90000203/166960932-d630a74f-4e08-47f3-a06f-c87638b64366.png?ssl=1&quot; alt=&quot;画像&quot; data-recalc-dims=&quot;1&quot;&gt;&lt;/p&gt;
+&lt;p&gt;注： &lt;code&gt;ahead&lt;/code&gt;と&lt;code&gt;behind&lt;/code&gt;には異なるリンクがあります&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ahead&lt;/code&gt;はブランチの変更を表しますが、アップストリームブランチは変更しません&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;behind&lt;/code&gt;は、アップストリームブランチにある変更を表しますが、ブランチにはありません&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches&quot;&gt;ブランチについてもっと読む&lt;/a&gt;。&lt;/p&gt;
+</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">64987</post-id></item><item><title>企業全体のDependabotアラートを表示する</title><link>https://github.blog/changelog/2022-05-13-view-dependabot-alerts-across-the-enterprise</link><dc:creator>Sidi Merzouk</dc:creator><pubDate>Fri, 13 May 2022 19:08:00 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2022-05-13-view-dependabot-alerts-across-the-enterprise</guid><description>View Dependabot alerts across the enterprise</description><content:encoded>&lt;p&gt;GitHub Advanced Securityのお客様は、企業レベルでDependabotアラートの概要を確認できるようになりました。このページでは、アプリケーションのセキュリティリスクのリポジトリ中心のビューと、すべてのシークレットスキャンおよび現在のDependabotアラートのアラート中心のビューを提供します。ビューはベータ版であり、今後数か月以内にコードスキャン用のアラート中心のビューが続きます。 &lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://i0.wp.com/user-images.githubusercontent.com/1865328/168336387-9fbe7e2e-ed30-4f5b-b1ac-a32ffcab210b.png?ssl=1&quot; alt=&quot;エンタープライズレベルでのDependabotアラート&quot; data-recalc-dims=&quot;1&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://docs.github.com/en/code-security/security-overview/exploring-security-alerts&quot;&gt;セキュリティの概要の詳細&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&quot;https://github.com/features/security&quot;&gt;GitHubAdvancedSecurityの詳細&lt;/a&gt;&lt;/p&gt;
@@ -20,95 +47,4 @@
 &lt;img alt=&quot;default_to_pr_title_setting&quot; src=&quot;https://i0.wp.com/user-images.githubusercontent.com/4021812/167480061-6179cf90-b89b-4ccf-a577-48aff4c656d3.png?w=649&amp;#038;ssl=1&quot; data-recalc-dims=&quot;1&quot;&gt;&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">64960</post-id></item><item><title>ユーザーダッシュボードに要約された変更ログ</title><link>https://github.blog/changelog/2022-05-11-changelog-summarized-on-user-dashboards</link><dc:creator>Lee Reilly</dc:creator><pubDate>Wed, 11 May 2022 17:25:07 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2022-05-11-auto-draft</guid><description>The main github.com landing page for logged in users now includes a summary of the most recent posts from our Changelog &amp;#8211; keeping you up to date with the latest features and improvements.</description><content:encoded>&lt;p&gt;ログインしたユーザーのメインの&lt;a class=&quot;rich-diff-level-one&quot; href=&quot;https://github.blog/changelog/&quot; rel=&quot;nofollow&quot;&gt;github.com&lt;/a&gt;ランディングページに、変更ログからの最新の投稿の概要が含まれるようになりました。これにより、最新の機能と改善点を最新の状態に保つことができます。 &lt;/p&gt;
 &lt;p&gt;&lt;img loading=&quot;lazy&quot; class=&quot;aligncenter size-full wp-image-64957 width-fit&quot; src=&quot;https://github.blog/wp-content/uploads/2022/05/user-dashboard-showing-changlog-feed-on-right-sidebar.png?resize=1024%2C538&quot; alt=&quot;ログインしたユーザーのgithub.comページを示すスクリーンショットで、右側のサイドバーに変更ログフィードが表示されています&quot; width=&quot;1024&quot; height=&quot;538&quot; srcset=&quot;https://github.blog/wp-content/uploads/2022/05/user-dashboard-showing-changlog-feed-on-right-sidebar.png?resize=1024%2C538?w=1200 1200w, https://github.blog/wp-content/uploads/2022/05/user-dashboard-showing-changlog-feed-on-right-sidebar.png?resize=1024%2C538?w=300 300w, https://github.blog/wp-content/uploads/2022/05/user-dashboard-showing-changlog-feed-on-right-sidebar.png?resize=1024%2C538?w=768 768w, https://github.blog/wp-content/uploads/2022/05/user-dashboard-showing-changlog-feed-on-right-sidebar.png?resize=1024%2C538?w=1024 1024w&quot; sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/p&gt;
-</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">64954</post-id></item><item><title>GitHub EnterpriseServer3.5リリース候補が利用可能です</title><link>https://github.blog/changelog/2022-05-10-the-github-enterprise-server-3-5-release-candidate-is-available</link><dc:creator>Sidi Merzouk</dc:creator><pubDate>Tue, 10 May 2022 22:41:25 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2022-05-10-the-github-enterprise-server-3-5-release-candidate-is-available</guid><description>The GitHub Enterprise Server 3.5 Release Candidate is available</description><content:encoded>&lt;p&gt;GitHub EnterpriseServer3.5リリース候補が利用可能です。新しい&lt;a href=&quot;https://github.com/features/security&quot;&gt;GitHubAdvancedSecurity&lt;/a&gt;機能は、監査ログにGitイベントが追加されたエンタープライズ管理者向けの機能強化、サーバーの使用状況を経時的に分析する機能、およびメンテナンスモード制御の改良とともに、このリリースのエキサイティングな見出しです。これらの機能などについては、 &lt;a href=&quot;https://docs.github.com/en/enterprise-server@3.5/admin/release-notes#3.5.0.rc1&quot;&gt;GitHub EnterpriseServer3.5の完全なリリースノート&lt;/a&gt;をご覧ください。&lt;/p&gt;
-&lt;p&gt;リリース候補は、最新の機能をできるだけ早く試すための方法であり、リリースがご使用の環境で確実に機能するように、フィードバックを早期に収集するのに役立ちます。これらは、非実稼働環境でテストする必要があります。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://enterprise.github.com/releases/3.5.0/download&quot;&gt;今日それをダウンロードして&lt;/a&gt;ください。&lt;/p&gt;
-</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">64948</post-id></item><item><title>Dependabotは、`@types`の依存関係を更新されたパッケージと同期させます</title><link>https://github.blog/changelog/2022-05-10-dependabot-keeps-types-dependencies-in-sync-with-updated-packages</link><dc:creator>Sidi Merzouk</dc:creator><pubDate>Tue, 10 May 2022 22:12:10 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2022-05-10-dependabot-keeps-types-dependencies-in-sync-with-updated-packages</guid><description>Dependabot keeps `@types` dependencies in sync with updated packages</description><content:encoded>&lt;p&gt;Dependabotは、TypeScriptプロジェクトの対応するパッケージとともに&lt;code&gt;@types&lt;/code&gt;依存関係を更新するようになりました。&lt;/p&gt;
-&lt;p&gt;この変更の前は、ユーザーには、パッケージとそれに対応する&lt;code&gt;@types&lt;/code&gt;パッケージに対する個別のプルリクエストが表示されていました。これにより、パッケージとタイプ定義が互いに同期しなくなり、手動による介入が必要になる可能性があります。たとえば、プロジェクトに&lt;code&gt;jquery&lt;/code&gt;と&lt;code&gt;@types/jquery&lt;/code&gt;の両方に依存関係があり、脆弱性によってDependabotが&lt;code&gt;jquery&lt;/code&gt;を&lt;code&gt;3.4.1&lt;/code&gt;から&lt;code&gt;3.5.0&lt;/code&gt;に更新した場合、パッケージ&lt;code&gt;@types/jquery&lt;/code&gt;は元の&lt;code&gt;3.4.x&lt;/code&gt;バージョンのままになります。&lt;/p&gt;
-&lt;p&gt;現在、Dependabotは、TypeScriptユーザーが依存関係と&lt;code&gt;@types&lt;/code&gt;パッケージを最新かつ同期に保つのに役立ちます。更新を作成するためにトリガーされると、Dependabotはそのパッケージに対応する&lt;code&gt;@types&lt;/code&gt;パッケージがあるかどうかを確認します。その場合、Dependabotはパッケージと対応する&lt;code&gt;@types&lt;/code&gt;パッケージの両方を単一のPRで更新します。または、 &lt;code&gt;@types&lt;/code&gt;パッケージが不要になった場合は、代わりにその依存関係が削除されます。&lt;/p&gt;
-&lt;p&gt;この機能は、 &lt;code&gt;package.json&lt;/code&gt;にリストされているプロジェクトの&lt;code&gt;devDependencies&lt;/code&gt;に&lt;code&gt;@types&lt;/code&gt;パッケージを含むリポジトリで自動的に有効になります。この動作を無効にするには、 &lt;code&gt;dependabot.yml&lt;/code&gt;ファイルの&lt;a href=&quot;https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file#ignore&quot;&gt;&lt;code&gt;ignore&lt;/code&gt;&lt;/a&gt;フィールドを&lt;code&gt;@types/*&lt;/code&gt;に設定します。この&lt;a href=&quot;https://github.com/github/feedback/discussions/16339&quot;&gt;フィードバックディスカッション&lt;/a&gt;であなたの考えを教えてください。&lt;/p&gt;
-</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">64947</post-id></item><item><title>コードスペース：デフォルトの画像の改善</title><link>https://github.blog/changelog/2022-05-10-codespaces-default-image-improvements</link><dc:creator>Sidi Merzouk</dc:creator><pubDate>Tue, 10 May 2022 21:52:17 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2022-05-10-codespaces-default-image-improvements</guid><description>Codespaces: Default Image Improvements</description><content:encoded>&lt;p&gt;コードスペースで作業する場合、作業している環境は、仮想マシンでホストされている開発コンテナーを使用して作成されます。リポジトリで構成を定義しない場合、GitHubは &lt;a href=&quot;https://github.com/microsoft/vscode-dev-containers/tree/main/containers/codespaces-linux&quot;&gt;デフォルトのLinuxイメージ&lt;/a&gt;を使用してコードスペースを作成します。このLinuxイメージには、Python、Node.js、JavaScript、TypeScriptなどの一般的な言語とランタイムが含まれており、チームのニーズに基づいてさらにカスタマイズまたは使用できる環境を開始するのに役立ちます。&lt;/p&gt;
-&lt;h3 id=&quot;zero-configuration-getting-started-experience-for-machine-learning-users&quot;&gt;機械学習ユーザー向けの「ゼロ構成」入門エクスペリエンス&lt;/h3&gt;
-&lt;p&gt;このアップデートでは、機械学習シナリオのシームレスな開始エクスペリエンスを可能にするデフォルトイメージの新しいバージョンをリリースしました。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;デフォルトのイメージにはデフォルトでJupyterがプリインストールされているため、ターミナルからすぐに&lt;code&gt;jupyter notebook&lt;/code&gt;または&lt;code&gt;jupyter lab&lt;/code&gt;を実行して、データサイエンスプロジェクトを開始できます。&lt;/li&gt;
-&lt;li&gt;デフォルトのイメージには、次の一般的に使用される機械学習固有のPythonライブラリもデフォルトでプリインストールされています。
-&lt;ul&gt;
-&lt;li&gt;数値計算の場合：numpy、pandas、scipy&lt;/li&gt;
-&lt;li&gt;データ視覚化の場合：matplotlib、seaborn&lt;/li&gt;
-&lt;li&gt;モデル構築の場合：scikit-learn、tensorflow、keras、torch&lt;/li&gt;
-&lt;li&gt;データフェッチの場合：リクエスト&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;最後に、 &lt;code&gt;requirements.txt&lt;/code&gt;ファイルにプロジェクトに依存する追加のPythonパッケージを含めることができます。これらのパッケージは、コードスペースを作成するときにユーザースコープに自動的にインストールされます。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;additional-updates&quot;&gt;追加の更新&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;これらの改善に加えて、デフォルトのイメージが次のツールで更新され、デフォルトのコードスペースに関連する速度とコストが最適化されています。また、これらのツールセットを削除すると重大な変更が発生するため、イメージのメジャーバージョンを2に更新しました。一部のツールはデフォルトで含まれなくなりましたが、独自の&lt;a href=&quot;https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/introduction-to-dev-containers#devcontainerjson&quot;&gt;devcontainer構成&lt;/a&gt;を作成することで、いつでもこれらを追加できます。&lt;br /&gt;
-&lt;details&gt;
-&lt;summary&gt;追加されたツール：&lt;/summary&gt;
-&lt;ul&gt;
-&lt;li&gt;ノード14&lt;/li&gt;
-&lt;li&gt;ノード16&lt;/li&gt;
-&lt;li&gt; Python 3.9&lt;/li&gt;
-&lt;li&gt; Python 3.10&lt;/li&gt;
-&lt;li&gt;コンダ4.12&lt;/li&gt;
-&lt;li&gt; Java 11&lt;/li&gt;
-&lt;li&gt; Maven 3.8&lt;/li&gt;
-&lt;li&gt; Ruby 3.0&lt;/li&gt;
-&lt;li&gt; Ruby 3.1&lt;/li&gt;
-&lt;li&gt; PHP 8.0&lt;/li&gt;
-&lt;li&gt; PHP 8.1&lt;/li&gt;
-&lt;li&gt; PHP Composer 2.3&lt;/li&gt;
-&lt;li&gt;ヒューゴ0.96&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;削除されたツール：&lt;/summary&gt;
-&lt;ul&gt;
-&lt;li&gt;ノード12&lt;/li&gt;
-&lt;li&gt; Python 3.8&lt;/li&gt;
-&lt;li&gt;コンダ4.8&lt;/li&gt;
-&lt;li&gt; .NET 5.0&lt;/li&gt;
-&lt;li&gt; Ruby 2.7&lt;/li&gt;
-&lt;li&gt; PHP 7.2&lt;/li&gt;
-&lt;li&gt; PHP 7.3&lt;/li&gt;
-&lt;li&gt; PHP Composer 2.0&lt;/li&gt;
-&lt;li&gt;ヒューゴ0.90&lt;/li&gt;
-&lt;li&gt; Maven 3.6&lt;/li&gt;
-&lt;li&gt;パワーシェル&lt;/li&gt;
-&lt;li&gt;Az CLI&lt;/li&gt;
-&lt;li&gt;さび&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/details&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;最後に、このアップデートの一環として、LTSをサポートするツール（ノード、Pythonなど）の場合、デフォルトのイメージには、今後の最新の2つのLTSリリースが含まれます。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;詳細については、 &lt;a href=&quot;https://github.com/microsoft/vscode-dev-containers/tree/main/containers/codespaces-linux&quot;&gt;最新のCodespacesのデフォルトのイメージ構成&lt;/a&gt;を確認してください。&lt;/p&gt;
-</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">64946</post-id></item><item><title>npmアカウントの強化された2FAエクスペリエンス：パブリックベータ</title><link>https://github.blog/changelog/2022-05-10-enhanced-2fa-experience-for-npm-accounts-public-beta</link><dc:creator>Sidi Merzouk</dc:creator><pubDate>Tue, 10 May 2022 16:05:08 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2022-05-10-enhanced-2fa-experience-for-npm-accounts-public-beta</guid><description>Enhanced 2FA experience for npm accounts: public beta</description><content:encoded>&lt;p&gt;npm 2FAエクスペリエンスのさまざまな改善が、現在パブリックベータ版になっています。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;セキュリティキー、生体認証デバイス、認証アプリケーションなど、複数の2番目の要素の登録のサポート&lt;/li&gt;
-&lt;li&gt;キーとリカバリコードを管理するための新しい2FA構成メニュー&lt;/li&gt;
-&lt;li&gt;npm6以降の物理的セキュリティキーと生体認証デバイスを使用したログインおよび公開機能の完全なCLIサポート&lt;/li&gt;
-&lt;li&gt;リカバリコードを表示および再生成する機能&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;2FAの構成の詳細については、 &lt;a href=&quot;https://docs.npmjs.com/configuring-two-factor-authentication&quot;&gt;2要素認証の構成&lt;/a&gt;を参照してください。&lt;br /&gt;
-一般的な2FAの詳細&lt;a href=&quot;https://docs.npmjs.com/about-two-factor-authentication&quot;&gt;については、「2要素認証について&lt;/a&gt;」を参照してください。&lt;br /&gt;
-質問やコメントについては、&lt;a href=&quot;http://github.com/npm/feedback&quot;&gt;フィードバックリポジトリ&lt;/a&gt;でディスカッションを開いてください。&lt;/p&gt;
-</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">64938</post-id></item><item><title>GitHubアクション：GitHubでホストされているランナー向けのUbuntu22.04のベータ版が利用可能になりました</title><link>https://github.blog/changelog/2022-05-10-github-actions-beta-of-ubuntu-22-04-for-github-hosted-runners-is-now-available</link><dc:creator>Sidi Merzouk</dc:creator><pubDate>Tue, 10 May 2022 13:56:48 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2022-05-10-github-actions-beta-of-ubuntu-22-04-for-github-hosted-runners-is-now-available</guid><description>GitHub Actions&amp;#058; Beta of Ubuntu 22.04 for GitHub-hosted runners is now available</description><content:encoded>&lt;p&gt;GitHubActionsのUbuntu22.04ランナーイメージのベータ版が利用可能になりました。 &lt;code&gt;runs-on: ubuntu-22.04&lt;/code&gt;&lt;/p&gt;
-&lt;pre&gt; &lt;code class=&quot;language-yaml&quot;&gt;jobs:
- build:
- runs-on: ubuntu-22.04
- steps:
- - uses: actions/checkout@v3
- - uses: actions/setup-node@v3
- with:
- node-version: &amp;#39;14&amp;#39;
- - run: npm install -g bats
- - run: bats -v&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt; Ubuntu 22.04アクションランナーイメージには、ubuntu20.04とは異なるツールとツールバージョンがあります。&lt;a href=&quot;https://github.com/actions/virtual-environments/issues/5490&quot;&gt;ここで&lt;/a&gt;2つのOSバージョンの違いを参照してください。 Ubuntu 22.04で利用可能なソフトウェアの完全なリストについては、 &lt;a href=&quot;https://github.com/actions/virtual-environments/blob/main/images/linux/Ubuntu2204-Readme.md&quot;&gt;ここをクリック&lt;/a&gt;してください。&lt;/p&gt;
-&lt;p&gt;イメージの使用中にワークフローに問題が見つかった場合は、&lt;a href=&quot;https://github.com/actions/virtual-environments&quot;&gt;仮想環境リポジトリ&lt;/a&gt;に問題を作成してお知らせください。&lt;/p&gt;
-&lt;p&gt;ランナーイメージがベータ版である間、ピーク使用時間中にキュー時間が長くなる可能性があります。&lt;/p&gt;
-</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">64934</post-id></item></channel></rss>
+</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">64954</post-id></item></channel></rss>
