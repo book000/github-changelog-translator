@@ -53,7 +53,7 @@
 &lt;p&gt;&lt;img src=&quot;https://i0.wp.com/user-images.githubusercontent.com/1767415/166236147-8ae48936-5cf4-45be-9429-372900e7ff09.png?ssl=1&quot; alt=&quot;サインオフされていないコミットを修正するための手順&quot; data-recalc-dims=&quot;1&quot;&gt;&lt;/p&gt;
 &lt;p&gt;あるオープンソース寄稿者の言葉を借りれば、次のようになります。 &lt;/p&gt;
 &lt;blockquote&gt;&lt;p&gt;
-&lt;img src=&quot;https://s.w.org/images/core/emoji/14.0.0/72x72/1f926.png&quot; alt=&quot;🤦&quot; class=&quot;wp-smiley&quot; style=&quot;height: 1em; max-height: 1em;&quot; /&gt;プルリクエストのレビュー担当者として、これが私の最大の問題点です。誰かがWebUIでコミットを手動でサインオフするのを忘れた場合、プルリクエストのチェックは失敗し、唯一の解決策はリベースまたはスカッシュしてプッシュを強制してコミットメッセージを修正することです。いずれにせよ、レビュー履歴は不明確になります。これは、新しくてまれな貢献者にとっては大きな摩擦であり、人々は忘れています。
+&lt;img src=&quot;https://s.w.org/images/core/emoji/14.0.0/72x72/1f926.png&quot; alt=&quot;🤦&quot; class=&quot;wp-smiley&quot; style=&quot;height: 1em; max-height: 1em;&quot; /&gt;プルリクエストのレビュー担当者として、これが私の最大の問題点です。誰かがWebUIでコミットを手動でサインオフするのを忘れた場合、プルリクエストのチェックは失敗し、唯一の解決策は、リベースまたはスカッシュしてプッシュを強制してコミットメッセージを修正することです。いずれにせよ、レビュー履歴は不明確になります。これは、新しくてまれな貢献者にとっては大きな摩擦であり、人々は忘れています。
 &lt;/p&gt;&lt;/blockquote&gt;
 &lt;h3 id=&quot;new-signoff-capabilities&quot;&gt;新しいサインオフ機能&lt;/h3&gt;
 &lt;p&gt;組織の所有者とリポジトリ管理者は、ファイルの編集やプルリクエストのマージなど、GitHubのウェブインターフェースを介して行われたコミットの承認を開発者に要求できるようになりました。&lt;/p&gt;
