@@ -11,7 +11,7 @@
 &lt;li&gt;&lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-scanning/protecting-pushes-with-secret-scanning&quot;&gt;プッシュプロテクションの詳細&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">65763</post-id></item><item><title>シークレットスキャン：編集時のカスタムパターンのドライラン</title><link>https://github.blog/changelog/2022-06-16-secret-scanning-dry-runs-for-custom-patterns-on-edits</link><dc:creator>Sidi Merzouk</dc:creator><pubDate>Thu, 16 Jun 2022 21:44:23 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2022-06-16-secret-scanning-dry-runs-for-custom-patterns-on-edits</guid><description>Secret scanning&amp;#058; Dry runs for custom patterns on edits</description><content:encoded>&lt;p&gt;GitHub Advanced Securityのお客様は、パターンを編集するときにカスタムパターンのドライランを実行できるようになりました。ドライランを使用すると、管理者は組織全体でのパターンの影響を理解し、アラートを公開および生成する前にパターンを磨くことができます。&lt;/p&gt;
-&lt;p&gt;管理者は、新しいパターンを作成するか、公開されたパターンを編集してから、[保存してドライラン]して、選択したリポジトリから結果を取得できます。スキャン結果は検出されると画面に表示されますが、管理者はページを離れて、後で保存されたパターンのドライラン結果に戻ることができます。&lt;/p&gt;
+&lt;p&gt;管理者は、新しいパターンを作成するか、公開されたパターンを編集してから、「保存してドライラン」して、選択したリポジトリから結果を取得できます。スキャン結果は検出されると画面に表示されますが、管理者はページを離れて、後で保存されたパターンのドライラン結果に戻ることができます。&lt;/p&gt;
 &lt;p&gt;詳細については：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt; &lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-scanning/defining-custom-patterns-for-secret-scanning&quot;&gt;カスタムパターンについて&lt;/a&gt;&lt;/li&gt;
