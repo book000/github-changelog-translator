@@ -59,7 +59,7 @@
 &lt;p&gt;これで、リポジトリを親リポジトリと同じ組織にフォークできるようになり、ある組織で作業していて、別の組織やユーザーアカウントにリポジトリをフォークしたくない状況に対処できます。 &lt;/p&gt;
 &lt;h3 id=&quot;fork-internal-repositories-to-enterprise-organizations&quot; id=&quot;fork-internal-repositories-to-enterprise-organizations&quot; &gt;企業組織への内部リポジトリのフォーク&lt;a href=&quot;#fork-internal-repositories-to-enterprise-organizations&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Fork internal repositories to enterprise organizations&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;以前は、 &lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility&quot;&gt;内部の可視性&lt;/a&gt;を持つリポジトリがフォークされると、フォークは個人の個人アカウントスペースに自動的に作成され、その可視性はプライベートに変更されました。&lt;/p&gt;
-&lt;p&gt;これで、人々は同じ企業内の組織に内部リポジトリをフォークすることができ、フォークはその内部の可視性を保持します。内部リポジトリをフォークする場合、次の点を除いて、パブリックリポジトリをフォークするのと同様に、企業のどの組織がフォークを受け取るかを選択できます。&lt;/p&gt;
+&lt;p&gt;これで、人々は同じ企業内の組織に内部リポジトリをフォークすることができ、フォークはその内部の可視性を保持します。内部リポジトリをフォークする場合、企業のどの組織がフォークを受け取るかを選択できます。ただし、パブリックリポジトリをフォークする場合と同様ですが、次の点が異なります。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;宛先組織は、親リポジトリの企業内の組織に限定されます。&lt;/li&gt;
 &lt;li&gt;フォーク中にフォークの内部の可視性を変更することは許可されません。 &lt;/li&gt;
