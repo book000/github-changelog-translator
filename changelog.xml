@@ -38,7 +38,7 @@
 &lt;h3 id=&quot;fixed-ip-ranges&quot; id=&quot;fixed-ip-ranges&quot; &gt;固定 IP 範囲&lt;a href=&quot;#fixed-ip-ranges&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Fixed IP ranges&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;チェックボックスにチェックを入れるだけで、マシンの固定 IP 範囲を設定できます。これにより、内部システムと GitHub の許可リストに許可リストに登録できる IP 範囲が提供され、GitHub 環境をより安全にしながらアクションを使用し続けることができます。 &lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://i0.wp.com/user-images.githubusercontent.com/2938470/187657611-80040a4b-f085-422c-9ad3-2fe44b023bc0.png?ssl=1&quot; alt=&quot;画像&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/p&gt;
-&lt;h3 id=&quot;admin-control&quot; id=&quot;admin-control&quot; &gt;管理者制御&lt;a href=&quot;#admin-control&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Admin control&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;admin-control&quot; id=&quot;admin-control&quot; &gt;管理者コントロール&lt;a href=&quot;#admin-control&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Admin control&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;管理者は、より大きなサイズのマシンにアクセスできるユーザーと同時実行数を選択できるため、支出に対するガードレールが提供されます。 &lt;br /&gt;
 &lt;img src=&quot;https://i0.wp.com/user-images.githubusercontent.com/2938470/187658074-06085b33-ff21-4ac3-94d3-06823423b41f.png?ssl=1&quot; alt=&quot;画像&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/p&gt;
 &lt;h3 id=&quot;larger-machine-pricing&quot; id=&quot;larger-machine-pricing&quot; &gt;大型機の価格&lt;a href=&quot;#larger-machine-pricing&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Larger machine pricing&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
