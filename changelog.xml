@@ -4,7 +4,7 @@
 &lt;p&gt;&lt;img decoding=&quot;async&quot; src=&quot;https://i0.wp.com/user-images.githubusercontent.com/4679612/221269506-563015a7-b1b5-4ca9-bb81-c6e58f000425.png?ssl=1&quot; alt=&quot;Rider ソリューション ファイル ピッカー&quot; data-recalc-dims=&quot;1&quot;&gt;&lt;/p&gt;
 &lt;p&gt; Rider の使用を開始するには、 &lt;a href=&quot;https://docs.github.com/en/codespaces/developing-in-codespaces/using-github-codespaces-in-your-jetbrains-ide&quot;&gt;GitHub Codespaces を JetBrains Gateway にインストールするためのドキュメントに&lt;/a&gt;従ってください。インストールが完了すると、ユーザーは選択した IDE として Rider を使用して、既存のコードスペースのいずれかに接続できます。&lt;/p&gt;
 &lt;p&gt; GitHub Codespaces での JetBrains サポートのベータ発表以来、&lt;a href=&quot;https://github.com/github/codespaces-jetbrains-feedback/issues/5&quot;&gt;最もリクエストの多かった機能&lt;/a&gt;を提供できることを非常に楽しみにしています。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;追加リソース:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;その他のリソース:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt; JetBrains IDE で Codespaces を使用するための&lt;a href=&quot;https://docs.github.com/en/codespaces/developing-in-codespaces/using-github-codespaces-in-your-jetbrains-ide&quot;&gt;GitHub のドキュメント&lt;/a&gt;。&lt;/li&gt;
 &lt;li&gt; &lt;a href=&quot;https://www.jetbrains.com/rider/documentation/&quot;&gt;JetBrains Rider ドキュメント&lt;/a&gt;。&lt;/li&gt;
