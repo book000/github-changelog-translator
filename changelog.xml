@@ -1,4 +1,49 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"><channel><title>GitHub Changelog</title><atom:link href="https://github.blog/changelog/feed/" rel="self" type="application/rss+xml"></atom:link><link>https://github.blog/changelog/</link><description>Updates, ideas, and inspiration from GitHub to help developers build and design software.</description><lastBuildDate>Tue, 14 Mar 2023 18:19:44 +0000</lastBuildDate><language>en-US</language><sy:updatePeriod>hourly</sy:updatePeriod><sy:updateFrequency>1</sy:updateFrequency><generator>https://wordpress.org/?v=6.1.1</generator><image><url>https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=32%2C32</url><title>GitHub Changelog</title><link>https://github.blog/changelog/</link><width>32</width><height>32</height></image><site xmlns="com-wordpress:feed-additions:1">153214340</site><item><title>GitHub ディスカッションを閉じる機能の追加</title><link>https://github.blog/changelog/2023-03-14-adding-the-ability-to-close-github-discussions</link><dc:creator>Kevin Duck</dc:creator><pubDate>Tue, 14 Mar 2023 18:19:44 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2023-03-14-adding-the-ability-to-close-github-discussions</guid><description>Adding the ability to close GitHub Discussions</description><content:encoded>&lt;p&gt;GitHub ディスカッションは、ディスカッションを閉じる機能をサポートするようになりました。ディスカッションは、解決済み、期限切れ、または重複の 3 つの理由のいずれかでクローズできます。ディスカッションを閉じることは、Issue やプル リクエストを閉じることによく似ています。ユーザーはドロップダウンで閉鎖の理由を選択できます。ドロップダウンのスクリーンショットを以下に示します。 &lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"><channel><title>GitHub Changelog</title><atom:link href="https://github.blog/changelog/feed/" rel="self" type="application/rss+xml"></atom:link><link>https://github.blog/changelog/</link><description>Updates, ideas, and inspiration from GitHub to help developers build and design software.</description><lastBuildDate>Wed, 15 Mar 2023 18:35:22 +0000</lastBuildDate><language>en-US</language><sy:updatePeriod>hourly</sy:updatePeriod><sy:updateFrequency>1</sy:updateFrequency><generator>https://wordpress.org/?v=6.1.1</generator><image><url>https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=32%2C32</url><title>GitHub Changelog</title><link>https://github.blog/changelog/</link><width>32</width><height>32</height></image><site xmlns="com-wordpress:feed-additions:1">153214340</site><item><title>GitHub Markdown Helpers パブリック ベータの紹介</title><link>https://github.blog/changelog/2023-03-15-introducing-the-github-markdown-helpers-public-beta</link><dc:creator>Kevin Duck</dc:creator><pubDate>Wed, 15 Mar 2023 18:35:22 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2023-03-15-introducing-the-github-markdown-helpers-public-beta</guid><description>Introducing the GitHub Markdown Helpers Public Beta</description><content:encoded>&lt;p&gt;GitHub ユーザーは多くの Markdown を作成します。毎日 20 億の Markdown ファイルをレンダリングするほどです。ピーク時には、1 秒間に 1,300 の Markdown ファイルを処理しています。 GitHub での Markdown オーサリング エクスペリエンスを数秒短縮する必要がある場合は、時間の無駄です。 &lt;/p&gt;
+&lt;h2 id=&quot;introducing-markdown-helpers-powered-by-slash-commands&quot; id=&quot;introducing-markdown-helpers-powered-by-slash-commands&quot; &gt;スラッシュ コマンドを利用した Markdown ヘルパーの紹介&lt;a href=&quot;#introducing-markdown-helpers-powered-by-slash-commands&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Introducing Markdown Helpers powered by Slash Commands&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt; Markdown Helpers を使用するには、Issue、Pull Requests、またはディスカッションの説明/コメントに「/」 &lt;code&gt;/&lt;/code&gt;入力し、その後のダイアログを使用して、多数の便利な Markdown ショートカットから選択します。&lt;/p&gt;
+&lt;p&gt; &lt;code&gt;/table&lt;/code&gt;などのショートカットを使用して、Markdown テーブルを簡単に作成したり、 &lt;code&gt;/details&lt;/code&gt;ショートカットを使用して、HTML 形式を覚えるよりもはるかに簡単にコンテンツを選択して読者に表示したりできます。&lt;/p&gt;
+&lt;p&gt;最初のリリースの一部として、チームが Markdown をより速く作成し、コンテキストの切り替えを少なくするのに役立つ 6 つのすぐに使える機能を含めました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;コードブロック
+&lt;ul&gt;
+&lt;li&gt;言語固有の構文強調表示のサポート&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;詳細
+&lt;ul&gt;
+&lt;li&gt;リーダーがオンデマンドで開いたり閉じたりできる詳細を指定する&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;保存された返信
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/settings/replies&quot;&gt;保存した返信に&lt;/a&gt;スラッシュ コマンドから直接アクセスする&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;テーブル
+&lt;ul&gt;
+&lt;li&gt;Markdown テーブルを簡単に挿入&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;テンプレート
+&lt;ul&gt;
+&lt;li&gt;リポジトリの Issue またはプル リクエストのテンプレートをスラッシュ コマンドから直接簡単に入力できます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;タスクリスト
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.github.com/en/issues/tracking-your-work-with-issues/about-tasklists&quot;&gt;タスクリストを&lt;/a&gt;簡単に挿入&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;注&lt;/strong&gt;:&lt;em&gt;タスクリストは現在プライベート ベータ版です。プライベート ベータ版に追加された組織のユーザーのみがこのオプションを表示します&lt;/em&gt;)。 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;wed-love-to-hear-from-you&quot; id=&quot;wed-love-to-hear-from-you&quot; &gt;あなたからの御一報をお待ちしています！ &lt;a href=&quot;#wed-love-to-hear-from-you&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;We&amp;#039;d love to hear from you!&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;本日リリースするコマンドの詳細については、公式の&lt;a href=&quot;https://docs.github.com/en/issues/tracking-your-work-with-issues/about-slash-commands&quot;&gt;スラッシュ コマンド ドキュメントを&lt;/a&gt;確認してください。&lt;/p&gt;
+&lt;p&gt;見逃したものはありますか？優れたスラッシュ コマンド機能のアイデアを思いつきましたか?&lt;/p&gt;
+&lt;p&gt; GitHub でスラッシュ コマンドをどのように使用したいかについて&lt;a href=&quot;https://github.com/orgs/community/discussions/40299&quot;&gt;、フィードバック ディスカッション&lt;/a&gt;にフィードバックを残してください。&lt;/p&gt;
+</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">70763</post-id></item><item><title>チーム プランでランナー グループを作成および管理する</title><link>https://github.blog/changelog/2023-03-15-create-and-manage-runner-groups-in-the-team-plan</link><dc:creator>Kevin Duck</dc:creator><pubDate>Wed, 15 Mar 2023 18:02:14 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2023-03-15-create-and-manage-runner-groups-in-the-team-plan</guid><description>Create and manage Runner Groups in the Team plan</description><content:encoded>&lt;p&gt;2023 年 3 月 15 日以降、GitHub チーム プランのお客様は、 &lt;a href=&quot;https://docs.github.com/en/actions/using-github-hosted-runners/controlling-access-to-larger-runners#about-runner-groups&quot;&gt;ランナー グループを&lt;/a&gt;作成、管理、および削除して、ホスト型およびセルフ ホスト型のランナーをより適切に管理できるようになります。&lt;/p&gt;
+&lt;p&gt; Enterprise のお客様は、組織およびエンタープライズ レベルで引き続きこの機能にアクセスできます。&lt;/p&gt;
+</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">70762</post-id></item><item><title>GitHub ディスカッションを閉じる機能の追加</title><link>https://github.blog/changelog/2023-03-14-adding-the-ability-to-close-github-discussions</link><dc:creator>Kevin Duck</dc:creator><pubDate>Tue, 14 Mar 2023 18:19:44 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2023-03-14-adding-the-ability-to-close-github-discussions</guid><description>Adding the ability to close GitHub Discussions</description><content:encoded>&lt;p&gt;GitHub ディスカッションは、ディスカッションを閉じる機能をサポートするようになりました。ディスカッションは、解決済み、期限切れ、または重複の 3 つの理由のいずれかでクローズできます。ディスカッションを閉じることは、Issue やプル リクエストを閉じることによく似ています。ユーザーはドロップダウンで閉鎖の理由を選択できます。ドロップダウンのスクリーンショットを以下に示します。 &lt;/p&gt;
 &lt;p&gt;&lt;img decoding=&quot;async&quot; src=&quot;https://i0.wp.com/user-images.githubusercontent.com/3157267/224842821-c451b3b9-9cb0-427b-81af-1dddd3935bc9.png?ssl=1&quot; alt=&quot;クローズ ディスカッション オプションを示すドロップダウン&quot; data-recalc-dims=&quot;1&quot;&gt;&lt;/p&gt;
 &lt;p&gt;閉鎖の理由は、ページの 2 か所でユーザーに表示されます。&lt;/p&gt;
 &lt;p&gt;まず、ディスカッションの上部にあるアイコンで: &lt;/p&gt;
@@ -45,14 +90,4 @@
 &lt;/ul&gt;
 &lt;p&gt;これらの変更に備えるには、コードが&lt;a href=&quot;https://docs.github.com/en/rest/search?apiVersion=2022-11-28#rate-limit&quot;&gt;レート制限を処理すること&lt;/a&gt;を確認してください。また、コード検索を使用して変更を追跡したり、コードベースのセキュリティの脆弱性を見つけたりする場合は、 &lt;a href=&quot;https://docs.github.com/en/rest/webhooks?apiVersion=2022-11-28#repository-webhooks&quot;&gt;webhook&lt;/a&gt;または&lt;a href=&quot;https://docs.github.com/en/rest/webhooks?apiVersion=2022-11-28#repository-webhooks&quot;&gt;GitHub Advanced Security&lt;/a&gt;の使用を検討してください。&lt;/p&gt;
 &lt;p&gt;これらの変更は、2023 年 4 月 10 日の 30 日後に有効になります。&lt;/p&gt;
-</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">70678</post-id></item><item><title>ディペンデンシー グラフと Dependabot が npm v9 をサポート</title><link>https://github.blog/changelog/2023-03-10-dependency-graph-and-dependabot-support-npm-v9</link><dc:creator>Kevin Duck</dc:creator><pubDate>Fri, 10 Mar 2023 14:52:20 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2023-03-10-dependency-graph-and-dependabot-support-npm-v9</guid><description>Dependency graph and Dependabot support npm v9</description><content:encoded>&lt;p&gt;依存関係グラフと Dependabot は、 npm v9 で使用される&lt;a href=&quot;https://docs.npmjs.com/cli/v9/configuring-npm/package-lock-json#lockfileversion&quot;&gt;&lt;code&gt;lockfileVersion: 3&lt;/code&gt;&lt;/a&gt;で設定された&lt;code&gt;package-lock.json&lt;/code&gt;ファイルを解析および更新するようになりました。ユーザーは、既知の脆弱性を持つ依存関係に関する Dependabot アラートを受け取ります。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt; &lt;a href=&quot;https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph&quot;&gt;ディペンデンシー グラフの詳細&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://docs.github.com/en/code-security/dependabot&quot;&gt;ディペンダボットの詳細&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">70675</post-id></item><item><title>古いコード スキャン構成を削除して、古いアラートを閉じる</title><link>https://github.blog/changelog/2023-03-10-delete-stale-code-scanning-configurations-to-close-outdated-alerts</link><dc:creator>Kevin Duck</dc:creator><pubDate>Fri, 10 Mar 2023 14:19:50 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2023-03-10-delete-stale-code-scanning-configurations-to-close-outdated-alerts</guid><description>Delete stale code scanning configurations to close outdated alerts</description><content:encoded>&lt;p&gt;コード スキャン設定は、コード スキャン アラート ページから削除できるようになりました。これは、古い構成を削除してアラートを開いたままにしたり、使用されなくなった古い構成を削除したりするために使用できます。&lt;/p&gt;
-&lt;p&gt;コード スキャンは、さまざまなツールを使用したり、さまざまな言語をターゲットにしたり、同じリポジトリ内のコードベースのさまざまな部分を分析したりするように構成できます。特定の状況では、これらの構成の複数が同じアラートを生成する場合があります。ただし、構成の 1 つが使用されなくなり、「古くなった」場合、ある構成ではアラートが修正されているが、古い構成では修正されていないことがわかり、混乱を招く可能性があります。本日、アラートが修正された後も開いたままになる古い構成を簡単に削除できる新機能をリリースします。&lt;/p&gt;
-&lt;p&gt;コード スキャンの警告ページで、[影響を受けるブランチ] サイドバーのカウンターに、ブランチの構成の数が表示されます。ブランチをクリックして構成の詳細を表示し、必要に応じて構成を削除します。ブランチの構成が削除されるため、同じブランチの他のアラートのステータスに影響を与える可能性があります。構成が削除されると、タイムライン エントリがアラートに記録され、組織内のリポジトリにも監査ログ エントリが記録されます。構成が誤って削除された場合は、分析を再実行してアラートを更新し、構成を元に戻します。 &lt;/p&gt;
-&lt;p&gt;&lt;img decoding=&quot;async&quot; src=&quot;https://i0.wp.com/user-images.githubusercontent.com/19343236/223517268-8f0be686-e61e-4615-9e86-ddb259293001.png?ssl=1&quot; alt=&quot;コード スキャン構成の削除&quot; data-recalc-dims=&quot;1&quot;&gt;&lt;/p&gt;
-&lt;p&gt; &lt;a href=&quot;https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/managing-code-scanning-alerts-for-your-repository#removing-stale-configurations-and-alerts-from-a-branch&quot;&gt;古いコード スキャンの構成とアラートの削除について詳しくは、こちらをご覧ください。&lt;/a&gt;&lt;/p&gt;
-</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">70674</post-id></item></channel></rss>
+</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">70678</post-id></item></channel></rss>
