@@ -27,7 +27,7 @@
 &lt;li&gt;修正済み: GitHub Actions ワークフローが、一部のリポジトリの&lt;code&gt;merge_group&lt;/code&gt;イベントでトリガーされない&lt;/li&gt;
 &lt;li&gt;修正: キューに入れられたプル リクエストが失敗すると、チェックが再実行されて合格した後でも失敗したままになる&lt;/li&gt;
 &lt;li&gt;修正: 紛らわしい「このプル リクエストを参照するコミットをプッシュしました」というメッセージがタイムラインに表示される&lt;/li&gt;
-&lt;li&gt;修正: コミットは、キューで作成された prep ブランチにプッシュできました (注: これらのコミットは無視され、マージされませんでしたが、一部のユーザーに混乱を引き起こしました)&lt;/li&gt;
+&lt;li&gt;修正: キューで作成された prep ブランチにコミットをプッシュできました (注: これらのコミットは無視され、マージされませんでしたが、一部のユーザーにとって混乱を招きました)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;get-started&quot;&gt;始めましょう&lt;a href=&quot;#get-started&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Get started&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;マージ キューに興味がありますか? &lt;a href=&quot;https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-a-merge-queue&quot;&gt;開始&lt;/a&gt;方法をご覧ください。&lt;/p&gt;
@@ -80,14 +80,14 @@
 &lt;p&gt;マルチリポジトリの有効化を使用して、次のセキュリティ機能を有効/無効にすることができます。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;依存関係グラフ&lt;/li&gt;
-&lt;li&gt;Dependabot アラート&lt;/li&gt;
+&lt;li&gt;依存ボットアラート&lt;/li&gt;
 &lt;li&gt;Dependabot のセキュリティ アップデート&lt;/li&gt;
 &lt;li&gt;GitHub の高度なセキュリティ&lt;/li&gt;
 &lt;li&gt;コードスキャンのデフォルト設定&lt;/li&gt;
 &lt;li&gt;シークレットスキャン&lt;/li&gt;
 &lt;li&gt;プッシュ保護&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;これらの改善は、パブリック ベータとして GitHub.com に出荷されており、GitHub Enterprise Server 3.10 で利用できるようになります。&lt;/p&gt;
+&lt;p&gt;これらの改善は、パブリック ベータ版として GitHub.com に出荷されており、GitHub Enterprise Server 3.10 で利用できるようになります。&lt;/p&gt;
 &lt;p&gt; &lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/code-security/security-overview/enabling-security-features-for-multiple-repositories&quot;&gt;マルチリポジトリの有効化の詳細を確認し&lt;/a&gt;、&lt;a href=&quot;https://github.com/github-community/community/discussions/categories/code-security&quot;&gt;フィードバックをお送りください&lt;/a&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;a href=&quot;https://github.com/features/security&quot;&gt;GitHub の高度なセキュリティについて詳しく知る&lt;/a&gt;&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">71384</post-id></item><item><title>リポジトリ ルールのパブリック ベータ版の紹介</title><link>https://github.blog/changelog/2023-04-17-introducing-repository-rules-public-beta</link><dc:creator>Kevin Duck</dc:creator><pubDate>Mon, 17 Apr 2023 15:38:38 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2023-04-17-introducing-repository-rules-public-beta</guid><description>Introducing Repository Rules Public Beta</description><content:encoded>&lt;p&gt;本日、リポジトリ ルールのパブリック ベータ版を発表します。 &lt;img src=&quot;https://s.w.org/images/core/emoji/14.0.0/72x72/1f389.png&quot; alt=&quot;🎉&quot; class=&quot;wp-smiley&quot; style=&quot;height: 1em; max-height: 1em;&quot; /&gt;&lt;/p&gt;
