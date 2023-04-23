@@ -27,7 +27,7 @@
 &lt;li&gt;修正済み: GitHub Actions ワークフローが、一部のリポジトリの&lt;code&gt;merge_group&lt;/code&gt;イベントでトリガーされない&lt;/li&gt;
 &lt;li&gt;修正: キューに入れられたプル リクエストが失敗すると、チェックが再実行されて合格した後でも失敗したままになる&lt;/li&gt;
 &lt;li&gt;修正: 紛らわしい「このプル リクエストを参照するコミットをプッシュしました」というメッセージがタイムラインに表示される&lt;/li&gt;
-&lt;li&gt;修正: キューで作成された prep ブランチにコミットをプッシュできました (注: これらのコミットは無視され、マージされませんでしたが、一部のユーザーにとって混乱を招きました)&lt;/li&gt;
+&lt;li&gt;修正: コミットは、キューで作成された prep ブランチにプッシュできました (注: これらのコミットは無視され、マージされませんでしたが、一部のユーザーに混乱を引き起こしました)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;get-started&quot;&gt;始めましょう&lt;a href=&quot;#get-started&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Get started&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;マージ キューに興味がありますか? &lt;a href=&quot;https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-a-merge-queue&quot;&gt;開始&lt;/a&gt;方法をご覧ください。&lt;/p&gt;
