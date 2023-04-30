@@ -35,7 +35,7 @@
 &lt;li&gt;タスクリスト内の項目に移動し、親に戻ってから同じ項目に戻ると、奇妙で​​壊れた表示になるプロジェクトのバグを修正しました&lt;/li&gt;
 &lt;li&gt;タスクリストのメタデータ編集とのやり取りが速すぎると、ユーザーが無意味な空白のページに移動するというバグを修正しました&lt;/li&gt;
 &lt;li&gt;タスクリストのラベルをクリックすると順番が変わることがあったバグを修正しました&lt;/li&gt;
-&lt;li&gt;ページが更新されるまで下書きタスクが問題として表示されないことがあった問題の変換に関連するバグを修正しました&lt;/li&gt;
+&lt;li&gt;ページが更新されるまで下書きタスクが問題として表示されないことがあった変換の問題に関連するバグを修正しました&lt;/li&gt;
 &lt;li&gt;タスクリストでアイテムをドラッグ アンド ドロップした後、ユーザーがアイテムのメタデータを変更できなかったバグを修正しました&lt;/li&gt;
 &lt;li&gt;一度にあまりにも多くの課題を変換すると、タスクリストが壊れることがあるバグを修正しました&lt;/li&gt;
 &lt;li&gt;タスクリストの同期中にドラッグ アンド ドロップすると、ドラッグ アンド ドロップが登録されないバグを修正しました&lt;/li&gt;
@@ -56,7 +56,7 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;a href=&quot;http://github.com/features/issues&quot;&gt;GitHub の問題&lt;/a&gt;でプロジェクト計画に GitHub を使用する方法を確認し、&lt;a href=&quot;https://github.com/orgs/github/projects/4247/views/7&quot;&gt;ロードマップ&lt;/a&gt;の内容を確認し、&lt;a href=&quot;https://docs.github.com/issues&quot;&gt;ドキュメント&lt;/a&gt;で詳細を確認してください。&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">71525</post-id></item><item><title>きめ細かい PAT と GitHub アプリの GraphQL の改善</title><link>https://github.blog/changelog/2023-04-27-graphql-improvements-for-fine-grained-pats-and-github-apps</link><dc:creator>Kevin Duck</dc:creator><pubDate>Thu, 27 Apr 2023 18:01:46 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2023-04-27-graphql-improvements-for-fine-grained-pats-and-github-apps</guid><description>GraphQL improvements for fine-grained PATs and GitHub Apps</description><content:encoded>&lt;p&gt;きめ細かい PAT で&lt;a href=&quot;https://docs.github.com/en/graphql&quot;&gt;GitHub GraphQL API&lt;/a&gt;を呼び出せるようになりました。これは、パブリック ベータの開始時の制限でしたが、現在サポートされています。&lt;/p&gt;
-&lt;p&gt; REST API と同様に、トークンに設定された&lt;code&gt;resource owner&lt;/code&gt;アクセスされるリソースの所有者と一致する必要があります。たとえば、GraphQL で特定のリポジトリを検索する場合:&lt;/p&gt;
+&lt;p&gt; REST API と同様に、トークンに設定された&lt;code&gt;resource owner&lt;/code&gt; 、アクセスされるリソースの所有者と一致する必要があります。たとえば、GraphQL で特定のリポジトリを検索する場合:&lt;/p&gt;
 &lt;pre&gt; &lt;code class=&quot;language-graphql&quot;&gt;query {
  repository(owner:&quot;octocat&quot;, name:&quot;Hello-World&quot;) {
  ...&lt;/code&gt;&lt;/pre&gt;
@@ -103,7 +103,7 @@
 &lt;h2 id=&quot;would-a-dev-container-by-any-other-name-smell-as-sweet&quot; id=&quot;would-a-dev-container-by-any-other-name-smell-as-sweet&quot; &gt;他の名前の開発コンテナは甘い香りがしますか? &lt;a href=&quot;#would-a-dev-container-by-any-other-name-smell-as-sweet&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Would a Dev Container by any other name smell as sweet?&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt; Dev Container に名前を付けることができるようになりました。 devcontainer.json でプロパティ&lt;code&gt;name&lt;/code&gt;定義することにより、Codespaces 作成ページの Dev Container 選択の下に表示される名前を設定できます。 devcontainer.json で&lt;code&gt;name&lt;/code&gt;プロパティを定義しない場合でも、Codespaces は Dev Container ファイル パスからより有用な名前を推測します。 &lt;br /&gt;
 &lt;img decoding=&quot;async&quot; alt=&quot;スクリーンショット 2023 年 4 月 21 日午前 9 時 13 分 48 秒&quot; src=&quot;https://i0.wp.com/user-images.githubusercontent.com/55998770/233644958-906c158b-e7f2-44b3-a4ec-e9521facfd6a.png?w=957&amp;#038;ssl=1&quot; data-recalc-dims=&quot;1&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;jumping-into-development-from-a-repository-with-a-comma&quot; id=&quot;jumping-into-development-from-a-repository-with-a-comma&quot; &gt;コンマでリポジトリから開発に飛び込む&lt;a href=&quot;#jumping-into-development-from-a-repository-with-a-comma&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Jumping Into Development From A Repository With A Comma&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;jumping-into-development-from-a-repository-with-a-comma&quot; id=&quot;jumping-into-development-from-a-repository-with-a-comma&quot; &gt;コンマを使用してリポジトリから開発に飛び込む&lt;a href=&quot;#jumping-into-development-from-a-repository-with-a-comma&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Jumping Into Development From A Repository With A Comma&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;リポジトリ、PR、またはブランチでコラボレーションしますか? 「,」キーを使用してコードスペースに戻ることができます。 github.com/codespaces に移動したり、Code&lt;&gt; ドロップダウンに移動して開発に飛び込む必要はありません。ボタンを 1 つ押すだけで、開発に戻ることができます。&lt;/p&gt;
 &lt;h2 id=&quot;learn-more&quot; id=&quot;learn-more&quot; &gt;もっと詳しく知る&lt;a href=&quot;#learn-more&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Learn More&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;ドキュメントをチェックしてください：&lt;/p&gt;
