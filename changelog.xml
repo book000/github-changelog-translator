@@ -73,7 +73,7 @@
 &lt;p&gt;&lt;img decoding=&quot;async&quot; src=&quot;https://i0.wp.com/user-images.githubusercontent.com/30297258/247629415-929d41f3-8a4f-4629-a96b-d18143a33e56.png?w=800&amp;#038;ssl=1&quot; alt=&quot;より大きなランナーマシンのサイズ&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;新しい大型ランナーは、次の新機能を提供します。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;より大規模な Linux および Windows マシン:&lt;/strong&gt;これにより、開発チームは、オンデマンド CI/CD ジョブやその他のワークフローをサポートするために、最大 64 vCPU、256 GB の RAM、2 TB SSD ストレージのマシン サイズを使用できるようになります。大規模なランナーは、プライベート リポジトリとパブリック リポジトリの両方でジョブ分単位で課金され、含まれる分数は消費されません。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;より大規模な Linux および Windows マシン:&lt;/strong&gt;これにより、開発チームは、オンデマンド CI/CD ジョブやその他のワークフローをサポートするために、最大 64 vCPU、256 GB の RAM、2 TB SSD ストレージのマシン サイズを使用できるようになります。大規模なランナーは、プライベート リポジトリとパブリック リポジトリの両方でジョブの分単位で課金され、含まれる分は消費しません。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;リソースへの安全なアクセスを可能にする静的 IP アドレス:&lt;/strong&gt; Enterprise Cloud の顧客は、静的 IP アドレス範囲を大規模なランナー インスタンスに割り当てるかどうかを選択できるようになりました。これにより、内部システムへのアクセスの許可リストに追加できる固定 IP アドレス範囲が提供されます。これを GitHub の IP 許可リストと組み合わせて使用​​して、ホストされたアクション ランナーと IP 許可リストを同時に有効にすることもできます。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;より大きなランナーへのアクセスと同時実行の管理制御:&lt;/strong&gt;管理者は、誰がより大きなサイズのマシンにどのような同時実行でアクセスできるかを決定し、支出に対するガードレールを提供できます。&lt;/li&gt;
 &lt;/ul&gt;
