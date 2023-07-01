@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"><channel><title>GitHub Changelog</title><atom:link href="https://github.blog/changelog/feed/" rel="self" type="application/rss+xml"></atom:link><link>https://github.blog/changelog/</link><description>Updates, ideas, and inspiration from GitHub to help developers build and design software.</description><lastBuildDate>Thu, 29 Jun 2023 21:56:12 +0000</lastBuildDate><language>en-US</language><sy:updatePeriod>hourly</sy:updatePeriod><sy:updateFrequency>1</sy:updateFrequency><generator>https://wordpress.org/?v=6.2.2</generator><image><url>https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=32%2C32</url><title>GitHub Changelog</title><link>https://github.blog/changelog/</link><width>32</width><height>32</height></image><site xmlns="com-wordpress:feed-additions:1">153214340</site><item><title>2FA の TOTP コードは使い捨てになりました</title><link>https://github.blog/changelog/2023-06-29-totp-codes-for-2fa-are-now-single-use</link><dc:creator>Kevin Duck</dc:creator><pubDate>Thu, 29 Jun 2023 21:56:12 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2023-06-29-totp-codes-for-2fa-are-now-single-use</guid><description>TOTP codes for 2FA are now single-use</description><content:encoded>&lt;p&gt;2 要素認証中、および GitHub.com で &lt;a href=&quot;https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/sudo-mode&quot;&gt;機密性の高いアクションのために&lt;code&gt;sudo&lt;/code&gt;モード&lt;/a&gt;に入るとき、有効期間内に TOTP コードが複数回正常に使用される可能性がありました。セキュリティを向上させるため、この再利用は GitHub.com では許可されなくなり、GHES ではバージョン 3.10 で更新されます。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"><channel><title>GitHub Changelog</title><atom:link href="https://github.blog/changelog/feed/" rel="self" type="application/rss+xml"></atom:link><link>https://github.blog/changelog/</link><description>Updates, ideas, and inspiration from GitHub to help developers build and design software.</description><lastBuildDate>Fri, 30 Jun 2023 14:23:41 +0000</lastBuildDate><language>en-US</language><sy:updatePeriod>hourly</sy:updatePeriod><sy:updateFrequency>1</sy:updateFrequency><generator>https://wordpress.org/?v=6.2.2</generator><image><url>https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=32%2C32</url><title>GitHub Changelog</title><link>https://github.blog/changelog/</link><width>32</width><height>32</height></image><site xmlns="com-wordpress:feed-additions:1">153214340</site><item><title>GitHub Actions – アクションランナーの一般提供</title><link>https://github.blog/changelog/2023-06-30-github-actions-actions-runner-general-availability</link><dc:creator>Kevin Duck</dc:creator><pubDate>Fri, 30 Jun 2023 14:23:41 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2023-06-30-github-actions-actions-runner-general-availability</guid><description>GitHub Actions - Actions Runner General availability </description><content:encoded>&lt;p&gt;Actions ランナー コントローラーと&lt;a href=&quot;https://github.com/actions/actions-runner-controller/releases/tag/gha-runner-scale-set-0.4.0&quot;&gt;ランナー スケール セット&lt;/a&gt;を使用した自動スケーリングのセルフホスト ランナーが一般提供されるようになりました。&lt;/p&gt;
+&lt;p&gt; &lt;a href=&quot;https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners-with-actions-runner-controller/quickstart-for-actions-runner-controller&quot;&gt;自己ホスト ランナーの呼び出しについて詳しく学び&lt;/a&gt;、&lt;a href=&quot;https://github.com/orgs/community/discussions/59735&quot;&gt;コミュニティ ディスカッション&lt;/a&gt;でフィードバックを共有してください。&lt;/p&gt;
+</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">72837</post-id></item><item><title>dependabot パブリック ベータ版のグループ化されたバージョン更新</title><link>https://github.blog/changelog/2023-06-30-grouped-version-updates-for-dependabot-public-beta</link><dc:creator>Kevin Duck</dc:creator><pubDate>Fri, 30 Jun 2023 12:02:32 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2023-06-30-grouped-version-updates-for-dependabot-public-beta</guid><description>Grouped version updates for Dependabot public beta</description><content:encoded>&lt;p&gt;dependabot のバージョン更新は、依存関係をアップグレードできるときにプル リクエストをオープンすることで、依存関係を最新の状態に保つのに役立ちます。本日のリリースでは、バージョン更新を依存関係名ごとにグループ化できるようになりました。&lt;/p&gt;
+&lt;p&gt;今日まで、Dependabot は、 &lt;code&gt;dependabot.yml&lt;/code&gt;の設定に従って、依存関係の更新ごとに常に個別のプル リクエストをオープンしていました。これにより、Dependabot のプル リクエストが大量に発生する可能性があるだけでなく、いくつかの依存関係は相互に並行して更新する必要があり、そうしないと更新が失敗します。このような場合、手動で更新を行うまで、個々の dependabot プル リクエストは常に失敗します。&lt;/p&gt;
+&lt;p&gt;これで、 &lt;code&gt;dependabot.yml&lt;/code&gt;構成ファイルで、パッケージ名のパターン マッチングに基づいて、Dependabot のカスタム グループ化ルールを設定できるようになりました。これらのルールを設定する方法の例を次に示します。&lt;/p&gt;
+&lt;pre&gt; &lt;code&gt;version: 2
+ updates:
+ - package-ecosystem: &quot;bundler&quot;
+ directory: &quot;/&quot;
+ schedule:
+ interval: weekly
+ # New!
+ groups:
+ # This is the name of your group, it will be used in PR titles and branch names
+ dev-dependencies:
+ # A pattern can be...
+ patterns:
+ - &quot;rubocop&quot; # a single dependency name
+ - &quot;aws*&quot; # or a wildcard string that matches multiple dependencies
+ # If you&amp;#39;d simply like to group as many dependencies together as possible,
+ # you can use the wildcard * - but keep in mind this may open a very large PR!
+ # Additionally, you can specify any dependencies to be excluded from the group
+ exclude-patterns:
+ - &quot;aws-sdk&quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;この構成は、定期的にスケジュールされた dependabot バージョンの更新にのみ適用されます。 dependabot のセキュリティ更新プログラムは、構成されたグループ化ルールに一致する場合でも、引き続き個別のプル リクエストとして開かれます。&lt;/p&gt;
+&lt;p&gt;この機能はベータ版であるため、不安定になる可能性があり、機能セットは現在制限されています。発生したバグは&lt;a href=&quot;https://github.com/dependabot/dependabot-core/issues/new?assignees=&amp;labels=T%3A+bug+%F0%9F%90%9E,grouped-updates-beta&amp;template=bug-report.yml&quot;&gt;dependabot-core リポジトリ&lt;/a&gt;に記録できます。&lt;/p&gt;
+&lt;p&gt; dependabot バージョン更新のグループ化ルールの詳細については、 &lt;a href=&quot;https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file&quot;&gt;ドキュメントを参照してください&lt;/a&gt;。&lt;/p&gt;
+</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">72806</post-id></item><item><title>2FA の TOTP コードは使い捨てになりました</title><link>https://github.blog/changelog/2023-06-29-totp-codes-for-2fa-are-now-single-use</link><dc:creator>Kevin Duck</dc:creator><pubDate>Thu, 29 Jun 2023 21:56:12 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2023-06-29-totp-codes-for-2fa-are-now-single-use</guid><description>TOTP codes for 2FA are now single-use</description><content:encoded>&lt;p&gt;2 要素認証中、および GitHub.com で &lt;a href=&quot;https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/sudo-mode&quot;&gt;機密性の高いアクションのために&lt;code&gt;sudo&lt;/code&gt;モード&lt;/a&gt;に入るとき、有効期間内に TOTP コードが複数回正常に使用される可能性がありました。セキュリティを向上させるため、この再利用は GitHub.com では許可されなくなり、GHES ではバージョン 3.10 で更新されます。&lt;/p&gt;
 &lt;p&gt;複数の並列ジョブにわたってログイン フローのスクリプトを作成しようとしたシステムは、この変更の結果として機能しなくなる可能性があります。&lt;/p&gt;
 &lt;p&gt; TOTP による 2 要素認証の&lt;a href=&quot;https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication#configuring-two-factor-authentication-using-a-totp-mobile-app&quot;&gt;詳細については、こちらをご覧ください&lt;/a&gt;。&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">72803</post-id></item><item><title>セキュリティ リスクと適用範囲のページが一般提供され、エンタープライズ レベルの概要ページに置き換わります。</title><link>https://github.blog/changelog/2023-06-29-security-risk-and-coverage-pages-are-now-generally-available-and-replace-the-enterprise-level-overview-page</link><dc:creator>Kevin Duck</dc:creator><pubDate>Thu, 29 Jun 2023 21:22:02 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2023-06-29-security-risk-and-coverage-pages-are-now-generally-available-and-replace-the-enterprise-level-overview-page</guid><description>Security risk and coverage pages are now generally available and replace the enterprise-level overview page</description><content:encoded>&lt;p&gt;本日、組織およびエンタープライズ レベルのセキュリティ リスクと補償ページの一般公開を発表します。&lt;/p&gt;
@@ -105,46 +132,4 @@
 &lt;li&gt; &lt;code&gt;1c58a3a8518e8759bf075b76b750d4f2df264fcd&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt; &lt;a href=&quot;https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/about-security-hardening-with-openid-connect&quot;&gt;GitHub Actions での OIDC の使用について詳しくは、こちらをご覧ください&lt;/a&gt;。&lt;/p&gt;
-</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">72718</post-id></item><item><title>GitHub モバイル上のプロジェクトへのクイック アクセス</title><link>https://github.blog/changelog/2023-06-27-quick-access-to-projects-on-github-mobile</link><dc:creator>Kevin Duck</dc:creator><pubDate>Tue, 27 Jun 2023 18:15:41 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2023-06-27-quick-access-to-projects-on-github-mobile</guid><description>Quick Access to Projects on GitHub Mobile</description><content:encoded>&lt;p&gt;&lt;img decoding=&quot;async&quot; alt=&quot;GitHub Mobile ホーム画面でプロジェクトを表示する&quot; src=&quot;https://i0.wp.com/user-images.githubusercontent.com/36139667/246866941-5845c582-216d-41b3-8d11-ceadfa2a5991.png?ssl=1&quot; data-recalc-dims=&quot;1&quot;&gt;&lt;/p&gt;
-&lt;p&gt;プロジェクトへのアクセスがこれまでよりも簡単かつ迅速になりました。 GitHub Mobile のホーム画面から、コラボレーションしているすべてのプロジェクトを直接表示できるようになりました。外出先でのプロジェクトの閲覧、管理、カスタマイズがかつてないほど便利になりました。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt; &lt;a href=&quot;https://github.com/mobile&quot;&gt;GitHub Mobile の詳細を読んで&lt;/a&gt;、改善に役立つ&lt;a href=&quot;https://github.com/orgs/community/discussions/categories/mobile&quot;&gt;フィードバックをお送りください&lt;/a&gt;。&lt;/p&gt;
-</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">72715</post-id></item><item><title>リポジトリ ルールのパブリック ベータ版の更新</title><link>https://github.blog/changelog/2023-06-27-repository-rules-public-beta-updates</link><dc:creator>Kevin Duck</dc:creator><pubDate>Tue, 27 Jun 2023 18:00:07 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2023-06-27-repository-rules-public-beta-updates</guid><description>Repository Rules public beta updates</description><content:encoded>&lt;p&gt;リポジトリ ルールに対する多数の機能強化、バグ修正、API の重大な変更が導入されています。 &lt;br /&gt;
-&lt;img decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;width-fit alignnone wp-image-72709 size-full&quot; src=&quot;https://github.blog/wp-content/uploads/2023/06/GitHubScreenShot-Arc-12-06-2023-001243.png?resize=906%2C606&quot; alt=&quot;&quot; width=&quot;906&quot; height=&quot;606&quot; srcset=&quot;https://github.blog/wp-content/uploads/2023/06/GitHubScreenShot-Arc-12-06-2023-001243.png?resize=906%2C606?w=906 906w, https://github.blog/wp-content/uploads/2023/06/GitHubScreenShot-Arc-12-06-2023-001243.png?resize=906%2C606?w=300 300w, https://github.blog/wp-content/uploads/2023/06/GitHubScreenShot-Arc-12-06-2023-001243.png?resize=906%2C606?w=768 768w&quot; sizes=&quot;(max-width: 906px) 100vw, 906px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/p&gt;
-&lt;p&gt; &lt;strong&gt;1. UIのアップデート&lt;/strong&gt;&lt;br /&gt;
-* 組織ルールセットの選択リポジトリをターゲットとするリポジトリ ピッカーを追加しました。&lt;br /&gt;
- * WebUI と git クライアントのルール違反を改善しました。 &lt;/p&gt;
-&lt;p&gt;&lt;img decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;width-fit wp-image-72710 size-full alignnone&quot; src=&quot;https://github.blog/wp-content/uploads/2023/06/GitHubScreenShot-Arc-16-06-2023-001296.gif?resize=1066%2C638&quot; alt=&quot;&quot; width=&quot;1066&quot; height=&quot;638&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/p&gt;
-&lt;p&gt; &lt;strong&gt;2. ルールセットバイパスの更新&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;バイパスは、プル リクエストの除外のみに制限できます。&lt;/li&gt;
-&lt;li&gt;バイパス用の 1 つの UI、バイパス モードの折りたたみ、およびバイパス リストを 1 つのエクスペリエンスにまとめます。&lt;/li&gt;
-&lt;li&gt;リポジトリ ロールをバイパス タイプとして使用するためのサポート&lt;/li&gt;
-&lt;li&gt;統合 (ボット/アプリ) が組織でバイパス可能になりました。 &lt;br /&gt;
-&lt;img decoding=&quot;async&quot; loading=&quot;lazy&quot; class=&quot;width-fit alignnone wp-image-72711 size-full&quot; src=&quot;https://github.blog/wp-content/uploads/2023/06/GitHubScreenShot-Arc-16-06-2023-001297.gif?resize=1066%2C638&quot; alt=&quot;&quot; width=&quot;1066&quot; height=&quot;638&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt; &lt;strong&gt;3. APIの機能強化&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;作成日と更新日のフィールドを追加する&lt;/li&gt;
-&lt;li&gt;権限が変更され、すべてのリポジトリ寄稿者がブランチに適用されている関連ルールを API にクエリできるようになります。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt; &lt;strong&gt;4. バグ修正&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;線形マージ履歴によりバイパスがブロックされる可能性がある&lt;/li&gt;
-&lt;li&gt;コミットメタデータルールを使用する場合、ブランチが作成できない場合がある&lt;/li&gt;
-&lt;li&gt;アプリのタグ保護が失敗する&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;5. APIの変更&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GraphQL の変更は 24 ～ 72 時間遅れます。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;重大な変更&lt;/strong&gt;Ruleset オブジェクトと入力から&lt;code&gt;bypass_mode&lt;/code&gt;を削除します。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;重大な変更 アクター&lt;/strong&gt;が「常に」ルールセットをバイパスできるか、または「pull_request」のみバイパスできるかを示すバイパス アクターの必須フィールドとして&lt;code&gt;bypass_mode&lt;/code&gt;追加します。&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;GraphQL の重大な変更&lt;/strong&gt;&lt;code&gt;bypass_actor_ids&lt;/code&gt;リポジトリ ロールと組織管理者を受け入れることができるミューテーションの作成および更新で新しい bypass_actors オブジェクトに変更します。&lt;/li&gt;
-&lt;li&gt; &lt;code&gt;repository_role_database_id&lt;/code&gt; 、 &lt;code&gt;repository_role_name&lt;/code&gt; 、および&lt;code&gt;organization_admin&lt;/code&gt;フィールドを&lt;code&gt;RepositoryRulesetBypassActor&lt;/code&gt;に追加して、バイパス アクターがロールまたは組織管理者バイパスであることを示します。&lt;/li&gt;
-&lt;li data-stringify-indent=&quot;0&quot; data-stringify-border=&quot;1&quot;&gt; 「ブランチのルールを取得」REST API エンドポイントは、各ルールのルールセット ソース情報を返すようになりました。&lt;/li&gt;
-&lt;li data-stringify-indent=&quot;0&quot; data-stringify-border=&quot;1&quot;&gt; 「リポジトリ ルールセットの取得」REST API エンドポイントに、リクエストを行ったユーザーがルールセットをバイパスできるかどうかを示す&lt;code&gt;current_user_can_bypass&lt;/code&gt;フィールドが追加されました。&lt;/li&gt;
-&lt;li data-stringify-indent=&quot;0&quot; data-stringify-border=&quot;0&quot;&gt;ルールセットがリポジトリ上で構成されている場合、REST API 経由で返されるルールセットの&lt;code&gt;source&lt;/code&gt;フィールドには、リポジトリの名前だけでなく、 &lt;code&gt;owner/name&lt;/code&gt;構文でリポジトリが適切に含まれるようになりました。&lt;/li&gt;
-&lt;li data-stringify-indent=&quot;0&quot; data-stringify-border=&quot;1&quot;&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;リポジトリ ルールを改善する方法について、皆様のご意見をお待ちしています。リポジトリ ルールの&lt;a href=&quot;https://github.com/orgs/community/discussions/52652&quot;&gt;パブリック ベータ ディスカッション&lt;/a&gt;での会話に参加してください。&lt;/p&gt;
-</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">72706</post-id></item></channel></rss>
+</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">72718</post-id></item></channel></rss>
