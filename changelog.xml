@@ -67,7 +67,7 @@
 &lt;h3 id=&quot;bug-fixes-and-improvements&quot;&gt;バグ修正と改善&lt;a href=&quot;#bug-fixes-and-improvements&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Bug fixes and improvements&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;組織のすべてのユーザーの CSV をエクスポートする機能が追加されました。シート管理ページから、すべてのユーザーのフラット リストをエクスポートできます。これは、ページごとにスクロールすることを避け、チーム内の誰が Copilot を使用しているかをより正確に把握したい管理者にとって、重大な問題点に対処するのに役立ちます。&lt;/li&gt;
-&lt;li&gt; Copilot のサインアップ フローを更新し、GitHub アカウントと Copilot へのサインアップを 1 つの流動的なエクスペリエンスで簡単にできるようにしました。&lt;/li&gt;
+&lt;li&gt; Copilot のサインアップ フローを更新し、GitHub アカウントと Copilot へのサインアップを 1 つの流動的なエクスペリエンスで簡単に行えるようにしました。&lt;/li&gt;
 &lt;li&gt;フランスは Copilot コード補完リクエストを提供する最新の地域であり、ヨーロッパの顧客のレイテンシーを改善します。これは当社の既存のスイス拠点に追加されるものです。&lt;/li&gt;
 &lt;li&gt; Visual Studio では、コード補完に使用するのと同じ灰色のテキストのアプローチを使用して、コードへのコード挿入をプレビューする機能を追加しました。&lt;/li&gt;
 &lt;li&gt; Visual Studio でチャット リクエストを削除できるようになりました&lt;/li&gt;
@@ -91,7 +91,7 @@
 &lt;/ul&gt;
 &lt;h3 id=&quot;how-will-dependabot-let-me-know&quot; id=&quot;how-will-dependabot-let-me-know&quot; &gt;dependabot はどのように私に知らせてくれますか? &lt;a href=&quot;#how-will-dependabot-let-me-know&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;How will Dependabot let me know?&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt; dependabot は、開いているすべての dependabot プル リクエストの本文に通知を追加し、それらに&lt;code&gt;dependabot-paused&lt;/code&gt;ラベルを追加します。また、Dependabot は、リポジトリ設定ページ (「Dependabot」の下) と、Dependabot アラート ページ (Dependabot のセキュリティ更新が影響を受ける場合) の UI にバナー通知を追加します。&lt;/p&gt;
-&lt;h3 id=&quot;who-can-use-this-feature&quot; id=&quot;who-can-use-this-feature&quot; &gt;この機能は誰が使用できますか? &lt;a href=&quot;#who-can-use-this-feature&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Who can use this feature?&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;who-can-use-this-feature&quot; id=&quot;who-can-use-this-feature&quot; &gt;この機能を使用できるのは誰ですか? &lt;a href=&quot;#who-can-use-this-feature&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Who can use this feature?&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;この変更は、Dependabot アラートやその後の通知には適用&lt;em&gt;されません&lt;/em&gt;。したがって、Dependabot のバージョン更新またはセキュリティ更新を自動化しているが、しばらくこれらのプル リクエストとやり取りしていないリポジトリのみが影響を受けます。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.blog/2023-01-12-a-smarter-quieter-dependabot&quot;&gt;この変更について&lt;/a&gt;詳しくはこちら&lt;br /&gt;
 &lt;a href=&quot;https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28&quot;&gt;REST API と対話する方法の詳細については、&lt;/a&gt;こちらをご覧ください。&lt;/p&gt;
