@@ -48,7 +48,7 @@
  –&lt;strong&gt;ノートブック ドキュメント&lt;/strong&gt;で Copilot を使用する場合、Copilot はノートブック コンテキストを使用して、より関連性の高い提案を提供できます。&lt;br /&gt;
  – ノートブック セルを実行する場合、Copilot は&lt;strong&gt;セル実行の失敗&lt;/strong&gt;に関する提案を提供します。&lt;br /&gt;
  – レビュー スレッドを表示しているときに、Copilot を使用して&lt;strong&gt;レビュー コメントを直接適用&lt;/strong&gt;できるようになりました。&lt;br /&gt;
- – チャットを使用して、コンテキストを離れることなく&lt;strong&gt;簡単なプログラミングの質問&lt;/strong&gt;をする実験。&lt;br /&gt;
+ – チャットを使用して、コンテキストを離れることなく&lt;strong&gt;簡単なプログラミングの&lt;/strong&gt;質問をする実験。&lt;br /&gt;
  –&lt;strong&gt;チャット リクエストの [X] アイコンをクリックして、チャット リクエストと応答のペアを削除&lt;/strong&gt;できるようになりました。&lt;br /&gt;
  – サイドバーとエディターの間で&lt;strong&gt;チャットセッションを前後に移動する機能が&lt;/strong&gt;追加されました。 &lt;/p&gt;
 &lt;p&gt;&lt;img decoding=&quot;async&quot; alt=&quot;VSCode-副操縦士-チャット&quot; src=&quot;https://i0.wp.com/github-production-user-asset-6210df.s3.amazonaws.com/884366/249854281-4384520a-f3f3-4f57-b3a7-7e1ee9ea84ac.png&quot; data-recalc-dims=&quot;1&quot;&gt;&lt;/p&gt;
@@ -67,7 +67,7 @@
 &lt;h3 id=&quot;bug-fixes-and-improvements&quot;&gt;バグ修正と改善&lt;a href=&quot;#bug-fixes-and-improvements&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Bug fixes and improvements&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;組織のすべてのユーザーの CSV をエクスポートする機能が追加されました。シート管理ページから、すべてのユーザーのフラット リストをエクスポートできます。これは、ページごとにスクロールすることを避け、チーム内の誰が Copilot を使用しているかをより正確に把握したい管理者にとって、重大な問題点に対処するのに役立ちます。&lt;/li&gt;
-&lt;li&gt; Copilot のサインアップ フローを更新し、GitHub アカウントと Copilot へのサインアップを 1 つの流動的なエクスペリエンスで簡単に行えるようにしました。&lt;/li&gt;
+&lt;li&gt; Copilot のサインアップ フローを更新し、GitHub アカウントと Copilot へのサインアップを 1 つの流動的なエクスペリエンスで簡単にできるようにしました。&lt;/li&gt;
 &lt;li&gt;フランスは Copilot コード補完リクエストを提供する最新の地域であり、ヨーロッパの顧客のレイテンシーを改善します。これは当社の既存のスイス拠点に追加されるものです。&lt;/li&gt;
 &lt;li&gt; Visual Studio では、コード補完に使用するのと同じ灰色のテキストのアプローチを使用して、コードへのコード挿入をプレビューする機能を追加しました。&lt;/li&gt;
 &lt;li&gt; Visual Studio でチャット リクエストを削除できるようになりました&lt;/li&gt;
@@ -114,7 +114,7 @@
 &lt;/ol&gt;
 
 &lt;h3 id=&quot;why-arent-some-languages-automatically-included-in-the-default-setup-configuration-&quot; id=&quot;why-arent-some-languages-automatically-included-in-the-default-setup-configuration-&quot; &gt;一部の言語がデフォルトのセットアップ構成に自動的に含まれないのはなぜですか? &lt;a href=&quot;#why-arent-some-languages-automatically-included-in-the-default-setup-configuration-&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Why aren&amp;#039;t some languages automatically included in the default setup configuration ?&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt; Java (Kotlin を含む)、C/C++、および C# は、多くの場合、より高度な構成が必要となるため、デフォルトのセットアップ構成には自動的に含まれません。 CodeQL 分析を続行するには、これらの言語で書かれたコードをコンパイルする必要があります。 CodeQL はコードを自動的にビルドしようとしますが、コードにオーダーメイドのビルド手順が必要な場合は失敗する可能性があります。&lt;/p&gt;
+&lt;p&gt; Java (Kotlin を含む)、C/C++、および C# は、より高度な構成が必要になることが多いため、デフォルトのセットアップ構成には自動的に含まれません。 CodeQL 分析を続行するには、これらの言語で書かれたコードをコンパイルする必要があります。 CodeQL はコードを自動的にビルドしようとしますが、コードにオーダーメイドのビルド手順が必要な場合は失敗する可能性があります。&lt;/p&gt;
 &lt;p&gt; Java (Kotlin を含む)、C/C++、および C# は、組織レベルの一括コード スキャン設定には含まれません。私たちは、すべての CodeQL 言語サポートを組織レベルに間もなく拡張することに取り組んでいます。&lt;/p&gt;
 &lt;p&gt;コード スキャンのデフォルト設定の詳細については、 &lt;a href=&quot;https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning-for-a-repository#configuring-code-scanning-automatically&quot;&gt;「コード スキャンを自動的に設定する」&lt;/a&gt;を参照してください。&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">72771</post-id></item><item><title>新しい拡張可能なイベント ペイロード ビューがすべての監査ログで一般的に利用可能になりました</title><link>https://github.blog/changelog/2023-06-28-new-expandable-event-payload-view-is-generally-available-in-all-audit-logs</link><dc:creator>Kevin Duck</dc:creator><pubDate>Wed, 28 Jun 2023 20:49:44 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2023-06-28-new-expandable-event-payload-view-is-generally-available-in-all-audit-logs</guid><description>New expandable event payload view is generally available in all audit logs</description><content:encoded>&lt;p&gt;エンタープライズおよび組織の監査ログ UI とユーザー セキュリティ ログ UI には、各イベントの完全な監査ログ ペイロードを表示する展開可能なビューが含まれるようになりました。 &lt;/p&gt;
