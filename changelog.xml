@@ -1,4 +1,98 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"><channel><title>Changelogs Archive - The GitHub Blog</title><atom:link href="https://github.blog/changelog/feed/" rel="self" type="application/rss+xml"></atom:link><link>https://github.blog/changelog/</link><description>Updates, ideas, and inspiration from GitHub to help developers build and design software.</description><lastBuildDate>Sat, 12 Aug 2023 12:06:31 +0000</lastBuildDate><language>en-US</language><sy:updatePeriod>hourly</sy:updatePeriod><sy:updateFrequency>1</sy:updateFrequency><generator>https://wordpress.org/?v=6.3</generator><image><url>https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=32%2C32</url><title>Changelogs Archive - The GitHub Blog</title><link>https://github.blog/changelog/</link><width>32</width><height>32</height></image><site xmlns="com-wordpress:feed-additions:1">153214340</site><item><title>GitHub Copilot 8 月 10 日の更新</title><link>https://github.blog/changelog/2023-08-11-github-copilot-august-10th-update</link><dc:creator>Kevin Duck</dc:creator><pubDate>Fri, 11 Aug 2023 21:19:02 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2023-08-11-auto-draft</guid><description>&lt;p&gt;Today&amp;#039;s update brings the ability to set an allowlist for languages within the IntelliJ extension, quickly switch to an annual GitHub Copilot for Individuals plan, and the private preview of code referencing. Select languages setting within IntelliJ The previous disabledLanguages configuration is replaced with a new, more flexible languageAllowList configuration. This change allows enabling or [&amp;#8230;]&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"><channel><title>Changelogs Archive - The GitHub Blog</title><atom:link href="https://github.blog/changelog/feed/" rel="self" type="application/rss+xml"></atom:link><link>https://github.blog/changelog/</link><description>Updates, ideas, and inspiration from GitHub to help developers build and design software.</description><lastBuildDate>Mon, 14 Aug 2023 09:12:19 +0000</lastBuildDate><language>en-US</language><sy:updatePeriod>hourly</sy:updatePeriod><sy:updateFrequency>1</sy:updateFrequency><generator>https://wordpress.org/?v=6.3</generator><image><url>https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=32%2C32</url><title>Changelogs Archive - The GitHub Blog</title><link>https://github.blog/changelog/</link><width>32</width><height>32</height></image><site xmlns="com-wordpress:feed-additions:1">153214340</site><item><title>カスタム CodeQL クエリを作成するための新しいデータフロー API</title><link>https://github.blog/changelog/2023-08-14-new-dataflow-api-for-writing-custom-codeql-queries</link><dc:creator>Kevin Duck</dc:creator><pubDate>Mon, 14 Aug 2023 08:34:25 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2023-08-14-new-dataflow-api-for-writing-custom-codeql-queries</guid><description>&lt;p&gt;New dataflow API for writing custom CodeQL queries&lt;/p&gt;
+&lt;p&gt;The post &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog/changelog/2023-08-14-new-dataflow-api-for-writing-custom-codeql-queries&quot;&gt;New dataflow API for writing custom CodeQL queries&lt;/a&gt; appeared first on &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
+</description><content:encoded>&lt;p&gt;データフロー分析を利用するカスタム CodeQL クエリを作成するユーザー向けに、新しい API をリリースしました。新しい API では柔軟性が向上し、古い API にありがちな落とし穴を防ぐ改善が加えられ、クエリ評価のパフォーマンスが 5% 向上します。個人的な興味のために&lt;a href=&quot;https://codeql.github.com/docs/writing-codeql-queries/&quot;&gt;CodeQL クエリを作成して&lt;/a&gt;いる場合でも、&lt;a href=&quot;https://securitylab.github.com/bounties/&quot;&gt;世界のコードのセキュリティを保護するために報奨金プログラムに参加している場合&lt;/a&gt;でも、この投稿は古い API から新しい API への移行に役立ちます。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;この API の変更は、独自のカスタム CodeQL クエリを作成するユーザーにのみ関係します。 GitHub の&lt;a href=&quot;https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/built-in-codeql-query-suites&quot;&gt;標準 CodeQL クエリ スイートを&lt;/a&gt;使用するコード スキャン ユーザーは、変更を加える必要はありません。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;新しいデータフロー API の導入により、古い API は非推奨になります。古い API は 2024 年 12 月まで引き続き機能します。 CodeQL CLI は、2023 年 12 月に非推奨の警告を発し始める予定です。&lt;/p&gt;
+&lt;p&gt; CodeQL クエリを古い API から新しい API に更新する方法を示すために、間もなく非推奨になる API を使用する次のクエリの例を考えてみましょう。&lt;/p&gt;
+&lt;pre&gt; &lt;code class=&quot;language-ql&quot;&gt;class SensitiveLoggerConfiguration extends TaintTracking::Configuration {
+ SensitiveLoggerConfiguration() { this = &quot;SensitiveLoggerConfiguration&quot; } // 6: characteristic predicate with dummy string value (see below)
+
+ override predicate isSource(DataFlow::Node source) { source.asExpr() instanceof CredentialExpr }
+
+ override predicate isSink(DataFlow::Node sink) { sinkNode(sink, &quot;log-injection&quot;) }
+
+ override predicate isSanitizer(DataFlow::Node sanitizer) {
+ sanitizer.asExpr() instanceof LiveLiteral or
+ sanitizer.getType() instanceof PrimitiveType or
+ sanitizer.getType() instanceof BoxedType or
+ sanitizer.getType() instanceof NumberType or
+ sanitizer.getType() instanceof TypeType
+ }
+
+ override predicate isSanitizerIn(DataFlow::Node node) { this.isSource(node) }
+ }
+
+ import DataFlow::PathGraph
+
+ from SensitiveLoggerConfiguration cfg, DataFlow::PathNode source, DataFlow::PathNode sink
+ where cfg.hasFlowPath(source, sink)
+ select sink.getNode(), source, sink, &quot;This $@ is written to a log file.&quot;,
+ source.getNode(),
+ &quot;potentially sensitive information&quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;クエリを新しい API に変換するには:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt; &lt;code&gt;class&lt;/code&gt;の代わりに&lt;code&gt;module&lt;/code&gt;使用します。 CodeQL &lt;code&gt;module&lt;/code&gt;何も&lt;code&gt;extend&lt;/code&gt;せず、代わりに署名&lt;code&gt;implements&lt;/code&gt; 。データ フローとテイントの両方の追跡構成の場合、これは&lt;code&gt;DataFlow::ConfigSig&lt;/code&gt;または&lt;code&gt;FlowState&lt;/code&gt;が必要な場合は&lt;code&gt;DataFlow::StateConfigSig&lt;/code&gt;です。&lt;/li&gt;
+&lt;li&gt;以前は、 &lt;code&gt;DataFlow::Configuration&lt;/code&gt;または&lt;code&gt;TaintTracking::Configuration&lt;/code&gt;を拡張することで、データ フローとテイント トラッキングのどちらかを選択していました。代わりに、共有署名の実装&lt;span class=&quot;x x-first&quot;&gt;を使用して&lt;code&gt;&lt;span class=&quot;pl-c1 x&quot;&gt;DataFlow::Global&lt;..&gt;&lt;/span&gt;&lt;/code&gt;&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;または&lt;/span&gt;&lt;span class=&quot;pl-s x&quot;&gt;&lt;span class=&quot;x x-first&quot;&gt;&lt;code&gt;&lt;span class=&quot;pl-c1 x&quot;&gt;TaintTracking::Global&lt;..&gt;&lt;/span&gt;&lt;/code&gt;&lt;/span&gt;&lt;/span&gt;パラメーター化モジュールをインスタンス化することで、データまたはテイント フローを定義します。ここで、データ フローとテイント フローのどちらを選択するかが決まります。汚染追跡が行われます。&lt;/li&gt;
+&lt;li&gt;モジュールを定義しているため、述語は何も&lt;code&gt;override&lt;/code&gt;なくなりました。&lt;/li&gt;
+&lt;li&gt;サニタイザーとバリアの概念は&lt;code&gt;isBarrier&lt;/code&gt;に統合され、汚染追跡とデータ フロー構成の両方に適用されます。 &lt;code&gt;isSanitizer&lt;/code&gt;の代わりに&lt;code&gt;isBarrier&lt;/code&gt;使用し、 &lt;code&gt;isSanitizerIn&lt;/code&gt;の代わりに&lt;code&gt;isBarrierIn&lt;/code&gt;使用する必要があります。&lt;/li&gt;
+&lt;li&gt;同様に、テイント追跡述語&lt;code&gt;isAdditionalTaintStep&lt;/code&gt;の代わりに、 &lt;code&gt;isAdditionalFlowStep&lt;/code&gt;を使用します。&lt;/li&gt;
+&lt;li&gt;ダミー文字列値を含む特性述語は必要なくなりました。&lt;/li&gt;
+&lt;li&gt;汎用の&lt;code&gt;DataFlow::PathGraph&lt;/code&gt;使用しないでください。代わりに、 &lt;code&gt;PathGraph&lt;/code&gt;使用しているモジュールから直接インポートされます。たとえば、以下のクエリ例の更新バージョンの&lt;code&gt;SensitiveLoggerFlow::PathGraph&lt;/code&gt; 。&lt;/li&gt;
+&lt;li&gt;上記と同様に、 &lt;code&gt;DataFlow&lt;/code&gt;からではなく、結果のモジュールから&lt;code&gt;PathNode&lt;/code&gt;型を使用します。&lt;/li&gt;
+&lt;li&gt;構成クラスがなくなったので、 &lt;code&gt;from&lt;/code&gt;句と&lt;code&gt;where&lt;/code&gt;句でモジュールを直接使用します。たとえば、構成オブジェクト&lt;code&gt;cfg&lt;/code&gt;から&lt;code&gt;cfg.hasFlowPath&lt;/code&gt;または&lt;code&gt;cfg.hasFlow&lt;/code&gt;を使用する代わりに、作業しているモジュールからの&lt;code&gt;flowPath&lt;/code&gt;または&lt;code&gt;flow&lt;/code&gt;を使用します。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;上記の変更をすべて考慮すると、更新されたクエリは次のようになります。&lt;/p&gt;
+&lt;pre&gt; &lt;code class=&quot;language-ql&quot;&gt;module SensitiveLoggerConfig implements DataFlow::ConfigSig { // 1: module always implements DataFlow::ConfigSig or DataFlow::StateConfigSig
+ predicate isSource(DataFlow::Node source) { source.asExpr() instanceof CredentialExpr } // 3: no need to specify &amp;#39;override&amp;#39;
+ predicate isSink(DataFlow::Node sink) { sinkNode(sink, &quot;log-injection&quot;) }
+
+ predicate isBarrier(DataFlow::Node sanitizer) { // 4: &amp;#39;isBarrier&amp;#39; replaces &amp;#39;isSanitizer&amp;#39;
+ sanitizer.asExpr() instanceof LiveLiteral or
+ sanitizer.getType() instanceof PrimitiveType or
+ sanitizer.getType() instanceof BoxedType or
+ sanitizer.getType() instanceof NumberType or
+ sanitizer.getType() instanceof TypeType
+ }
+
+ predicate isBarrierIn(DataFlow::Node node) { isSource(node) } // 4: isBarrierIn instead of isSanitizerIn
+
+ }
+
+ module SensitiveLoggerFlow = TaintTracking::Global ; // 2: TaintTracking selected
+
+ import SensitiveLoggerFlow::PathGraph // 7: the PathGraph specific to the module you are using
+
+ from SensitiveLoggerFlow::PathNode source, SensitiveLoggerFlow::PathNode sink // 8 &amp; 9: using the module directly
+ where SensitiveLoggerFlow::flowPath(source, sink) // 9: using the flowPath from the module
+ select sink.getNode(), source, sink, &quot;This $@ is written to a log file.&quot;, source.getNode(),
+ &quot;potentially sensitive information&quot;&lt;/code&gt;&lt;SensitiveLoggerConfig&gt; &lt;code class=&quot;language-ql&quot;&gt;module SensitiveLoggerConfig implements DataFlow::ConfigSig { // 1: module always implements DataFlow::ConfigSig or DataFlow::StateConfigSig
+ predicate isSource(DataFlow::Node source) { source.asExpr() instanceof CredentialExpr } // 3: no need to specify &amp;#39;override&amp;#39;
+ predicate isSink(DataFlow::Node sink) { sinkNode(sink, &quot;log-injection&quot;) }
+
+ predicate isBarrier(DataFlow::Node sanitizer) { // 4: &amp;#39;isBarrier&amp;#39; replaces &amp;#39;isSanitizer&amp;#39;
+ sanitizer.asExpr() instanceof LiveLiteral or
+ sanitizer.getType() instanceof PrimitiveType or
+ sanitizer.getType() instanceof BoxedType or
+ sanitizer.getType() instanceof NumberType or
+ sanitizer.getType() instanceof TypeType
+ }
+
+ predicate isBarrierIn(DataFlow::Node node) { isSource(node) } // 4: isBarrierIn instead of isSanitizerIn
+
+ }
+
+ module SensitiveLoggerFlow = TaintTracking::Global ; // 2: TaintTracking selected
+
+ import SensitiveLoggerFlow::PathGraph // 7: the PathGraph specific to the module you are using
+
+ from SensitiveLoggerFlow::PathNode source, SensitiveLoggerFlow::PathNode sink // 8 &amp; 9: using the module directly
+ where SensitiveLoggerFlow::flowPath(source, sink) // 9: using the flowPath from the module
+ select sink.getNode(), source, sink, &quot;This $@ is written to a log file.&quot;, source.getNode(),
+ &quot;potentially sensitive information&quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;この例では取り上げていませんが、フロー状態が必要な場合は&lt;code&gt;DataFlow::StateConfigSig&lt;/code&gt;署名を実装することもできます。次に、そのシグネチャの実装を使用して&lt;code&gt;DataFlow::GlobalWithState&lt;/code&gt;または&lt;code&gt;TaintTracking::GlobalWithState&lt;/code&gt;をインスタンス化します。 flow-state に特有のもう 1 つの変更は、 &lt;code&gt;DataFlow::FlowState&lt;/code&gt;使用する代わりに、 &lt;code&gt;FlowState class&lt;/code&gt;モジュールのメンバーとして定義するようになったことです。これは、状態として&lt;code&gt;string&lt;/code&gt;以外の型 (整数、ブール値など) を使用する場合に便利です。この実装の例は&lt;a href=&quot;https://github.com/github/codeql/blob/5b0d4ce7cb19527691a2e0df84a6004849a4a3bc/java/ql/lib/semmle/code/java/security/ArbitraryApkInstallationQuery.qll#L85&quot;&gt;ここに&lt;/a&gt;あります。&lt;/p&gt;
+&lt;p&gt;この機能は CodeQL バージョン&lt;code&gt;2.13.0&lt;/code&gt;で利用できます。独自のカスタム CodeQL クエリの作成を開始したい場合は、 &lt;a href=&quot;https://codeql.github.com/docs/codeql-for-visual-studio-code/setting-up-codeql-in-visual-studio-code/#configuring-access-to-the-codeql-cli&quot;&gt;次の手順に従って CodeQL CLI と VS Code 拡張機能の使用を開始してください&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt; &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog/changelog/2023-08-14-new-dataflow-api-for-writing-custom-codeql-queries&quot;&gt;カスタム CodeQL クエリを作成するための新しいデータフロー API という&lt;/a&gt;投稿は、最初に&lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に掲載されました。&lt;/p&gt;
+</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">73669</post-id></item><item><title>GitHub Copilot 8 月 10 日の更新</title><link>https://github.blog/changelog/2023-08-11-github-copilot-august-10th-update</link><dc:creator>Kevin Duck</dc:creator><pubDate>Fri, 11 Aug 2023 21:19:02 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2023-08-11-auto-draft</guid><description>&lt;p&gt;Today&amp;#039;s update brings the ability to set an allowlist for languages within the IntelliJ extension, quickly switch to an annual GitHub Copilot for Individuals plan, and the private preview of code referencing. Select languages setting within IntelliJ The previous disabledLanguages configuration is replaced with a new, more flexible languageAllowList configuration. This change allows enabling or [&amp;#8230;]&lt;/p&gt;
 &lt;p&gt;The post &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog/changelog/2023-08-11-github-copilot-august-10th-update&quot;&gt;GitHub Copilot August 10th Update&lt;/a&gt; appeared first on &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;p&gt;本日のアップデートにより、IntelliJ 拡張機能内で言語のホワイトリストを設定し、年間 GitHub Copilot for Individuals プランにすぐに切り替える機能と、コード参照のプライベート プレビューが可能になります。 &lt;/p&gt;
 &lt;h2 id=&quot;select-languages-setting-within-intellij&quot; id=&quot;select-languages-setting-within-intellij&quot; &gt; IntelliJ 内で言語設定を選択します&lt;a href=&quot;#select-languages-setting-within-intellij&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Select languages setting within IntelliJ&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
@@ -239,20 +333,20 @@
 &lt;p&gt;たとえば、 &lt;a href=&quot;https://docs.github.com/en/rest/projects/collaborators?apiVersion=2022-11-28#list-project-collaborators&quot;&gt;「List projectcollaborators」&lt;/a&gt;を呼び出すと、ヘッダー&lt;code&gt;x-accepted-github-permissions: repository_projects=write; organization_projects=admin&lt;/code&gt;を受け取ります。 &lt;code&gt;x-accepted-github-permissions: repository_projects=write; organization_projects=admin&lt;/code&gt; 。これは、プロジェクトのコラボレーターのリストを取得するには、 &lt;code&gt;repository_projects&lt;/code&gt;書き込み権限&lt;em&gt;か、&lt;/em&gt; &lt;code&gt;organization_projects&lt;/code&gt;管理権限の&lt;em&gt;いずれかが&lt;/em&gt;必要であることを示しています。&lt;/p&gt;
 &lt;p&gt;このヘッダーは、粗粒度スコープ アクター (OAuth アプリおよび PAT (クラシック)) の&lt;code&gt;x-accepted-oauth-scopes&lt;/code&gt;ヘッダーと同じ方法で使用されます。&lt;/p&gt;
 &lt;p&gt; GitHub アプリおよび詳細な PAT に関する権限の問題のトラブルシューティングの詳細と、このヘッダーに関する詳細については、 &lt;a href=&quot;https://docs.github.com/en/rest/overview/troubleshooting#insufficient-permissions-errors&quot;&gt;「権限が不十分なエラー」&lt;/a&gt;を参照してください。各エンドポイントに必要な権限を確認するには、 &lt;a href=&quot;https://docs.github.com/en/rest/overview/permissions-required-for-github-apps&quot;&gt;「GitHub アプリに必要な権限」&lt;/a&gt;および&lt;a href=&quot;https://docs.github.com/en/rest/overview/permissions-required-for-fine-grained-personal-access-tokens&quot;&gt;「詳細な PAT に必要な権限」&lt;/a&gt;を参照してください。&lt;/p&gt;
-&lt;p&gt; &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog/changelog/2023-08-10-x-accepted-github-permissions-header-for-fine-grained-permission-actors&quot;&gt;詳細な権限アクターのポスト X-Accepted-GitHub-Permissions ヘッダーは、&lt;/a&gt; &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に最初に登場しました。&lt;/p&gt;
+&lt;p&gt; &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog/changelog/2023-08-10-x-accepted-github-permissions-header-for-fine-grained-permission-actors&quot;&gt;詳細な権限アクターのポスト X-Accepted-GitHub-Permissions ヘッダーは、&lt;/a&gt;最初に&lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に登場しました。&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">73646</post-id></item><item><title>保護されたブランチと同じ名前のタグまたはフォークからトリガーされたアクションの実行がブロックされるようになりました</title><link>https://github.blog/changelog/2023-08-10-actions-runs-triggered-from-tags-or-forks-with-the-same-name-as-a-protected-branch-will-now-be-blocked</link><dc:creator>Kevin Duck</dc:creator><pubDate>Thu, 10 Aug 2023 19:23:40 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2023-08-10-actions-runs-triggered-from-tags-or-forks-with-the-same-name-as-a-protected-branch-will-now-be-blocked</guid><description>&lt;p&gt;Actions Runs triggered from tags or forks with the same name as a protected branch will now be blocked&lt;/p&gt;
 &lt;p&gt;The post &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog/changelog/2023-08-10-actions-runs-triggered-from-tags-or-forks-with-the-same-name-as-a-protected-branch-will-now-be-blocked&quot;&gt;Actions runs triggered from tags or forks with the same name as a protected branch will now be blocked&lt;/a&gt; appeared first on &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;p&gt;GitHub &lt;a href=&quot;https://docs.github.com/en/actions/deployment/targeting-different-environments/using-environments-for-deployment#about-environments&quot;&gt;環境は、&lt;/a&gt;デプロイメントできるブランチを許可リストに登録するデプロイメント ブランチ ポリシーを使用して構成できます。&lt;/p&gt;
 &lt;p&gt;現在、保護されたブランチ名と一致するブランチを含むフォークからトリガーされる実行をブロックすることで、これらのブランチ ポリシーのセキュリティをさらに強化しています。また、保護されたブランチと同じ名前のタグが、保護されたブランチの周囲にブランチ ポリシーが設定されている環境にデプロイされるのを防ぎます。&lt;/p&gt;
-&lt;p&gt; &lt;a href=&quot;https://docs.github.com/en/actions/deployment/targeting-different-environments/using-environments-for-deployment#deployment-branches&quot;&gt;デプロイメント保護ルールを&lt;/a&gt;使用して環境を構成し、デプロイメント用に厳格かつ合理化されたガードレールを設定する方法について詳しく学習します。&lt;/p&gt;
+&lt;p&gt; &lt;a href=&quot;https://docs.github.com/en/actions/deployment/targeting-different-environments/using-environments-for-deployment#deployment-branches&quot;&gt;デプロイメント保護ルールを&lt;/a&gt;使用して環境を構成し、デプロイメント用に厳格かつ合理化されたガードレールを設定する方法について詳しく説明します。&lt;/p&gt;
 &lt;p&gt;質問がある場合は、 &lt;a href=&quot;https://github.com/orgs/community/discussions/categories/actions&quot;&gt;GitHub Actions コミュニティ&lt;/a&gt;にアクセスしてください。&lt;br /&gt;
  Actions の次の予定については、&lt;a href=&quot;https://github.com/orgs/github/projects/4247&quot;&gt;公開ロードマップ&lt;/a&gt;をご覧ください。&lt;/p&gt;
 &lt;p&gt;投稿&lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog/changelog/2023-08-10-actions-runs-triggered-from-tags-or-forks-with-the-same-name-as-a-protected-branch-will-now-be-blocked&quot;&gt;「保護されたブランチと同じ名前のタグまたはフォークからトリガーされるアクションの実行はブロックされるようになります」&lt;/a&gt; first appeared on &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt; .&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">73644</post-id></item><item><title>REST API 経由で組織のリポジトリ セキュリティ アドバイザリを取得する</title><link>https://github.blog/changelog/2023-08-10-get-repository-security-advisories-for-your-organization-via-rest-api</link><dc:creator>Kevin Duck</dc:creator><pubDate>Thu, 10 Aug 2023 18:13:31 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2023-08-10-get-repository-security-advisories-for-your-organization-via-rest-api</guid><description>&lt;p&gt;Get repository security advisories for your organization via REST API&lt;/p&gt;
 &lt;p&gt;The post &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog/changelog/2023-08-10-get-repository-security-advisories-for-your-organization-via-rest-api&quot;&gt;Get repository security advisories for your organization via REST API&lt;/a&gt; appeared first on &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;p&gt;組織の所有者またはセキュリティ マネージャー ロールのメンバーは、 &lt;a href=&quot;https://docs.github.com/en/rest/security-advisories/repository-advisories#list-repository-security-advisories-for-an-organization&quot;&gt;リポジトリ セキュリティ アドバイザリ REST API を使用して、&lt;/a&gt;組織全体のすべてのリポジトリ セキュリティ アドバイザリを取得できるようになりました。&lt;/p&gt;
-&lt;p&gt; &lt;a href=&quot;https://docs.github.com/en/code-security/security-advisories/repository-security-advisories/about-repository-security-advisories&quot;&gt;リポジトリのセキュリティ アドバイザリ&lt;/a&gt;について詳しくは、こちらをご覧ください。&lt;/p&gt;
-&lt;p&gt; &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog/changelog/2023-08-10-get-repository-security-advisories-for-your-organization-via-rest-api&quot;&gt;REST API 経由で組織のリポジトリ セキュリティ アドバイザリを取得するという&lt;/a&gt;記事は&lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog&quot;&gt;、 GitHub ブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
+&lt;p&gt; &lt;a href=&quot;https://docs.github.com/en/code-security/security-advisories/repository-security-advisories/about-repository-security-advisories&quot;&gt;リポジトリのセキュリティ勧告&lt;/a&gt;について詳しくは、こちらをご覧ください。&lt;/p&gt;
+&lt;p&gt; &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog/changelog/2023-08-10-get-repository-security-advisories-for-your-organization-via-rest-api&quot;&gt;REST API 経由で組織のリポジトリ セキュリティ アドバイザリを取得するという&lt;/a&gt;投稿は&lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog&quot;&gt;、 GitHub ブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">73642</post-id></item><item><title>ユーザーは自分自身でプッシュ保護を有効にすることができます</title><link>https://github.blog/changelog/2023-08-09-users-can-enable-push-protection-for-themselves</link><dc:creator>Kevin Duck</dc:creator><pubDate>Wed, 09 Aug 2023 20:46:09 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2023-08-09-users-can-enable-push-protection-for-themselves</guid><description>&lt;p&gt;Users can enable push protection for themselves&lt;/p&gt;
 &lt;p&gt;The post &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog/changelog/2023-08-09-users-can-enable-push-protection-for-themselves&quot;&gt;Users can enable push protection for themselves&lt;/a&gt; appeared first on &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;p&gt;シークレット スキャンのプッシュ保護機能は、サポートされているシークレットがリポジトリにプッシュされるのを防ぎますが、これまではリポジトリ、組織、またはエンタープライズ レベルで有効にする必要がありました。&lt;/p&gt;
@@ -266,11 +360,4 @@
 &lt;li&gt;&lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-scanning/push-protection-for-users&quot;&gt;ユーザーのプッシュ保護について詳しく見る&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog/changelog/2023-08-09-users-can-enable-push-protection-for-themselves&quot;&gt;「ユーザーが自分自身でプッシュ保護を有効にできる」&lt;/a&gt;という投稿は、最初に&lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に掲載されました。&lt;/p&gt;
-</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">73628</post-id></item><item><title>Sudo モードがエンタープライズ管理対象ユーザー企業の管理者アカウントに適用されるようになりました</title><link>https://github.blog/changelog/2023-08-09-sudo-mode-now-applies-to-the-administrator-account-for-an-enterprise-managed-user-enterprise</link><dc:creator>Kevin Duck</dc:creator><pubDate>Wed, 09 Aug 2023 16:24:33 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2023-08-09-sudo-mode-now-applies-to-the-administrator-account-for-an-enterprise-managed-user-enterprise</guid><description>&lt;p&gt;Sudo mode now applies to the administrator account for an Enterprise Managed User enterprise&lt;/p&gt;
-&lt;p&gt;The post &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog/changelog/2023-08-09-sudo-mode-now-applies-to-the-administrator-account-for-an-enterprise-managed-user-enterprise&quot;&gt;Sudo mode now applies to the administrator account for an Enterprise Managed User enterprise&lt;/a&gt; appeared first on &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
-</description><content:encoded>&lt;p&gt;エンタープライズ管理対象ユーザー enterprise の管理者アカウント ( &lt;code&gt;_admin&lt;/code&gt;で終わる) は、機密性の高いアクションを実行する前に sudo モードに入る必要があります。標準ユーザー アカウントと同様に、管理者は sudo モードに入るためにパスワードまたは第 2 要素の資格情報を入力する必要があります。&lt;/p&gt;
-&lt;p&gt; &lt;a href=&quot;https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/sudo-mode&quot;&gt;Sudo モードは、&lt;/a&gt;個人アクセス トークンの作成、組織の削除、資格情報の更新などの機密性の高いアクションをユーザーが実行する前に、ユーザーのセッションを検証する GitHub のセキュリティ機能です。&lt;/p&gt;
-&lt;p&gt;これまで、このモードはすべてのエンタープライズ管理対象ユーザー (EMU) に対して無効でした。これは、エンタープライズ管理ユーザー (EMU) が GitHub.com に資格情報を持たず、sudo モード プロンプトに資格情報を提供できなかったためです。その結果、EMU アカウントは資格情報を要求されずに機密性の高いアクションを実行できるようになります。ただし、EMU 企業の管理者は GitHub.com の資格情報を持って&lt;em&gt;いるため&lt;/em&gt;、機密性の高いアクションを実行する前に資格情報の入力を求められるようになります。&lt;/p&gt;
-&lt;p&gt; sudo モードの詳細については、 &lt;a href=&quot;https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/sudo-mode&quot;&gt;「Sudo モード」&lt;/a&gt;を参照してください。 Enterprise 管理対象ユーザーの詳細については、 &lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/using-enterprise-managed-users-for-iam/about-enterprise-managed-users&quot;&gt;「Enterprise 管理対象ユーザーについて」&lt;/a&gt;を参照してください。&lt;/p&gt;
-&lt;p&gt;ポスト&lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog/changelog/2023-08-09-sudo-mode-now-applies-to-the-administrator-account-for-an-enterprise-managed-user-enterprise&quot;&gt;Sudo モードがエンタープライズ管理対象ユーザーの管理者アカウントに適用されるようになりました&lt;/a&gt;appeared first on &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt; 。&lt;/p&gt;
-</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">73622</post-id></item></channel></rss>
+</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">73628</post-id></item></channel></rss>
