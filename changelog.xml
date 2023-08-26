@@ -5,15 +5,15 @@
 &lt;p&gt;使用可能なグループ化オプションは次のとおりです。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt; &lt;code&gt;patterns&lt;/code&gt; 、パッケージ名に基づいて一致します。&lt;/li&gt;
-&lt;li&gt; &lt;code&gt;dependency-type&lt;/code&gt; : これがサポートされているエコシステムでは、開発または運用の依存関係に基づいてグループ化されます。&lt;/li&gt;
+&lt;li&gt; &lt;code&gt;dependency-type&lt;/code&gt; 、これがサポートされているエコシステムの開発または運用の依存関係に基づいてグループ化されます。&lt;/li&gt;
 &lt;li&gt; &lt;code&gt;update-types&lt;/code&gt; 、SemVer レベルの更新に基づいてグループ化されます。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;現時点では、グループ化はセキュリティ更新プログラムまたは dependabot アラートには使用できません。&lt;/p&gt;
 &lt;p&gt; &lt;a href=&quot;https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file#groups&quot;&gt;グループ化構成オプションの詳細については、こちらをご覧ください。&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;この投稿は、 &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog/changelog/2023-08-24-grouped-version-updates-for-dependabot-are-generally-available&quot;&gt;Dependabot のグループ化されたバージョンの更新が一般提供になりました&lt;/a&gt;first appeared on &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;この投稿は、 &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog/changelog/2023-08-24-grouped-version-updates-for-dependabot-are-generally-available&quot;&gt;Dependabot のグループ化されたバージョンの更新が一般提供されました&lt;/a&gt;first appeared on &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt; 。&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">73835</post-id></item><item><title>Expandabot セキュリティ アップデートの Gradle サポート</title><link>https://github.blog/changelog/2023-08-24-gradle-support-for-dependabot-security-updates</link><dc:creator>Kevin Duck</dc:creator><pubDate>Thu, 24 Aug 2023 15:16:23 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2023-08-24-gradle-support-for-dependabot-security-updates</guid><description>&lt;p&gt;Gradle support for Dependabot security updates&lt;/p&gt;
 &lt;p&gt;The post &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog/changelog/2023-08-24-gradle-support-for-dependabot-security-updates&quot;&gt;Gradle support for Dependabot security updates&lt;/a&gt; appeared first on &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
-</description><content:encoded>&lt;p&gt;dependabot は、プル リクエストを開いて Gradle 依存関係のアラートを解決できるようになりました。依存関係送信 API を使用して Gradle 依存関係を依存関係グラフにアップロードしており、それらの依存関係に対する dependabot アラートを受信して​​いる場合、リポジトリでセキュリティ更新が有効になっている場合、Dependabot はプル リクエストを開いて自動的に解決しようとします。&lt;/p&gt;
+</description><content:encoded>&lt;p&gt;dependabot は、プル リクエストを開いて Gradle 依存関係のアラートを解決できるようになりました。依存関係送信 API を使用して Gradle 依存関係を依存関係グラフにアップロードしており、それらの依存関係に関する dependabot アラートを受信して​​いる場合、リポジトリでセキュリティ更新プログラムが有効になっている場合、Dependabot はプル リクエストを開いて自動的に解決しようとします。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt; &lt;a href=&quot;https://docs.github.com/en/code-security/dependabot/dependabot-security-updates/configuring-dependabot-security-updates&quot;&gt;dependabot のセキュリティ更新の詳細については、こちらをご覧ください。&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt; &lt;a href=&quot;https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/using-the-dependency-submission-api&quot;&gt;依存関係送信 API の詳細については、こちらをご覧ください。&lt;/a&gt;&lt;/li&gt;
@@ -40,7 +40,7 @@
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">73818</post-id></item><item><title>コード スキャンのデフォルト設定が毎週のスケジュールで分析されるようになりました</title><link>https://github.blog/changelog/2023-08-22-code-scanning-default-setup-now-analyzes-on-a-weekly-schedule</link><dc:creator>Kevin Duck</dc:creator><pubDate>Tue, 22 Aug 2023 12:16:25 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2023-08-22-code-scanning-default-setup-now-analyzes-on-a-weekly-schedule</guid><description>&lt;p&gt;Code scanning default setup now analyzes on a weekly schedule&lt;/p&gt;
 &lt;p&gt;The post &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog/changelog/2023-08-22-code-scanning-default-setup-now-analyzes-on-a-weekly-schedule&quot;&gt;Code scanning default setup now analyzes on a weekly schedule&lt;/a&gt; appeared first on &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;p&gt;コード スキャンのデフォルト設定では、プッシュ リクエストとプル リクエストのスキャンに加えて、毎週のスケジュールでリポジトリも分析されるようになりました。これにより、CodeQL の最新バージョンによるスキャンがコードに対して定期的に実行されるようになり、アクティブなリポジトリと非アクティブなリポジトリの両方がより適切に保護されます。これにより、ユーザーは継続的にリリースされ、新たな潜在的な脆弱性を発見する可能性のある CodeQL エンジンとクエリの改善から常に恩恵を受けることができます。&lt;/p&gt;
-&lt;p&gt;コード スキャンを設定する場合、毎週のスキャンの固定時間がランダムに選択されます。スキャンは毎週同じ時間に実行され、セットアップの完了後にスケジュールが表示されるため、次回のスケジュールされた分析がいつ行われるかを簡単に確認できます。リポジトリに 6 か月間アクティビティがなかった場合、スケジュールされた分析は自動的に無効になります。 PR を開くかリポジトリにプッシュすると、スケジュールされた分析が再度有効になります。 &lt;/p&gt;
+&lt;p&gt;コード スキャンを設定する場合、毎週のスキャンの固定時間がランダムに選択されます。スキャンは毎週同じ時間に実行され、セットアップの完了後にスケジュールが表示されるため、次回のスケジュールされた分析がいつ行われるかを簡単に確認できます。リポジトリに 6 か月間アクティビティがなかった場合、スケジュールされた分析は自動的に無効になります。 PR を開くか、リポジトリにプッシュすると、スケジュールされた分析が再度有効になります。 &lt;/p&gt;
 &lt;p&gt;&lt;img decoding=&quot;async&quot; src=&quot;https://i0.wp.com/user-images.githubusercontent.com/19343236/261064513-a65f6fb2-1899-480a-958a-6c4b9024ce94.png&quot; alt=&quot;毎週のスケジュールされたスキャンを示すスクリーンショット&quot; data-recalc-dims=&quot;1&quot;&gt;&lt;/p&gt;
 &lt;p&gt;これは GitHub.com に出荷されており、GitHub Enterprise Server 3.11 とともにリリースされる予定です。&lt;/p&gt;
 &lt;p&gt; &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog/changelog/2023-08-22-code-scanning-default-setup-now-analyzes-on-a-weekly-schedule&quot;&gt;「コード スキャンのデフォルト設定が毎週のスケジュールで分析されるようになった」という&lt;/a&gt;記事は、最初に&lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に掲載されました。&lt;/p&gt;
@@ -52,7 +52,7 @@
 &lt;p&gt;リポジトリ アクション ランナー リストを使用する利点は次のとおりです。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;すべての GitHub Actions ランナーの可視性:&lt;/strong&gt; &lt;code&gt;repo:write&lt;/code&gt;アクセス権を持つユーザーは、内部ドキュメントに頼ったり、ランナー ラベル名について Repo 管理者や組織の所有者に連絡したりすることなく、ランナー オプションを表示できるようになりました。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ランナー ラベルへの高速アクセス:&lt;/strong&gt;すべてのランナーのラベルをすばやく表示してコピーできるため、必要なランナーのタイプを簡単に特定し、ワークフローで使用できます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ランナー ラベルへの高速アクセス:&lt;/strong&gt;すべてのランナーのラベルをすばやく表示してコピーできるため、必要なランナーのタイプを簡単に特定してワークフローで使用できます。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;リポジトリ アクション ランナー リストにアクセスするには:&lt;/p&gt;
 &lt;ol&gt;
