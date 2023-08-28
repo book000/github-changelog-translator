@@ -56,7 +56,7 @@
 &lt;p&gt;リポジトリ アクション ランナー リストを使用する利点は次のとおりです。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;すべての GitHub Actions ランナーの可視性:&lt;/strong&gt; &lt;code&gt;repo:write&lt;/code&gt;アクセス権を持つユーザーは、内部ドキュメントに頼ったり、ランナー ラベル名について Repo 管理者や組織の所有者に連絡したりすることなく、ランナー オプションを表示できるようになりました。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ランナー ラベルへの高速アクセス:&lt;/strong&gt;すべてのランナーのラベルをすばやく表示してコピーできるため、必要なランナーのタイプを簡単に特定してワークフローで使用できます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ランナー ラベルへの高速アクセス:&lt;/strong&gt;すべてのランナーのラベルをすばやく表示してコピーできるため、必要なランナーのタイプを簡単に特定し、ワークフローで使用できます。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;リポジトリ アクション ランナー リストにアクセスするには:&lt;/p&gt;
 &lt;ol&gt;
@@ -87,7 +87,7 @@
  - &quot;minor&quot;
  - &quot;patch&quot;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt; &lt;code&gt;update-types&lt;/code&gt;キーは、 &lt;code&gt;major.minor.patch&lt;/code&gt;の SemVer 構造に従って、値「major」、「minor」、「patch」を受け入れます。&lt;/p&gt;
-&lt;p&gt;この新しいキーは、 &lt;code&gt;patterns&lt;/code&gt; 、 &lt;code&gt;dependency-type&lt;/code&gt; 、 &lt;code&gt;exclude-patterns&lt;/code&gt;の既存のグループ化パラメーターと連携して機能し、Dependabot が作成するグループ化されたプル リクエストを微調整できるようになります。&lt;/p&gt;
+&lt;p&gt;この新しいキーは、 &lt;code&gt;patterns&lt;/code&gt; 、 &lt;code&gt;dependency-type&lt;/code&gt; 、 &lt;code&gt;exclude-patterns&lt;/code&gt;などの既存のグループ化パラメーターと連携して機能し、Dependabot が作成するグループ化されたプル リクエストを微調整できるようになります。&lt;/p&gt;
 &lt;p&gt; &lt;a href=&quot;https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file#groups&quot;&gt;グループ化された dependabot バージョン更新の構成の詳細については、こちらをご覧ください。&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt; &lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog/changelog/2023-08-17-grouped-version-updates-by-semantic-version-level-for-dependabot&quot;&gt;「Dependabot のセマンティック バージョン レベルによるグループ化されたバージョン更新」という&lt;/a&gt;記事は、最初に&lt;a rel=&quot;nofollow&quot; href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に掲載されました。&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">73755</post-id></item><item><title>非推奨 – dependabot のアップデートにより Python 3.6 および 3.7 のサポートが終了</title><link>https://github.blog/changelog/2023-08-17-deprecation-dependabot-updates-drop-support-for-python-3-6-and-3-7</link><dc:creator>Kevin Duck</dc:creator><pubDate>Thu, 17 Aug 2023 17:31:10 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2023-08-17-deprecation-dependabot-updates-drop-support-for-python-3-6-and-3-7</guid><description>&lt;p&gt;Deprecation - Dependabot updates drop support for Python 3.6 and 3.7&lt;/p&gt;
