@@ -60,7 +60,7 @@
 &lt;p&gt;ダッシュボードには、重大度とネット解決率 (開発速度のセキュリティ版) に関する明確な洞察が表示され、リソースが最も深刻な脅威に対応しているかどうか、修復速度がセキュリティの要求と調和しているかどうかが示されます。 &lt;/p&gt;
 &lt;p&gt;&lt;img decoding=&quot;async&quot; align=&quot;center&quot; alt=&quot;新しい概要ダッシュボードからの重大度およびネット解決率タイル別にグループ化されたセキュリティ アラートの傾向グラフ&quot; src=&quot;https://i0.wp.com/user-images.githubusercontent.com/2262535/281208808-e15e3622-5a05-4935-a750-6019ec9a985a.png?ssl=1&quot; data-recalc-dims=&quot;1&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;strategic-alignment&quot;&gt;戦略的提携&lt;a href=&quot;#strategic-alignment&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Strategic alignment&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;リポジトリの「トップ 10」リストを使用して戦略的な視点を獲得すると、オープン アラート数が最も多いリポジトリが表示され、最初にどこに注意を向けるべきかを理解できます。 &lt;/p&gt;
+&lt;p&gt;リポジトリの「トップ 10」リストで戦略的な視点を獲得すると、オープン アラート数が最も多いリポジトリが表示され、最初にどこに注意を向けるべきかを理解できます。 &lt;/p&gt;
 &lt;p&gt;&lt;img decoding=&quot;async&quot; align=&quot;center&quot; alt=&quot;新しい概要ダッシュボードのリポジトリ トップ 10 リスト&quot; src=&quot;https://i0.wp.com/user-images.githubusercontent.com/2262535/281208810-627d40d6-bf41-426f-8c30-8808ecf89103.png?ssl=1&quot; data-recalc-dims=&quot;1&quot;&gt;&lt;/p&gt;
 &lt;h3 id=&quot;shift-left&quot;&gt;左にシフト&lt;a href=&quot;#shift-left&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Shift left&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;組織内の誰もがアクセスできるダッシュボードは、潜在的な問題をできるだけ早く理解し、最終的なリスクと作業負荷を軽減することで、セキュリティのベストプラクティスを推進するのに役立ちます。 &lt;/p&gt;
