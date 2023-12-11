@@ -89,7 +89,7 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;img decoding=&quot;async&quot; src=&quot;https://i0.wp.com/user-images.githubusercontent.com/4679612/286721104-908091d3-19fa-484a-a934-bba1535c6219.png?ssl=1&quot; alt=&quot;予測使用量を示す組織管理者の請求画面&quot; data-recalc-dims=&quot;1&quot;&gt;&lt;/p&gt;
 &lt;p&gt;これらの改善により、組織管理者は月末に支払うことが予想される請求額をより正確に把握し、企業に請求される金額を常に把握できるようになります。&lt;/p&gt;
-&lt;h3 id=&quot;additional-resources&quot; id=&quot;additional-resources&quot; &gt;追加のリソース&lt;a href=&quot;#additional-resources&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Additional Resources&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;additional-resources&quot; id=&quot;additional-resources&quot; &gt;追加リソース&lt;a href=&quot;#additional-resources&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Additional Resources&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt; &lt;a href=&quot;https://docs.github.com/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces&quot;&gt;GitHub コードスペースの課金について&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://docs.github.com/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces#viewing-projected-usage-for-an-organization&quot;&gt;組織の予測使用量の表示&lt;/a&gt;&lt;/li&gt;
@@ -156,7 +156,7 @@
 &lt;p&gt;定期的なセキュリティ パッチは機能に影響を与えませんが、場合によっては、コンテナ環境の機能に影響を与える可能性のあるコンポーネントをアップグレードする必要がある場合があります。したがって、 &lt;a href=&quot;https://docs.github.com/codespaces/setting-your-user-preferences/choosing-the-stable-or-beta-host-image&quot;&gt;ベータ イメージ構成を選択する&lt;/a&gt;方法を導入しています。これにより、安定したイメージに変更を出荷する前に、特定の環境で変更をテストし、フィードバックを提供できるようになります。 &lt;/p&gt;
 &lt;p&gt;&lt;img decoding=&quot;async&quot; src=&quot;https://i0.wp.com/user-images.githubusercontent.com/4679612/285964098-95da13af-aa4d-44da-938a-61c26764beb9.png?ssl=1&quot; alt=&quot;ホストイメージ設定のスクリーンショット&quot; data-recalc-dims=&quot;1&quot;&gt;&lt;/p&gt;
 &lt;p&gt;アップグレードされたホスト イメージは、最初はベータ リリースとして利用可能になるため、既存の開発コンテナ構成が VM 構成の次の反復と互換性があることを確認できます。有効にすると、新しく作成または再開されたすべてのコードスペースで、指定されたホスト構成が使用されます。これにより、同じ開発コンテナを使用する他の開発者に影響を与えることなく、構成をテストできます。ベータ版と安定版のホスト構成はいつでも切り替えることができます。切り替えるたびに、それ以降に作成または再開されたすべてのコードスペースは、指定した構成を受け取ります。この設定を変更しても、現在実行中のコードスペースには影響しません。&lt;/p&gt;
-&lt;h3 id=&quot;additional-resources&quot; id=&quot;additional-resources&quot; &gt;追加のリソース&lt;a href=&quot;#additional-resources&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Additional Resources&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;additional-resources&quot; id=&quot;additional-resources&quot; &gt;追加リソース&lt;a href=&quot;#additional-resources&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Additional Resources&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt; &lt;a href=&quot;https://docs.github.com/codespaces/setting-your-user-preferences/choosing-the-stable-or-beta-host-image&quot;&gt;好みの画像構成を選択する&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/github/codespaces-host-images/blob/main/README.md&quot;&gt;Codespaces ホスト イメージ コンテンツのドキュメント&lt;/a&gt;&lt;/li&gt;
