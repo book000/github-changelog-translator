@@ -1,44 +1,48 @@
 {
   "name": "github-changelog-translator",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "GitHub Changelog Translator",
-  "main": "dist/main.js",
-  "repository": "git@github.com:book000/github-changelog-translator.git",
-  "author": "Tomachi",
+  "homepage": "https://github.com/book000/github-changelog-translator",
+  "bugs": {
+    "url": "https://github.com/book000/github-changelog-translator/issues"
+  },
   "license": "MIT",
+  "author": "Tomachi",
   "private": true,
+  "main": "dist/main.js",
+  "repository": {
+    "url": "git@github.com:book000/github-changelog-translator.git",
+    "type": "git"
+  },
   "scripts": {
-    "build": "ts-node ./src/main.ts",
-    "dev": "ts-node-dev ./src/main.ts",
-    "start": "node ./dist/main.js",
-    "compile": "tsc -p .",
-    "compile:test": "tsc -p . --noEmit",
-    "lint": "run-p -c lint:prettier lint:eslint lint:tsc",
+    "start": "tsx ./src/main.ts",
+    "dev": "tsx watch ./src/main.ts",
+    "lint": "run-z lint:prettier,lint:eslint,lint:tsc",
+    "fix": "run-z fix:prettier,fix:eslint",
     "lint:prettier": "prettier --check src",
     "lint:eslint": "eslint . --ext ts,tsx",
     "lint:tsc": "tsc",
-    "fix": "run-s fix:prettier fix:eslint",
     "fix:eslint": "eslint . --ext ts,tsx --fix",
-    "fix:prettier": "prettier --write src"
+    "fix:prettier": "prettier --write src",
+    "preinstall": "npx only-allow pnpm"
   },
   "devDependencies": {
-    "@types/node": "20.11.16",
+    "@types/node": "20.11.17",
     "@typescript-eslint/eslint-plugin": "6.21.0",
     "@typescript-eslint/parser": "6.21.0",
     "axios": "1.6.7",
     "eslint": "8.56.0",
     "eslint-config-prettier": "9.1.0",
-    "eslint-config-standard": "16.0.3",
+    "eslint-config-standard": "17.1.0",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "6.1.1",
-    "prettier": "2.8.8",
-    "ts-node": "10.9.2",
-    "ts-node-dev": "2.0.0",
+    "eslint-plugin-unicorn": "51.0.1",
+    "prettier": "3.2.5",
+    "run-z": "2.0.0",
+    "tsx": "4.7.1",
     "typescript": "5.3.3",
-    "yarn-run-all": "3.1.1"
-  },
-  "dependencies": {
     "fast-xml-parser": "4.3.4"
-  }
+  },
+  "packageManager": "pnpm@8.15.1"
 }

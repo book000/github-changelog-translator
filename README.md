@@ -4,7 +4,7 @@
 
 Automatically deliver the title and text translated from the RSS feed of the [GitHub Changelogs article](https://github.blog/changelog/).
 
-Currently, only translation into Japanese is supported.
+Currently, only the Japanese translation is available on GitHub Pages.
 
 ## How to use RSS
 
