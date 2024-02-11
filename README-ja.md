@@ -4,7 +4,7 @@
 
 [GitHub Changelogs article](https://github.blog/changelog/) の RSS から、タイトルと本文を自動翻訳したものを自動配信します。
 
-現在、日本語への翻訳のみに対応しています。
+現在、GitHub Pages で配信しているのは日本語へ翻訳したもののみです。
 
 ## How to use RSS
 
