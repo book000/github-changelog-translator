@@ -11,7 +11,7 @@
 </description><content:encoded>&lt;p&gt;&lt;img decoding=&quot;async&quot; src=&quot;https://github.com/github/release-assets/assets/109815410/86ed6bec-cb06-493b-bb3a-48a1e4ea2d61&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;github-copilot-chat-in-jetbrains-ides-is-now-generally-available&quot;&gt; JetBrains IDE の GitHub Copilot Chat が一般利用可能になりました&lt;a href=&quot;#github-copilot-chat-in-jetbrains-ides-is-now-generally-available&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;GitHub Copilot Chat in JetBrains IDEs is now generally available&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2023-11-08-copilot-in-jetbrains-ides-chat-is-now-available-in-private-beta-new-welcome-guide/&quot;&gt;プライベート ベータ版&lt;/a&gt;に続き、JetBrains IDE の Copilot Chat がすべての Copilot Individual、Business、Enterprise のお客様向けに一般提供 (GA) されたことを発表できることを嬉しく思います。&lt;/p&gt;
-&lt;p&gt; GPT-4 によって駆動される GitHub Copilot Chat は、PyCharm、IntelliJ IDEA、WebStorm、Rider などのさまざまな JetBrains IDE 内で直接即時のガイダンスを提供します。このコンテキストを認識したツールは、特定のコーディング タスクに合わせて提案を調整し、参照用のファイルを明示的に追加することもできます。開発者は、複雑な概念、コードの説明、単体テスト、その他多くのユースケースを支援することで、効率的にイノベーションを起こすことができ、同時に好みの言語スタイルに簡単に調整できます。 &lt;/p&gt;
+&lt;p&gt; GPT-4 によって駆動される GitHub Copilot Chat は、PyCharm、IntelliJ IDEA、WebStorm、Rider などのさまざまな JetBrains IDE 内で直接、即時のガイダンスを提供します。このコンテキストを認識したツールは、特定のコーディング タスクに合わせて提案を調整し、参照用のファイルを明示的に追加することもできます。開発者は、複雑な概念、コードの説明、単体テスト、その他多くのユースケースを支援することで、効率的にイノベーションを起こすことができ、同時に好みの言語スタイルに簡単に調整できます。 &lt;/p&gt;
 &lt;div style=&quot;width: 1192px;&quot; class=&quot;wp-video&quot;&gt;&lt;!--[if lt IE 9]&gt;&lt;script&gt;document.createElement(&apos;video&apos;);&lt;/script&gt;&lt;![endif]--&gt;
 &lt;video class=&quot;wp-video-shortcode&quot; id=&quot;video-76968-1&quot; width=&quot;1192&quot; height=&quot;670&quot; preload=&quot;metadata&quot; controls=&quot;controls&quot;&gt;&lt;source type=&quot;video/mp4&quot; src=&quot;https://github.blog/wp-content/uploads/2024/03/309960542-b206246d-778d-4f01-abe6-fb150d48b963.mp4?_=1&quot; /&gt; &lt;a href=&quot;https://github.blog/wp-content/uploads/2024/03/309960542-b206246d-778d-4f01-abe6-fb150d48b963.mp4&quot;&gt;https://github.blog/wp-content/uploads/2024/03/309960542-b206246d-778d-4f01-abe6-fb150d48b963.mp4&lt;/a&gt;&lt;/video&gt;&lt;/div&gt;
 &lt;h3 id=&quot;how-to-get-started&quot;&gt;どうやって始めるのか？ &lt;a href=&quot;#how-to-get-started&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;How to get started?&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
@@ -20,7 +20,7 @@
 &lt;p&gt;&lt;strong&gt;チャットを有効にしていないが、JetBrains IDE で GitHub Copilot チャットを使用したい場合&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Copilot 個人ユーザー: JetBrains IDE 内のチャットに自動的にアクセスできるようになります。&lt;/li&gt;
-&lt;li&gt; Copilot Business および Enterprise ユーザー: 組織管理者は、IDE での Copilot チャットへのアクセスを許可する必要があります。アクセスできたら、 &lt;a href=&quot;https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat-in-your-ide?tool=jetbrains&quot;&gt;スタート ガイドを&lt;/a&gt;参照してください。&lt;/li&gt;
+&lt;li&gt; Copilot Business および Enterprise ユーザー: 組織管理者は、IDE での Copilot チャットへのアクセスを許可する必要があります。アクセスしたら、 &lt;a href=&quot;https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat-in-your-ide?tool=jetbrains&quot;&gt;スタート ガイドを&lt;/a&gt;参照してください。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;how-to-give-us-your-feedback&quot;&gt;フィードバックを送信するにはどうすればよいですか? &lt;a href=&quot;#how-to-give-us-your-feedback&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;How to give us your feedback?&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;私たちは継続的な改善と革新に専念しています。皆様からのフィードバックは引き続き開発プロセスの重要な部分であり、JetBrains IDE 用の GitHub Copilot Chat に関する皆様の体験について詳しくお聞きできることを楽しみにしています。&lt;a href=&quot;https://gh.io/copilot-chat-jb-feedback&quot;&gt;このリンクを使用して、製品を改善する方法に関するフィードバックやアイデアを共有して&lt;/a&gt;ください。&lt;/p&gt;
@@ -67,7 +67,7 @@
 &lt;p&gt;使用可能なグループ化オプションは次のとおりです。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt; &lt;code&gt;patterns&lt;/code&gt; 、パッケージ名に基づいて一致します。&lt;/li&gt;
-&lt;li&gt; &lt;code&gt;dependency-type&lt;/code&gt; : これがサポートされているエコシステムでは、開発または運用の依存関係に基づいてグループ化されます。&lt;/li&gt;
+&lt;li&gt; &lt;code&gt;dependency-type&lt;/code&gt; 、これがサポートされているエコシステムの開発または運用の依存関係に基づいてグループ化されます。&lt;/li&gt;
 &lt;li&gt; &lt;code&gt;update-types&lt;/code&gt; 、SemVer レベルの更新に基づいてグループ化されます。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt; &lt;a href=&quot;https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file#groups&quot;&gt;グループ化構成オプションの詳細については、こちらをご覧ください。&lt;/a&gt;&lt;/p&gt;
@@ -122,7 +122,7 @@
 &lt;li&gt;信頼できないデータベースまたは CodeQL パックの処理によって引き起こされる可能性がある、重大度の低いデータ漏洩の脆弱性である&lt;a href=&quot;https://github.com/github/codeql-cli-binaries/security/advisories/GHSA-gf8p-v3g3-3wph&quot;&gt;CVE-2024-25129&lt;/a&gt;の修正。&lt;/li&gt;
 &lt;li&gt; 2 つの新しいクエリ:
 &lt;ul&gt;
-&lt;li&gt; &lt;code&gt;&lt;a href=&quot;https://codeql.github.com/docs/codeql-overview/codeql-changelog/codeql-cli-2.16.3/#java-2&quot;&gt;java/android/insecure-local-authentication&lt;/a&gt;&lt;/code&gt; &lt;a href=&quot;https://developer.android.com/privacy-and-security/keystore&quot;&gt;Keystore に&lt;/a&gt;バックアップされたキーを使用しないためバイパスされる可能性がある生体認証 API の使用を見つけるためのものです。&lt;/li&gt;
+&lt;li&gt; &lt;code&gt;&lt;a href=&quot;https://codeql.github.com/docs/codeql-overview/codeql-changelog/codeql-cli-2.16.3/#java-2&quot;&gt;java/android/insecure-local-authentication&lt;/a&gt;&lt;/code&gt; &lt;a href=&quot;https://developer.android.com/privacy-and-security/keystore&quot;&gt;Keystore&lt;/a&gt;に裏付けされたキーを使用しないためバイパスされる可能性がある生体認証 API の使用法を検索します。&lt;/li&gt;
 &lt;li&gt; &lt;code&gt;&lt;a href=&quot;https://codeql.github.com/docs/codeql-overview/codeql-changelog/codeql-cli-2.16.3/#swift&quot;&gt;swift/unsafe-unpacking&lt;/a&gt;&lt;/code&gt; 、zip ファイルの内容が宛先ディレクトリの外に抽出されないことを検証せずに、ユーザー制御の zip アーカイブを抽出するコードを検出します。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
