@@ -117,7 +117,7 @@
 </description><content:encoded>&lt;p&gt;CodeQL は、GitHub コード スキャンを強化する静的分析エンジンです。 CodeQL バージョン&lt;code&gt;2.16.3&lt;/code&gt;がリリースされ、GitHub.com でコード スキャン ユーザーに公開されました。&lt;/p&gt;
 &lt;p&gt;このリリースの重要な変更点は次のとおりです。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt; CodeQL コード スキャンでは、プル リクエストの Python アラートに対する AI を活用した自動修正提案がサポートされるようになりました。これは、現在の&lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/code-security/code-scanning/managing-code-scanning-alerts/about-autofix-for-codeql-code-scanning&quot;&gt;自動修正プレビュー&lt;/a&gt;参加者全員に対して自動的に有効になります。&lt;/li&gt;
+&lt;li&gt; CodeQL コード スキャンでは、プル リクエストの Python アラートに対する AI を利用した自動修正提案がサポートされるようになりました。これは、現在の&lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/code-security/code-scanning/managing-code-scanning-alerts/about-autofix-for-codeql-code-scanning&quot;&gt;自動修正プレビュー&lt;/a&gt;参加者全員に対して自動的に有効になります。&lt;/li&gt;
 &lt;li&gt; &lt;a href=&quot;https://codeql.github.com/docs/codeql-overview/codeql-changelog/codeql-cli-2.16.3/#new-features&quot;&gt;新しいオプション&lt;/a&gt;&lt;code&gt;python_executable_name&lt;/code&gt;が Python エクストラクターに追加されました。これにより、スキャンを実行しているシステムにインストールされているデフォルト以外の Python 実行可能ファイル&lt;span class=&quot;x x-first&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;x x-last&quot;&gt;Windows マシンの&lt;/span&gt;&lt;code&gt;&lt;span class=&quot;pl-c1 x&quot;&gt;py.exe&lt;/span&gt;&lt;/code&gt;など) を選択できます。&lt;/li&gt;
 &lt;li&gt;信頼できないデータベースまたは CodeQL パックの処理によって引き起こされる可能性がある、重大度の低いデータ漏洩の脆弱性である&lt;a href=&quot;https://github.com/github/codeql-cli-binaries/security/advisories/GHSA-gf8p-v3g3-3wph&quot;&gt;CVE-2024-25129&lt;/a&gt;の修正。&lt;/li&gt;
 &lt;li&gt; 2 つの新しいクエリ:
