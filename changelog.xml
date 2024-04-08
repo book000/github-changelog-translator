@@ -9,7 +9,7 @@
 &lt;p&gt;セキュリティ分析を変革するように設計された新しいフィルターをご覧ください。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt; &lt;strong&gt;dependabot フィルター&lt;/strong&gt;: 特定の&lt;strong&gt;エコシステム&lt;/strong&gt;、&lt;strong&gt;パッケージ&lt;/strong&gt;、および依存関係の&lt;strong&gt;スコープに焦点を当てます。&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;CodeQL/サードパーティフィルター&lt;/strong&gt;: 自分にとって最も重要な&lt;strong&gt;ルール&lt;/strong&gt;までドリルダウンします。&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt;CodeQL/サードパーティ フィルター&lt;/strong&gt;: 自分にとって最も重要な&lt;strong&gt;ルール&lt;/strong&gt;までドリルダウンします。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;シークレット スキャン フィルター&lt;/strong&gt;:&lt;strong&gt;シークレット タイプ&lt;/strong&gt;、&lt;strong&gt;プロバイダー&lt;/strong&gt;、プッシュ保護&lt;strong&gt;バイパス&lt;/strong&gt;ステータスと&lt;strong&gt;有効性&lt;/strong&gt;のフィルターを詳細に設定できます。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;これらの機能は現在、GitHub Enterprise Cloud でパブリック ベータ版として利用可能であり、GitHub Enterprise Server 3.14 で利用できるようになる予定です。&lt;/p&gt;
