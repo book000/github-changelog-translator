@@ -1,4 +1,42 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"><channel><title>Changelogs Archive - The GitHub Blog</title><atom:link href="https://github.blog/changelog/feed/" rel="self" type="application/rss+xml"></atom:link><link>https://github.blog/changelog/</link><description>Updates, ideas, and inspiration from GitHub to help developers build and design software.</description><lastBuildDate>Wed, 15 May 2024 17:59:17 +0000</lastBuildDate><language>en-US</language><sy:updatePeriod>hourly</sy:updatePeriod><sy:updateFrequency>1</sy:updateFrequency><generator>https://wordpress.org/?v=6.5.3</generator><image><url>https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=32%2C32</url><title>Changelogs Archive - The GitHub Blog</title><link>https://github.blog/changelog/</link><width>32</width><height>32</height></image><site xmlns="com-wordpress:feed-additions:1">153214340</site><item><title>非推奨 – プライベート リポジトリのセキュリティ アドバイザリ</title><link>https://github.blog/changelog/2024-05-15-deprecation-security-advisories-in-private-repositories</link><dc:creator>ankneis</dc:creator><pubDate>Wed, 15 May 2024 17:59:17 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2024-05-15-deprecation-security-advisories-in-private-repositories</guid><description>&lt;p&gt;Deprecation - security advisories in private repositories&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"><channel><title>Changelogs Archive - The GitHub Blog</title><atom:link href="https://github.blog/changelog/feed/" rel="self" type="application/rss+xml"></atom:link><link>https://github.blog/changelog/</link><description>Updates, ideas, and inspiration from GitHub to help developers build and design software.</description><lastBuildDate>Thu, 16 May 2024 18:10:23 +0000</lastBuildDate><language>en-US</language><sy:updatePeriod>hourly</sy:updatePeriod><sy:updateFrequency>1</sy:updateFrequency><generator>https://wordpress.org/?v=6.5.3</generator><image><url>https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=32%2C32</url><title>Changelogs Archive - The GitHub Blog</title><link>https://github.blog/changelog/</link><width>32</width><height>32</height></image><site xmlns="com-wordpress:feed-additions:1">153214340</site><item><title>GitHub Enterprise Server 3.13 リリース候補が利用可能になりました</title><link>https://github.blog/changelog/2024-05-16-the-github-enterprise-server-3-13-release-candidate-is-available</link><dc:creator>ankneis</dc:creator><pubDate>Thu, 16 May 2024 17:50:12 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2024-05-16-the-github-enterprise-server-3-13-release-candidate-is-available</guid><description>&lt;p&gt;The GitHub Enterprise Server 3.13 Release Candidate is available&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2024-05-16-the-github-enterprise-server-3-13-release-candidate-is-available&quot;&gt;The GitHub Enterprise Server 3.13 Release Candidate is available&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
+</description><content:encoded>&lt;h2 id=&quot;the-github-enterprise-server-3-13-release-candidate-is-here&quot;&gt;GitHub Enterprise Server 3.13 リリース候補はこちらです&lt;a href=&quot;#the-github-enterprise-server-3-13-release-candidate-is-here&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;The GitHub Enterprise Server 3.13 release candidate is here&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt; GitHub Enterprise Server 3.13 では、お客様はデプロイメント要件をさらにきめ細かく制御でき、セキュリティ制御も強化されます。以下にいくつかのハイライトを示します。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;カスタム プロパティ&lt;/strong&gt;と呼ばれるリポジトリの新機能を導入します。これは、GitHub 組織全体でリポジトリを管理および分類する方法を大幅に強化するものです。プロパティは、リポジトリの分類を簡素化し、発見可能性を高め、ルールセットとシームレスに統合する、意味のあるメタデータをリポジトリに追加する柔軟な方法を提供します。&lt;a href=&quot;https://www.youtube.com/watch?v=z0CYdcqZxyQ&quot;&gt;デモ&lt;/a&gt;をチェックしてください!詳細については、 &lt;a href=&quot;https://docs.github.com/en/organizations/managing-organization-settings/managing-custom-properties-for-repositories-in-your-organization&quot;&gt;「リポジトリのカスタム プロパティ」&lt;/a&gt;を参照してください。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;アプライアンスが 3.13 にアップグレードされると、 &lt;strong&gt;Elasticsearch は&lt;/strong&gt;バージョン 5 からバージョン 8 にアップグレードされます。 Elasticsearch は、コード検索や監査ログを含む、GHES のすべての検索エクスペリエンスを強化します。 ES5 を ES8 にアップグレードすると、プラットフォームは ES8 のパフォーマンスの向上とセキュリティ体制の向上を活用できるようになります。 ES8 アップグレード中に予想されることの詳細については、 &lt;a href=&quot;https://docs.github.com/en/enterprise-server@3.13/admin/monitoring-managing-and-updating-your-instance/updating-the-virtual-machine-and-physical-resources/preparing-for-the-elasticsearch-upgrade&quot;&gt;「Preparing for Elasticsearch upgrade in GHES 3.13」&lt;/a&gt;を参照してください。今すぐ 3.13 RC 候補をダウンロードし、ステージング環境をアップグレードしてフィードバックを共有してください。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;企業および組織の&lt;strong&gt;監査ログ イベントに&lt;/strong&gt;は、ユーザーに関連付けられた該当する SAML および SCIM ID データが含まれるようになりました。詳細については、 &lt;a href=&quot;https://docs.github.com/en/enterprise-server@3.13/organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/reviewing-the-audit-log-for-your-organization&quot;&gt;「組織の監査ログの確認」を&lt;/a&gt;参照してください。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt; devcontainer.json ファイルを使用して開発コンテナを定義する開発者は、 &lt;strong&gt;Dependabot の&lt;/strong&gt;バージョン更新を使用して、コンテナ内の依存関係を最新の状態に保つことができるようになります。 dependabot.yml で構成すると、Dependabot は指定されたスケジュールで PR を開き、リストされた依存関係を最新のものに更新します。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;プル リクエスト&lt;/strong&gt;のリベースが高速になりました。内部的には、コミットのリベースで&lt;a href=&quot;https://github.blog/changelog/2023-06-28-rebase-commits-now-created-using-the-merge-ort-strategy&quot;&gt;merge-ort&lt;/a&gt;が使用されるようになりました。以前は大規模なリポジトリでタイムアウトになったリベースが成功する可能性が大幅に高くなりました。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;プロジェクト ステータスの更新 を&lt;/strong&gt;使用すると、プロジェクトのステータス、タイミング、進捗状況に関する高レベルの詳細をプロジェクトから直接提供できるようになりました。これにより、作業を追跡している同じ場所で、作業の進捗状況、リスク、何かが変更された時期と理由の履歴をすべて簡単に知り、他の人と共有することができます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;リリース候補は、最新の機能を早期に試すための方法であり、フィードバックを収集するのに役立ちます。&lt;br /&gt;
+リリースが環境で動作することを確認してください。非実稼働環境でテストする必要があります。&lt;br /&gt;
+ &lt;a href=&quot;https://docs.github.com/en/enterprise-server@3.13/admin/overview/about-upgrades-to-new-releases&quot;&gt;リリース候補プロセスの詳細を参照してください&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt; &lt;a href=&quot;https://docs.github.com/en/enterprise-server@3.13/admin/release-notes&quot;&gt;GitHub Enterprise Server 3.13 の詳細については、リリース ノートを参照してください&lt;/a&gt;。&lt;br /&gt;
+または、&lt;a href=&quot;https://enterprise.github.com/releases/3.13.0/download&quot;&gt;今すぐリリース候補をダウンロードしてください&lt;/a&gt;。&lt;br /&gt;
+フィードバックやご質問がございましたら、&lt;a href=&quot;https://support.github.com/features/enterprise-administrators-server&quot;&gt;サポート チームまでご連絡&lt;/a&gt;ください。&lt;/p&gt;
+&lt;p&gt; The post &lt;a href=&quot;https://github.blog/changelog/2024-05-16-the-github-enterprise-server-3-13-release-candidate-is-available&quot;&gt;GitHub Enterprise Server 3.13 Release Candidate is available&lt;/a&gt; first appeared on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt; .&lt;/p&gt;
+</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">78081</post-id></item><item><title>Actions のラージ ランナー マルチラベルの非推奨の新しい日付</title><link>https://github.blog/changelog/2024-05-16-new-dates-for-actions-larger-runner-multi-label-deprecation</link><dc:creator>ankneis</dc:creator><pubDate>Thu, 16 May 2024 14:12:32 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2024-05-16-new-dates-for-actions-larger-runner-multi-label-deprecation</guid><description>&lt;p&gt;New dates for Actions larger runner multi-label deprecation&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2024-05-16-new-dates-for-actions-larger-runner-multi-label-deprecation&quot;&gt;New dates for Actions larger runner multi-label deprecation&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
+</description><content:encoded>&lt;p&gt;&lt;a href=&quot;https://github.blog/changelog/2024-04-16-deprecation-of-multi-label-larger-runners&quot;&gt;4 月 16 日に行った発表&lt;/a&gt;を更新し、大型ランナーのマルチラベルの削除に関する新しいタイムラインを追加しました。&lt;/p&gt;
+&lt;p&gt;ブラウンアウトは 5 月 29 日に実行されます。&lt;br /&gt;
+ 6 月 17 日以降、お客様は複数のラベルを使用したり、大型ランナーで名前以外のラベルをターゲットにしたりすることはできなくなります。&lt;/p&gt;
+&lt;p&gt;この変更に備えて中断を避けるために、上記の日付より前のワークフローでは&lt;code&gt;runs-on:&lt;/code&gt;ランナー名のみを参照していることを確認してください。&lt;/p&gt;
+&lt;p&gt; &lt;a href=&quot;https://github.com/orgs/community/discussions/categories/announcements&quot;&gt;GitHub コミュニティ&lt;/a&gt;内のディスカッションに参加してください。&lt;/p&gt;
+&lt;p&gt;この投稿は&lt;a href=&quot;https://github.blog/changelog/2024-05-16-new-dates-for-actions-larger-runner-multi-label-deprecation&quot;&gt;、Actions のラージ ランナー マルチラベルの廃止の新しい日付&lt;/a&gt;最初に&lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に掲載されました。&lt;/p&gt;
+</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">78079</post-id></item><item><title>非推奨 – プライベート リポジトリのセキュリティ アドバイザリ</title><link>https://github.blog/changelog/2024-05-15-deprecation-security-advisories-in-private-repositories</link><dc:creator>ankneis</dc:creator><pubDate>Wed, 15 May 2024 17:59:17 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2024-05-15-deprecation-security-advisories-in-private-repositories</guid><description>&lt;p&gt;Deprecation - security advisories in private repositories&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2024-05-15-deprecation-security-advisories-in-private-repositories&quot;&gt;Deprecation &amp;#8211; security advisories in private repositories&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;p&gt;本日、2024 年 5 月 15 日以降、プライベート リポジトリに&lt;a href=&quot;https://docs.github.com/en/code-security/security-advisories/working-with-repository-security-advisories/about-repository-security-advisories&quot;&gt;セキュリティ アドバイザリ&lt;/a&gt;を作成できなくなります。以前に公開されたアドバイザリーは利用できなくなります。&lt;/p&gt;
 &lt;p&gt;この変更は、パブリック リポジトリのセキュリティ アドバイザリや、 &lt;a href=&quot;https://docs.github.com/en/code-security/security-advisories/working-with-global-security-advisories-from-the-github-advisory-database/about-the-github-advisory-database&quot;&gt;GitHub のオープンソース アドバイザリ データベース&lt;/a&gt;にリストされているアドバイザリには影響しません。&lt;/p&gt;
@@ -9,7 +47,7 @@
 &lt;p&gt;&lt;strong&gt;必要なアクション:&lt;/strong&gt;このポータルを使用して support.github.com で入手できない古いチケットを参照した場合は、今月末までにそれらのチケットから重要な情報を別の場所にコピーすることをお勧めします。&lt;/p&gt;
 &lt;p&gt; GitHub エンタープライズ クラウド アカウントに関する新しいサポート チケットを開くには、 &lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/admin/managing-accounts-and-repositories/managing-users-in-your-enterprise/managing-support-entitlements-for-your-enterprise&quot;&gt;サポート資格のあるアカウント&lt;/a&gt;で support.github.com にアクセスする必要があります。&lt;/p&gt;
 &lt;p&gt;この投稿は&lt;a href=&quot;https://github.blog/changelog/2024-05-15-deprecated-in-2021-the-github-enterprise-support-portal-will-be-turned-off-on-31st-may-2024&quot;&gt;「2021 年に非推奨となり、GitHub エンタープライズ サポート ポータルは 2024 年 5 月 31 日にオフになります。&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog 」です&lt;/a&gt;。&lt;/p&gt;
-</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">78069</post-id></item><item><title>GitHub がホストするランナー: Ubuntu 24.04 のパブリック ベータ版が利用可能になりました</title><link>https://github.blog/changelog/2024-05-14-github-hosted-runners-public-beta-of-ubuntu-24-04-is-now-available</link><dc:creator>Kevin Duck</dc:creator><pubDate>Tue, 14 May 2024 16:10:43 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2024-05-14-github-hosted-runners-public-beta-of-ubuntu-24-04-is-now-available</guid><description>&lt;p&gt;GitHub-hosted runners: Public Beta of Ubuntu 24.04 is now available&lt;/p&gt;
+</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">78069</post-id></item><item><title>GitHub ホストのランナー: Ubuntu 24.04 のパブリック ベータ版が利用可能になりました</title><link>https://github.blog/changelog/2024-05-14-github-hosted-runners-public-beta-of-ubuntu-24-04-is-now-available</link><dc:creator>Kevin Duck</dc:creator><pubDate>Tue, 14 May 2024 16:10:43 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2024-05-14-github-hosted-runners-public-beta-of-ubuntu-24-04-is-now-available</guid><description>&lt;p&gt;GitHub-hosted runners: Public Beta of Ubuntu 24.04 is now available&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2024-05-14-github-hosted-runners-public-beta-of-ubuntu-24-04-is-now-available&quot;&gt;GitHub-hosted runners: Public Beta of Ubuntu 24.04 is now available&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;p&gt;GitHub Actions でホストされるランナー向けの Ubuntu 24.04 イメージのベータ リリースを発表できることを嬉しく思います。アクション ワークフローでこれの使用を開始するには、ワークフロー ファイルを更新して&lt;code&gt;runs-on: ubuntu-24.04&lt;/code&gt;を含めます。&lt;/p&gt;
 &lt;pre&gt; &lt;code&gt;jobs:
@@ -24,7 +62,7 @@
  - run: bats -v
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt; Ubuntu 22.04 イメージにはさまざまなツールとツールのバージョンが含まれているため、一部のユーザーはワークフローの違いに気づくかもしれません。変更されたソフトウェアの&lt;a href=&quot;https://github.com/actions/runner-images/blob/main/images/ubuntu/Ubuntu2404-Readme.md&quot;&gt;完全なリストを&lt;/a&gt;参照してください。&lt;/p&gt;
-&lt;p&gt; Ubuntu-24.04 の使用時にワークフローの問題を発見した場合、またはイメージにインストールされているソフトウェアに関するフィードバックがある場合は、&lt;a href=&quot;https://github.com/actions/runner-images&quot;&gt;ランナーイメージ リポジトリ&lt;/a&gt;に問題を作成してお知らせください。&lt;/p&gt;
+&lt;p&gt; Ubuntu-24.04 の使用時にワークフローの問題を発見した場合、またはイメージにインストールされているソフトウェアに関するフィードバックがある場合は、&lt;a href=&quot;https://github.com/actions/runner-images&quot;&gt;ランナー イメージ リポジトリ&lt;/a&gt;に問題を作成してお知らせください。&lt;/p&gt;
 &lt;p&gt;ランナー イメージはベータ版ですが、使用のピーク時間帯にはキュー時間が長くなる可能性があります。&lt;/p&gt;
 &lt;p&gt; The post &lt;a href=&quot;https://github.blog/changelog/2024-05-14-github-hosted-runners-public-beta-of-ubuntu-24-04-is-now-available&quot;&gt;GitHub ホスト ランナー: Ubuntu 24.04 のパブリック ベータ版が利用可能になりました&lt;/a&gt;first appeared on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt; .&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">78051</post-id></item><item><title>dependabot-core は MIT ライセンスを持つオープンソースになりました</title><link>https://github.blog/changelog/2024-05-13-dependabot-core-is-now-open-source-with-an-mit-license</link><dc:creator>Kevin Duck</dc:creator><pubDate>Mon, 13 May 2024 20:37:05 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2024-05-13-dependabot-core-is-now-open-source-with-an-mit-license</guid><description>&lt;p&gt;dependabot-core is now open source with an MIT license&lt;/p&gt;
@@ -45,10 +83,10 @@
 – ナレッジベースの作成または更新&lt;br /&gt;
 – プルリクエストの概要を作成する&lt;br /&gt;
 – GitHub.com で Copilot と対話する&lt;/p&gt;
-&lt;p&gt;この更新の一環として、このデータ ポイントの提供に関係のなくなった、以前の大量のトークン生成イベントに対してシステム クリーンアップを実行する必要もありました。一部のデータが誤って削除されましたが、その後復元されました。&lt;/p&gt;
+&lt;p&gt;この更新の一環として、このデータ ポイントの提供には関係のなくなった、以前の大量のトークン生成イベントに対してシステム クリーンアップを実行する必要もありました。一部のデータが誤って削除されましたが、その後復元されました。&lt;/p&gt;
 &lt;p&gt; &lt;code&gt;Last Activity&lt;/code&gt;日付は、Copilot Access 設定の&lt;code&gt;Get Report&lt;/code&gt;および Seats Management API を通じて生成された CSV 全体で一貫している必要があります。&lt;/p&gt;
 &lt;h2 id=&quot;pausing-access-to-team-slicing-in-the-github-copilot-metrics-api&quot;&gt; GitHub Copilot Metrics API のチーム スライスへのアクセスを一時停止します。 &lt;a href=&quot;#pausing-access-to-team-slicing-in-the-github-copilot-metrics-api&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Pausing access to Team slicing in the GitHub Copilot Metrics API.&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;フィードバックの傾向に基づいて、製品チームは、Metrics API の Teams ルートが、意図した顧客エクスペリエンスの目標を満たしていないデータを返すことを認識しました。これを踏まえ、チームは 2024 年 5 月 9 日付けで、運用環境から Teams ルートを一時的に廃止することを決定しました。この期間中、チームは、エンド ユーザーのデータ エクスペリエンスを向上させることを目的とした一連の修正を実装し、遅くとも6月末までにルートを決定します。&lt;/p&gt;
+&lt;p&gt;フィードバックの傾向に基づいて、製品チームは、Metrics API の Teams ルートが、意図した顧客エクスペリエンスの目標を満たしていないデータを返すことを認識しました。これを踏まえ、チームは 2024 年 5 月 9 日付けで、Teams ルートを運用環境から一時的に廃止することを決定しました。この期間中、チームはエンド ユーザーのデータ エクスペリエンスを向上させることを目的とした一連の修正を実装し、遅くとも6月末までにルートを決定します。&lt;/p&gt;
 &lt;p&gt;残念なことかもしれませんが、チームはできるだけ早くアクセスを回復できるよう取り組んでいます。この&lt;a href=&quot;https://github.com/orgs/community/discussions/123032&quot;&gt;ディスカッション&lt;/a&gt;を通じてフィードバックを提供したり、最新情報をフォローしたりできます。&lt;/p&gt;
 &lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2024-05-09-github-copilot-metrics-updates&quot;&gt;GitHub Copilot Metrics Updates&lt;/a&gt;という投稿は、最初に&lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に掲載されました。&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">78011</post-id></item><item><title>セキュリティ概要ダッシュボード上のセキュリティ アラート ツールの傾向</title><link>https://github.blog/changelog/2024-05-08-security-alerts-tool-trends-on-the-security-overview-dashboard</link><dc:creator>Kevin Duck</dc:creator><pubDate>Wed, 08 May 2024 20:57:07 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2024-05-08-security-alerts-tool-trends-on-the-security-overview-dashboard</guid><description>&lt;p&gt;Security alerts tool trends on the security overview dashboard&lt;/p&gt;
@@ -70,7 +108,7 @@
 </description><content:encoded>&lt;p&gt;メンテナーがスポンサーに参加しやすくするために、サインアップ フローを簡素化しました。サポートされている地域にいる場合、プロフィールはすぐに受け入れられます。&lt;/p&gt;
 &lt;p&gt; GitHub スポンサーによってまだサポートされていない地域にお住まいの場合は、待機リストにサインアップして GitHub スポンサーに参加できます。サポートされているリージョンのリストについては、 &lt;a href=&quot;https://github.com/sponsors#regions&quot;&gt;「 GitHub スポンサー 」&lt;/a&gt;を参照してください。&lt;/p&gt;
 &lt;p&gt;まだ GitHub スポンサーにサインアップしていませんか?今すぐ&lt;a href=&quot;https://github.com/sponsors&quot;&gt;GitHub スポンサー&lt;/a&gt;に参加してください。&lt;/p&gt;
-&lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2024-05-08-signing-up-for-github-sponsors-just-got-easier&quot;&gt;GitHub スポンサーへのサインアップがさらに簡単になったという&lt;/a&gt;投稿 最初に&lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に掲載されました。&lt;/p&gt;
+&lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2024-05-08-signing-up-for-github-sponsors-just-got-easier&quot;&gt;GitHub スポンサーへのサインアップがさらに簡単になったという&lt;/a&gt;投稿は、 &lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">77983</post-id></item><item><title>アクション: Azure プライベート ネットワークの新しいリージョンのサポート</title><link>https://github.blog/changelog/2024-05-07-actions-new-region-support-for-azure-private-networking</link><dc:creator>Kevin Duck</dc:creator><pubDate>Tue, 07 May 2024 18:42:33 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2024-05-07-actions-new-region-support-for-azure-private-networking</guid><description>&lt;p&gt;Actions: New region support for Azure private networking&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2024-05-07-actions-new-region-support-for-azure-private-networking&quot;&gt;Actions: New region support for Azure private networking&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;p&gt;Azure プライベート ネットワーキングは、 &lt;a href=&quot;https://github.blog/2024-04-02-bringing-enterprise-level-security-and-even-more-power-to-github-hosted-runners/&quot;&gt;2024 年 4 月&lt;/a&gt;に 11 の利用可能なリージョンで一般提供されました。 GitHub Actions では、サポートされるリージョンの数が 17 に拡張され、次のものが新たに追加されました。&lt;/p&gt;
@@ -85,74 +123,4 @@
 &lt;p&gt;Azure プライベート ネットワーキングは、GitHub Enterprise Cloud および Team プランで利用できます。サポートされているリージョンの全リストについては、 &lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/admin/configuration/configuring-private-networking-for-hosted-compute-products/troubleshooting-azure-private-network-configurations-for-github-hosted-runners-in-your-enterprise&quot;&gt;ドキュメント&lt;/a&gt;を参照してください。ご希望の地域が現在利用できない場合は、 &lt;a href=&quot;https://resources.github.com/private-networking-for-github-hosted-runners-with-azure-virtual-networks/&quot;&gt;このフォーム&lt;/a&gt;を使用して地域リクエストを送信してください。&lt;/p&gt;
 &lt;p&gt; Actions で Azure プライベート ネットワークの使用を開始するには、 &lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/admin/configuration/configuring-private-networking-for-hosted-compute-products/configuring-private-networking-for-github-hosted-runners-in-your-enterprise&quot;&gt;このガイド&lt;/a&gt;に従って Azure リソースを構成し、Actions ネットワーク構成を作成する手順を説明します。&lt;/p&gt;
 &lt;p&gt;投稿「 &lt;a href=&quot;https://github.blog/changelog/2024-05-07-actions-new-region-support-for-azure-private-networking&quot;&gt;アクション: Azure プライベート ネットワークの新しいリージョン サポート」は、&lt;/a&gt;最初に&lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に掲載されました。&lt;/p&gt;
-</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">77946</post-id></item><item><title>ファイルアップロードに対するシークレットスキャンプッシュ保護</title><link>https://github.blog/changelog/2024-05-07-secret-scanning-push-protection-for-file-uploads</link><dc:creator>Kevin Duck</dc:creator><pubDate>Tue, 07 May 2024 16:16:07 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2024-05-07-secret-scanning-push-protection-for-file-uploads</guid><description>&lt;p&gt;Secret scanning push protection for file uploads&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2024-05-07-secret-scanning-push-protection-for-file-uploads&quot;&gt;Secret scanning push protection for file uploads&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
-</description><content:encoded>&lt;p&gt;シークレット スキャンは、ブラウザ経由で行われる&lt;a href=&quot;https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository#adding-a-file-to-a-repository-on-github&quot;&gt;リポジトリ ファイルのアップロード&lt;/a&gt;に対する&lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-scanning/push-protection-for-repositories-and-organizations&quot;&gt;プッシュ保護&lt;/a&gt;の適用範囲を拡大しています。リポジトリに対してプッシュ保護が有効になっている場合、シークレット スキャンにより、投稿者が検出されたシークレットを含むファイルをアップロードすることもブロックされるようになりました。&lt;/p&gt;
-&lt;p&gt; &lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-scanning/push-protection-for-repositories-and-organizations&quot;&gt;プッシュ保護&lt;/a&gt;の詳細をご覧いただくか、シークレット スキャンに関する&lt;a href=&quot;https://forms.gle/Uhjq5VbLT5D3ELTL9&quot;&gt;60 分間のフィードバック セッション&lt;/a&gt;にサインアップして、時間の補償を受けてください。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.blog/changelog/2024-05-07-secret-scanning-push-protection-for-file-uploads&quot;&gt;ファイル アップロードに対するシークレット スキャン プッシュ保護の&lt;/a&gt;投稿は、最初に&lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に掲載されました。&lt;/p&gt;
-</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">77945</post-id></item><item><title>コード スキャンは単一アップロードからの実行の結合を停止します</title><link>https://github.blog/changelog/2024-05-06-code-scanning-will-stop-combining-runs-from-a-single-upload</link><dc:creator>Kevin Duck</dc:creator><pubDate>Mon, 06 May 2024 18:25:57 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2024-05-06-code-scanning-will-stop-combining-runs-from-a-single-upload</guid><description>&lt;p&gt;Code Scanning will stop combining runs from a single upload&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2024-05-06-code-scanning-will-stop-combining-runs-from-a-single-upload&quot;&gt;Code Scanning will stop combining runs from a single upload&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
-</description><content:encoded>&lt;p&gt;同じ&lt;a href=&quot;https://docs.github.com/en/code-security/code-scanning/integrating-with-code-scanning/sarif-support-for-code-scanning#toolcomponent-object&quot;&gt;ツール&lt;/a&gt;および&lt;a href=&quot;https://docs.github.com/en/code-security/code-scanning/integrating-with-code-scanning/sarif-support-for-code-scanning#runautomationdetails-object&quot;&gt;カテゴリ&lt;/a&gt;に対する複数の SARIF &lt;a href=&quot;https://docs.github.com/en/code-security/code-scanning/integrating-with-code-scanning/sarif-support-for-code-scanning#run-object&quot;&gt;実行&lt;/a&gt;を含む&lt;a href=&quot;https://docs.github.com/en/code-security/code-scanning/integrating-with-code-scanning/sarif-support-for-code-scanning#supported-sarif-output-file-properties&quot;&gt;SARIF&lt;/a&gt;ファイルをアップロードする場合、&lt;br /&gt;
-コード スキャンでは、これらの実行が 1 つの実行に結合されます。&lt;/p&gt;
-&lt;p&gt;同じ SARIF ファイル内で複数の実行を結合することは文書化されていない機能であり、本来は同じコミットに対する複数の分析のアップロードを簡素化することを目的としていました。それ以来、 &lt;a href=&quot;https://docs.github.com/en/code-security/code-scanning/integrating-with-code-scanning/sarif-support-for-code-scanning#uploading-more-than-one-sarif-file-for-a-commit&quot;&gt;同じコミットに対して複数の分析をアップロード&lt;/a&gt;できるように、 &lt;code&gt;category&lt;/code&gt;の明示的な概念を導入しました。これにより、 &lt;a href=&quot;https://docs.oasis-open.org/sarif/sarif/v2.1.0/sarif-v2.1.0.html&quot;&gt;SARIF 仕様&lt;/a&gt;との整合性が向上しました。&lt;/p&gt;
-&lt;p&gt;本日、同じファイル内の同じツールとカテゴリを使用した複数の SARIF 実行の組み合わせに対する非推奨パスを開始します。具体的には、今後数日のうちに、同じファイル内の同じツールとカテゴリによる複数の SARIF 実行の組み合わせに依存するサードパーティ ツールを使用する場合、 &lt;code&gt;github/codeql-action/upload-sarif&lt;/code&gt;&lt;a href=&quot;https://github.com/github/codeql-action/&quot;&gt;アクション&lt;/a&gt;で非推奨の警告が表示され始めます。非推奨の警告が表示されている間、SARIF ファイルのアップロードは成功します。&lt;/p&gt;
-&lt;p&gt; 2025 年 6 月 (github.com の場合) および GHES 3.18 では、同じファイル内で同じツールおよびカテゴリを使用して複数の SARIF 実行を組み合わせることが完全に停止される予定であり、その時点で SARIF ファイルのアップロードは失敗します。&lt;/p&gt;
-&lt;h2 id=&quot;how-does-this-affect-me&quot;&gt;これは私にどのような影響を与えますか? &lt;a href=&quot;#how-does-this-affect-me&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;How does this affect me?&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt; &lt;code&gt;github/codeql-action/upload-sarif&lt;/code&gt;アクションを使用してサードパーティのコード スキャン ツールからの結果をアップロードしており、そのツールが単一の SARIF ファイル内で同じカテゴリの複数の実行を生成する場合、影響を受けます。&lt;br /&gt;
-その場合は、非推奨の警告が表示され始めるため、ツール プロバイダーと協力して、SARIF ファイル内の各実行に個別の&lt;a href=&quot;https://docs.github.com/en/code-security/code-scanning/integrating-with-code-scanning/sarif-support-for-code-scanning#toolcomponent-object&quot;&gt;ツール&lt;/a&gt;または&lt;a href=&quot;https://docs.github.com/en/code-security/code-scanning/integrating-with-code-scanning/sarif-support-for-code-scanning#runautomationdetails-object&quot;&gt;カテゴリ&lt;/a&gt;が含まれるようにする必要があります。&lt;/p&gt;
-&lt;p&gt; &lt;code&gt;github/codeql-action/upload-sarif&lt;/code&gt;アクションを使用してサードパーティ ツールから複数の SARIF ファイルをアップロードしている場合は影響を受けます。ツール自体が複数の SARIF ファイルを生成する場合、またはマトリックス ビルドを使用して複数の分析を実行している場合、複数の SARIF ファイルが作成される可能性があります。具体的には、複数の SARIF ファイルを生成するマトリックス ビルドを実行しており、すべての SARIF ファイルをまとめてアップロードする専用のジョブがある場合です。たとえば、マトリックス ビルドを使用して 2 つのアプリを分析し、すべての SARIF ファイルをまとめてアップロードする専用の&lt;code&gt;upload&lt;/code&gt;ジョブがある場合、ワークフローは次のようになります。&lt;/p&gt;
-&lt;pre&gt; &lt;code class=&quot;language-yaml&quot;&gt;jobs:
- analyze:
- ...
- strategy:
- matrix:
- app: [&amp;#39;app1&amp;#39;, &amp;#39;app2&amp;#39;]
-
- steps:
- - name: SAST Scan
- ...
-
- - name: Temporary store SARIF file
- uses: actions/upload-artifact@v4
- with:
- name: sarif-${{ matrix.app }}
- path: &quot;results&quot;
-
- upload:
- name: Upload SARIF
- needs: analyze
- steps:
- - name: Fetch SARIF files
- uses: actions/download-artifact@v4
- with:
- path: ../results
- pattern: sarif-*
- merge-multiple: true
-
- - name: Upload Results
- uses: github/codeql-action/upload-sarif@v3
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;この場合、 &lt;code&gt;github/codeql-action/upload-sarif&lt;/code&gt;アクションを呼び出して、個別の&lt;code&gt;category&lt;/code&gt;を含める必要があります。たとえば、マトリックス ジョブにステップを埋め込み、マトリックス変数を使用して一意のカテゴリを生成できます。このようにして、上記の例は次のようになります。&lt;/p&gt;
-&lt;pre&gt; &lt;code class=&quot;language-yaml&quot;&gt;jobs:
- analyze:
- ...
- strategy:
- matrix:
- app: [&amp;#39;app1&amp;#39;, &amp;#39;app2&amp;#39;]
-
- steps:
- - name: SAST Scan
- ...
-
- - name: Upload Results
- uses: github/codeql-action/upload-sarif@v3
- with:
- category: ${{ matrix.app }}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt; &lt;code&gt;category&lt;/code&gt;の値を変更すると、古いアラートが開いたままになるため、以前の&lt;code&gt;category&lt;/code&gt;値を使用して&lt;a href=&quot;https://docs.github.com/en/code-security/code-scanning/managing-code-scanning-alerts/managing-code-scanning-alerts-for-your-repository#removing-stale-configurations-and-alerts-from-a-branch&quot;&gt;設定を削除すること&lt;/a&gt;もできます。&lt;/p&gt;
-&lt;p&gt; &lt;code&gt;github/codeql-action&lt;/code&gt;アクション経由で CodeQL のみを使用している場合は影響を受けません。この動作に依存するいくつかのリポジトリについては、CodeQL CLI (バージョン 2.17.0 以降) には下位互換性のあるロジックが含まれています。&lt;/p&gt;
-&lt;p&gt; &lt;a href=&quot;https://docs.github.com/en/code-security/code-scanning/integrating-with-code-scanning/sarif-support-for-code-scanning#uploading-more-than-one-sarif-file-for-a-commit&quot;&gt;文書化されたアプローチ&lt;/a&gt;のいずれかを使用して、同じコミットに対して複数の SARIF ファイルをアップロードする場合は影響を受けません。&lt;/p&gt;
-&lt;h2 id=&quot;whats-next&quot;&gt;次は何ですか？ &lt;a href=&quot;#whats-next&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;What&amp;#8217;s next?&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt; 2025 年 6 月に、同じツールとカテゴリでの複数の実行を含む SARIF の github.com へのアップロードは拒否されます。&lt;/p&gt;
-&lt;p&gt; 「 &lt;a href=&quot;https://github.blog/changelog/2024-05-06-code-scanning-will-stop-combining-runs-from-a-single-upload&quot;&gt;コード スキャンは単一アップロードからの実行の結合を停止します」&lt;/a&gt;という投稿が最初に&lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に登場しました。&lt;/p&gt;
-</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">77924</post-id></item></channel></rss>
+</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">77946</post-id></item></channel></rss>
