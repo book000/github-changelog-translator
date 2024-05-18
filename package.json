@@ -27,7 +27,7 @@
     "preinstall": "npx only-allow pnpm"
   },
   "devDependencies": {
-    "@book000/eslint-config": "1.6.15",
+    "@book000/eslint-config": "1.6.16",
     "@types/node": "20.12.12",
     "axios": "1.6.8",
     "eslint": "9.3.0",
