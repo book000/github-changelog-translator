@@ -35,7 +35,7 @@
 &lt;p&gt; &lt;strong&gt;macOS12ランナーイメージ&lt;/strong&gt;&lt;br /&gt;
 私たちは macOS 12 ランナー イメージの非推奨プロセスを開始しています。これにより、今後の&lt;a href=&quot;https://github.com/github/roadmap/issues/986&quot;&gt;macOS 15 のリリース&lt;/a&gt;に先立ってフリート容量のバランスをとることができます。このイメージは、2024 年 12 月 3 日までに完全に廃止されます。「macos-14」、「macos-13」、または「macos-latest」を使用するようにワークフローを更新することをお勧めします。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;サポートされていない macOS ラベル&lt;/strong&gt;&lt;br /&gt;
-2024 年 12 月 3 日、少数のワークフローに使用されていた古いラベルの一部を廃止します。次のランナー ラベルは、その時点から機能しなくなります。&lt;/p&gt;
+2024 年 12 月 3 日、少数のワークフローに使用されている古いラベルの一部を廃止します。次のランナー ラベルは、その時点から機能しなくなります。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt; macos-11.0&lt;/li&gt;
 &lt;li&gt; macos-12-xl&lt;/li&gt;
@@ -53,16 +53,16 @@
 &lt;/p&gt;
 &lt;p&gt;このレポートを使用すると、コードが機能ブランチからデフォルト ブランチに移動する際の CodeQL プル リクエスト アラートのメトリクスを履歴的に追跡できます。以下についての洞察を得る:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;未解決およびマージされたアラート:&lt;/strong&gt;どのようなセキュリティ脆弱性がデフォルト ブランチに影響を及ぼしたかを理解します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;未解決およびマージされたアラート:&lt;/strong&gt;どのようなセキュリティ脆弱性がデフォルト ブランチに影響を与えたかを理解します。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;修正 (自動修正および手動):&lt;/strong&gt;マージ前にどのアラートに対処したかを追跡します。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;無視されたアラート:&lt;/strong&gt;どのアラートが誤検知またはリスクが受け入れられたとみなされたかを確認します。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;さらに、CodeQL ルール、自動修正ステータス、リポジトリごとにメトリクスを分析します。&lt;/p&gt;
 &lt;p&gt;過去のデータは 2024 年 5 月 1 日から利用可能になります。&lt;/p&gt;
-&lt;p&gt;これらのレポートにアクセスするには、GitHub.com の右上隅にあるプロフィール写真をクリックし、表示する組織または企業を選択します。組織の場合は、 &lt;strong&gt;[セキュリティ]&lt;/strong&gt;タブに移動し、サイドバーで&lt;strong&gt;CodeQL プル リクエスト アラート&lt;/strong&gt;を見つけます。エンタープライズの場合は、サイドバーで&lt;strong&gt;「Code Security」&lt;/strong&gt;をクリックし、 &lt;strong&gt;「CodeQL プル リクエスト アラート」&lt;/strong&gt;を選択します。&lt;/p&gt;
+&lt;p&gt;これらのレポートにアクセスするには、GitHub.com の右上隅にあるプロフィール写真をクリックし、表示する組織または企業を選択します。組織の場合は、 &lt;strong&gt;[セキュリティ]&lt;/strong&gt;タブに移動し、サイドバーで&lt;strong&gt;CodeQL プル リクエスト アラート&lt;/strong&gt;を見つけます。企業の場合は、サイドバーの&lt;strong&gt;「Code Security」&lt;/strong&gt;をクリックし、 &lt;strong&gt;「CodeQL pull request warnings」&lt;/strong&gt;を選択します。&lt;/p&gt;
 &lt;p&gt;これらのレポートは現在 GitHub Enterprise Cloud で一般提供されており、GitHub Enterprise Server 3.15 でも利用できるようになる予定です。&lt;/p&gt;
 &lt;p&gt; &lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/code-security/security-overview/about-security-overview&quot;&gt;セキュリティの概要について詳しく知り&lt;/a&gt;、 &lt;a href=&quot;https://github.com/github-community/community/discussions/categories/code-security&quot;&gt;GitHub コミュニティ&lt;/a&gt;内のディスカッションに参加してください。&lt;/p&gt;
-&lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2024-08-19-prevention-and-autofix-insights-for-codeql-pull-request-alerts&quot;&gt;CodeQL プル リクエスト アラートの予防と自動修正に関する洞察の&lt;/a&gt;投稿は、最初に&lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に掲載されました。&lt;/p&gt;
+&lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2024-08-19-prevention-and-autofix-insights-for-codeql-pull-request-alerts&quot;&gt;CodeQL プル リクエスト アラートの予防と自動修正の洞察に関する&lt;/a&gt;記事は、最初に&lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に掲載されました。&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">79503</post-id></item><item><title>コンテンツ除外ベータ版が非 Git ファイルをサポートするようになりました</title><link>https://github.blog/changelog/2024-08-19-content-exclusion-beta-now-supports-non-git-files</link><dc:creator>Allison</dc:creator><pubDate>Mon, 19 Aug 2024 15:44:12 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2024-08-19-content-exclusion-beta-now-supports-non-git-files</guid><description>&lt;p&gt;Content Exclusion beta now supports non-Git files&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2024-08-19-content-exclusion-beta-now-supports-non-git-files&quot;&gt;Content Exclusion beta now supports non-Git files&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;p&gt;Git ファイルだけでなく、Git 以外のファイルも Copilot によるアクセスから除外できるようになりました。この更新により、Copilot がアクセスできるコンテンツをより詳細に制御できるようになり、ファイルが Git リポジトリの一部であるかどうかに関係なく、組織の所有者が除外対象としてマークしたファイルには Copilot がアクセスしないようになります。&lt;/p&gt;
@@ -133,7 +133,7 @@
 &lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2024-08-15-copilot-enterprise-now-helps-you-fix-failed-actions-jobs-plus-other-august-updates-public-beta&quot;&gt;Copilot Enterprise の投稿は、失敗したアクション ジョブの修正に役立つようになりました。さらに、その他の 8 月のアップデート (パブリック ベータ版) は、&lt;/a&gt;最初に&lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に掲載されました。&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">79426</post-id></item><item><title>コード セキュリティ構成は、10 月 15 日に組織レベルのセキュリティ カバレッジ ページの機能の有効化を置き換えます。</title><link>https://github.blog/changelog/2024-08-14-code-security-configurations-will-replace-feature-enablement-on-the-organization-level-security-coverage-page-on-october-15</link><dc:creator>Allison</dc:creator><pubDate>Thu, 15 Aug 2024 00:18:15 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2024-08-14-code-security-configurations-will-replace-feature-enablement-on-the-organization-level-security-coverage-page-on-october-15</guid><description>&lt;p&gt;Code security configurations will replace feature enablement on the organization-level security coverage page on October 15&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2024-08-14-code-security-configurations-will-replace-feature-enablement-on-the-organization-level-security-coverage-page-on-october-15&quot;&gt;Code security configurations will replace feature enablement on the organization-level security coverage page on October 15&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
-</description><content:encoded>&lt;p&gt;私たちは、コード セキュリティ構成を使用して、GitHub のセキュリティ製品の大規模な展開を合理化しています。この機能は、セキュリティ設定のコレクションを定義し、それらの設定をリポジトリのグループに適用できるようにすることで、GitHub セキュリティ製品のロールアウトを簡素化します。構成は、コード スキャン、シークレット スキャン、Dependabot などの重要な機能のセキュリティ設定を維持するのに役立ちます。&lt;/p&gt;
+</description><content:encoded>&lt;p&gt;コード セキュリティ構成を使用して、GitHub のセキュリティ製品の大規模な展開を合理化しています。この機能は、セキュリティ設定のコレクションを定義し、それらの設定をリポジトリのグループに適用できるようにすることで、GitHub セキュリティ製品のロールアウトを簡素化します。構成は、コード スキャン、シークレット スキャン、Dependabot などの重要な機能のセキュリティ設定を維持するのに役立ちます。&lt;/p&gt;
 &lt;p&gt; 2024 年 10 月 15 日以降、組織レベルのセキュリティ カバレッジ ビューからリポジトリの GitHub セキュリティ機能を有効または無効にすることはできなくなります。&lt;/p&gt;
 &lt;p&gt; &lt;a href=&quot;https://docs.github.com/en/code-security/securing-your-organization/introduction-to-securing-your-organization-at-scale/about-enabling-security-features-at-scale&quot;&gt;コードのセキュリティ構成&lt;/a&gt;について詳しく知り、&lt;a href=&quot;https://github.com/orgs/community/discussions/114519&quot;&gt;フィードバックをお送りください&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2024-08-14-code-security-configurations-will-replace-feature-enablement-on-the-organization-level-security-coverage-page-on-october-15&quot;&gt;10 月 15 日の組織レベルのセキュリティ カバレッジ ページでの機能の有効化に代わるポスト コード セキュリティ構成は、&lt;/a&gt;最初に&lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に掲載されました。&lt;/p&gt;
