@@ -19,7 +19,7 @@
 &lt;h3 id=&quot;when-to-use-inline-chat&quot;&gt;&lt;strong&gt;インライン チャットを使用する場合&lt;/strong&gt;&lt;a href=&quot;#when-to-use-inline-chat&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;&lt;strong&gt;When to use Inline Chat&lt;/strong&gt;&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;リファクタリング&lt;/strong&gt;: よりクリーンで保守しやすいコードで同じ機能を実現するための代替メソッドを要求します。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;テスト&lt;/strong&gt;: コードの特定のセクションの単体テストを生成するためのヘルプを入手します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;テスト&lt;/strong&gt;: コードの特定のセクションに対する単体テストの生成に関するヘルプを入手します。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;コードの改善&lt;/strong&gt;: 複雑なロジックの再構築、変数の名前変更、または読みやすくするためのコメントの追加について支援を求めます。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;脆弱性評価&lt;/strong&gt;: 潜在的な脆弱性については Copilot に相談してください。ただし、包括的な評価には確立されたセキュリティ ツールを使用することを忘れないでください。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;パフォーマンスの最適化&lt;/strong&gt;: コードの効率を向上させるための提案を取得します。&lt;/li&gt;
@@ -65,7 +65,7 @@
 &lt;/li&gt;
 &lt;li&gt; &lt;code&gt;Restrict file extensions&lt;/code&gt;
 &lt;ul&gt;
-&lt;li&gt;このルールを使用すると、リポジトリにバイナリを入れないようにすることができます。拡張子のリストを追加することで、 &lt;code&gt;exe&lt;/code&gt; &lt;code&gt;jar&lt;/code&gt;などをリポジトリへの入力から除外できます。&lt;/li&gt;
+&lt;li&gt;このルールを使用すると、リポジトリにバイナリが入らないようにすることができます。拡張子のリストを追加することで、 &lt;code&gt;exe&lt;/code&gt; &lt;code&gt;jar&lt;/code&gt;などをリポジトリへの入力から除外できます。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt; &lt;code&gt;Restrict file size&lt;/code&gt;
@@ -95,7 +95,7 @@
 &lt;ul&gt;
 &lt;li&gt;修正: 「プルリクエストを開く」および「概要」ダイアログの見出しが NVDA 経由でアナウンスされる – &lt;a href=&quot;https://github.com/desktop/desktop/issues/19107&quot;&gt;#19107&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;修正: 「プル リクエストを開く」ダイアログのブランチ選択ポップオーバーがフィルターをクリアしても閉じない – &lt;a href=&quot;https://github.com/desktop/desktop/issues/19106&quot;&gt;#19106&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;修正: 差分ファイルの警告のアイコンのコントラスト比は少なくとも 3:1 – &lt;a href=&quot;https://github.com/desktop/desktop/issues/19097&quot;&gt;#19097&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;修正: 差分ファイルの警告におけるアイコンのコントラスト比は少なくとも 3:1 – &lt;a href=&quot;https://github.com/desktop/desktop/issues/19097&quot;&gt;#19097&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;修正: 「ローカル変更のプッシュ」確認ダイアログは、スクリーン リーダーがダイアログの内容全体をアナウンスするように「alertdialog」ロールを使用します – &lt;a href=&quot;https://github.com/desktop/desktop/issues/19098&quot;&gt;#19098&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;修正: 絵文字によるスクリーン リーダーの説明 – &lt;a href=&quot;https://github.com/desktop/desktop/issues/19101&quot;&gt;#19101&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;修正: オートコンプリート候補ポップオーバーで「ダイアログ」ロールの不適切なアナウンスを停止 – &lt;a href=&quot;https://github.com/desktop/desktop/issues/19114&quot;&gt;#19114&lt;/a&gt;&lt;/li&gt;
@@ -109,7 +109,7 @@
 &lt;li&gt;追加: 外部エディタ JetBrains RustRover がサポートされています – &lt;a href=&quot;https://github.com/desktop/desktop/issues/18802&quot;&gt;#18802&lt;/a&gt; 。ありがとう&lt;a href=&quot;https://github.com/Radd-Sma&quot;&gt;@Radd-Sma&lt;/a&gt; ！&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt; &lt;a href=&quot;https://github.com/apps/desktop&quot;&gt;GitHub デスクトップをダウンロード&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;「 &lt;a href=&quot;https://github.blog/changelog/2024-09-10-github-desktop-3-4-4-introducing-custom-editor-and-shell-integration&quot;&gt;GitHub Desktop 3.4.4 – カスタム エディターとシェルの統合の紹介」という&lt;/a&gt;記事は、最初に&lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に掲載されました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.blog/changelog/2024-09-10-github-desktop-3-4-4-introducing-custom-editor-and-shell-integration&quot;&gt;GitHub Desktop 3.4.4 – カスタム エディターとシェルの統合の紹介という&lt;/a&gt;記事は&lt;a href=&quot;https://github.blog&quot;&gt;、 GitHub ブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">79707</post-id></item><item><title>VS Code の Copilot Chat のコンテキスト ウィンドウの拡大、テスト生成の改善など</title><link>https://github.blog/changelog/2024-09-09-larger-context-window-improved-test-generation-and-more-in-vs-codes-copilot-chat</link><dc:creator>Allison</dc:creator><pubDate>Mon, 09 Sep 2024 23:16:44 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2024-09-09-larger-context-window-improved-test-generation-and-more-in-vs-codes-copilot-chat</guid><description>&lt;p&gt;Larger context window, improved test generation, and more in VS Code&apos;s Copilot Chat&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2024-09-09-larger-context-window-improved-test-generation-and-more-in-vs-codes-copilot-chat&quot;&gt;Larger context window, improved test generation, and more in VS Code&amp;#8217;s Copilot Chat&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;p&gt;&lt;img decoding=&quot;async&quot; src=&quot;https://github.com/user-attachments/assets/b4b54566-46b7-4f88-a56b-6634579b9bba&quot; alt=&quot;VS Code 8 月の最近の更新&quot; /&gt;&lt;/p&gt;
@@ -122,10 +122,10 @@
 &lt;p&gt; &lt;strong&gt;[チャットを表示]&lt;/strong&gt;ボタンを使用して、以前のチャット セッションを再表示します。セッションには AI によって生成された名前が付けられ、手動で名前を変更できるようになりました。エントリは最後のリクエストの日付で並べ替えられ、日付バケットごとにグループ化されます。&lt;a href=&quot;https://code.visualstudio.com/updates/v1_93#_improved-chat-history&quot;&gt;もっと詳しく知る&lt;/a&gt;。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt; &lt;strong&gt;[低評価]&lt;/strong&gt;ボタンを選択して、満足のいかないチャット応答の詳細を提供します。詳細なオプションを含むドロップダウンは、問題の種類を選択するか、問題として当社に報告するのに役立ち、Copilot の改善に役立ちます。&lt;a href=&quot;https://code.visualstudio.com/updates/v1_93#_thumbs-down-feedback-details&quot;&gt;もっと詳しく知る&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt; &lt;strong&gt;[低評価]&lt;/strong&gt;ボタンを選択して、満足のいかないチャットの応答について詳しく説明します。詳細なオプションを含むドロップダウンは、問題の種類を選択するか、問題として当社に報告するのに役立ち、Copilot の改善に役立ちます。&lt;a href=&quot;https://code.visualstudio.com/updates/v1_93#_thumbs-down-feedback-details&quot;&gt;もっと詳しく知る&lt;/a&gt;。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;コード アクションの名前が明確になりました: &lt;strong&gt;Generate Tests using Copilot&lt;/strong&gt;および&lt;strong&gt;Generate Documentation using Copilot&lt;/strong&gt; 。カーソルを識別子の上に置き、アクションを選択するだけです。 &lt;a href=&quot;https://code.visualstudio.com/updates/v1_93#_renamed-code-actions-for-generating-tests-and-documentation&quot;&gt;もっと詳しく知る&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;コード アクションの名前が、より明確になりました: &lt;strong&gt;Generate Tests using Copilot&lt;/strong&gt;および&lt;strong&gt;Generate Documentation using Copilot&lt;/strong&gt; 。カーソルを識別子の上に置き、アクションを選択するだけです。 &lt;a href=&quot;https://code.visualstudio.com/updates/v1_93#_renamed-code-actions-for-generating-tests-and-documentation&quot;&gt;もっと詳しく知る&lt;/a&gt;。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;experimental-new-features&quot;&gt;実験的な新機能&lt;a href=&quot;#experimental-new-features&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Experimental New Features&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
@@ -141,7 +141,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;このリリースの機能の詳細と詳細については、 &lt;a href=&quot;https://code.visualstudio.com/updates/v1_93#_github-copilot&quot;&gt;VS Code の 8 月リリース (バージョン 1.93) の完全なリリース ノート&lt;/a&gt;を確認してください。&lt;/p&gt;
-&lt;p&gt;投稿&lt;a href=&quot;https://github.blog/changelog/2024-09-09-larger-context-window-improved-test-generation-and-more-in-vs-codes-copilot-chat&quot;&gt;「VS Code のコパイロット チャットのコンテキスト ウィンドウの拡大、テスト生成の改善、その他」&lt;/a&gt; first appeared on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt; .&lt;/p&gt;
+&lt;p&gt;投稿&lt;a href=&quot;https://github.blog/changelog/2024-09-09-larger-context-window-improved-test-generation-and-more-in-vs-codes-copilot-chat&quot;&gt;「VS Code のコパイロット チャットのコンテキスト ウィンドウの拡大、テスト生成の改善など」&lt;/a&gt; first appeared on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt; .&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">79706</post-id></item><item><title>Microsoft Entra ID の GitHub Enterprise Cloud Team Sync に対する権限の低下</title><link>https://github.blog/changelog/2024-09-05-lower-permissions-for-github-enterprise-cloud-team-sync-for-microsoft-entra-id</link><dc:creator>Allison</dc:creator><pubDate>Fri, 06 Sep 2024 02:59:26 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2024-09-05-lower-permissions-for-github-enterprise-cloud-team-sync-for-microsoft-entra-id</guid><description>&lt;p&gt;Lower permissions for GitHub Enterprise Cloud Team Sync for Microsoft Entra ID&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2024-09-05-lower-permissions-for-github-enterprise-cloud-team-sync-for-microsoft-entra-id&quot;&gt;Lower permissions for GitHub Enterprise Cloud Team Sync for Microsoft Entra ID&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;p&gt;新しい下位権限&lt;code&gt;GroupMember.Read.All&lt;/code&gt;で GitHub Enterprise Cloud &lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-saml-single-sign-on-for-your-organization/managing-team-synchronization-for-your-organization&quot;&gt;Team Sync&lt;/a&gt; for Microsoft Entra ID を使用して、グループの状態を GitHub に同期できるようになりました。&lt;/p&gt;
@@ -151,7 +151,7 @@
 &lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2024-09-05-lower-permissions-for-github-enterprise-cloud-team-sync-for-microsoft-entra-id&quot;&gt;Microsoft Entra ID の GitHub Enterprise Cloud Team Sync の権限を下げるという&lt;/a&gt;投稿は&lt;a href=&quot;https://github.blog&quot;&gt;、 GitHub ブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">79691</post-id></item><item><title>非推奨の通知: dependabot が Bundler v1 のサポートを終了</title><link>https://github.blog/changelog/2024-09-05-deprecation-notice-dependabot-dropping-support-for-bundler-v1</link><dc:creator>Allison</dc:creator><pubDate>Thu, 05 Sep 2024 20:16:53 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2024-09-05-deprecation-notice-dependabot-dropping-support-for-bundler-v1</guid><description>&lt;p&gt;Deprecation notice: Dependabot dropping support for Bundler v1&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2024-09-05-deprecation-notice-dependabot-dropping-support-for-bundler-v1&quot;&gt;Deprecation notice: Dependabot dropping support for Bundler v1&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
-</description><content:encoded>&lt;p&gt;2024 年 10 月 7 日の時点で、Dependabot はサポートが終了した Bundler バージョン 1 をサポートしなくなります。 Bundler バージョン 1 を使用し続ける場合、Dependabot が依存関係を更新するためのプル リクエストを作成しないリスクがあります。これが影響する場合は、Bundler のサポートされているリリースに更新することをお勧めします。 2024 年 9 月の時点で、サポートされている Bundler の最新バージョンは 2.5 です。サポートされているリリースの詳細については、 &lt;a href=&quot;https://github.com/rubygems/rubygems/blob/master/bundler/doc/POLICIES.md#compatibility-guidelines&quot;&gt;Bundler の公式サポート ポリシー&lt;/a&gt;を参照してください。&lt;/p&gt;
+</description><content:encoded>&lt;p&gt;2024 年 10 月 7 日の時点で、Dependabot はサポートが終了した Bundler バージョン 1 をサポートしなくなります。 Bundler バージョン 1 を使用し続ける場合、Dependabot が依存関係を更新するためのプル リクエストを作成しないリスクがあります。これが影響する場合は、Bundler のサポートされているリリースに更新することをお勧めします。 2024 年 9 月の時点で、サポートされている Bundler の最新バージョンは 2.5 です。サポートされているリリースの詳細については、 &lt;a href=&quot;https://github.com/rubygems/rubygems/blob/master/bundler/doc/POLICIES.md#compatibility-guidelines&quot;&gt;Bundler の公式サポート ポリシー&lt;/a&gt;をご覧ください。&lt;/p&gt;
 &lt;p&gt; The post &lt;a href=&quot;https://github.blog/changelog/2024-09-05-deprecation-notice-dependabot-dropping-support-for-bundler-v1&quot;&gt;Deprecation Notice: dependabot Drops support for Bundler v1&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt; .&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">79689</post-id></item><item><title>プル リクエストのコミット ページ更新 (パブリック ベータ版)</title><link>https://github.blog/changelog/2024-09-05-pull-request-commits-page-refresh-public-beta</link><dc:creator>Allison</dc:creator><pubDate>Thu, 05 Sep 2024 14:53:39 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2024-09-05-pull-request-commits-page-refresh-public-beta</guid><description>&lt;p&gt;Pull request commits page refresh (public beta)&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2024-09-05-pull-request-commits-page-refresh-public-beta&quot;&gt;Pull request commits page refresh (public beta)&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
