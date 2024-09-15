@@ -71,7 +71,7 @@
 &lt;/li&gt;
 &lt;li&gt; &lt;code&gt;Restrict file extensions&lt;/code&gt;
 &lt;ul&gt;
-&lt;li&gt;このルールを使用すると、リポジトリにバイナリを入れないようにすることができます。拡張子のリストを追加することで、 &lt;code&gt;exe&lt;/code&gt; &lt;code&gt;jar&lt;/code&gt;などをリポジトリへの入力から除外できます。&lt;/li&gt;
+&lt;li&gt;このルールを使用すると、リポジトリにバイナリが入らないようにすることができます。拡張子のリストを追加することで、 &lt;code&gt;exe&lt;/code&gt; &lt;code&gt;jar&lt;/code&gt;などをリポジトリへの入力から除外できます。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt; &lt;code&gt;Restrict file size&lt;/code&gt;
@@ -101,7 +101,7 @@
 &lt;ul&gt;
 &lt;li&gt;修正: 「プルリクエストを開く」および「概要」ダイアログの見出しが NVDA 経由でアナウンスされる – &lt;a href=&quot;https://github.com/desktop/desktop/issues/19107&quot;&gt;#19107&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;修正: 「プル リクエストを開く」ダイアログのブランチ選択ポップオーバーがフィルターをクリアしても閉じない – &lt;a href=&quot;https://github.com/desktop/desktop/issues/19106&quot;&gt;#19106&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;修正: 差分ファイルの警告におけるアイコンのコントラスト比は少なくとも 3:1 – &lt;a href=&quot;https://github.com/desktop/desktop/issues/19097&quot;&gt;#19097&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;修正: 差分ファイルの警告のアイコンのコントラスト比は少なくとも 3:1 – &lt;a href=&quot;https://github.com/desktop/desktop/issues/19097&quot;&gt;#19097&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;修正: 「ローカル変更のプッシュ」確認ダイアログは、スクリーン リーダーがダイアログの内容全体をアナウンスするように「alertdialog」ロールを使用します – &lt;a href=&quot;https://github.com/desktop/desktop/issues/19098&quot;&gt;#19098&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;修正: 絵文字によるスクリーン リーダーの説明 – &lt;a href=&quot;https://github.com/desktop/desktop/issues/19101&quot;&gt;#19101&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;修正: オートコンプリート候補ポップオーバーで「ダイアログ」ロールの不適切なアナウンスを停止 – &lt;a href=&quot;https://github.com/desktop/desktop/issues/19114&quot;&gt;#19114&lt;/a&gt;&lt;/li&gt;
@@ -115,7 +115,7 @@
 &lt;li&gt;追加: 外部エディタ JetBrains RustRover がサポートされています – &lt;a href=&quot;https://github.com/desktop/desktop/issues/18802&quot;&gt;#18802&lt;/a&gt; 。ありがとう&lt;a href=&quot;https://github.com/Radd-Sma&quot;&gt;@Radd-Sma&lt;/a&gt; ！&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt; &lt;a href=&quot;https://github.com/apps/desktop&quot;&gt;GitHub デスクトップをダウンロード&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.blog/changelog/2024-09-10-github-desktop-3-4-4-introducing-custom-editor-and-shell-integration&quot;&gt;GitHub Desktop 3.4.4 – カスタム エディターとシェルの統合の紹介という&lt;/a&gt;記事は&lt;a href=&quot;https://github.blog&quot;&gt;、 GitHub ブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
+&lt;p&gt;「 &lt;a href=&quot;https://github.blog/changelog/2024-09-10-github-desktop-3-4-4-introducing-custom-editor-and-shell-integration&quot;&gt;GitHub Desktop 3.4.4 – カスタム エディターとシェルの統合の紹介」という&lt;/a&gt;記事は、最初に&lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に掲載されました。&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">79707</post-id></item><item><title>VS Code の Copilot Chat のコンテキスト ウィンドウの拡大、テスト生成の改善など</title><link>https://github.blog/changelog/2024-09-09-larger-context-window-improved-test-generation-and-more-in-vs-codes-copilot-chat</link><dc:creator>Allison</dc:creator><pubDate>Mon, 09 Sep 2024 23:16:44 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2024-09-09-larger-context-window-improved-test-generation-and-more-in-vs-codes-copilot-chat</guid><description>&lt;p&gt;Larger context window, improved test generation, and more in VS Code&apos;s Copilot Chat&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2024-09-09-larger-context-window-improved-test-generation-and-more-in-vs-codes-copilot-chat&quot;&gt;Larger context window, improved test generation, and more in VS Code&amp;#8217;s Copilot Chat&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;p&gt;&lt;img decoding=&quot;async&quot; src=&quot;https://github.com/user-attachments/assets/b4b54566-46b7-4f88-a56b-6634579b9bba&quot; alt=&quot;VS Code 8 月の最近の更新&quot; /&gt;&lt;/p&gt;
@@ -137,7 +137,7 @@
 &lt;h3 id=&quot;experimental-new-features&quot;&gt;実験的な新機能&lt;a href=&quot;#experimental-new-features&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Experimental New Features&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt; VS Code では、フィードバックを収集し、Copilot の将来の開発に影響を与えるための実験的な設定が利用できます。&lt;a href=&quot;https://github.com/microsoft/vscode-copilot-release/issues&quot;&gt;私たちの問題&lt;/a&gt;であなたの意見を共有してください。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;設定でコード生成の指示を定義するか (&lt;em&gt;プライベート フィールド名には常にアンダースコアを使用する&lt;/em&gt;など)、ファイルからインポートします。これらを&lt;a href=&quot;//settings/github.copilot.chat.experimental.codeGeneration.instructions&quot;&gt;&lt;code&gt;github.copilot.chat.experimental.codeGeneration.instructions&lt;/code&gt;&lt;/a&gt;で、自分のユーザー設定またはチームのワークスペース設定として編集します。&lt;a href=&quot;https://code.visualstudio.com/updates/v1_93#_code-generation-instructions&quot;&gt;もっと詳しく知る&lt;/a&gt;。&lt;/p&gt;
+&lt;li&gt;設定でコード生成の指示を定義するか (&lt;em&gt;プライベート フィールド名には常にアンダースコアを使用する&lt;/em&gt;など)、ファイルからインポートします。 &lt;a href=&quot;//settings/github.copilot.chat.experimental.codeGeneration.instructions&quot;&gt;&lt;code&gt;github.copilot.chat.experimental.codeGeneration.instructions&lt;/code&gt;&lt;/a&gt;で、自分のユーザー設定またはチームのワークスペース設定として編集します。&lt;a href=&quot;https://code.visualstudio.com/updates/v1_93#_code-generation-instructions&quot;&gt;もっと詳しく知る&lt;/a&gt;。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;より関連性の高い提案を得るには、最近表示または編集したコーディング ファイルをインライン チャット コンテキストとして使用します。 VS Code の&lt;a href=&quot;//settings/github.copilot.chat.experimental.temporalContext.enabled&quot;&gt;&lt;code&gt;github.copilot.chat.experimental.temporalContext.enabled&lt;/code&gt;&lt;/a&gt;経由で有効にします。 &lt;a href=&quot;https://code.visualstudio.com/updates/v1_93#_use-recent-coding-files-as-inline-chat-context-experimental&quot;&gt;もっと詳しく知る&lt;/a&gt;。&lt;/p&gt;
@@ -150,7 +150,7 @@
 &lt;p&gt;投稿&lt;a href=&quot;https://github.blog/changelog/2024-09-09-larger-context-window-improved-test-generation-and-more-in-vs-codes-copilot-chat&quot;&gt;「VS Code のコパイロット チャットのコンテキスト ウィンドウの拡大、テスト生成の改善、その他」&lt;/a&gt; first appeared on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt; .&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">79706</post-id></item><item><title>Microsoft Entra ID の GitHub Enterprise Cloud Team Sync に対する権限の低下</title><link>https://github.blog/changelog/2024-09-05-lower-permissions-for-github-enterprise-cloud-team-sync-for-microsoft-entra-id</link><dc:creator>Allison</dc:creator><pubDate>Fri, 06 Sep 2024 02:59:26 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2024-09-05-lower-permissions-for-github-enterprise-cloud-team-sync-for-microsoft-entra-id</guid><description>&lt;p&gt;Lower permissions for GitHub Enterprise Cloud Team Sync for Microsoft Entra ID&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2024-09-05-lower-permissions-for-github-enterprise-cloud-team-sync-for-microsoft-entra-id&quot;&gt;Lower permissions for GitHub Enterprise Cloud Team Sync for Microsoft Entra ID&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
-</description><content:encoded>&lt;p&gt;新しい下位権限である&lt;code&gt;GroupMember.Read.All&lt;/code&gt;で GitHub Enterprise Cloud &lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-saml-single-sign-on-for-your-organization/managing-team-synchronization-for-your-organization&quot;&gt;Team Sync&lt;/a&gt; for Microsoft Entra ID を使用して、グループの状態を GitHub に同期できるようになりました。&lt;/p&gt;
+</description><content:encoded>&lt;p&gt;新しい下位権限&lt;code&gt;GroupMember.Read.All&lt;/code&gt;で GitHub Enterprise Cloud &lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-saml-single-sign-on-for-your-organization/managing-team-synchronization-for-your-organization&quot;&gt;Team Sync&lt;/a&gt; for Microsoft Entra ID を使用して、グループの状態を GitHub に同期できるようになりました。&lt;/p&gt;
 &lt;p&gt;新しい権限は、データにアクセスして正しく機能するために必要な最小限の権限を提供します。新しいインストールでは新しい権限が要求されますが、既存のインストールは中断することなく動作し続けます。&lt;/p&gt;
 &lt;p&gt;既存のインストールの権限を削減したい管理者は、アプリケーションを再インストールするか、 &lt;a href=&quot;https://docs.microsoft.com/en-us/graph/api/serviceprincipal-post-approleassignments?view=graph-rest-1.0&amp;tabs=http&quot;&gt;App Role Assignments API&lt;/a&gt;を使用して既存のサービスの権限を変更できます。&lt;/p&gt;
 &lt;p&gt; &lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-saml-single-sign-on-for-your-organization/managing-team-synchronization-for-your-organization#enabling-team-synchronization-for-entra-id&quot;&gt;チームの同期について詳しくは、こちらをご覧ください&lt;/a&gt;。&lt;/p&gt;
