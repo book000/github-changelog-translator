@@ -25,7 +25,7 @@
 &lt;h3 id=&quot;when-to-use-inline-chat&quot;&gt;&lt;strong&gt;インライン チャットを使用する場合&lt;/strong&gt;&lt;a href=&quot;#when-to-use-inline-chat&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;&lt;strong&gt;When to use Inline Chat&lt;/strong&gt;&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;リファクタリング&lt;/strong&gt;: よりクリーンで保守しやすいコードで同じ機能を実現するための代替メソッドを要求します。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;テスト&lt;/strong&gt;: コードの特定のセクションに対する単体テストの生成に関するヘルプを入手します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;テスト&lt;/strong&gt;: コードの特定のセクションの単体テストを生成するためのヘルプを入手します。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;コードの改善&lt;/strong&gt;: 複雑なロジックの再構築、変数の名前変更、または読みやすくするためのコメントの追加について支援を求めます。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;脆弱性評価&lt;/strong&gt;: 潜在的な脆弱性については Copilot に相談してください。ただし、包括的な評価には確立されたセキュリティ ツールを使用することを忘れないでください。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;パフォーマンスの最適化&lt;/strong&gt;: コードの効率を向上させるための提案を取得します。&lt;/li&gt;
@@ -37,7 +37,7 @@
 &lt;p&gt; The post &lt;a href=&quot;https://github.blog/changelog/2024-09-11-inline-chat-is-now-available-in-github-copilot-in-jetbrains&quot;&gt;Inline Chat is now available in GitHub Copilot in JetBrains&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt; 。&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">79730</post-id></item><item><title>GitHub CLI が Linux パッケージの GPG 署名キーを更新</title><link>https://github.blog/changelog/2024-09-11-github-cli-renews-gpg-signing-key-for-linux-packages</link><dc:creator>Allison</dc:creator><pubDate>Wed, 11 Sep 2024 14:37:28 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2024-09-11-github-cli-renews-gpg-signing-key-for-linux-packages</guid><description>&lt;p&gt;GitHub CLI renews GPG signing key for Linux packages&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2024-09-11-github-cli-renews-gpg-signing-key-for-linux-packages&quot;&gt;GitHub CLI renews GPG signing key for Linux packages&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
-</description><content:encoded>&lt;p&gt;GitHub CLI Debian および RedHat パッケージの検証に使用される GPG キーは、9 月 6 日金曜日に期限切れになりました。公式パッケージ リポジトリ経由で&lt;code&gt;gh&lt;/code&gt;をインストールした場合は、GitHub CLI リリースの検証を続けるためにキーリングを新しいキーに更新するようお願いします。&lt;/p&gt;
+</description><content:encoded>&lt;p&gt;GitHub CLI Debian および RedHat パッケージの検証に使用される GPG キーは、9 月 6 日金曜日に期限切れになりました。 公式パッケージ リポジトリ経由で&lt;code&gt;gh&lt;/code&gt;をインストールした場合は、GitHub CLI リリースの検証を続けるために、キーリングを新しいキーに更新するようお願いします。&lt;/p&gt;
 &lt;p&gt;それぞれのパッケージ マネージャーでこれを行う方法については、&lt;a href=&quot;https://github.com/cli/cli/issues/9569&quot;&gt;このドキュメント&lt;/a&gt;を参照してください。&lt;/p&gt;
 &lt;p&gt;参考までに、これに関するメモは、今週初めに公開された&lt;a href=&quot;https://github.com/cli/cli/releases/tag/v2.56.0&quot;&gt;CLI v2.56.0 リリース ノート&lt;/a&gt;にも記載されています。&lt;/p&gt;
 &lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2024-09-11-github-cli-renews-gpg-signing-key-for-linux-packages&quot;&gt;GitHub CLI が Linux パッケージの GPG 署名キーを更新するという&lt;/a&gt;投稿は、最初に&lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に掲載されました。&lt;/p&gt;
@@ -55,7 +55,7 @@
 </description><content:encoded>&lt;p&gt;新しいタイプの&lt;a href=&quot;https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets&quot;&gt;ルールセット&lt;/a&gt;である&lt;a href=&quot;https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets#push-rulesets&quot;&gt;プッシュ ルール&lt;/a&gt;を使用して、プライベート リポジトリ、内部リポジトリ、およびそのフォークへのプッシュを制限できるようになりました。プッシュ ルールを使用すると、アクション ワークフローなどの機密ファイルへの更新を制限でき、不要なオブジェクトをリポジトリから排除することでコードの健全性を強化できます。&lt;/p&gt;
 &lt;p&gt;さらに、組織の所有者は、リポジトリの作成時にリポジトリのプロパティ値を設定できるようになりました。これにより、作成の瞬間から適切なルールが適用されるようになり、新しいリポジトリの検出可能性が向上します。&lt;/p&gt;
 &lt;h2 id=&quot;push-rules&quot;&gt;プッシュルール&lt;a href=&quot;#push-rules&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Push Rules&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;組織およびリポジトリの所有者は、パス、拡張子、サイズなど、変更されたファイルの属性ごとに、どのような変更をリポジトリにプッシュできるかを制御するルールを構成できるようになりました。 &lt;/p&gt;
+&lt;p&gt;組織とリポジトリの所有者は、パス、拡張子、サイズなど、変更されたファイルの属性ごとに、どのような変更をリポジトリにプッシュできるかを制御するルールを構成できるようになりました。 &lt;/p&gt;
 &lt;p&gt;&lt;img decoding=&quot;async&quot; src=&quot;https://github.com/user-attachments/assets/97cddf33-7119-49f4-98d3-af41f76dbde9&quot; alt=&quot;オプションが設定された新しいプッシュ ルールのリストを示すスクリーンショット&quot; /&gt;&lt;/p&gt;
 &lt;h3 id=&quot;available-push-rules&quot;&gt;利用可能なプッシュルール&lt;a href=&quot;#available-push-rules&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Available push rules&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
@@ -101,7 +101,7 @@
 &lt;ul&gt;
 &lt;li&gt;修正: 「プルリクエストを開く」および「概要」ダイアログの見出しが NVDA 経由でアナウンスされる – &lt;a href=&quot;https://github.com/desktop/desktop/issues/19107&quot;&gt;#19107&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;修正: 「プル リクエストを開く」ダイアログのブランチ選択ポップオーバーがフィルターをクリアしても閉じない – &lt;a href=&quot;https://github.com/desktop/desktop/issues/19106&quot;&gt;#19106&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;修正: 差分ファイルの警告のアイコンのコントラスト比は少なくとも 3:1 – &lt;a href=&quot;https://github.com/desktop/desktop/issues/19097&quot;&gt;#19097&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;修正: 差分ファイルの警告におけるアイコンのコントラスト比は少なくとも 3:1 – &lt;a href=&quot;https://github.com/desktop/desktop/issues/19097&quot;&gt;#19097&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;修正: 「ローカル変更のプッシュ」確認ダイアログは、スクリーン リーダーがダイアログの内容全体をアナウンスするように「alertdialog」ロールを使用します – &lt;a href=&quot;https://github.com/desktop/desktop/issues/19098&quot;&gt;#19098&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;修正: 絵文字によるスクリーン リーダーの説明 – &lt;a href=&quot;https://github.com/desktop/desktop/issues/19101&quot;&gt;#19101&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;修正: オートコンプリート候補ポップオーバーで「ダイアログ」ロールの不適切なアナウンスを停止 – &lt;a href=&quot;https://github.com/desktop/desktop/issues/19114&quot;&gt;#19114&lt;/a&gt;&lt;/li&gt;
@@ -128,7 +128,7 @@
 &lt;p&gt; &lt;strong&gt;[チャットを表示]&lt;/strong&gt;ボタンを使用して、以前のチャット セッションを再表示します。セッションには AI によって生成された名前が付けられ、手動で名前を変更できるようになりました。エントリは最後のリクエストの日付で並べ替えられ、日付バケットごとにグループ化されます。&lt;a href=&quot;https://code.visualstudio.com/updates/v1_93#_improved-chat-history&quot;&gt;もっと詳しく知る&lt;/a&gt;。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt; &lt;strong&gt;[低評価]&lt;/strong&gt;ボタンを選択して、満足のいかないチャットの応答について詳しく説明します。詳細なオプションを含むドロップダウンは、問題の種類を選択するか、問題として当社に報告するのに役立ち、Copilot の改善に役立ちます。&lt;a href=&quot;https://code.visualstudio.com/updates/v1_93#_thumbs-down-feedback-details&quot;&gt;もっと詳しく知る&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt; &lt;strong&gt;[低評価]&lt;/strong&gt;ボタンを選択して、満足のいかないチャット応答の詳細を提供します。詳細なオプションを含むドロップダウンは、問題の種類を選択するか、問題として当社に報告するのに役立ち、Copilot の改善に役立ちます。&lt;a href=&quot;https://code.visualstudio.com/updates/v1_93#_thumbs-down-feedback-details&quot;&gt;もっと詳しく知る&lt;/a&gt;。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;コード アクションの名前が、より明確になりました: &lt;strong&gt;Generate Tests using Copilot&lt;/strong&gt;および&lt;strong&gt;Generate Documentation using Copilot&lt;/strong&gt; 。カーソルを識別子の上に置き、アクションを選択するだけです。 &lt;a href=&quot;https://code.visualstudio.com/updates/v1_93#_renamed-code-actions-for-generating-tests-and-documentation&quot;&gt;もっと詳しく知る&lt;/a&gt;。&lt;/p&gt;
@@ -147,7 +147,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;このリリースの機能の詳細と詳細については、 &lt;a href=&quot;https://code.visualstudio.com/updates/v1_93#_github-copilot&quot;&gt;VS Code の 8 月リリース (バージョン 1.93) の完全なリリース ノート&lt;/a&gt;を確認してください。&lt;/p&gt;
-&lt;p&gt;投稿&lt;a href=&quot;https://github.blog/changelog/2024-09-09-larger-context-window-improved-test-generation-and-more-in-vs-codes-copilot-chat&quot;&gt;「VS Code のコパイロット チャットのコンテキスト ウィンドウの拡大、テスト生成の改善、その他」&lt;/a&gt; first appeared on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt; .&lt;/p&gt;
+&lt;p&gt;投稿&lt;a href=&quot;https://github.blog/changelog/2024-09-09-larger-context-window-improved-test-generation-and-more-in-vs-codes-copilot-chat&quot;&gt;「VS Code のコパイロット チャットのコンテキスト ウィンドウの拡大、テスト生成の改善など」&lt;/a&gt; first appeared on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt; .&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">79706</post-id></item><item><title>Microsoft Entra ID の GitHub Enterprise Cloud Team Sync に対する権限の低下</title><link>https://github.blog/changelog/2024-09-05-lower-permissions-for-github-enterprise-cloud-team-sync-for-microsoft-entra-id</link><dc:creator>Allison</dc:creator><pubDate>Fri, 06 Sep 2024 02:59:26 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2024-09-05-lower-permissions-for-github-enterprise-cloud-team-sync-for-microsoft-entra-id</guid><description>&lt;p&gt;Lower permissions for GitHub Enterprise Cloud Team Sync for Microsoft Entra ID&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2024-09-05-lower-permissions-for-github-enterprise-cloud-team-sync-for-microsoft-entra-id&quot;&gt;Lower permissions for GitHub Enterprise Cloud Team Sync for Microsoft Entra ID&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;p&gt;新しい下位権限&lt;code&gt;GroupMember.Read.All&lt;/code&gt;で GitHub Enterprise Cloud &lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-saml-single-sign-on-for-your-organization/managing-team-synchronization-for-your-organization&quot;&gt;Team Sync&lt;/a&gt; for Microsoft Entra ID を使用して、グループの状態を GitHub に同期できるようになりました。&lt;/p&gt;
