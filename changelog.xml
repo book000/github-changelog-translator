@@ -7,7 +7,7 @@
 &lt;li&gt; Copilot を使用すると&lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/copilot/using-github-copilot/asking-github-copilot-questions-in-githubcom#powered-by-skills&quot;&gt;、ディスカッション、問題、プル リクエストなど&lt;/a&gt;からの概要や重要なポイントを入手して、すぐに状況を把握できます。&lt;br /&gt;
 これらの機能は、すべての Copilot ユーザーが GitHub Mobile でも利用できるようになりました。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.blog/changelog/2024-09-19-sign-up-for-openai-o1-access-on-github/&quot;&gt;最近発表された o1 モデル限定ベータ版&lt;/a&gt;に登録している場合は、GitHub.com で直接 o1-preview と o1-mini を試すことができます。 o1 にアクセスするには、&lt;a href=&quot;https://github.com/o1-waitlist-signup&quot;&gt;待機リスト&lt;/a&gt;にアクセスしてください。 &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.blog/changelog/2024-09-19-sign-up-for-openai-o1-access-on-github/&quot;&gt;最近発表された o1 モデル限定ベータ版&lt;/a&gt;に登録している場合は、GitHub.com で o1-preview と o1-mini を直接試すことができます。 o1 にアクセスするには、&lt;a href=&quot;https://github.com/o1-waitlist-signup&quot;&gt;待機リスト&lt;/a&gt;にアクセスしてください。 &lt;/p&gt;
 &lt;p&gt;&lt;img decoding=&quot;async&quot; src=&quot;https://github.com/user-attachments/assets/d0dd1c4a-6cb6-40b6-b971-e1279eac8268&quot; alt=&quot;画像&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;最後に、GitHub.com インターフェイスの左下隅にあるフローティング Copilot アイコンをクリックして、Copilot Chat を開くことができるようになりました。 &lt;br /&gt;
 &lt;img decoding=&quot;async&quot; src=&quot;https://github.com/user-attachments/assets/e9aecae2-cd3b-4fc2-b023-6f5a7ae283ec&quot; alt=&quot;画像&quot; /&gt;&lt;/p&gt;
@@ -69,7 +69,7 @@
 &lt;/ul&gt;
 &lt;p&gt;変更の完全なリストについては、バージョン&lt;a href=&quot;https://codeql.github.com/docs/codeql-overview/codeql-changelog/codeql-cli-2.18.2/&quot;&gt;2.18.2&lt;/a&gt; 、 &lt;a href=&quot;https://codeql.github.com/docs/codeql-overview/codeql-changelog/codeql-cli-2.18.3/&quot;&gt;2.18.3&lt;/a&gt; 、 &lt;a href=&quot;https://codeql.github.com/docs/codeql-overview/codeql-changelog/codeql-cli-2.18.4/&quot;&gt;2.18.4&lt;/a&gt; 、および&lt;a href=&quot;https://codeql.github.com/docs/codeql-overview/codeql-changelog/codeql-cli-2.19.0/&quot;&gt;2.19.0&lt;/a&gt;の完全な変更ログを参照してください。&lt;/p&gt;
 &lt;p&gt; &lt;code&gt;2.18.Z&lt;/code&gt;リリースのすべての新機能は GHES 3.15 に含まれ、 &lt;code&gt;2.19.0&lt;/code&gt;の機能は GHES 3.16 に含まれます。 GHES 3.14 以前を使用している場合は、 &lt;a href=&quot;https://docs.github.com/en/enterprise-server@3.14/admin/managing-code-security/managing-github-advanced-security-for-your-enterprise/configuring-code-scanning-for-your-appliance#configuring-codeql-analysis-on-a-server-without-internet-access&quot;&gt;CodeQL バージョンをアップグレード&lt;/a&gt;できます。&lt;/p&gt;
-&lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2024-09-25-codeql-2-19-0-typescript-5-6-and-go-1-23-support-new-queries-for-javascript-and-ruby&quot;&gt;CodeQL 2.19.0: TypeScript 5.6 と Go 1.23 のサポート、JavaScript と Ruby の新しいクエリの&lt;/a&gt;投稿は&lt;a href=&quot;https://github.blog&quot;&gt;、 GitHub ブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
+&lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2024-09-25-codeql-2-19-0-typescript-5-6-and-go-1-23-support-new-queries-for-javascript-and-ruby&quot;&gt;CodeQL 2.19.0: TypeScript 5.6 と Go 1.23 のサポート、JavaScript と Ruby の新しいクエリの&lt;/a&gt;投稿は、 &lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">79992</post-id></item><item><title>アクション: 新しいイメージと ubuntu の最新の変更</title><link>https://github.blog/changelog/2024-09-25-actions-new-images-and-ubuntu-latest-changes</link><dc:creator>Allison</dc:creator><pubDate>Wed, 25 Sep 2024 16:00:06 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2024-09-25-actions-new-images-and-ubuntu-latest-changes</guid><description>&lt;p&gt;Actions: new images and ubuntu-latest changes&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2024-09-25-actions-new-images-and-ubuntu-latest-changes&quot;&gt;Actions: new images and ubuntu-latest changes&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;p&gt;&lt;strong&gt;GitHub でホストされるランナー向けの Ubuntu 24 が一般提供になりました&lt;/strong&gt;&lt;/p&gt;
@@ -87,9 +87,9 @@
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt; Ubuntu 24.04 ランナー イメージには、Ubuntu 22.04 とは異なるツールとツール バージョンが含まれています。&lt;/p&gt;
 &lt;p&gt; &lt;strong&gt;&lt;code&gt;ubuntu-latest&lt;/code&gt;移行&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;ubuntu-latest&lt;/code&gt;ラベルは、9 月 23 日に始まり 10 月 30 日に終了する来月の間に Ubuntu 24 に移行されます。移行中に、アクション ログの「ジョブのセットアップ」ステップにある「ランナー イメージ」情報を表示することで、ジョブが移行されたかどうかを判断できます。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ubuntu-latest&lt;/code&gt;ラベルは、9 月 23 日に始まり 10 月 30 日に終了する来月中に Ubuntu 24 に移行されます。移行中に、アクション ログの「ジョブのセットアップ」ステップにある「ランナー イメージ」情報を表示することで、ジョブが移行されたかどうかを判断できます。&lt;/p&gt;
 &lt;p&gt; &lt;strong&gt;GitHub でホストされるランナー向けの macOS 15 パブリック ベータ版&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Actions 用の macOS 15 イメージがパブリック ベータ版で利用可能になりました。 macOS 15 を直接使用するには、ワークフロー ファイル内の&lt;code&gt;runs-on:&lt;/code&gt;を&lt;code&gt;macos-15&lt;/code&gt; 、 &lt;code&gt;macos-15-xlarge&lt;/code&gt; 、または&lt;code&gt;macos-15-large&lt;/code&gt;に更新します。&lt;/p&gt;
+&lt;p&gt;Actions の macOS 15 イメージがパブリック ベータ版で利用できるようになりました。 macOS 15 を直接使用するには、ワークフロー ファイル内の&lt;code&gt;runs-on:&lt;/code&gt;を&lt;code&gt;macos-15&lt;/code&gt; 、 &lt;code&gt;macos-15-xlarge&lt;/code&gt; 、または&lt;code&gt;macos-15-large&lt;/code&gt;に更新します。&lt;/p&gt;
 &lt;pre&gt; &lt;code&gt;jobs:
  build:
  runs-on: macos-15
@@ -117,8 +117,8 @@
 &lt;p&gt;強化された課金プラットフォームは、管理者が企業の GitHub 支出を理解し、管理できるように設計された一連の新機能です。新しいプラットフォームの利点は次のとおりです。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;コスト割り当て&lt;/strong&gt;- コスト センターを作成して、さまざまな Azure サブスクリプションに支出を割り当てます。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;支出の透明性&lt;/strong&gt;– 組織、リポジトリ、製品、コストセンター、SKU の使用状況を時間、日、月、または年ごとに表示します。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;制御の向上&lt;/strong&gt;– 予算を設定して支出を制限し、アラートを設定して予算の使用状況を常に把握します&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;支出の透明性&lt;/strong&gt;– 組織、リポジトリ、製品、コストセンター、SKU の使用量を時間、日、月、年ごとに表示します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;制御の向上&lt;/strong&gt;– 予算を設定して支出を制限し、アラートを設定して予算の使用状況を常に把握できます。 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img decoding=&quot;async&quot; src=&quot;https://github.blog/wp-content/uploads/2024/09/368299078-898c966e-ee05-425d-b1e3-1a27d0ae22f5.png&quot; alt=&quot;強化された課金プラットフォームの使用状況ページの表示&quot; /&gt;&lt;/p&gt;
 &lt;h2 id=&quot;what-to-expect&quot;&gt;何を期待するか&lt;a href=&quot;#what-to-expect&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;What to expect&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
@@ -130,7 +130,7 @@
 &lt;h2 id=&quot;other-important-changes&quot;&gt;その他の重要な変更点&lt;a href=&quot;#other-important-changes&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Other important changes&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt; Git Large File Storage は、前払いの割り当てベースのデータ パックから、使用量ベースの従量課金モデルに移行します。今すぐ Git Large File Storage を使用すると、未使用のデータ パックのクレジットを受け取ることができます。詳細については、「 &lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/billing/using-the-enhanced-billing-platform-for-enterprises/about-enhanced-billing-for-git-large-file-storage&quot;&gt;Git Large File Storage の拡張請求について&lt;/a&gt;」を参照してください。&lt;/li&gt;
-&lt;li&gt;注: 一部の課金関連 API は機能しなくなるか、動作が異なるため、この情報を反映するために関連する API ドキュメントが更新されます。今後数週間以内に、これらの変更を要約した別の変更ログ投稿が公開される予定です。課金 API の詳細については、「 &lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/rest/enterprise-admin/billing?apiVersion=2022-11-28&quot;&gt;エンタープライズ課金用の REST API エンドポイント&lt;/a&gt;」を参照してください。&lt;/li&gt;
+&lt;li&gt;注: 一部の課金関連 API は機能しなくなるか、動作が異なるため、関連する API ドキュメントはこの情報を反映するように更新されます。今後数週間以内に、これらの変更を要約した別の変更ログ投稿が公開される予定です。課金 API の詳細については、「 &lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/rest/enterprise-admin/billing?apiVersion=2022-11-28&quot;&gt;エンタープライズ課金用の REST API エンドポイント&lt;/a&gt;」を参照してください。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;learn-more&quot;&gt;もっと詳しく知る&lt;a href=&quot;#learn-more&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Learn more&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;詳細については、「 &lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/billing/using-the-enhanced-billing-platform-for-enterprises&quot;&gt;企業向けの拡張課金プラットフォームの使用&lt;/a&gt;」を参照するか、GitHub コミュニティの&lt;a href=&quot;https://github.com/orgs/community/discussions/139606&quot;&gt;ディスカッション&lt;/a&gt;に参加してください。&lt;/p&gt;
@@ -147,7 +147,7 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;img decoding=&quot;async&quot; src=&quot;https://github.com/user-attachments/assets/d390d9d0-80fb-446f-b7e3-d9df58ddd421&quot; alt=&quot;エンタープライズ所有者によるルールセットバイパスのスクリーンショット&quot; /&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt; &lt;a href=&quot;https://docs.github.com/en/organizations/managing-organization-settings/managing-custom-properties-for-repositories-in-your-organization&quot;&gt;カスタム リポジトリ プロパティに&lt;/a&gt;は、管理者がプロパティを簡単に管理できるように「追加オプション」セクションが追加されました。 &lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;https://docs.github.com/en/organizations/managing-organization-settings/managing-custom-properties-for-repositories-in-your-organization&quot;&gt;カスタム リポジトリ プロパティには、&lt;/a&gt;管理者がプロパティを簡単に管理できるように「追加オプション」セクションが追加されました。 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img decoding=&quot;async&quot; src=&quot;https://github.com/user-attachments/assets/08721fc8-5c75-4f9d-97ab-453389a31ee0&quot; alt=&quot;追加のリポジトリ プロパティ セクションのスクリーンショット&quot; /&gt;&lt;/p&gt;
 &lt;h3 id=&quot;we-want-to-hear-from-you&quot;&gt;皆様からのご意見をお待ちしております&lt;a href=&quot;#we-want-to-hear-from-you&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;We want to hear from you&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
@@ -160,9 +160,9 @@
 &lt;p&gt;&lt;img data-recalc-dims=&quot;1&quot; fetchpriority=&quot;high&quot; decoding=&quot;async&quot; class=&quot;width-fit aligncenter wp-image-79901 size-large&quot; src=&quot;https://github.blog/wp-content/uploads/2024/09/example-board.webp?resize=1024%2C605&quot; alt=&quot;ボードレイアウトに配置されたサンプルプロジェクト。ボードの各列には固有のタイトルがあり、さまざまな取り組みを伝える複数のカードが含まれています。各カードには個別のタイトルもあります。&quot; width=&quot;1024&quot; height=&quot;605&quot; srcset=&quot;https://github.blog/wp-content/uploads/2024/09/example-board.webp?w=1440 1440w, https://github.blog/wp-content/uploads/2024/09/example-board.webp?w=300 300w, https://github.blog/wp-content/uploads/2024/09/example-board.webp?w=768 768w, https://github.blog/wp-content/uploads/2024/09/example-board.webp?w=1024 1024w&quot; sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;この更新はすべての GitHub プランに影響し、 &lt;a href=&quot;https://github.blog/news-insights/company-news/scaling-accessibility-within-github-and-beyond/&quot;&gt;アクセシビリティに対する GitHub の継続的な取り組み&lt;/a&gt;の一部です。&lt;/p&gt;
 &lt;h2 id=&quot;feedback-welcome&quot;&gt;フィードバック歓迎&lt;a href=&quot;#feedback-welcome&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Feedback welcome&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt; &lt;a href=&quot;https://github.com/orgs/community/discussions/categories/accessibility&quot;&gt;GitHub コミュニティのディスカッション&lt;/a&gt;で私たちに連絡することができます。すべての人にとって包括的でアクセスしやすい環境を構築する取り組みを続ける上で、皆様からのフィードバックは非常に貴重です。&lt;/p&gt;
+&lt;p&gt; &lt;a href=&quot;https://github.com/orgs/community/discussions/categories/accessibility&quot;&gt;GitHub コミュニティのディスカッション&lt;/a&gt;でご連絡いただけます。すべての人にとって包括的でアクセスしやすい環境を構築する取り組みを続ける上で、皆様からのフィードバックは非常に貴重です。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.blog/changelog/2024-09-23-heading-elements-added-to-project-board-views&quot;&gt;スクリーン リーダーのページ ナビゲーションを改善するために、プロジェクト ボード ビューに見出し要素が追加されました&lt;/a&gt;first appeared on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt; 。&lt;/p&gt;
-</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">79898</post-id></item><item><title>強化されたセキュリティ概要ダッシュボード - 最前線での検出、修復、防止</title><link>https://github.blog/changelog/2024-09-19-enhanced-security-overview-dashboard-detection-remediation-and-prevention-at-the-forefront</link><dc:creator>Allison</dc:creator><pubDate>Thu, 19 Sep 2024 23:14:05 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2024-09-19-enhanced-security-overview-dashboard-detection-remediation-and-prevention-at-the-forefront</guid><description>&lt;p&gt;Enhanced security overview dashboard - detection, remediation, and prevention at the forefront&lt;/p&gt;
+</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">79898</post-id></item><item><title>強化されたセキュリティ概要ダッシュボード – 最前線での検出、修復、防止</title><link>https://github.blog/changelog/2024-09-19-enhanced-security-overview-dashboard-detection-remediation-and-prevention-at-the-forefront</link><dc:creator>Allison</dc:creator><pubDate>Thu, 19 Sep 2024 23:14:05 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2024-09-19-enhanced-security-overview-dashboard-detection-remediation-and-prevention-at-the-forefront</guid><description>&lt;p&gt;Enhanced security overview dashboard - detection, remediation, and prevention at the forefront&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2024-09-19-enhanced-security-overview-dashboard-detection-remediation-and-prevention-at-the-forefront&quot;&gt;Enhanced security overview dashboard &amp;#8211; detection, remediation, and prevention at the forefront&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;p&gt;現在、&lt;strong&gt;予防&lt;/strong&gt;メトリックを&lt;strong&gt;検出&lt;/strong&gt;および&lt;strong&gt;修復&lt;/strong&gt;メトリックと並べて、強化されたセキュリティ概要ダッシュボードで表示できるようになりました。このアップデートは、組織レベルとエンタープライズ レベルの両方で利用できます。 &lt;/p&gt;
 &lt;p align=&quot;center&quot;&gt;&lt;img decoding=&quot;async&quot; src=&quot;https://github.com/user-attachments/assets/dbb4192c-a46a-4d44-ad0b-ee4756d26d36&quot; alt=&quot;セキュリティ概要ダッシュボードの新しい防止タブ&quot; width=&quot;600&quot; /&gt;&lt;/p&gt;
