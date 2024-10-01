@@ -4,7 +4,7 @@
 &lt;ul&gt;
 &lt;li&gt; &lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/copilot/using-github-copilot/asking-github-copilot-questions-in-githubcom&quot;&gt;Copilot Chat&lt;/a&gt;を使用した強力な自然言語コード検索を使用して、GitHub 上のコードベースを簡単に検出します。&lt;/li&gt;
 &lt;li&gt;ビルドの失敗を解決するための提案を受け取り、プル リクエストの&lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/copilot/using-github-copilot/creating-a-pull-request-summary-with-github-copilot&quot;&gt;変更を要約すること&lt;/a&gt;で、開発プロセスを合理化します。&lt;/li&gt;
-&lt;li&gt; Copilot を使用すると&lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/copilot/using-github-copilot/asking-github-copilot-questions-in-githubcom#powered-by-skills&quot;&gt;、ディスカッション、問題、プル リクエストなど&lt;/a&gt;からの概要や重要なポイントを入手して、迅速に状況を把握できます。&lt;br /&gt;
+&lt;li&gt; Copilot を使用すると&lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/copilot/using-github-copilot/asking-github-copilot-questions-in-githubcom#powered-by-skills&quot;&gt;、ディスカッション、問題、プル リクエストなど&lt;/a&gt;からの概要や重要なポイントを入手して、すぐに状況を把握できます。&lt;br /&gt;
 これらの機能は、すべての Copilot ユーザーが GitHub Mobile でも利用できるようになりました。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.blog/changelog/2024-09-19-sign-up-for-openai-o1-access-on-github/&quot;&gt;最近発表された o1 モデル限定ベータ版&lt;/a&gt;に登録している場合は、GitHub.com で o1-preview と o1-mini を直接試すことができます。 o1 にアクセスするには、&lt;a href=&quot;https://github.com/o1-waitlist-signup&quot;&gt;待機リスト&lt;/a&gt;にアクセスしてください。 &lt;/p&gt;
@@ -118,7 +118,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;コスト割り当て&lt;/strong&gt;- コスト センターを作成して、さまざまな Azure サブスクリプションに支出を割り当てます。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;支出の透明性&lt;/strong&gt;– 組織、リポジトリ、製品、コストセンター、SKU の使用量を時間、日、月、年ごとに表示します。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;制御の向上&lt;/strong&gt;– 予算を設定して支出を制限し、アラートを設定して予算の使用状況を常に把握できます。 &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;制御の向上&lt;/strong&gt;– 予算を設定して支出を制限し、アラートを設定して予算の使用状況を常に把握します&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img decoding=&quot;async&quot; src=&quot;https://github.blog/wp-content/uploads/2024/09/368299078-898c966e-ee05-425d-b1e3-1a27d0ae22f5.png&quot; alt=&quot;強化された課金プラットフォームの使用状況ページの表示&quot; /&gt;&lt;/p&gt;
 &lt;h2 id=&quot;what-to-expect&quot;&gt;何を期待するか&lt;a href=&quot;#what-to-expect&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;What to expect&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
@@ -166,7 +166,7 @@
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2024-09-19-enhanced-security-overview-dashboard-detection-remediation-and-prevention-at-the-forefront&quot;&gt;Enhanced security overview dashboard &amp;#8211; detection, remediation, and prevention at the forefront&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;p&gt;現在、&lt;strong&gt;予防&lt;/strong&gt;メトリックを&lt;strong&gt;検出&lt;/strong&gt;および&lt;strong&gt;修復&lt;/strong&gt;メトリックと並べて、強化されたセキュリティ概要ダッシュボードで表示できるようになりました。このアップデートは、組織レベルとエンタープライズ レベルの両方で利用できます。 &lt;/p&gt;
 &lt;p align=&quot;center&quot;&gt;&lt;img decoding=&quot;async&quot; src=&quot;https://github.com/user-attachments/assets/dbb4192c-a46a-4d44-ad0b-ee4756d26d36&quot; alt=&quot;セキュリティ概要ダッシュボードの新しい防止タブ&quot; width=&quot;600&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;ダッシュボードに新たに追加された&lt;strong&gt;[防止&lt;/strong&gt;インサイト] タブでは、CodeQL プル リクエスト アラートが強調表示され、間もなくシークレット スキャン プッシュ保護のインサイトが含まれる予定です。これは、単に脆弱性に対応することから、アプリケーション セキュリティの最終目標である脆弱性を積極的に防止することに移行できるように設計されています。このダッシュボードを使用すると、あなたとあなたのチームは、脆弱性を積極的に寄せ付けず、脅威が本番環境に到達する前にブロックすることができます。&lt;/p&gt;
+&lt;p&gt;ダッシュボードに新たに追加された&lt;strong&gt;[防止&lt;/strong&gt;インサイト] タブでは、CodeQL プル リクエスト アラートが強調表示され、間もなくシークレット スキャン プッシュ保護のインサイトが追加される予定です。これは、単に脆弱性に対応することから、アプリケーション セキュリティの最終目標である脆弱性を積極的に防止することに移行できるように設計されています。このダッシュボードを使用すると、あなたとあなたのチームは、脆弱性を積極的に寄せ付けず、脅威が本番環境に到達する前にブロックすることができます。&lt;/p&gt;
 &lt;h4 id=&quot;deep-dive-into-the-codeql-pull-request-alerts&quot;&gt; CodeQL プル リクエスト アラートの詳細&lt;a href=&quot;#deep-dive-into-the-codeql-pull-request-alerts&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Deep dive into the CodeQL pull request alerts&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;さらに詳細な分析のために、新しい&lt;strong&gt;CodeQL プル リクエスト アラート&lt;/strong&gt;レポートも組織レベルとエンタープライズ レベルの両方で利用できます。このレポートにより、次のことが可能になります。&lt;/p&gt;
 &lt;ul&gt;
