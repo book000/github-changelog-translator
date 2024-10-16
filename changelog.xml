@@ -33,10 +33,10 @@
 &lt;li&gt;リスト内のリポジトリは、大きなテキスト サイズを使用するときにコンテンツを切り詰めなくなりました。&lt;/li&gt;
 &lt;li&gt;リポジトリ プロファイル上のバッジ アイコンをフォント サイズに応じて拡大縮小します。&lt;/li&gt;
 &lt;li&gt;コメント内のユーザー アバターまたはユーザー名をタップすると、ユーザー プロフィールに移動します。&lt;/li&gt;
-&lt;li&gt;コメントを発行およびプルリクエストするためのリンクをタップすると、目的のコメントまでスクロールします。&lt;/li&gt;
+&lt;li&gt;リンクをタップしてコメントを発行およびプルリクエストすると、目的のコメントまでスクロールします。&lt;/li&gt;
 &lt;li&gt;フローティング要素の隣の領域でスクロールがブロックされなくなりました。&lt;/li&gt;
 &lt;li&gt;トースト メッセージが画面上の他のフローティング要素と重ならないようになりました。&lt;/li&gt;
-&lt;li&gt;ユーザー入力フィールドのツールバーは、フォント サイズに応じて拡大縮小されます。&lt;/li&gt;
+&lt;li&gt;ユーザー入力フィールドのツールバーは、フォント サイズに応じて拡大/縮小されます。&lt;/li&gt;
 &lt;li&gt;大きなテキスト サイズを使用しても、ユーザーと組織の詳細が切り捨てられなくなりました。&lt;/li&gt;
 &lt;li&gt;大きなテキストサイズを使用しても、コメント内のユーザー名が消えません。&lt;/li&gt;
 &lt;li&gt; VoiceOver は、ファイルの変更をレビューするときに「ファイルにジャンプ」ボタンと「行選択を解除」ボタンをアナウンスします。&lt;/li&gt;
@@ -63,7 +63,7 @@
 &lt;li&gt;コード オプション画面は、大きなフォントを使用するとさらにアクセスしやすくなります。&lt;/li&gt;
 &lt;li&gt;まだ実行されていないワークフロー実行のリストを表示すると、画面に空の状態が表示されます。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;この投稿&lt;a href=&quot;https://github.blog/changelog/2024-10-14-whats-new-in-mobile-october-update&quot;&gt;「モバイルの新機能、10 月の更新」&lt;/a&gt;最初に登場したのは&lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ です&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;この投稿&lt;a href=&quot;https://github.blog/changelog/2024-10-14-whats-new-in-mobile-october-update&quot;&gt;「モバイルの新機能、10 月の更新」&lt;/a&gt;最初に登場したのは&lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;です。&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">80392</post-id></item><item><title>GitHub アドバイザリー データベースの EPSS スコア</title><link>https://github.blog/changelog/2024-10-10-epss-scores-in-the-github-advisory-database</link><dc:creator>Allison</dc:creator><pubDate>Thu, 10 Oct 2024 18:10:11 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2024-10-10-epss-scores-in-the-github-advisory-database</guid><description>&lt;p&gt;EPSS Scores in the GitHub Advisory Database&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2024-10-10-epss-scores-in-the-github-advisory-database&quot;&gt;EPSS Scores in the GitHub Advisory Database&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;p&gt;GitHub アドバイザリー データベースには、グローバル インシデント対応セキュリティ チーム フォーラム (FIRST) のエクスプロイト予測スコアリング システム (EPSS) が追加され、脆弱性リスクをより適切に評価できるようになりました。&lt;/p&gt;
@@ -82,7 +82,7 @@
 &lt;p&gt; Copilot Autofix は、コードベース内のコード スキャン アラートに対して自動修正提案を提供します。 &lt;/p&gt;
 &lt;p&gt;&lt;img decoding=&quot;async&quot; width=&quot;700&quot; alt=&quot;Copilot Autofix をブランチにコミットする例&quot; src=&quot;https://github.com/user-attachments/assets/cfcacb96-b197-4c3f-b1f0-44db703e551d&quot;&gt;&lt;/p&gt;
 &lt;p&gt;このアップデートにより、開発者のワークフロー内で Autofix がより緊密に統合されるため、修正提案を迅速に繰り返し、チームと共同で修正できるようになります。&lt;/p&gt;
-&lt;p&gt;詳細については、 &lt;a href=&quot;https://docs.github.com/en/code-security/code-scanning/managing-code-scanning-alerts/about-autofix-for-codeql-code-scanning&quot;&gt;「CodeQL コード スキャン用の Copilot Autofix について」&lt;/a&gt;を参照してください。コード スキャン用の Copilot Autofix に関するフィードバックがある場合は、&lt;a href=&quot;https://github.com/orgs/community/discussions/111094&quot;&gt;ここの&lt;/a&gt;ディスカッションに参加してください。&lt;/p&gt;
+&lt;p&gt;詳細については、 &lt;a href=&quot;https://docs.github.com/en/code-security/code-scanning/managing-code-scanning-alerts/about-autofix-for-codeql-code-scanning&quot;&gt;「CodeQL コード スキャンの Copilot Autofix について」&lt;/a&gt;を参照してください。コード スキャン用の Copilot Autofix に関するフィードバックがある場合は、&lt;a href=&quot;https://github.com/orgs/community/discussions/111094&quot;&gt;ここの&lt;/a&gt;ディスカッションに参加してください。&lt;/p&gt;
 &lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2024-10-10-now-you-can-choose-a-specific-branch-when-using-copilot-autofix-for-code-scanning&quot;&gt;コード スキャンに Copilot Autofix を使用するときに特定のブランチを選択できるようになったという&lt;/a&gt;投稿は、最初に&lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に掲載されました。&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">80373</post-id></item><item><title>集中的な通知の導入</title><link>https://github.blog/changelog/2024-10-09-introducing-focused-notifications</link><dc:creator>Allison</dc:creator><pubDate>Wed, 09 Oct 2024 21:14:26 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2024-10-09-introducing-focused-notifications</guid><description>&lt;p&gt;Introducing Focused Notifications&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2024-10-09-introducing-focused-notifications&quot;&gt;Introducing Focused Notifications&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
@@ -125,7 +125,7 @@
 &lt;/ul&gt;
 &lt;p&gt;エンタープライズ管理者と調整して、ルールが組織に正しく設定されていることを確認してください。&lt;/p&gt;
 &lt;p&gt;除外ルールの詳細については、 &lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/copilot/managing-copilot/managing-github-copilot-in-your-organization/setting-policies-for-copilot-in-your-organization/excluding-content-from-github-copilot&quot;&gt;Copilot コンテンツ除外ドキュメントを&lt;/a&gt;お読みください。&lt;/p&gt;
-&lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2024-10-08-copilot-content-exclusions-now-available-for-enterprise-admins&quot;&gt;企業管理者向けに Copilot コンテンツの除外が利用可能になったという&lt;/a&gt;投稿は、 &lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
+&lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2024-10-08-copilot-content-exclusions-now-available-for-enterprise-admins&quot;&gt;エンタープライズ管理者向けに Copilot コンテンツの除外が利用可能になったという&lt;/a&gt;投稿は、 &lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">80340</post-id></item><item><title>新しい GitHub スキルでレベルアップされた VS Code の Copilot Chat</title><link>https://github.blog/changelog/2024-10-07-copilot-chat-in-vs-code-upleveled-with-new-github-skills</link><dc:creator>Allison</dc:creator><pubDate>Mon, 07 Oct 2024 20:57:55 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2024-10-07-copilot-chat-in-vs-code-upleveled-with-new-github-skills</guid><description>&lt;p&gt;Copilot Chat in VS Code upleveled with new GitHub skills&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2024-10-07-copilot-chat-in-vs-code-upleveled-with-new-github-skills&quot;&gt;Copilot Chat in VS Code upleveled with new GitHub skills&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;p&gt;新しいスキルが VS Code の Copilot Chat に追加され、GitHub 全体を検索してコミット、問題、プル リクエスト、リポジトリ、トピックを見つけることができるようになりました。 GitHub Copilot は、 &lt;code&gt;@github&lt;/code&gt;エージェントを使用するタイミングを自動的に推測するか、次のような質問をすることで @github エージェントを直接呼び出すことができます。&lt;br /&gt;
@@ -136,7 +136,7 @@
 &lt;div style=&quot;width: 1348px;&quot; class=&quot;wp-video&quot;&gt;&lt;!--[if lt IE 9]&gt;&lt;script&gt;document.createElement(&apos;video&apos;);&lt;/script&gt;&lt;![endif]--&gt;
 &lt;video class=&quot;wp-video-shortcode&quot; id=&quot;video-80331-1&quot; width=&quot;1348&quot; height=&quot;988&quot; preload=&quot;metadata&quot; controls=&quot;controls&quot;&gt;&lt;source type=&quot;video/mp4&quot; src=&quot;https://github.blog/wp-content/uploads/2024/10/374263400-9fa74db7-69fb-4816-88b5-64935c081dfa_079d7c.mp4#t=0.001&quot; /&gt; &lt;a href=&quot;https://github.blog/wp-content/uploads/2024/10/374263400-9fa74db7-69fb-4816-88b5-64935c081dfa_079d7c.mp4#t=0.001&quot;&gt;https://github.blog/wp-content/uploads/2024/10/374263400-9fa74db7-69fb-4816-88b5-64935c081dfa_079d7c.mp4#t=0.001&lt;/a&gt;&lt;/video&gt;&lt;/div&gt;
 &lt;p&gt;この機能は、Copilot Chat &lt;code&gt;v0.20.3&lt;/code&gt;以降および VS Code または VS Code Insiders &lt;code&gt;1.93&lt;/code&gt;以降を使用するすべての Copilot ユーザーが利用できます。 &lt;a href=&quot;https://docs.github.com/en/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide#currently-available-skills&quot;&gt;VS Code の Copilot Chat での質問と利用可能なスキル&lt;/a&gt;の詳細については、こちらをご覧ください。&lt;/p&gt;
-&lt;p&gt;フィードバックをお聞かせください。GitHub&lt;a href=&quot;https://github.com/orgs/community/discussions/categories/copilot&quot;&gt;コミュニティ&lt;/a&gt;内のディスカッションに参加してください。&lt;/p&gt;
+&lt;p&gt;フィードバックをお送りいただき、 &lt;a href=&quot;https://github.com/orgs/community/discussions/categories/copilot&quot;&gt;GitHub コミュニティ&lt;/a&gt;内のディスカッションに参加してください。&lt;/p&gt;
 &lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2024-10-07-copilot-chat-in-vs-code-upleveled-with-new-github-skills&quot;&gt;新しい GitHub スキルでレベルアップされた VS Code のコパイロット チャット&lt;/a&gt;の投稿は、 &lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">80331</post-id></item><item><title>非推奨 – dependabot は Bundler v1 をサポートしなくなりました</title><link>https://github.blog/changelog/2024-10-07-deprecation-dependabot-no-longer-supports-bundler-v1</link><dc:creator>Allison</dc:creator><pubDate>Mon, 07 Oct 2024 16:05:13 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2024-10-07-deprecation-dependabot-no-longer-supports-bundler-v1</guid><description>&lt;p&gt;Deprecation – Dependabot no longer supports Bundler v1&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2024-10-07-deprecation-dependabot-no-longer-supports-bundler-v1&quot;&gt;Deprecation – Dependabot no longer supports Bundler v1&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
