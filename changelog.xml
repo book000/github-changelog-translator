@@ -89,7 +89,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;日没&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;退職した&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;退職&lt;/strong&gt;&lt;/td&gt;
 &lt;td&gt;
 &lt;ul&gt;
 &lt;li&gt;製品または機能の寿命が正式に終了することを示します&lt;/li&gt;
@@ -145,7 +145,7 @@
 &lt;li&gt;アイテムをあるプロジェクト グループから別のプロジェクト グループに移動すると、グループのタイトルが更新されます。&lt;/li&gt;
 &lt;li&gt;リポジトリのプロジェクト ピッカーには、リポジトリ所有者が所有するプロジェクトが表示されます。&lt;/li&gt;
 &lt;li&gt;リスト内のリポジトリは、大きなテキスト サイズを使用するときにコンテンツを切り詰めなくなりました。&lt;/li&gt;
-&lt;li&gt;リポジトリ プロファイル上のバッジ アイコンをフォント サイズに応じて拡大縮小します。&lt;/li&gt;
+&lt;li&gt;リポジトリ プロファイル上のバッジ アイコンをフォント サイズに合わせて拡大縮小します。&lt;/li&gt;
 &lt;li&gt;コメント内のユーザー アバターまたはユーザー名をタップすると、ユーザー プロフィールに移動します。&lt;/li&gt;
 &lt;li&gt;リンクをタップしてコメントを発行およびプルリクエストすると、目的のコメントまでスクロールします。&lt;/li&gt;
 &lt;li&gt;フローティング要素の隣の領域でスクロールがブロックされなくなりました。&lt;/li&gt;
@@ -195,7 +195,7 @@
 </description><content:encoded>&lt;p&gt;履歴アラートに Copilot Autofix を使用する場合、自動修正をコミットするブランチを選択できるようになりました。また、プル リクエストを開くか、ブランチをローカルでチェックアウトするか、GitHub デスクトップで開くかを決定することもできます。&lt;/p&gt;
 &lt;p&gt; Copilot Autofix は、コードベース内のコード スキャン アラートに対して自動修正提案を提供します。 &lt;/p&gt;
 &lt;p&gt;&lt;img decoding=&quot;async&quot; width=&quot;700&quot; alt=&quot;Copilot Autofix をブランチにコミットする例&quot; src=&quot;https://github.com/user-attachments/assets/cfcacb96-b197-4c3f-b1f0-44db703e551d&quot;&gt;&lt;/p&gt;
-&lt;p&gt;このアップデートにより、開発者のワークフロー内で Autofix がより緊密に統合されるため、修正提案を迅速に繰り返し、チームと共同で修正できるようになります。&lt;/p&gt;
+&lt;p&gt;このアップデートにより、開発者のワークフロー内で Autofix がより密接に統合されるため、修正提案を迅速に繰り返し、チームと共同で修正できるようになります。&lt;/p&gt;
 &lt;p&gt;詳細については、 &lt;a href=&quot;https://docs.github.com/en/code-security/code-scanning/managing-code-scanning-alerts/about-autofix-for-codeql-code-scanning&quot;&gt;「CodeQL コード スキャンの Copilot Autofix について」&lt;/a&gt;を参照してください。コード スキャン用の Copilot Autofix に関するフィードバックがある場合は、&lt;a href=&quot;https://github.com/orgs/community/discussions/111094&quot;&gt;ここの&lt;/a&gt;ディスカッションに参加してください。&lt;/p&gt;
 &lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2024-10-10-now-you-can-choose-a-specific-branch-when-using-copilot-autofix-for-code-scanning&quot;&gt;コード スキャンに Copilot Autofix を使用するときに特定のブランチを選択できるようになったという&lt;/a&gt;投稿は、最初に&lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に掲載されました。&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">80373</post-id></item><item><title>集中的な通知の導入</title><link>https://github.blog/changelog/2024-10-09-introducing-focused-notifications</link><dc:creator>Allison</dc:creator><pubDate>Wed, 09 Oct 2024 21:14:26 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2024-10-09-introducing-focused-notifications</guid><description>&lt;p&gt;Introducing Focused Notifications&lt;/p&gt;
