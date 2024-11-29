@@ -47,7 +47,7 @@
 &lt;img decoding=&quot;async&quot; alt=&quot;「組織の役割 - 役割の割り当て」ページのセキュリティ マネージャーの割り当てモーダル&quot; src=&quot;https://github.com/user-attachments/assets/e392ec81-6395-4056-9362-5b23650aba38&quot; width=&quot;700&quot;&gt;
 &lt;/p&gt;
 &lt;h3 id=&quot;building-on-recent-improvements&quot;&gt;最近の改善を基に構築&lt;a href=&quot;#building-on-recent-improvements&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Building on recent improvements&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2024-08-29-add-repository-permissions-to-custom-organization-roles/&quot;&gt;リポジトリ権限を持つカスタム組織ロール&lt;/a&gt;を追加すると、柔軟性が次のレベルに高まります。これらの更新により、セキュリティ ロールをカスタマイズして、チームの適切なレベルの責任とアクセスのバランスをとることができます。これらの機能を活用して特定の要件を満たす方法は次のとおりです。&lt;/p&gt;
+&lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2024-08-29-add-repository-permissions-to-custom-organization-roles/&quot;&gt;リポジトリ権限を持つカスタム組織ロール&lt;/a&gt;を追加すると、柔軟性が次のレベルに高まります。これらの更新により、セキュリティ ロールをカスタマイズして、チームの適切なレベルの責任とアクセスのバランスを取ることができます。これらの機能を活用して特定の要件を満たす方法は次のとおりです。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;少ないアクセス許可でセキュリティ マネージャー ロールを作成する:&lt;/strong&gt;カスタム組織ロールにリポジトリ アクセス許可を追加すると、次のようなセキュリティ マネージャー アクセス許可のサブセットを使用してカスタム セキュリティ ロールを構築できるようになります。
 &lt;ul&gt;
@@ -68,11 +68,11 @@
 &lt;p align=&quot;center&quot;&gt;
 &lt;img decoding=&quot;async&quot; alt=&quot;セキュリティマネージャーロールとカスタム監査ロールが割り当てられたユーザー&quot; src=&quot;https://github.com/user-attachments/assets/aa8cb84e-632a-43af-a9a6-af6061d506d5&quot; width=&quot;700&quot;&gt;&lt;/p&gt;
 &lt;p&gt;これらのアップデートは現在 GitHub Enterprise Cloud で一般提供されており、GitHub Enterprise Server 3.16 に含まれる予定です。&lt;/p&gt;
-&lt;p&gt; &lt;a href=&quot;https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/managing-security-managers-in-your-organization&quot;&gt;セキュリティ マネージャーの役​​割&lt;/a&gt;、 &lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-peoples-access-to-your-organization-with-roles/managing-custom-organization-roles&quot;&gt;カスタム組織の役割&lt;/a&gt;について詳しく知り、&lt;a href=&quot;https://github.com/github-community/community/discussions/categories/code-security&quot;&gt;フィードバックをお送りください。&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;a href=&quot;https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/managing-security-managers-in-your-organization&quot;&gt;セキュリティ マネージャーの役​​割&lt;/a&gt;、 &lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-peoples-access-to-your-organization-with-roles/managing-custom-organization-roles&quot;&gt;カスタム組織の役割&lt;/a&gt;の詳細を確認し、&lt;a href=&quot;https://github.com/github-community/community/discussions/categories/code-security&quot;&gt;フィードバックをお送りください。&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;投稿&lt;a href=&quot;https://github.blog/changelog/2024-11-26-expanded-flexibility-and-control-for-managing-the-security-manager-role&quot;&gt;セキュリティ マネージャー ロールを管理するための拡張された柔軟性と制御&lt;/a&gt;最初に&lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に掲載されました。&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">81444</post-id></item><item><title>エンタープライズレベルのセキュリティの CSV エクスポートの概要</title><link>https://github.blog/changelog/2024-11-26-csv-export-for-enterprise-level-security-overview</link><dc:creator>Allison</dc:creator><pubDate>Tue, 26 Nov 2024 20:43:47 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2024-11-26-csv-export-for-enterprise-level-security-overview</guid><description>&lt;p&gt;CSV export for enterprise-level security overview&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2024-11-26-csv-export-for-enterprise-level-security-overview&quot;&gt;CSV export for enterprise-level security overview&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
-</description><content:encoded>&lt;p&gt;エンタープライズ レベルのセキュリティ概要ページで、オフライン分析、レポート作成、およびアーカイブを目的としてセキュリティ データをエクスポートできるようになりました。これには以下が含まれます:&lt;/p&gt;
+</description><content:encoded>&lt;p&gt;エンタープライズ レベルのセキュリティ概要ページで、オフライン分析、レポート作成、およびアーカイブを目的としてセキュリティ データをエクスポートできるようになりました。これには以下が含まれます。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;エンタープライズレベルの概要ダッシュボード:&lt;/strong&gt;サードパーティのスキャン ツールを含むすべてのスキャン ツールのアラート レベルのデータをエクスポートします。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;エンタープライズ レベルのリスク ページ&lt;/strong&gt;: コード スキャン、Dependabot、およびシークレット スキャンのリポジトリごとのセキュリティ アラートの集計数を含むリポジトリ レベルのデータをエクスポートします。&lt;/li&gt;
@@ -117,7 +117,7 @@
 &lt;ul&gt;
 &lt;li&gt; 「変更されたファイル」画面のチェックボックスは、スクロール時に正しい状態を表示するようになりました。&lt;/li&gt;
 &lt;li&gt; Markdown ファイル内の相対画像は、どのような場合でも正しくレンダリングされるようになりました。&lt;/li&gt;
-&lt;li&gt;長いディスカッションではページの読み込みが表示されるようになりました。&lt;/li&gt;
+&lt;li&gt;長いディスカッションではページの読み込みが示されるようになりました。&lt;/li&gt;
 &lt;li&gt;フィードヘッダーのアクセシビリティを改善します。&lt;/li&gt;
 &lt;li&gt;トレンド リポジトリでの TalkBack の説明がより正確になりました。&lt;/li&gt;
 &lt;li&gt;プル リクエストのマージ オプションの色のコントラストが改善されました。&lt;/li&gt;
@@ -131,7 +131,7 @@
 &lt;li&gt; &lt;code&gt;/enterprises/{enterprise}/billing/copilot/seats&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt; &lt;code&gt;/organization/{org}/members/{username}/copilot&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt; &lt;code&gt;created_at&lt;/code&gt;タイムスタンプには、チーム、エンタープライズ チーム、または組織にアクセス権が付与されたときではなく、ユーザーが Copilot アクセス権を受け取ったときが表示されるようになりました。これは、監査ログ内のシートの対応する&lt;code&gt;seat_added&lt;/code&gt;イベントのタイムスタンプと一致します。&lt;/p&gt;
+&lt;p&gt; &lt;code&gt;created_at&lt;/code&gt;タイムスタンプには、チーム、エンタープライズ チーム、または組織にアクセス権が付与されたときではなく、ユーザーが Copilot アクセス権を受け取ったときが表示されるようになりました。これは、監査ログ内のシートに対応する&lt;code&gt;seat_added&lt;/code&gt;イベントのタイムスタンプと一致します。&lt;/p&gt;
 &lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2024-11-22-update-to-seat-created_at-timestamp-in-the-copilot-user-management-rest-api-public-preview&quot;&gt;Copilot ユーザー管理 REST API [パブリック プレビュー] のシート `created_at` タイムスタンプを更新するという&lt;/a&gt;投稿は、 &lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">81392</post-id></item><item><title>プログラムによる監査ログ構成とマルチエンドポイントストリーミング</title><link>https://github.blog/changelog/2024-11-21-programmatic-audit-log-configuration-and-multi-endpoint-streaming</link><dc:creator>Allison</dc:creator><pubDate>Thu, 21 Nov 2024 21:53:23 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2024-11-21-programmatic-audit-log-configuration-and-multi-endpoint-streaming</guid><description>&lt;p&gt;Programmatic audit log configuration and multi-endpoint streaming&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2024-11-21-programmatic-audit-log-configuration-and-multi-endpoint-streaming&quot;&gt;Programmatic audit log configuration and multi-endpoint streaming&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
@@ -183,16 +183,16 @@
 &lt;/p&gt;
 &lt;h3 id=&quot;whats-new&quot;&gt;新着情報？&lt;a href=&quot;#whats-new&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;What&amp;#8217;s new?&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;視覚的なアクセシビリティの向上:&lt;/strong&gt;色のコントラストが強化され、視覚障害のあるユーザーのサポートが強化され、データの視覚的な解釈が容易になります。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;視覚的なアクセシビリティの向上:&lt;/strong&gt;色のコントラストが強化され、視覚障害を持つユーザーのサポートが向上し、データの視覚的な解釈が容易になります。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;キーボード ナビゲーションの強化:&lt;/strong&gt;はっきりと見えるフォーカス インジケーターを含む、キーボードのみの完全なナビゲーションにより、マウスを使わずにスムーズな操作が可能になります。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;支援技術のサポート:&lt;/strong&gt;スクリーン リーダーとの互換性が向上し、ナビゲーションとコンテンツの理解が向上しました。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;これらのアップデートは現在 GitHub Enterprise Cloud で一般提供されており、GitHub Enterprise Server 3.16 に含まれる予定です。&lt;/p&gt;
-&lt;p&gt; &lt;a href=&quot;https://github.com/orgs/community/discussions/categories/accessibility&quot;&gt;GitHub コミュニティ&lt;/a&gt;のディスカッションに参加し、&lt;a href=&quot;https://accessibility.github.com/&quot;&gt;アクセシビリティに対する GitHub の取り組み&lt;/a&gt;について詳しく読んでください。&lt;/p&gt;
+&lt;p&gt; &lt;a href=&quot;https://github.com/orgs/community/discussions/categories/accessibility&quot;&gt;GitHub コミュニティ&lt;/a&gt;のディスカッションに参加して、&lt;a href=&quot;https://accessibility.github.com/&quot;&gt;アクセシビリティに対する GitHub の取り組み&lt;/a&gt;について詳しく読んでください。&lt;/p&gt;
 &lt;p&gt;この投稿は、&lt;a href=&quot;https://github.blog/changelog/2024-11-20-accessibility-improvements-for-security-overview&quot;&gt;セキュリティの概要に関するアクセシビリティの改善&lt;/a&gt;最初に&lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に掲載されました。&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">81238</post-id></item><item><title>dependabot が .NET SDK のバージョン更新を実行できるようになりました</title><link>https://github.blog/changelog/2024-11-19-dependabot-can-now-perform-version-updates-for-the-net-sdk</link><dc:creator>Allison</dc:creator><pubDate>Tue, 19 Nov 2024 19:11:18 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2024-11-19-dependabot-can-now-perform-version-updates-for-the-net-sdk</guid><description>&lt;p&gt;Dependabot can now perform version updates for the .NET SDK&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2024-11-19-dependabot-can-now-perform-version-updates-for-the-net-sdk&quot;&gt;Dependabot can now perform version updates for the .NET SDK&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
-</description><content:encoded>&lt;p&gt;dependabot は、リポジトリ内の&lt;code&gt;global.json&lt;/code&gt;ファイルを更新することで、.NET SDK の最新バージョンを常に最新の状態に保つことができるようになりました。 &lt;code&gt;dotnet-sdk&lt;/code&gt;エントリを&lt;code&gt;dependabot.yml&lt;/code&gt;ファイルに追加することで、.NET SDK の更新を有効にできます。現時点では、Dependabot は .NET SDK のセキュリティ アラートを作成しませんが、定期的なバージョン更新を実行することで、常に最新の .NET SDK を使用できるようになります。&lt;/p&gt;
+</description><content:encoded>&lt;p&gt;dependabot は、リポジトリ内の&lt;code&gt;global.json&lt;/code&gt;ファイルを更新することで、.NET SDK の最新バージョンを常に最新の状態に保つことができるようになりました。 &lt;code&gt;dotnet-sdk&lt;/code&gt;エントリを&lt;code&gt;dependabot.yml&lt;/code&gt;ファイルに追加することで、.NET SDK の更新を有効にできます。現時点では、Dependabot は .NET SDK のセキュリティ アラートを作成しませんが、定期的なバージョン更新を実行すると、常に最新の .NET SDK を使用できるようになります。&lt;/p&gt;
 &lt;p&gt; dependabot の構成の詳細については、 &lt;a href=&quot;https://docs.github.com/en/code-security/dependabot/ecosystems-supported-by-dependabot/supported-ecosystems-and-repositories&quot;&gt;ドキュメント&lt;/a&gt;を参照してください。&lt;/p&gt;
 &lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2024-11-19-dependabot-can-now-perform-version-updates-for-the-net-sdk&quot;&gt;「Dependabot が .NET SDK のバージョン更新を実行できるようになりました」という&lt;/a&gt;記事は、最初に&lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に掲載されました。&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">81230</post-id></item></channel></rss>
