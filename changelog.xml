@@ -7,10 +7,10 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;アイデアのブレインストーミング:&lt;/strong&gt;コードベースが現在どのように機能しているかについて Copilot に質問し、タスクを解決する方法のアイデアを検討します。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;変更を計画する:&lt;/strong&gt; Copilot Workspace を利用して、コード変更の包括的な計画を生成し、関連するコードを明らかにし、目標を達成するために各ファイルに必要な変更を記述します。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;実装と検証:&lt;/strong&gt; Copilot Workspace で、自然言語またはコードで反復および改良できるコード変更を提案させます。プル リクエストを作成する前に、GitHub Codespaces が提供する完全に機能するコンピューティング環境を使用して、Copilot Workspace 内でコードを直接構築、実行、テストすることもできます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;実装と検証:&lt;/strong&gt; Copilot Workspace がコードの変更を提案し、自然言語またはコードで反復して改良できるようにします。プル リクエストを作成する前に、GitHub Codespaces が提供する完全に機能するコンピューティング環境を使用して、Copilot Workspace 内でコードを直接構築、実行、テストすることもできます。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt; GitHub Copilot Workspace が提案するすべてのもの (計画からコードに至るまで) は完全に編集可能で、変更に確信が持てるまで迅速に繰り返すことができます。&lt;/p&gt;
-&lt;p&gt;詳細については、 &lt;a href=&quot;https://github.blog/news-insights/product-news/github-copilot-workspace/&quot;&gt;Copilot Workspace を初めて世界に公開したブログ&lt;/a&gt;をご覧ください。&lt;/p&gt;
+&lt;p&gt;詳細については、 &lt;a href=&quot;https://github.blog/news-insights/product-news/github-copilot-workspace/&quot;&gt;Copilot Workspace を初めて世界に向けて発表したブログを&lt;/a&gt;ご覧ください。&lt;/p&gt;
 &lt;h3 id=&quot;getting-started&quot;&gt;はじめる&lt;a href=&quot;#getting-started&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Getting Started&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt; &lt;a href=&quot;https://copilot-workspace.githubnext.com&quot;&gt;Copilot Workspace にログインし&lt;/a&gt;て、テクニカル プレビューにサインアップします。 Enterprise 管理対象ユーザーはテクニカル プレビューの対象外であることに注意してください。&lt;/p&gt;
 &lt;p&gt;アクセスしたら、&lt;a href=&quot;https://github.com/githubnext/copilot-workspace-user-manual&quot;&gt;ユーザー マニュアル&lt;/a&gt;、または Copilot Workspace を最大限に活用するための&lt;a href=&quot;https://github.blog/ai-and-ml/github-copilot/5-tips-and-tricks-when-using-github-copilot-workspace/&quot;&gt;5 つの役立つヒントとテクニックを&lt;/a&gt;確認してください。&lt;/p&gt;
@@ -46,7 +46,7 @@
 &lt;h3 id=&quot;improvements-to-the-diff-editor&quot;&gt;差分エディタの改善&lt;a href=&quot;#improvements-to-the-diff-editor&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Improvements to the diff editor&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;スクロール エクスペリエンスが改善され、各ファイルを個別にスクロールするのではなく、すべてのファイルを一度にスクロールできるようになりました。&lt;/li&gt;
-&lt;li&gt; diff の外側で領域の折りたたみを有効にし、diff に埋め込まれた 3 行のコンテキストを表示しています。&lt;/li&gt;
+&lt;li&gt; diff の外側で領域の折りたたみを有効にし、diff にパディングされた 3 行のコンテキストを表示しています。&lt;/li&gt;
 &lt;li&gt;エディタ内でワードラップを有効にしました。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;bug-fixes&quot;&gt;バグ修正&lt;a href=&quot;#bug-fixes&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Bug fixes&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
@@ -87,7 +87,7 @@
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2024-12-20-rest-api-insights-for-organizations-is-now-generally-available&quot;&gt;REST API insights for organizations is now generally available&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;p&gt;GitHub Enterprise Cloud 組織の所有者であるあなたと指定されたユーザーは、 &lt;strong&gt;API インサイトを&lt;/strong&gt;使用して、組織全体または特定のアプリとユーザーの REST API アクティビティを視覚化できるようになりました。この新機能は、REST API アクティビティのソースを理解し、主要なレート制限に合わせて管理するのに役立ち、関係する時間枠、アプリ、および API エンドポイントを可視化します。&lt;/p&gt;
 &lt;h2 id=&quot;who-can-access-it&quot;&gt;誰がアクセスできるのか&lt;a href=&quot;#who-can-access-it&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Who can access it&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt; API インサイト機能は、組織レベルでのみ使用できます。デフォルトでは、組織の所有者のみがアクセスできます。ただし、組織の所有者は、組織レベルでカスタム ロールを作成し、そのカスタム ロールに&lt;strong&gt;「組織 API の分析情報の表示」&lt;/strong&gt;という名前のアクセス許可を割り当て、そのカスタム ロールを組織メンバーまたはチームに割り当てることで、非所有者にアクセスを許可できます。 &lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-peoples-access-to-your-organization-with-roles/managing-custom-organization-roles&quot;&gt;組織のカスタム ロールの管理&lt;/a&gt;については、ドキュメントを参照してください。&lt;/p&gt;
+&lt;p&gt; API インサイト機能は組織レベルでのみ使用できます。デフォルトでは、組織の所有者のみがアクセスできます。ただし、組織の所有者は、組織レベルでカスタム ロールを作成し、そのカスタム ロールに&lt;strong&gt;「組織 API の分析情報の表示」&lt;/strong&gt;という名前のアクセス許可を割り当て、そのカスタム ロールを組織メンバーまたはチームに割り当てることで、非所有者にアクセスを許可できます。 &lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-peoples-access-to-your-organization-with-roles/managing-custom-organization-roles&quot;&gt;組織のカスタム ロールの管理&lt;/a&gt;については、ドキュメントを参照してください。&lt;/p&gt;
 &lt;h2 id=&quot;where-to-find-it&quot;&gt;どこで見つけられますか&lt;a href=&quot;#where-to-find-it&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Where to find it&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt; API Insights 機能は、すべての GitHub Enterprise Cloud 組織で利用できます。組織のホームページからアクセスするには、ページの上部近くにある&lt;strong&gt;[インサイト]&lt;/strong&gt;を選択し、ページの左側にある&lt;strong&gt;[REST API]&lt;/strong&gt;を選択します。 &lt;/p&gt;
 &lt;p&gt;&lt;img decoding=&quot;async&quot; src=&quot;https://gist.github.com/user-attachments/assets/4cf9d271-8814-4803-a7ff-7a8b0eaeea7c&quot; alt=&quot;「インサイト」を選択してから「REST API」を選択すると、新しい API インサイト機能に移動する組織のホームページの画像。&quot; /&gt;&lt;/p&gt;
@@ -143,7 +143,7 @@
 &lt;p&gt; JetBrains IDE 用の GitHub Copilot プラグインをぜひお試しいただき、ご意見をお聞かせください。あなたのフィードバックは、製品を改善する上で重要な役割を果たします。&lt;/p&gt;
 &lt;h3 id=&quot;join-the-discussion&quot;&gt;ディスカッションに参加する&lt;a href=&quot;#join-the-discussion&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Join the discussion&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt; GitHub コミュニティ ディスカッションの開発者コミュニティとつながり、経験を共有し、質問し、フィードバックを提供してください。&lt;/p&gt;
-&lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2024-12-19-github-copilot-for-jetbrains-update-to-support-free-plan-ga&quot;&gt;JetBrains 用 GitHub Copilot (無料プランをサポートするためのアップデート) [GA] の&lt;/a&gt;投稿は、 &lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に最初に登場しました。&lt;/p&gt;
+&lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2024-12-19-github-copilot-for-jetbrains-update-to-support-free-plan-ga&quot;&gt;GitHub Copilot for JetBrains (無料プランをサポートするためのアップデート) [GA]&lt;/a&gt;の投稿は、 &lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">81749</post-id></item><item><title>dependabot の更新は npm バージョン 6 のサポートを終了 [終了]</title><link>https://github.blog/changelog/2024-12-19-dependabot-updates-ceases-supporting-npm-version-6-closing-down-private-preview</link><dc:creator>Allison</dc:creator><pubDate>Thu, 19 Dec 2024 18:06:04 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2024-12-19-dependabot-updates-ceases-supporting-npm-version-6-closing-down-private-preview</guid><description>&lt;p&gt;Dependabot updates ceases supporting npm version 6 [Closing Down]  [Private Preview]&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2024-12-19-dependabot-updates-ceases-supporting-npm-version-6-closing-down-private-preview&quot;&gt;Dependabot updates ceases supporting npm version 6 [Closing Down]&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;p&gt;2025 年 1 月 20 日に、Dependabot はサポートが終了した npm バージョン 6 のサポートを終了します。 npm バージョン 6 を使用し続ける場合、Dependabot が依存関係を更新するためのプル リクエストを作成しないリスクがあります。その場合は、npm のサポートされているリリースに更新することをお勧めします。 2024 年 12 月の時点で、npm のサポートされている最新リリースはバージョン 11 です。サポートされているリリースの詳細については、 &lt;a href=&quot;https://docs.npmjs.com/downloading-and-installing-node-js-and-npm&quot;&gt;NPM の公式ドキュメントを&lt;/a&gt;参照してください。&lt;/p&gt;
@@ -161,5 +161,5 @@
 &lt;p&gt;&lt;img decoding=&quot;async&quot; src=&quot;https://github.com/user-attachments/assets/5f968d95-ec80-43eb-8781-3b1f1b774afd&quot; alt=&quot;GitHub モデルのトークンとレイテンシの情報&quot; /&gt;&lt;/p&gt;
 &lt;p&gt; GitHub Models を使用すると、GitHub 上のすべての開発者がプレイグラウンドや API などを介してトップ AI モデルにアクセスできるため、AI 機能や製品を簡単に構築できます。&lt;/p&gt;
 &lt;p&gt; GitHub モデルの詳細については、&lt;a href=&quot;https://docs.github.com/en/github-models&quot;&gt;ドキュメントを参照してください&lt;/a&gt;。また、&lt;a href=&quot;https://github.com/orgs/community/discussions/142244&quot;&gt;専用のコミュニティ ディスカッション&lt;/a&gt;に参加して、このアップデートについて話し合ったり、ヒントを交換したり、フィードバックを共有したりすることもできます。&lt;/p&gt;
-&lt;p&gt; The post &lt;a href=&quot;https://github.blog/changelog/2024-12-18-you-can-now-view-real-time-token-and-latency-usage-in-github-models-ga&quot;&gt;GitHub モデル (GA) でリアルタイムのトークンとレイテンシの使用状況を表示できるようになりました&lt;/a&gt;appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt; .&lt;/p&gt;
+&lt;p&gt; The post &lt;a href=&quot;https://github.blog/changelog/2024-12-18-you-can-now-view-real-time-token-and-latency-usage-in-github-models-ga&quot;&gt;GitHub モデル (GA) でリアルタイムのトークンとレイテンシーの使用状況を表示できるようになりました&lt;/a&gt;appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt; .&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">81732</post-id></item></channel></rss>
