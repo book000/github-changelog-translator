@@ -61,7 +61,7 @@
 &lt;p&gt;この投稿&lt;a href=&quot;https://github.blog/changelog/2025-01-24-whats-new-in-mobile-january-update&quot;&gt;「モバイルの新機能、1 月の更新」&lt;/a&gt;最初に登場したのは&lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;です。&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">82250</post-id></item><item><title>GitHub モデルに新しいプロンプト エディター (GA) が導入されました</title><link>https://github.blog/changelog/2025-01-23-github-models-introduces-a-new-prompt-editor-ga</link><dc:creator>Allison</dc:creator><pubDate>Fri, 24 Jan 2025 00:16:50 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2025-01-23-github-models-introduces-a-new-prompt-editor-ga</guid><description>&lt;p&gt;GitHub Models introduces a new prompt editor (GA)&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2025-01-23-github-models-introduces-a-new-prompt-editor-ga&quot;&gt;GitHub Models introduces a new prompt editor (GA)&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
-</description><content:encoded>&lt;p&gt;GitHub モデル内の新しいプロンプト エディターにアクセスできるようになりました。このエディターは、プロンプトを反復、改良、完成させるのに役立つように設計されています。この強力なツールは、入力の作成とテストに集中的で直感的なエクスペリエンスを提供するように設計されており、プロジェクトでのパフォーマンスと関連性を最大化するためにプロンプ​​トを最適化できます。精度を微調整する場合でも、さまざまなアプローチを実験する場合でも、このエディターを使用すると、モデルの可能性を最大限に簡単かつ効率的に引き出すことができます。 &lt;/p&gt;
+</description><content:encoded>&lt;p&gt;GitHub モデル内の新しいプロンプト エディターにアクセスできるようになりました。このエディターは、プロンプトを反復、改良、完成させるのに役立つように設計されています。この強力なツールは、入力の作成とテストに集中的で直感的なエクスペリエンスを提供するように設計されており、プロジェクトでのパフォーマンスと関連性を最大化するためにプロンプ​​トを最適化できます。精度を微調整している場合でも、さまざまなアプローチを試している場合でも、このエディターを使用すると、モデルの可能性を最大限に簡単かつ効率的に引き出すことができます。 &lt;/p&gt;
 &lt;p&gt;&lt;img decoding=&quot;async&quot; width=&quot;1678&quot; alt=&quot;プロンプトエディターのイメージ&quot; src=&quot;https://github.com/user-attachments/assets/d0ffeb45-1950-4115-bc38-4431440f8f4a&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;この追加により、次のことが可能になります。&lt;br /&gt;
  – マルチターンインタラクションの複雑さを必要とせずに、プロンプトを迅速にテストして調整します。&lt;br /&gt;
@@ -142,7 +142,7 @@
 &lt;p&gt; 2025 年 2 月 18 日火曜日から、 &lt;code&gt;last_activity_at&lt;/code&gt;フィールドが GitHub によって 90 日間のみアクティブに保存されるように、保持ポリシーが更新されます。以前は、このフィールドの内容は無期限に保持されていました。&lt;/p&gt;
 &lt;h3 id=&quot;whats-changing&quot;&gt;何が変わっているのか&lt;a href=&quot;#whats-changing&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;What’s Changing&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;古いポリシー:&lt;/strong&gt; &lt;code&gt;last_activity_at&lt;/code&gt;値を無制限に保持します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;古いポリシー:&lt;/strong&gt; &lt;code&gt;last_activity_at&lt;/code&gt;値の無制限の保持。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;新しいポリシー:&lt;/strong&gt; 90 日間のローリング保存期間。データの&lt;code&gt;last_activity_at&lt;/code&gt;が 90 日を超える場合、その値は&lt;code&gt;nil&lt;/code&gt;に設定されます。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;expected-impact&quot;&gt;予想される影響&lt;a href=&quot;#expected-impact&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Expected Impact&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
@@ -151,7 +151,7 @@
 &lt;h2 id=&quot;detail&quot;&gt;詳細&lt;a href=&quot;#detail&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Detail&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;h3 id=&quot;clarifying-the-behavior-of-last_activity_at-in-the-context-of-the-current-changes&quot;&gt;現在の変更のコンテキストにおける&lt;code&gt;last_activity_at&lt;/code&gt;の動作を明確にします。 &lt;a href=&quot;#clarifying-the-behavior-of-last_activity_at-in-the-context-of-the-current-changes&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Clarifying the behavior of &lt;code&gt;last_activity_at&lt;/code&gt; in the context of the current changes:&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;シートの割り当て&lt;/strong&gt;: ユーザーにシートを割り当てると、ユーザーが初めてそのシートと対話するまで、そのシートの&lt;code&gt;last_activity&lt;/code&gt;値は&lt;code&gt;nil&lt;/code&gt;になります。これは、ユーザーが以前に別の組織の別の座席割り当てでアクティビティを行っていた場合にも当てはまります。&lt;/p&gt;
+&lt;li&gt;&lt;strong&gt;シートの割り当て&lt;/strong&gt;: ユーザーにシートを割り当てると、ユーザーが初めてそのシートと対話するまで、そのシートの&lt;code&gt;last_activity&lt;/code&gt;値は&lt;code&gt;nil&lt;/code&gt;になります。これは、ユーザーが以前に別の組織の異なる座席割り当てでアクティビティを行っていた場合にも当てはまります。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;シートの削除&lt;/strong&gt;: ユーザからシートを削除すると、取り消し元の組織でそのユーザの&lt;code&gt;last_activity&lt;/code&gt;データが&lt;code&gt;nil&lt;/code&gt;に設定されます。そのユーザーに他の組織のシートを付与した他の管理者が、それらの組織に対してプルした場合、そのデータは影響を受けません。&lt;/p&gt;
@@ -163,7 +163,7 @@
 &lt;p&gt;&lt;strong&gt;ユーザーの削除&lt;/strong&gt;: ユーザーを削除すると、そのユーザーに関連付けられたすべての&lt;code&gt;last_activity&lt;/code&gt;データが直ちに削除されます。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;休止状態の判断&lt;/strong&gt;: シートのアクティビティ データを取得する場合、 &lt;code&gt;created_at&lt;/code&gt;値と&lt;code&gt;last_activity&lt;/code&gt;値を使用して休止状態を判断できます。たとえば、 &lt;code&gt;created_at&lt;/code&gt;が 30 日以上前で、 &lt;code&gt;last_activity&lt;/code&gt;が 30 日以上前または&lt;code&gt;nil&lt;/code&gt;の場合、シートは休止状態であると見なされる可能性があります。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;休止状態の判断&lt;/strong&gt;: シートのアクティビティ データを取得する場合、 &lt;code&gt;created_at&lt;/code&gt;値と&lt;code&gt;last_activity&lt;/code&gt;値を使用して休止状態を判断できます。たとえば、 &lt;code&gt;created_at&lt;/code&gt;が 30 日以上前で、 &lt;code&gt;last_activity&lt;/code&gt;が 30 日以上前または&lt;code&gt;nil&lt;/code&gt;の場合、シートは休止状態であるとみなされる可能性があります。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;割り当てられたシートのアクティビティ データ&lt;/strong&gt;: 割り当てられたシートの&lt;code&gt;last_activity&lt;/code&gt;データを取得する場合、担当者の最新のアクティビティ レコードが 90 日より古い場合は、 &lt;code&gt;nil&lt;/code&gt;値を受け取ります。&lt;/p&gt;
@@ -174,6 +174,6 @@
 &lt;p&gt;外部データ サーフェスは品質を第一に保つ&lt;em&gt;必要があります&lt;/em&gt;。このボリュームのデータを複数年の保存期間にわたって保持すると、ストレージとバックアップのオーバーヘッドが大幅に増加するだけでなく、品質チェックのコストと複雑さも増加します。期間限定の保存ポリシーにより、関連性のある最新の情報を提供しながら効率を維持できます。これにより、影響を非常に古いレコードのみに限定しながら、エンドポイントから返されるデータの復元力をさらに向上させることができます。&lt;/p&gt;
 &lt;h3 id=&quot;next-steps&quot;&gt;次のステップ&lt;a href=&quot;#next-steps&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Next Steps&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;現在の&lt;/em&gt;アクティビティ レコードの&lt;code&gt;last_activity_at&lt;/code&gt;フィールドに依存する場合は、何もする必要はありません。&lt;/p&gt;
-&lt;p&gt;ただし、何らかの理由で、90 日以上休止状態になっているアクティブなシートの使用日に依存するワークフローまたはレポートがある場合、90 日より古いレコードやそれ以前の日付については、これらの値が&lt;code&gt;nil&lt;/code&gt;になることに注意してください。 2024 年 11 月 20 日、2025 年 2 月 18 日火曜日現在。 非常にまれですが、これが問題となる場合に備えて API 応答を保存することをお勧めします。&lt;/p&gt;
+&lt;p&gt;ただし、何らかの理由で、90 日以上休止状態になっているアクティブ シートの使用日に依存するワークフローまたはレポートがある場合、90 日より古いレコードやそれ以前の日付については、これらの値が&lt;code&gt;nil&lt;/code&gt;になることに注意してください。 2024 年 11 月 20 日、2025 年 2 月 18 日火曜日現在。 非常にまれですが、これが問題となる場合に備えて API 応答を保存することをお勧めします。&lt;/p&gt;
 &lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2025-01-17-updating-retention-period-for-last_activity_at-values-on-the-user-management-api-public-preview-to-90-days&quot;&gt;Copilot ユーザー管理 API の「last_activity_at」値の保持期間を 90 日に更新するという&lt;/a&gt;投稿は、最初に&lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に掲載されました。&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">82141</post-id></item></channel></rss>
