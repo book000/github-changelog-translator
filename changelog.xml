@@ -32,7 +32,7 @@
 &lt;li&gt;プロジェクトのスタイルと規約に沿ったコードを提案します。&lt;/li&gt;
 &lt;li&gt;コードベースに関する質問に、コンテキストを意識した正確な情報で答えます。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;インスタント セマンティック コード検索のインデックス作成により、リポジトリを開いてからコードベース対応の AI 支援を受け取るまでに待ち時間が実質的になくなり、開発ワークフローがより効率的で中断がなくなりました。&lt;/p&gt;
+&lt;p&gt;インスタント セマンティック コード検索のインデックス作成により、リポジトリを開いてからコードベース対応の AI 支援を受けるまでに実質的に待ち時間がなくなり、開発ワークフローがより効率的で中断がなくなりました。&lt;/p&gt;
 &lt;h2 id=&quot;how-it-works&quot;&gt;仕組み&lt;a href=&quot;#how-it-works&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;How it works&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt; github.com で GitHub Copilot Chat を開くと、セマンティック コード検索のインデックス作成が自動的にトリガーされます。 &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=GitHub.copilot&quot;&gt;GitHub Copilot 拡張機能&lt;/a&gt;を使用する VS Code ユーザーの場合、必要に応じて Copilot UI を介してインデックス作成を手動でトリガーすることもできます。&lt;/p&gt;
 &lt;h2 id=&quot;availability&quot;&gt;可用性&lt;a href=&quot;#availability&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Availability&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
@@ -48,7 +48,7 @@
 &lt;p&gt;これらの変更は、リリース バージョン 3.17 で GitHub Enterprise Server の顧客に提供される予定です。&lt;/p&gt;
 &lt;p&gt;エンタープライズ アカウントの詳細については、 &lt;a href=&quot;https://docs.github.com/en/enterprise-cloud@latest/admin/managing-your-enterprise-account/about-enterprise-accounts&quot;&gt;ドキュメント&lt;/a&gt;を参照してください。&lt;/p&gt;
 &lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2025-03-12-updates-to-enterprise-account-navigation-now-generally-available&quot;&gt;「エンタープライズ アカウント ナビゲーションの更新が一般提供になりました」という&lt;/a&gt;投稿は、最初に&lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に掲載されました。&lt;/p&gt;
-</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">83218</post-id></item><item><title>更新されたコミットの詳細ページが一般公開されました</title><link>https://github.blog/changelog/2025-03-12-refreshed-commit-details-page-now-generally-available</link><dc:creator>Allison</dc:creator><pubDate>Wed, 12 Mar 2025 18:27:14 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2025-03-12-refreshed-commit-details-page-now-generally-available</guid><description>&lt;p&gt;Refreshed commit details page now generally available&lt;/p&gt;
+</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">83218</post-id></item><item><title>更新されたコミット詳細ページが一般公開されました</title><link>https://github.blog/changelog/2025-03-12-refreshed-commit-details-page-now-generally-available</link><dc:creator>Allison</dc:creator><pubDate>Wed, 12 Mar 2025 18:27:14 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2025-03-12-refreshed-commit-details-page-now-generally-available</guid><description>&lt;p&gt;Refreshed commit details page now generally available&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2025-03-12-refreshed-commit-details-page-now-generally-available&quot;&gt;Refreshed commit details page now generally available&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;p&gt;更新されたコミット詳細ページが一般公開されました。&lt;/p&gt;
 &lt;p&gt;この改良されたページでは、フィルタリング、コメント、キーボード ナビゲーションが改善され、コミット内の変更を表示およびナビゲートできるようになりました。 &lt;/p&gt;
@@ -117,7 +117,7 @@
 &lt;p&gt; Eclipse 用&lt;a href=&quot;https://marketplace.eclipse.org/content/github-copilot&quot;&gt;GitHub Copilot&lt;/a&gt; Chat は現在パブリック プレビュー中です。任意の&lt;a href=&quot;https://github.com/features/copilot&quot;&gt;GitHub アカウント&lt;/a&gt;を使用して Eclipse で GitHub Copilot を有効にし、コード補完とエディタ内チャット アシスタンスの両方を今すぐ体験できます。&lt;/p&gt;
 &lt;h2 id=&quot;whats-new&quot;&gt;新着情報&lt;a href=&quot;#whats-new&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;What’s new&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;チャット ビュー&lt;/strong&gt;: チャット ビューで直接、Copilot にコーディング タスクのヘルプを求めます。 &lt;a href=&quot;https://docs.github.com/en/copilot/using-github-copilot/copilot-chat/asking-github-copilot-questions-in-your-ide?tool=eclipse&quot;&gt;もっと詳しく知る&lt;/a&gt;。&lt;/p&gt;
+&lt;li&gt;&lt;strong&gt;チャット ビュー&lt;/strong&gt;: チャット ビューで直接 Copilot にコーディング タスクのヘルプを求めます。 &lt;a href=&quot;https://docs.github.com/en/copilot/using-github-copilot/copilot-chat/asking-github-copilot-questions-in-your-ide?tool=eclipse&quot;&gt;もっと詳しく知る&lt;/a&gt;。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;チャット用のモデル セレクター&lt;/strong&gt;: GitHub Copilot を使用すると、チャット中にモデルを変更できます。 &lt;a href=&quot;https://docs.github.com/en/copilot/using-github-copilot/ai-models/changing-the-ai-model-for-copilot-chat?tool=eclipse&quot;&gt;もっと詳しく知る&lt;/a&gt;。&lt;/p&gt;
@@ -143,12 +143,12 @@
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2025-03-11-github-copilot-for-xcode-chat-is-now-generally-available&quot;&gt;GitHub Copilot for Xcode Chat is now generally available&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;h1 id=&quot;github-copilot-for-xcode-chat-is-now-generally-available&quot;&gt;Xcode Chat 用の GitHub Copilot が一般提供になりました&lt;a href=&quot;#github-copilot-for-xcode-chat-is-now-generally-available&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;GitHub Copilot for Xcode Chat is now generally available&quot;&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;img decoding=&quot;async&quot; alt=&quot;Xcode Chat 用の GitHub Copilot が一般提供になりました&quot; src=&quot;https://github.com/user-attachments/assets/03e43c7a-2ca5-4ccd-8c78-359395a3120a&quot; /&gt;&lt;/p&gt;
-&lt;p&gt; &lt;a href=&quot;https://github.com/github/CopilotForXcode&quot;&gt;GitHub Copilot Chat が&lt;/a&gt;Xcode で一般提供されるようになりました。 Xcode ユーザーの場合は、コード補完とエディタ内チャット アシスタンスの両方で AI を活用したアシスタンスを今すぐ利用できるようになりました。&lt;/p&gt;
+&lt;p&gt; &lt;a href=&quot;https://github.com/github/CopilotForXcode&quot;&gt;GitHub Copilot Chat が&lt;/a&gt;Xcode で一般提供されるようになりました。 Xcode ユーザーは、コード補完とエディタ内チャット アシスタントの両方で AI を活用したアシスタントを今すぐ利用できるようになりました。&lt;/p&gt;
 &lt;h2 id=&quot;ai-powered-chat-for-coding-assistance&quot;&gt; AI を活用したチャットによるコーディング支援&lt;a href=&quot;#ai-powered-chat-for-coding-assistance&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;AI-powered chat for coding assistance&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt; Xcode の GitHub Copilot Chat を使用すると、質問したり、コードの説明を得たり、デバッグのヘルプを受けたり、複雑な実装についての提案を生成したりすることができます。このインタラクティブなエクスペリエンスにより、開発者はコーディング環境を離れることなく、より効率的に作業できるようになります。&lt;/p&gt;
 &lt;h2 id=&quot;key-features-of-github-copilot-for-xcode-chat&quot;&gt; Xcode チャット用 GitHub Copilot の主な機能&lt;a href=&quot;#key-features-of-github-copilot-for-xcode-chat&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Key features of GitHub Copilot for Xcode Chat&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;チャット ビュー&lt;/strong&gt;: チャット ビューで直接 Copilot にコーディング タスクのヘルプを求めます。&lt;/p&gt;
+&lt;li&gt;&lt;strong&gt;チャット ビュー&lt;/strong&gt;: チャット ビューで直接、Copilot にコーディング タスクのヘルプを求めます。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;チャット用のモデル セレクター&lt;/strong&gt;: GitHub Copilot を使用すると、チャット中にモデルを変更できます。&lt;/p&gt;
