@@ -6,7 +6,7 @@
 
 &lt;/video&gt;&lt;/p&gt;
 &lt;p&gt; GitHub の問題が発生している場合、ビューの右側の [&lt;strong&gt;開発]&lt;/strong&gt;セクションに&lt;strong&gt;[コードとコパイロット エージェント モード]&lt;/strong&gt;ボタンが表示されるようになりました。このボタンをクリックすると、新しいコードスペースが初期化され、新しいタブでコードスペースが開き、課題本文をコンテキストとして使用して VSCode のコパイロット エージェント モードが有効になります。その後、Copilot は問題に取り組み、コードベースを徹底的に分析し、依存関係を考慮して適切なファイル変更を提案します。その後、Copilot を使用してコードを微調整し、必要に応じて変更を加えることができます。&lt;/p&gt;
-&lt;p&gt; Codespaces の VSCode エージェント モードはパブリック プレビュー段階にあり、今後数か月間にわたってエクスペリエンスを繰り返していく予定です。続報をお楽しみに！&lt;/p&gt;
+&lt;p&gt; Codespaces の VSCode エージェント モードはパブリック プレビュー段階にあり、今後数か月間にわたってエクスペリエンスを繰り返していく予定です。最新情報をお楽しみに！&lt;/p&gt;
 &lt;/body&gt;&lt;/html&gt;
 &lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2025-04-11-vscode-copilot-agent-mode-in-codespaces&quot;&gt;Codespaces の VSCode Copilot エージェント モードの&lt;/a&gt;投稿は&lt;a href=&quot;https://github.blog&quot;&gt;、GitHub ブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
 </content:encoded><post-id xmlns="com-wordpress:feed-additions:1">86366</post-id></item><item><title>Copilot Chat ユーザーはパブリック プレビューで Gemini 2.5 Pro モデルを使用できます</title><link>https://github.blog/changelog/2025-04-11-copilot-chat-users-can-use-the-gemini-2-5-pro-model-in-public-preview</link><dc:creator>Allison</dc:creator><pubDate>Fri, 11 Apr 2025 17:18:37 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2025-04-11-copilot-chat-users-can-use-the-gemini-2-5-pro-model-in-public-preview</guid><description>&lt;p&gt;Copilot Chat users can use the Gemini 2.5 Pro model in public preview&lt;/p&gt;
@@ -112,7 +112,7 @@
 &lt;h2 id=&quot;what-are-the-machine-specs&quot; id=&quot;what-are-the-machine-specs&quot; &gt;マシンのスペックは何ですか? &lt;a href=&quot;#what-are-the-machine-specs&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;What are the machine specs?&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt; vCPU: 96&lt;/li&gt;
-&lt;li&gt; RAM: 384GB&lt;/li&gt;
+&lt;li&gt; RAM: 384 GB&lt;/li&gt;
 &lt;li&gt; SSD: 2040 GiB&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;get-started-today&quot; id=&quot;get-started-today&quot; &gt;今日から始めましょう&lt;a href=&quot;#get-started-today&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Get started today&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
@@ -187,7 +187,7 @@
 &lt;p&gt;委任されたバイパス機能をリポジトリ ポリシーに拡張します。この機能は次の目的で設計されています。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;リポジトリの削除や可視性設定の変更などの重要なアクションに対して追加のレビューを提供します。&lt;/li&gt;
-&lt;li&gt;プロジェクトを損なう可能性のある偶発的な変更を防ぎます。&lt;/li&gt;
+&lt;li&gt;プロジェクトに損害を与える可能性のある偶発的な変更を防ぎます。&lt;/li&gt;
 &lt;li&gt;リポジトリの危険ゾーンから直接バイパス リクエストを送信します。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;リポジトリ ポリシーの委任バイパスの詳細については、 &lt;a href=&quot;https://docs.github.com/enterprise-cloud@latest/admin/managing-accounts-and-repositories/managing-repositories-in-your-enterprise/governing-how-people-use-repositories-in-your-enterprise&quot;&gt;ドキュメント&lt;/a&gt;を参照してください。 &lt;/p&gt;
