@@ -39,7 +39,7 @@
 &lt;html&gt;&lt;body&gt;&lt;p&gt;プル リクエストを課題にリンクすると、共同作業者は課題の作業が進行中であることを簡単に確認できます。現在、リンクされたプル リクエストがマージされると、関連する問題は自動的にクローズされます。&lt;/p&gt;
 &lt;p&gt;しかし、多くのチームにとって、PR をマージしても作業が完了したわけではありません。問題が実際に解決される前に、QA、検証、またはフォローアップの手順が必要になる場合があります。この新しいリポジトリ設定を使用すると、プル リクエストをマージすると、リンクされた問題を自動的にクローズするかどうかを選択できます。&lt;/p&gt;
 &lt;p&gt;リポジトリ管理者とメンテナは&lt;strong&gt;、「リポジトリ設定」&lt;/strong&gt; → &lt;strong&gt;「一般」&lt;/strong&gt; → &lt;strong&gt;「問題」&lt;/strong&gt;でこの設定を管理できます。既存の動作を維持するために、デフォルトで有効になっています。 &lt;/p&gt;
-&lt;p&gt;&lt;img decoding=&quot;async&quot; src=&quot;https://github.com/user-attachments/assets/b38de804-fdfe-4609-91ef-1f468c8cb6e8&quot; alt=&quot;自動終了する問題のリポジトリ設定を表示します&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img decoding=&quot;async&quot; src=&quot;https://github.com/user-attachments/assets/b38de804-fdfe-4609-91ef-1f468c8cb6e8&quot; alt=&quot;自動終了する問題のリポジトリ設定を表示します。&quot;&gt;&lt;/p&gt;
 &lt;p&gt;質問やフィードバックについては、 &lt;a href=&quot;https://github.com/orgs/community/discussions/157378&quot;&gt;GitHub コミュニティ&lt;/a&gt;のディスカッションに参加してください。&lt;/p&gt;
 &lt;/body&gt;&lt;/html&gt;
 &lt;p&gt;この記事では&lt;a href=&quot;https://github.blog/changelog/2025-04-23-users-can-now-choose-whether-merging-linked-pull-requests-automatically-closes-the-issue&quot;&gt;、リンクされたプル リクエストをマージすると問題が自動的にクローズされるかどうかをユーザーが選択できるように&lt;/a&gt;なりました。 first appeared on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt; .&lt;/p&gt;
@@ -77,7 +77,7 @@
 &lt;html&gt;&lt;body&gt;&lt;p&gt; GitHub コード スキャンでは、CodeQL 分析を通じて GitHub Actions ワークフロー ファイルのセキュリティ保護が強化され、一般公開されました。この機能を使用すると、自動コード スキャンを通じてアクション ワークフローのセキュリティ脆弱性を特定して修正できるため、CI/CD パイプラインに影響を与える前に潜在的なセキュリティ問題を防ぐことができます。 CodeQL はワークフローを自動的に分析し、必要な権限の欠如、適切な検証を行わない危険な入力、スクリプト インジェクションの脆弱性など、一般的なセキュリティの脆弱性を検出します。&lt;/p&gt;
 &lt;p&gt;パブリック プレビュー期間中、私たちは 158,000 を超えるリポジトリの保護を支援し、アクション ワークフローの 800,000 を超える潜在的な脆弱性を検出しました。これらの問題の約 15% はリポジトリのメンテナによって修正されました。この強力な採用は、GitHub Actions を使用する CI/CD ワークフローの自動セキュリティ分析の価値を示しています。&lt;/p&gt;
 &lt;p&gt;コード スキャンのデフォルト設定を使用しているリポジトリの場合、デフォルト ブランチでワークフロー ファイルが検出されたときに、アクション ワークフロー分析が自動的に有効になるようになりました。 &lt;a href=&quot;https://docs.github.com/en/code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/customizing-your-advanced-setup-for-code-scanning#changing-the-languages-that-are-analyzed&quot;&gt;Advanced Setup&lt;/a&gt;を使用するリポジトリの場合、 &lt;code&gt;actions&lt;/code&gt;言語を既存の構成に追加するだけで、この保護が有効になります。&lt;/p&gt;
-&lt;p&gt;また、アクション ワークフローで最も頻繁に検出されるアクションの 1 つである、 &lt;code&gt;actions/missing-workflow-permissions&lt;/code&gt;クエリに対する Copilot 自動修正機能も追加しました。この脆弱性が検出されると、ワークフローに最小特権の原則を実装するための自動修正提案が表示され、修復がより迅速かつ簡単になります。&lt;/p&gt;
+&lt;p&gt;また、アクション ワークフローで最も頻繁に検出されるアクションの 1 つである、 &lt;code&gt;actions/missing-workflow-permissions&lt;/code&gt;クエリに対する Copilot 自動修正機能も追加しました。この脆弱性が検出されると、ワークフローに最小権限の原則を実装するための自動修正提案が表示され、修復がより迅速かつ簡単になります。&lt;/p&gt;
 &lt;p&gt;分析の品質を向上させるために、 &lt;code&gt;actions/unversioned-immutable-action&lt;/code&gt;クエリを&lt;code&gt;extended&lt;/code&gt;クエリ スイートに移動し、より的を絞った包括的な分析が可能になりました。デフォルトのセットアップを使用している場合は、拡張クエリを含めるように&lt;a href=&quot;https://docs.github.com/en/code-security/code-scanning/enabling-code-scanning/configuring-default-setup-for-code-scanning#configuring-default-setup-for-a-repository&quot;&gt;スキャン オプションを構成&lt;/a&gt;できます。高度なセットアップを備えたリポジトリの場合、CodeQL 設定で&lt;a href=&quot;https://docs.github.com/en/code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/customizing-your-advanced-setup-for-code-scanning#using-queries-in-ql-packs&quot;&gt;このクエリ スイートを指定&lt;/a&gt;できます。この変更の詳細については、 &lt;a href=&quot;https://codeql.github.com/docs/codeql-overview/codeql-changelog/codeql-cli-2.20.6&quot;&gt;CodeQL 2.20.6 のリリース ノートを&lt;/a&gt;参照してください。&lt;/p&gt;
 &lt;p&gt;コード スキャンによる GitHub Actions ワークフロー ファイルの分析は、GitHub Enterprise Server 3.18 で利用できるようになります。&lt;/p&gt;
 &lt;p&gt; &lt;a href=&quot;https://docs.github.com/en/code-security/code-scanning/enabling-code-scanning/configuring-default-setup-for-code-scanning&quot;&gt;コード スキャンの構成&lt;/a&gt;、 &lt;a href=&quot;https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-githubs-security-features-to-secure-your-use-of-github-actions&quot;&gt;アクションの使用の保護&lt;/a&gt;、および&lt;a href=&quot;https://securitylab.github.com/codeql-wall-of-fame/&quot;&gt;CodeQL で特定された脆弱性&lt;/a&gt;について詳しく説明します。&lt;/p&gt;
@@ -162,7 +162,7 @@
 &lt;li&gt;ビデオまたは画像を含む Web ビュー項目のリストのスクロール エクスペリエンスが向上しました。&lt;/li&gt;
 &lt;li&gt;フローティング アクション ボタンによってリストのコンテンツが隠れることはなくなりました。&lt;/li&gt;
 &lt;li&gt;解決済みのプル リクエスト ディスカッションへのリンクにより、解決済みの会話が開かれるようになりました。&lt;/li&gt;
-&lt;li&gt;ワークフロー画面で一部のチェックサマリーに移動するときに発生するクラッシュを修正しました。&lt;/li&gt;
+&lt;li&gt; 「ワークフロー」画面で一部のチェックサマリーに移動するときに発生するクラッシュを修正しました。&lt;/li&gt;
 &lt;li&gt;通知の本文に HTML コメントが表示されなくなりました。&lt;/li&gt;
 &lt;li&gt;フォークされたリポジトリからのプル リクエストには、ベース ブランチとヘッド ブランチの両方のリポジトリ所有者が表示されるようになりました。&lt;/li&gt;
 &lt;li&gt;フォークされたリポジトリから親リポジトリへのプル リクエストの差分を表示するときに、正しいファイルに移動します。&lt;/li&gt;
