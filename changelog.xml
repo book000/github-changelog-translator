@@ -33,7 +33,7 @@
 &lt;p&gt;変更の完全なリストについては、&lt;a href=&quot;https://codeql.github.com/docs/codeql-overview/codeql-changelog/codeql-cli-2.21.1/&quot;&gt;バージョン 2.21.1 の完全な変更ログ&lt;/a&gt;を確認してください。 CodeQL の新しいバージョンはすべて、github.com の GitHub コード スキャンのユーザーに自動的にデプロイされます。 CodeQL 2.21.1 の新機能は、GitHub Enterprise Server (GHES) バージョン 3.18 にも含まれる予定です。古いバージョンの GHES を使用している場合は、 &lt;a href=&quot;https://docs.github.com/en/enterprise-server@3.15/admin/managing-code-security/managing-github-advanced-security-for-your-enterprise/configuring-code-scanning-for-your-appliance#configuring-codeql-analysis-on-a-server-without-internet-access&quot;&gt;CodeQL バージョンを手動でアップグレード&lt;/a&gt;できます。&lt;/p&gt;
 &lt;/body&gt;&lt;/html&gt;
 &lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2025-04-24-codeql-improves-javascript-ruby-and-c-analysis-in-version-2-21-1&quot;&gt;CodeQL によるバージョン 2.21.1 での JavaScript および Ruby の分析の改善に関する&lt;/a&gt;投稿は&lt;a href=&quot;https://github.blog&quot;&gt;、 GitHub ブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
-</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">86967</post-id></item><item><title>リンクされたプル リクエストをマージすることで問題を自動的にクローズするかどうかをユーザーが選択できるようになりました</title><link>https://github.blog/changelog/2025-04-23-users-can-now-choose-whether-merging-linked-pull-requests-automatically-closes-the-issue</link><dc:creator>Allison</dc:creator><pubDate>Wed, 23 Apr 2025 17:09:30 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2025-04-23-users-can-now-choose-whether-merging-linked-pull-requests-automatically-closes-the-issue</guid><description>&lt;p&gt;Linking a pull request to an issue makes it easy for collaborators to see that work for the issue is underway. Today, when a linked pull request is merged, the&amp;#8230;&lt;/p&gt;
+</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">86967</post-id></item><item><title>ユーザーは、リンクされたプル リクエストをマージすることで問題を自動的にクローズするかどうかを選択できるようになりました</title><link>https://github.blog/changelog/2025-04-23-users-can-now-choose-whether-merging-linked-pull-requests-automatically-closes-the-issue</link><dc:creator>Allison</dc:creator><pubDate>Wed, 23 Apr 2025 17:09:30 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2025-04-23-users-can-now-choose-whether-merging-linked-pull-requests-automatically-closes-the-issue</guid><description>&lt;p&gt;Linking a pull request to an issue makes it easy for collaborators to see that work for the issue is underway. Today, when a linked pull request is merged, the&amp;#8230;&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2025-04-23-users-can-now-choose-whether-merging-linked-pull-requests-automatically-closes-the-issue&quot;&gt;Users can now choose whether merging linked pull requests automatically closes the issue&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
 &lt;html&gt;&lt;body&gt;&lt;p&gt;プル リクエストを課題にリンクすると、共同作業者は課題の作業が進行中であることを簡単に確認できます。現在、リンクされたプル リクエストがマージされると、関連する問題は自動的にクローズされます。&lt;/p&gt;
@@ -48,7 +48,7 @@
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
 &lt;html&gt;&lt;body&gt;&lt;p&gt; GitHub Copilot コード レビューは、C、C++、Kotlin、Swift、およびその他のいくつかの一般的な言語をサポートするようになりました。&lt;/p&gt;
 &lt;p&gt;このアップデートにより、プル リクエストでさらに多くのコードに対する AI を活用したレビュー提案を受け取ることができるようになります。 &lt;a href=&quot;https://docs.github.com/en/copilot/using-github-copilot/code-review/using-copilot-code-review?tool=webui#about-copilot-code-review&quot;&gt;サポートされている言語の完全なリストについては、ドキュメントを&lt;/a&gt;参照してください。&lt;/p&gt;
-&lt;p&gt; Copilot のコード レビューでは、プル リクエストで通常見られるファイル タイプの 90% 以上をカバーするようになったため、より多くのコードがインテリジェントな洞察から恩恵を受けることができます。&lt;/p&gt;
+&lt;p&gt; Copilot のコード レビューでは、プル リクエストで通常見られるファイル タイプの 90% 以上がカバーされるようになったため、より多くのコードがインテリジェントな洞察から恩恵を受けることができます。&lt;/p&gt;
 &lt;p&gt;提案の質も向上しました。 Copilot のコード レビューでは、信頼性の低い結果や抑制された結果をより適切に処理することで、より高品質で実用的なフィードバックが明らかになります。これらの改善は C# で特に顕著で、Copilot ではバージョン認識が向上し、より正確で関連性の高い提案が提供されるようになりました。&lt;/p&gt;
 &lt;p&gt;さらに、Copilot はコンテキストを理解する能力も向上しました。プル リクエスト内のファイルの差分を主に参照するのではなく、ファイル全体を考慮するようになりました。これにより、より総合的で関連性の高いレビューの提案が得られます。&lt;/p&gt;
 &lt;p&gt;詳細について、または会話に参加するには、 &lt;a href=&quot;https://github.com/orgs/community/discussions/categories/announcements&quot;&gt;GitHub コミュニティ ディスカッション&lt;/a&gt;にアクセスしてください。&lt;/p&gt;
@@ -77,7 +77,7 @@
 &lt;html&gt;&lt;body&gt;&lt;p&gt; GitHub コード スキャンでは、CodeQL 分析を通じて GitHub Actions ワークフロー ファイルのセキュリティ保護が強化され、一般公開されました。この機能を使用すると、自動コード スキャンを通じてアクション ワークフローのセキュリティ脆弱性を特定して修正できるため、CI/CD パイプラインに影響を与える前に潜在的なセキュリティ問題を防ぐことができます。 CodeQL はワークフローを自動的に分析し、必要な権限の欠如、適切な検証を行わない危険な入力、スクリプト インジェクションの脆弱性など、一般的なセキュリティの脆弱性を検出します。&lt;/p&gt;
 &lt;p&gt;パブリック プレビュー期間中、私たちは 158,000 を超えるリポジトリの保護を支援し、アクション ワークフローの 800,000 を超える潜在的な脆弱性を検出しました。これらの問題の約 15% はリポジトリのメンテナによって修正されました。この強力な採用は、GitHub Actions を使用する CI/CD ワークフローの自動セキュリティ分析の価値を示しています。&lt;/p&gt;
 &lt;p&gt;コード スキャンのデフォルト設定を使用しているリポジトリの場合、デフォルト ブランチでワークフロー ファイルが検出されたときに、アクション ワークフロー分析が自動的に有効になるようになりました。 &lt;a href=&quot;https://docs.github.com/en/code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/customizing-your-advanced-setup-for-code-scanning#changing-the-languages-that-are-analyzed&quot;&gt;Advanced Setup&lt;/a&gt;を使用するリポジトリの場合、 &lt;code&gt;actions&lt;/code&gt;言語を既存の構成に追加するだけで、この保護が有効になります。&lt;/p&gt;
-&lt;p&gt;また、アクション ワークフローで最も頻繁に検出されるアクションの 1 つである、 &lt;code&gt;actions/missing-workflow-permissions&lt;/code&gt;クエリに対する Copilot 自動修正機能も追加しました。この脆弱性が検出されると、ワークフローに最小権限の原則を実装するための自動修正提案が表示され、修復がより迅速かつ簡単になります。&lt;/p&gt;
+&lt;p&gt;また、アクション ワークフローで最も頻繁に検出されるアクションの 1 つである、 &lt;code&gt;actions/missing-workflow-permissions&lt;/code&gt;クエリに対する Copilot 自動修正機能も追加しました。この脆弱性が検出されると、ワークフローに最小特権の原則を実装するための自動修正提案が表示され、修復がより迅速かつ簡単になります。&lt;/p&gt;
 &lt;p&gt;分析の品質を向上させるために、 &lt;code&gt;actions/unversioned-immutable-action&lt;/code&gt;クエリを&lt;code&gt;extended&lt;/code&gt;クエリ スイートに移動し、より的を絞った包括的な分析が可能になりました。デフォルトのセットアップを使用している場合は、拡張クエリを含めるように&lt;a href=&quot;https://docs.github.com/en/code-security/code-scanning/enabling-code-scanning/configuring-default-setup-for-code-scanning#configuring-default-setup-for-a-repository&quot;&gt;スキャン オプションを構成&lt;/a&gt;できます。高度なセットアップを備えたリポジトリの場合、CodeQL 設定で&lt;a href=&quot;https://docs.github.com/en/code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/customizing-your-advanced-setup-for-code-scanning#using-queries-in-ql-packs&quot;&gt;このクエリ スイートを指定&lt;/a&gt;できます。この変更の詳細については、 &lt;a href=&quot;https://codeql.github.com/docs/codeql-overview/codeql-changelog/codeql-cli-2.20.6&quot;&gt;CodeQL 2.20.6 のリリース ノートを&lt;/a&gt;参照してください。&lt;/p&gt;
 &lt;p&gt;コード スキャンによる GitHub Actions ワークフロー ファイルの分析は、GitHub Enterprise Server 3.18 で利用できるようになります。&lt;/p&gt;
 &lt;p&gt; &lt;a href=&quot;https://docs.github.com/en/code-security/code-scanning/enabling-code-scanning/configuring-default-setup-for-code-scanning&quot;&gt;コード スキャンの構成&lt;/a&gt;、 &lt;a href=&quot;https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-githubs-security-features-to-secure-your-use-of-github-actions&quot;&gt;アクションの使用の保護&lt;/a&gt;、および&lt;a href=&quot;https://securitylab.github.com/codeql-wall-of-fame/&quot;&gt;CodeQL で特定された脆弱性&lt;/a&gt;について詳しく説明します。&lt;/p&gt;
@@ -96,7 +96,7 @@
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2025-04-22-reminder-for-changes-to-npm-replication-feeds-apis&quot;&gt;Reminder for changes to npm replication feeds APIs&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
 &lt;html&gt;&lt;body&gt;&lt;p&gt;これは&lt;a href=&quot;https://github.blog/changelog/2025-02-27-changes-and-deprecation-notice-for-npm-replication-apis/&quot;&gt;、npm レプリケーション API に関する以前の発表&lt;/a&gt;の続編です。&lt;/p&gt;
-&lt;p&gt;新しいレプリケーション フィード API が公開されました。従来のフィードは、制限および計画されたブラウンアウト期間付きで&lt;strong&gt;2025 年 5 月 29 日&lt;/strong&gt;まで引き続き利用できますが、すべてのユーザーができるだけ早く新しい API への移行を開始することを強くお勧めします。&lt;/p&gt;
+&lt;p&gt;新しいレプリケーション フィード API が公開されました。従来のフィードは&lt;strong&gt;2025 年 5 月 29 日&lt;/strong&gt;まで、制限と予定されたブラウンアウト期間付きで引き続き利用できますが、すべてのユーザーができるだけ早く新しい API への移行を開始することを強くお勧めします。&lt;/p&gt;
 &lt;p&gt;非推奨になる前に更新されたフィードにアクセスするには、値が&lt;code&gt;true&lt;/code&gt;の&lt;code&gt;npm-replication-opt-in&lt;/code&gt;ヘッダーをリクエストに含めます。これにより、トラフィックが新しい API にルーティングされ、従来のフィードがバイパスされ、ブラウンアウト フェーズ中の中断が回避されます。&lt;/p&gt;
 &lt;p&gt; &lt;strong&gt;2025 年 5 月 29 日&lt;/strong&gt;以降、従来のフィードは完全に廃止されることに注意してください。この日以降、ヘッダーの使用状況に関係なく、レプリケーション フィードへのすべてのリクエストは新しい API によって自動的に処理されます。&lt;/p&gt;
 &lt;p&gt;この変更は、サービスのパフォーマンスと信頼性を向上させるための継続的な取り組みの一環です。この移行期間中、皆様のご理解とご協力に感謝いたします。&lt;/p&gt;
@@ -162,13 +162,13 @@
 &lt;li&gt;ビデオまたは画像を含む Web ビュー項目のリストのスクロール エクスペリエンスが向上しました。&lt;/li&gt;
 &lt;li&gt;フローティング アクション ボタンによってリストのコンテンツが隠れることはなくなりました。&lt;/li&gt;
 &lt;li&gt;解決済みのプル リクエスト ディスカッションへのリンクにより、解決済みの会話が開かれるようになりました。&lt;/li&gt;
-&lt;li&gt; 「ワークフロー」画面で一部のチェックサマリーに移動するときに発生するクラッシュを修正しました。&lt;/li&gt;
+&lt;li&gt;ワークフロー画面で一部のチェックサマリーに移動するときに発生するクラッシュを修正しました。&lt;/li&gt;
 &lt;li&gt;通知の本文に HTML コメントが表示されなくなりました。&lt;/li&gt;
 &lt;li&gt;フォークされたリポジトリからのプル リクエストには、ベース ブランチとヘッド ブランチの両方のリポジトリ所有者が表示されるようになりました。&lt;/li&gt;
 &lt;li&gt;フォークされたリポジトリから親リポジトリへのプル リクエストの差分を表示するときに、正しいファイルに移動します。&lt;/li&gt;
 &lt;li&gt;下部のナビゲーション バーで選択したタブにより、予想される宛先が開きます。&lt;/li&gt;
 &lt;li&gt;投稿ウィジェットのエラー処理が改善されました。&lt;/li&gt;
-&lt;li&gt;ディスカッション ボタンの動的なフォント サイズの改善。&lt;/li&gt;
+&lt;li&gt;ディスカッションボタンの動的なフォントサイズの改善。&lt;/li&gt;
 &lt;li&gt;リダイレクトに関する問題が発生しているユーザーのログイン フローが改善されました。&lt;/li&gt;
 &lt;li&gt;担当者を再度選択すると、下のシートが閉じます。&lt;/li&gt;
 &lt;/ul&gt;
