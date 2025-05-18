@@ -2,7 +2,7 @@
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2025-05-16-github-copilot-premium-request-report-available-today&quot;&gt;GitHub Copilot premium request report available today&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
 &lt;html&gt;&lt;body&gt;&lt;p&gt; GitHub Copilot の&lt;a href=&quot;https://github.blog/changelog/2025-05-07-enforcement-of-copilot-premium-request-limits-moved-to-june-4-2025/&quot;&gt;課金変更が 6 月 4 日に予定されている&lt;/a&gt;ため、現在のプレミアム リクエストの使用状況を把握し、将来の料金を見積もることがいかに重要であるかを認識しています。&lt;/p&gt;
-&lt;p&gt;皆様の準備を支援するため、プレミアムリクエストレポートのダウンロード機能をリリースしました。このレポートには、5月15日以降のCopilotリクエストが一覧表示され、タイムスタンプ、ユーザー、モデル、インタラクションごとのプレミアムリクエスト総数などの詳細情報が記載されています。 &lt;/p&gt;
+&lt;p&gt;皆様の準備を支援するため、プレミアムリクエストレポートのダウンロード機能をリリースしました。このレポートには、5月15日以降のCopilotリクエストが項目別に記載されており、タイムスタンプ、ユーザー、モデル、インタラクションごとのプレミアムリクエスト総数などの詳細情報が提供されます。 &lt;/p&gt;
 &lt;p&gt;&lt;img decoding=&quot;async&quot; src=&quot;https://github.com/user-attachments/assets/7d152b30-a502-4260-867b-348beb382eb3&quot; alt=&quot;タイムスタンプ、ユーザー、モデル、合計リクエスト数、月間クォータ超過数、月間クォータ合計数の列タイトルを含む CSV 形式のリクエスト データの例&quot;&gt;&lt;/p&gt;
 &lt;p&gt;レポートにアクセスするには、 &lt;strong&gt;「請求とライセンス」&lt;/strong&gt;設定ページの「 &lt;code&gt;Usage&lt;/code&gt;タブに移動し、 &lt;code&gt;Copilot premium requests usage report&lt;/code&gt;を選択します。 
 
