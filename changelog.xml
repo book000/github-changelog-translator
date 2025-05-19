@@ -2,7 +2,7 @@
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2025-05-16-github-copilot-premium-request-report-available-today&quot;&gt;GitHub Copilot premium request report available today&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
 &lt;html&gt;&lt;body&gt;&lt;p&gt; GitHub Copilot の&lt;a href=&quot;https://github.blog/changelog/2025-05-07-enforcement-of-copilot-premium-request-limits-moved-to-june-4-2025/&quot;&gt;課金変更が 6 月 4 日に予定されている&lt;/a&gt;ため、現在のプレミアム リクエストの使用状況を把握し、将来の料金を見積もることがいかに重要であるかを認識しています。&lt;/p&gt;
-&lt;p&gt;皆様の準備を支援するため、プレミアムリクエストレポートのダウンロード機能をリリースしました。このレポートには、5月15日以降のCopilotリクエストが項目別に記載されており、タイムスタンプ、ユーザー、モデル、インタラクションごとのプレミアムリクエスト総数などの詳細情報が提供されます。 &lt;/p&gt;
+&lt;p&gt;皆様の準備を支援するため、プレミアムリクエストレポートのダウンロード機能をリリースしました。このレポートには、5月15日以降のCopilotリクエストが一覧表示され、タイムスタンプ、ユーザー、モデル、インタラクションごとのプレミアムリクエスト総数などの詳細情報が記載されています。 &lt;/p&gt;
 &lt;p&gt;&lt;img decoding=&quot;async&quot; src=&quot;https://github.com/user-attachments/assets/7d152b30-a502-4260-867b-348beb382eb3&quot; alt=&quot;タイムスタンプ、ユーザー、モデル、合計リクエスト数、月間クォータ超過数、月間クォータ合計数の列タイトルを含む CSV 形式のリクエスト データの例&quot;&gt;&lt;/p&gt;
 &lt;p&gt;レポートにアクセスするには、 &lt;strong&gt;「請求とライセンス」&lt;/strong&gt;設定ページの「 &lt;code&gt;Usage&lt;/code&gt;タブに移動し、 &lt;code&gt;Copilot premium requests usage report&lt;/code&gt;を選択します。 
 
@@ -25,7 +25,7 @@
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
 &lt;html&gt;&lt;body&gt;&lt;p&gt;コミットの詳細ページに対するこの更新により、コミュニティからの貴重なフィードバックに基づいてアクセシビリティが向上し、セキュリティとパフォーマンスも向上します。 &lt;/p&gt;
 &lt;h1 id=&quot;inline-comments-are-now-visible-by-default&quot; id=&quot;inline-comments-are-now-visible-by-default&quot; &gt;インラインコメントがデフォルトで表示されるようになりました&lt;a href=&quot;#inline-comments-are-now-visible-by-default&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Inline comments are now visible by default&quot;&gt;&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;インラインコメントが差分ビューに直接表示されるようになったため、見つけやすく、操作しやすくなりました。インラインコメントの表示モードは、ページ上の設定ギアメニュー、またはキーボードの&lt;code&gt;i&lt;/code&gt;キー（単一文字キーのショートカットを無効にしていない場合）から、最小化されていない状態（デフォルト）と最小化された状態に切り替えることができます。 &lt;/p&gt;
+&lt;p&gt;インラインコメントが差分ビューに直接表示されるようになったため、見つけやすく、操作しやすくなりました。インラインコメントの表示モードは、ページ上の設定ギアメニュー、またはキーボードの&lt;code&gt;i&lt;/code&gt;キー（単一文字キーのショートカットを無効にしていない場合）から、最小化されていない状態（デフォルト）と最小化状態を切り替えることができます。 &lt;/p&gt;
 &lt;p&gt;&lt;img decoding=&quot;async&quot; src=&quot;https://github.com/user-attachments/assets/c73450ae-de36-4473-a433-28a288879794&quot; alt=&quot;設定ギアメニューを開いた状態で差分のインラインコメントを表示すると、デフォルトでコメントを最小化する新しいオプションが表示されます。&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;other-improvements&quot; id=&quot;other-improvements&quot; &gt;その他の改善点&lt;a href=&quot;#other-improvements&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Other improvements&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
