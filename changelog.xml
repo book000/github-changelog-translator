@@ -43,7 +43,7 @@
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2025-05-28-incremental-security-analysis-makes-codeql-up-to-20-faster-in-pull-requests&quot;&gt;Incremental security analysis makes CodeQL up to 20% faster in pull requests&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
 &lt;html&gt;&lt;body&gt;&lt;p&gt; JavaScript、TypeScript、Java、Ruby、Python のプルリクエストに対する CodeQL スキャンが最大 20% 高速化されました。これは、新規または変更されたコードのみを解析する新しい増分解析によって実現されています。&lt;/p&gt;
-&lt;p&gt;プライベートベータ版と8,000以上のリポジトリを対象とした内部テストにおいて、サポート対象の全言語で大幅な速度向上が見られました。JavaScriptとTypeScriptでは、スキャン時間の平均短縮が最も大きく、最も影響を受けたスキャンでは58%の高速化が見られました。今後のアップデートでは、今回のリリースで増分分析がまだカバーされていない言語もサポートする予定です。&lt;/p&gt;
+&lt;p&gt;プライベートベータ版と8,000以上のリポジトリを対象とした内部テストにおいて、サポート対象の全言語で大幅な速度向上が見られました。JavaScriptとTypeScriptでは、スキャン時間の平均短縮が最も大きく、最も影響を受けた言語では58%の高速化が見られました。今後のアップデートでは、今回のリリースで増分分析がまだカバーされていない言語もサポートする予定です。&lt;/p&gt;
 &lt;p&gt;増分分析によって、GitHub で報告されるアラートの種類や報告方法が変わることはありません。そのため、大多数のユーザーにとって、現状と見た目は変わりませんが、&lt;strong&gt;処理速度は速くなります&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;この新しいテクノロジーにより、分析パイプラインのさまざまなコンポーネントによるデータの処理方法とレポート方法&lt;strong&gt;が&lt;/strong&gt;変わります。&lt;/p&gt;
 &lt;ul&gt;
@@ -68,7 +68,7 @@
 &lt;ul&gt;
 &lt;li&gt;コードの品質（例：保守性、ベストプラクティス）&lt;/li&gt;
 &lt;li&gt;正確性（例：バグ検出、エラー処理）&lt;/li&gt;
-&lt;li&gt;明確さとスタイル（例：スペル、API 設計）&lt;/li&gt;
+&lt;li&gt;明瞭さとスタイル（例：スペル、API 設計）&lt;/li&gt;
 &lt;li&gt;堅牢性とアクセシビリティ（例：パフォーマンス、セキュリティ、アクセシビリティ）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;これらの変更により、開発者はより多くの問題をより早く発見し、手作業の労力を減らしてコードの品質を向上させることができます。 &lt;/p&gt;
