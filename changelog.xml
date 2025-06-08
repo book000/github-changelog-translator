@@ -52,7 +52,7 @@
 &lt;p&gt; GitHubは、すべての開発者にとっての拠点となることを使命としています。つまり、誰もがプラットフォームにアクセスでき、誰もが利用できる環境を提供することです。本日、&lt;strong&gt;コントラスト設定を改善しました。&lt;/strong&gt;これにより、ログイン中、ログアウト中、あるいは初めて閲覧する場合でも、GitHubをより使いやすくご利用いただけます。&lt;/p&gt;
 &lt;h2 id=&quot;whats-new-%f0%9f%92%a1&quot; id=&quot;whats-new-%f0%9f%92%a1&quot; &gt;新着情報💡 &lt;a href=&quot;#whats-new-%f0%9f%92%a1&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;What&amp;rsquo;s new &amp;#128161;&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;h3 id=&quot;contrast-settings-for-logged-out-users-%e2%9a%99%ef%b8%8f&quot; id=&quot;contrast-settings-for-logged-out-users-%e2%9a%99%ef%b8%8f&quot; &gt;&lt;strong&gt;ログアウトしたユーザーのコントラスト設定&lt;/strong&gt;⚙️ &lt;a href=&quot;#contrast-settings-for-logged-out-users-%e2%9a%99%ef%b8%8f&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;&lt;strong&gt;Contrast settings for logged-out users&lt;/strong&gt; &amp;#9881;&amp;#65039;&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt; UIのコントラストを調整するためにログインする必要はもうありません！上部ナビゲーションバーに新しく追加された&lt;strong&gt;「外観設定」&lt;/strong&gt;ボタンをクリックするだけで、視覚的な体験をカスタマイズできます。これにより、初めてGitHubにアクセスするユーザーやログアウトしているユーザーも、より快適にGitHubをご利用いただけるようになります。 &lt;/p&gt;
+&lt;p&gt; UIのコントラストを調整するためにログインする必要はもうありません！上部ナビゲーションバーに新しく追加された&lt;strong&gt;「外観設定」&lt;/strong&gt;ボタンをクリックするだけで、視覚的な体験をカスタマイズできます。これにより、初めてGitHubにアクセスするユーザーやログアウトしているユーザーも、よりアクセスしやすい環境を利用できるようになります。 &lt;/p&gt;
 &lt;h3 id=&quot;more-options-for-logged-in-users-%f0%9f%94%86&quot; id=&quot;more-options-for-logged-in-users-%f0%9f%94%86&quot; &gt;ログインユーザー向けのその他のオプション 🔆 &lt;a href=&quot;#more-options-for-logged-in-users-%f0%9f%94%86&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;More options for logged-in users &amp;#128262;&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;ログインしたユーザーは、ユーザー設定の&lt;strong&gt;「外観」&lt;/strong&gt;セクションで、どのテーマでもコントラストを高める設定ができるようになりました。既存の設定はそのまま残り、テーマとコントラストのオプションを個別に設定することで、さらにカスタマイズできるようになります。&lt;/p&gt;
 &lt;h2 id=&quot;why-this-matters-%e2%9d%a4%ef%b8%8f&quot; id=&quot;why-this-matters-%e2%9d%a4%ef%b8%8f&quot; &gt;これがなぜ重要なのか❤️ &lt;a href=&quot;#why-this-matters-%e2%9d%a4%ef%b8%8f&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Why this matters &amp;#10084;&amp;#65039;&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
@@ -105,7 +105,7 @@
 &lt;p&gt; GitHub Copilot Chat での会話が大幅に強化され、より豊かで生産性の高い会話のために参照を添付できるようになりました。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt; 🖇️&lt;strong&gt;簡単な@添付：&lt;/strong&gt; &lt;code&gt;@&lt;/code&gt;記号を入力するだけで、ファイル、リポジトリ、問題、プルリクエスト、拡張機能などをチャットに直接添付できます。質問に、実際の状況に即したコンテキストを添えて、より具体的な内容を伝えましょう。&lt;/li&gt;
-&lt;li&gt; 💡&lt;strong&gt;集中力とフローを維持：&lt;/strong&gt;チャット内でファイルや拡張機能を参照できるので、ワークフローが加速します。Copilot が添付ファイルを統合し、より正確な回答とシームレスなコラボレーションを実現します。&lt;/li&gt;
+&lt;li&gt; 💡&lt;strong&gt;集中力とフローを維持：&lt;/strong&gt;チャット内でファイルや拡張機能を参照することで、ワークフローを効率化できます。Copilot が添付ファイルを統合することで、より正確な回答とシームレスなコラボレーションを実現します。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt; Copilot Chat の全機能を解放して、会話ウィンドウからコード、リポジトリ、問題に取り組みましょう。&lt;/p&gt;
 &lt;p&gt; 💬 皆様からのフィードバックをお待ちしております。いつでも&lt;a href=&quot;https://github.com/orgs/community/discussions/categories/copilot&quot;&gt;GitHub コミュニティの&lt;/a&gt;ディスカッションにご参加ください。&lt;/p&gt;
