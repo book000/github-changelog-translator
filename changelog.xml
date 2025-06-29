@@ -127,7 +127,7 @@
 &lt;p class=&quot;ai-optimize-10&quot;&gt; &lt;a href=&quot;https://docs.github.com/enterprise-cloud@latest/code-security/secret-scanning/introduction/about-secret-scanning&quot;&gt;シークレットスキャン&lt;/a&gt;と&lt;a href=&quot;https://docs.github.com/enterprise-cloud@latest/code-security/secret-scanning/introduction/about-push-protection&quot;&gt;プッシュ保護&lt;/a&gt;を使用してリポジトリを保護する方法の詳細について説明します。&lt;/p&gt;
 &lt;/body&gt;&lt;/html&gt;
 &lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2025-06-25-configuring-which-secret-scanning-patterns-are-included-in-push-protection-is-in-public-preview&quot;&gt;プッシュ保護に含める秘密のスキャン パターンの構成はパブリック プレビュー中です&lt;/a&gt;。この記事は&lt;a href=&quot;https://github.blog&quot;&gt;、GitHub ブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
-</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">89117</post-id></item><item><title>GitHub モデルは無料制限を超えた移動をサポートするようになりました</title><link>https://github.blog/changelog/2025-06-24-github-models-now-supports-moving-beyond-free-limits</link><dc:creator>Allison</dc:creator><pubDate>Tue, 24 Jun 2025 22:42:39 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2025-06-24-github-models-now-supports-moving-beyond-free-limits</guid><description>&lt;p&gt;GitHub Models now supports pay-as-you-go billing through your GitHub account and bring your own key (BYOK), giving you two flexible paths to scale beyond the free tier. Whether your team&amp;#8230;&lt;/p&gt;
+</content:encoded><post-id xmlns="com-wordpress:feed-additions:1">89117</post-id></item><item><title>GitHub Models が無料制限を超えた移動をサポートするようになりました</title><link>https://github.blog/changelog/2025-06-24-github-models-now-supports-moving-beyond-free-limits</link><dc:creator>Allison</dc:creator><pubDate>Tue, 24 Jun 2025 22:42:39 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2025-06-24-github-models-now-supports-moving-beyond-free-limits</guid><description>&lt;p&gt;GitHub Models now supports pay-as-you-go billing through your GitHub account and bring your own key (BYOK), giving you two flexible paths to scale beyond the free tier. Whether your team&amp;#8230;&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2025-06-24-github-models-now-supports-moving-beyond-free-limits&quot;&gt;GitHub Models now supports moving beyond free limits&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
 &lt;html&gt;&lt;body&gt;&lt;p&gt; GitHub Modelsは、GitHubアカウントを通じた従量課金制とBYOK（Bring Your Own Key）に対応しました。これにより、無料利用枠を超えて拡張するための柔軟な2つの選択肢が提供されます。チームがGitHubの課金体系を標準化する場合でも、独自のプロバイダーキーを管理する場合でも、これらの新しいオプションにより、本番環境レベルのAIモデルへのアクセスが効率化され、開発ワークフロー全体にわたってAIを活用した構築がこれまで以上に容易になります。 &lt;/p&gt;
@@ -172,7 +172,7 @@
 &lt;h3 id=&quot;application-authorization-updates&quot; id=&quot;application-authorization-updates&quot; &gt;アプリケーション認証の更新&lt;a href=&quot;#application-authorization-updates&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Application authorization updates&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt; GitHub AppまたはOAuth Appにサインインできるユーザーを決定する際に、アプリケーションの可視性とEMUの所有権が考慮されるようになりました。そのため、アプリにサインインするには、社内の場合はエンタープライズのメンバー、プライベートの場合は所有組織のメンバーである必要があります。ユーザーが所有するプライベートなGitHub Appには、アプリを所有するユーザーのみがサインインできます。&lt;/p&gt;
 &lt;p&gt;このアップデート以前は、ユーザーは自分のユーザーアカウントにサインインすることで、アプリケーションに任意の権限を付与できました。これは、アプリケーションがユーザーアカウントにアクセスすることを許可しただけで、ユーザーにGitHub内のデータへのアクセスを許可したわけではありません。しかし、サインインしたユーザーのIDを検証しなかったアプリ開発者は、ユーザーがサインインしたからといってアプリケーションの有効なユーザーであると想定し、アプリケーションによって保護されているデータへのアクセスを許可してしまう可能性がありました。私たちは、アプリケーションにおける不十分な認証の影響を軽減するため、開発者の期待に応えるべく、アプリケーション認証にこの変更を加えました。&lt;/p&gt;
-&lt;p&gt;一部の開発者は、このアクセスパターンに依存しており、社内または非公開アプリケーションであるにもかかわらず、外部ユーザーによるアクセスに依存しています。過去1年間に50人以上の外部ユーザーがサインインしたアプリケーションは、今回のアップデートの対象外となっており、所有者にはこの例外の詳細と有効期限についてメールで通知されています。このアップデートによって一部のユーザーがアプリケーションにサインインできなくなった場合は、以下のいずれかの方法でアプリケーションを変更する必要があります。&lt;/p&gt;
+&lt;p&gt;一部の開発者は、このアクセスパターンに依存しており、社内またはプライベートアプリケーションであるにもかかわらず、外部ユーザーによるアクセスに依存しています。過去1年間に50人以上の外部ユーザーがサインインしたアプリケーションは、今回のアップデートの対象外となっており、所有者にはこの例外の詳細と有効期限についてメールで通知されています。このアップデートによって一部のユーザーがアプリケーションにサインインできなくなった場合は、以下のいずれかの方法でアプリケーションを変更する必要があります。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;アプリが EMU アカウントによって所有されているが、企業外のユーザーがアクセスする必要がある場合は、企業外でアプリケーションを再作成する必要があります。&lt;/li&gt;
 &lt;li&gt;アプリが非公開で、社内メンバーがアクセスする必要がある場合は、社内に転送してください。これにより、アプリは社内用になります。&lt;/li&gt;
@@ -192,7 +192,7 @@
 &lt;ol&gt;
 &lt;li&gt;リポジトリ名の一覧表示&lt;/li&gt;
 &lt;li&gt;組織のメンバーと協力者を一覧表示する&lt;/li&gt;
-&lt;li&gt;チームメンバーの一覧&lt;/li&gt;
+&lt;li&gt;チームメンバーの一覧表示&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;このバグにより、ユーザーがアクセス権限のないデータにアクセスできるようになることはありませんでした。しかし、盗まれたトークンが、トークン所有者がアクセスを意図していなかったデータにアクセスできたため、その影響範囲は予想以上に広範になることを意味しました。また、一部の開発者は、特にGraphQLを使用して、数百もの組織に対してトークンを承認することなく、企業内の組織全体にわたってGitHubからデータを簡単に取得するために、このアクセスに依存していました。&lt;/p&gt;
 &lt;h4 id=&quot;updating-credential-authorizations&quot; id=&quot;updating-credential-authorizations&quot; &gt;資格情報承認の更新&lt;a href=&quot;#updating-credential-authorizations&quot; class=&quot;heading-link pl-2 text-italic text-bold&quot; aria-label=&quot;Updating credential authorizations&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
