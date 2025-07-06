@@ -78,7 +78,7 @@
 &lt;p&gt;企業または企業所有の組織が所有するアプリは、新しい「エンタープライズ」権限セットをリクエストできるようになりました。これにより、企業所有者は、自社所有のアプリのインストール時に、自社が有効なインストール先として表示されるようになります。 &lt;/p&gt;
 &lt;p&gt;&lt;img decoding=&quot;async&quot; src=&quot;https://github.com/user-attachments/assets/18bf0c04-a391-48f6-b00e-81d6a8c2b995&quot; alt=&quot;インストール先企業の選択&quot;&gt;&lt;/p&gt;
 &lt;p&gt;現在、企業は自社または企業内の組織が所有するアプリのみをインストールできます。今後、これらのアプリケーションに関する制御を拡張していく中で、この制限は解除される予定です。 &lt;/p&gt;
-&lt;h3 id=&quot;access-patterns-for-enterprise-installations&quot; id=&quot;access-patterns-for-enterprise-installations&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#access-patterns-for-enterprise-installations&quot;&gt;企業内設備のアクセスパターン&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;access-patterns-for-enterprise-installations&quot; id=&quot;access-patterns-for-enterprise-installations&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#access-patterns-for-enterprise-installations&quot;&gt;企業向けインストールのアクセスパターン&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;エンタープライズインストールでは、アプリはエンタープライズアカウント自体へのアクセスを許可しますが、各組織またはリポジトリ内ではインストールとして動作しません。組織またはリポジトリのデータにアクセスする必要がある場合は、アプリをそれらの組織に直接インストールする必要があります。幸いなことに、このプレビューには、まさにこのニーズに役立つツールが付属しています。&lt;/p&gt;
 &lt;p&gt; &lt;a href=&quot;https://docs.github.com/enterprise-cloud@latest/apps/creating-github-apps/authenticating-with-a-github-app/generating-an-installation-access-token-for-a-github-app&quot;&gt;標準インストールトークンパターンを&lt;/a&gt;使用すると、企業向けアプリ用のトークンを取得したり、OAuth経由でユーザーをサインインさせて、アプリがインストールされている場所に関係なくユーザーに代わって操作を実行したりできます。企業と組織の両方にインストールされたアプリの場合、ユーザーが適切な権限を持っている限り、ユーザートークンは両方のリソースセットに問題なくアクセスできます。&lt;/p&gt;
 &lt;p&gt;エンタープライズ版のインストールには、組織版やユーザー版のインストールとは別に、独自のレート制限予算が割り当てられます。各インストールには、1時間あたり15,000リクエストまたは10,000ポイントの予算が割り当てられており、これはエンタープライズプランの組織版のインストールと同じ予算です。&lt;/p&gt;
@@ -167,7 +167,7 @@
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2025-07-01-secret-scanning-updates-validity-checks-for-doppler-sendgrid-and-defined-networking&quot;&gt;Secret scanning adds validity checks for Doppler and Defined Networking&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
 &lt;html&gt;&lt;body&gt;&lt;p&gt;シークレットスキャンでは、追加のトークン タイプに対する有効性チェックのサポートが追加されます。&lt;/p&gt;
-&lt;p&gt;有効性チェックは、漏洩した認証情報が有効で、まだ悪用される可能性があるかどうかを示します。特定のリポジトリで以前に検証チェックを有効にしていた場合、GitHub はサポートされているトークンの種類について、アラートの有効性を自動的に検証するようになりました。以前の変更ログで発表したトークンの種類に加えて、以下のトークンの種類についても有効性チェックが表示されるようになります。&lt;/p&gt;
+&lt;p&gt;有効性チェックは、漏洩した認証情報が有効で、まだ悪用される可能性があるかどうかを示します。特定のリポジトリで以前に検証チェックを有効にしていた場合、GitHub はサポートされているトークンの種類について、アラートの有効性を自動的に検証するようになりました。以前の変更ログでお知らせしたトークンの種類に加えて、以下のトークンの種類についても有効性チェックが表示されるようになります。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;ドップラー個人トークン ( &lt;code&gt;DOPPLER_PERSONAL_TOKEN&lt;/code&gt; )&lt;/li&gt;
 &lt;li&gt;定義済みネットワーク Nebula API キー ( &lt;code&gt;DEFINED_NETWORKING_NEBULA_API_KEY&lt;/code&gt; )&lt;/li&gt;
