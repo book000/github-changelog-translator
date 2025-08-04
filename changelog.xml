@@ -121,7 +121,7 @@
 &lt;/ul&gt;
 &lt;p&gt; Trusted Publishing は、npm の公開ワークフローにエンタープライズ グレードのセキュリティをもたらし、現在以下の環境でご利用いただけます。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;スコープ付きとスコープなしの両方の、すべての npm プライベートおよびパブリック パッケージ。&lt;/li&gt;
+&lt;li&gt;スコープ付きとスコープなしの両方の npm プライベートおよびパブリック パッケージすべて。&lt;/li&gt;
 &lt;li&gt; GitHub Actions (GitHub ホストランナー)。&lt;/li&gt;
 &lt;li&gt; GitLab CI/CD (gitlab.com 共有ランナー)。&lt;/li&gt;
 &lt;/ul&gt;
