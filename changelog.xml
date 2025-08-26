@@ -185,7 +185,7 @@
 &lt;html&gt;&lt;body&gt;&lt;p&gt;一般提供が開始されたGitHub Secret Protectionでは、プッシュ保護に含めるシークレットスキャンパターンを設定できるようになりました。このカスタマイズにより、組織のセキュリティポリシーをより適切に遵守し、より広範囲のシークレットがリポジトリにコミットされるのを防ぐことができます。&lt;/p&gt;
 &lt;p&gt;プッシュ保護パターンは、エンタープライズレベル（ &lt;strong&gt;「設定」→「高度なセキュリティ」→「追加設定」&lt;/strong&gt; ）または組織レベル（ &lt;strong&gt;「設定」→「高度なセキュリティ」→「グローバル設定&lt;/strong&gt;」）で設定できます。組織レベルでは、エンタープライズレベルの設定が自動的に継承されますが、組織レベルで行われた変更は優先されます。パターン設定はグローバルに適用され、現時点では個々のリポジトリまたはリポジトリセットに適用することはできません。カスタムパターンのプッシュ保護設定は&lt;strong&gt;、パターン設定&lt;/strong&gt;ページ内のセカンダリタブに移動されました。 &lt;/p&gt;
 &lt;p&gt;&lt;img decoding=&quot;async&quot; alt=&quot;組織レベルのプッシュ保護設定のスクリーンショット&quot; src=&quot;https://github.com/user-attachments/assets/3df5bb65-0709-4d02-bd35-6bc3f9e98d7b&quot;&gt;&lt;/p&gt;
-&lt;p&gt;設定テーブルには、Enterprise または Organization から取得したアラート数、誤検知率、バイパス率に関するデータが表示されます。この情報に基づいて、プッシュ保護にパターンを含めるかどうかを判断できます。デフォルトでは、すべてのパターンが GitHub 推奨設定に設定されています。&lt;/p&gt;
+&lt;p&gt;設定テーブルには、Enterprise または Organization から取得したアラート数、誤検知率、バイパス率に関するデータが表示されます。この情報を参考に、プッシュ通知にパターンを含めるかどうかを判断できます。デフォルトでは、すべてのパターンが GitHub 推奨設定に設定されています。&lt;/p&gt;
 &lt;p&gt; &lt;a href=&quot;https://docs.github.com/rest/secret-scanning/push-protection?apiVersion=2022-11-28&quot;&gt;REST API&lt;/a&gt;経由で構成を更新することもできます。&lt;/p&gt;
 &lt;p&gt; &lt;a href=&quot;https://docs.github.com/enterprise-cloud@latest/code-security/secret-scanning/introduction/about-secret-scanning&quot;&gt;シークレットスキャン&lt;/a&gt;と&lt;a href=&quot;https://docs.github.com/enterprise-cloud@latest/code-security/secret-scanning/introduction/about-push-protection&quot;&gt;プッシュ保護&lt;/a&gt;を使用してリポジトリを保護する方法の詳細について説明します。&lt;/p&gt;
 &lt;/body&gt;&lt;/html&gt;
