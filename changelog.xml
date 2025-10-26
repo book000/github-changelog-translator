@@ -130,7 +130,7 @@
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
 &lt;html&gt;&lt;body&gt;&lt;p&gt;現在パブリック プレビュー中の組織カスタム プロパティを使用すると、組織にメタデータを追加して、ルールセットのターゲット設定を効率化できます。 &lt;/p&gt;
 &lt;h2 id=&quot;what-are-organization-custom-properties&quot; id=&quot;what-are-organization-custom-properties&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#what-are-organization-custom-properties&quot;&gt;組織のカスタム プロパティとは何ですか?&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt; &lt;a href=&quot;https://docs.github.com/organizations/managing-organization-settings/managing-custom-properties-for-repositories-in-your-organization&quot;&gt;リポジトリのカスタムプロパティ&lt;/a&gt;と同様に、組織カスタムプロパティを使用すると、企業内の組織にメタデータを定義して割り当てることができます。組織カスタムプロパティを使用すると、部門、コンプライアンス要件、地域、その他企業にとって重要な基準など、各組織の固有の特性に基づいて、高度にターゲットを絞ったポリシーを作成できます。 &lt;/p&gt;
+&lt;p&gt; &lt;a href=&quot;https://docs.github.com/organizations/managing-organization-settings/managing-custom-properties-for-repositories-in-your-organization&quot;&gt;リポジトリのカスタムプロパティ&lt;/a&gt;と同様に、組織カスタムプロパティを使用すると、企業内の組織にメタデータを定義して割り当てることができます。組織カスタムプロパティを使用すると、部門、コンプライアンス要件、地理的地域、その他企業にとって重要な基準など、各組織の固有の特性に基づいて、高度にターゲットを絞ったポリシーを作成できます。 &lt;/p&gt;
 &lt;h3 id=&quot;better-targeting-for-enterprise-rulesets&quot; id=&quot;better-targeting-for-enterprise-rulesets&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#better-targeting-for-enterprise-rulesets&quot;&gt;エンタープライズルールセットのより適切なターゲティング&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;時間を節約し、エラーを削減：&lt;/strong&gt;手動設定はもう不要です。適切なポリシーを適切な組織に自動的に適用するルールセットを設定できます。&lt;/li&gt;
@@ -154,7 +154,7 @@
 &lt;li&gt;プロパティ名には、 &lt;code&gt;az&lt;/code&gt; 、 &lt;code&gt;AZ&lt;/code&gt; 、 &lt;code&gt;0-9&lt;/code&gt; 、 &lt;code&gt;_&lt;/code&gt; 、 &lt;code&gt;-&lt;/code&gt; 、 &lt;code&gt;$&lt;/code&gt; 、 &lt;code&gt;#&lt;/code&gt;のみを含めることができます。&lt;/li&gt;
 &lt;li&gt;プロパティ値には、 &lt;code&gt;&quot;&lt;/code&gt;を除くすべての印刷可能な ASCII 文字を含めることができます。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;get-started&quot; id=&quot;get-started&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#get-started&quot;&gt;始めましょう&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;get-started&quot; id=&quot;get-started&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#get-started&quot;&gt;始める&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;組織のカスタム プロパティの使用を開始するには、エンタープライズ管理者は、エンタープライズ設定の組織セクションにあるカスタム プロパティ セクションに移動します。&lt;/p&gt;
 &lt;p&gt;プレビュー期間中に&lt;a href=&quot;https://gh.io/org-properties-discussion&quot;&gt;GitHub コミュニティ&lt;/a&gt;内でディスカッションに参加し、フィードバックを提供してください。&lt;/p&gt;
 &lt;/body&gt;&lt;/html&gt;
