@@ -96,7 +96,7 @@
 &lt;html&gt;&lt;body&gt;&lt;p&gt; github.com での&lt;a href=&quot;https://github.blog/changelog/2025-09-25-copilot-coding-agent-is-now-generally-available/&quot;&gt;Copilot コーディングエージェントの&lt;/a&gt;タスク管理方法を刷新しました。進捗状況の追跡、変更の監視、タスク管理のためにページ間を移動する必要がなくなり、必要なものがすべて 1 つの統合されたビューに集約されます。&lt;/p&gt;
 &lt;p&gt; Copilot のアクティビティを一目で把握できます。 &lt;strong&gt;「概要」&lt;/strong&gt;タブと&lt;strong&gt;「変更されたファイル」&lt;/strong&gt;タブのすぐ隣にセッションログが表示されるため、ページを離れることなく関連情報をすべて確認できます。Copilot のコミットの根拠を、発生と同時に、そのコンテキスト内で確認できます。&lt;/p&gt;
 &lt;h2 id=&quot;real-time-steering&quot; id=&quot;real-time-steering&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#real-time-steering&quot;&gt;リアルタイムステアリング&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Copilot はこれまで以上に応答性が向上しました。リアルタイムステアリング機能により、動作中の Copilot を操作できます。セッション実行中に入力を行うと、Copilot は現在のツール呼び出しが完了するとすぐに適応します。また、フィードバックの提供も容易になり、@copilot へのプルリクエストコメントに移動する手間が省けます。チャット入力から操作するか、&lt;strong&gt;変更されたファイル&lt;/strong&gt;ビューに直接コメントを追加するだけで済みます。 &lt;/p&gt;
+&lt;p&gt;Copilot はこれまで以上に応答性が向上しました。リアルタイムステアリング機能により、動作中の Copilot を操作できます。セッション実行中に入力を行うと、Copilot は現在のツール呼び出しが完了するとすぐに適応します。また、フィードバックの提供も容易になり、@copilot へのプルリクエストコメントにわざわざ移動する必要がなくなりました。チャット入力から操作するか、&lt;strong&gt;変更されたファイル&lt;/strong&gt;ビューに直接コメントを追加するだけです。 &lt;/p&gt;
 &lt;p&gt;&lt;video loop controls autoplay muted src=&quot;https://github.com/user-attachments/assets/94fbf66d-eb44-4e90-9228-b0d83ba6146c&quot;&gt;
 
 &lt;/video&gt;&lt;/p&gt;
@@ -232,7 +232,7 @@
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2025-10-28-enterprise-ai-controls-the-agent-control-plane-are-in-public-preview&quot;&gt;Enterprise AI controls &amp;amp; the agent control plane are in public preview&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
 &lt;html&gt;&lt;body&gt;&lt;p&gt; AIシステムの管理機能に重点を置いた、エンタープライズレベルの新しいエクスペリエンスを本日から導入します。Copilotをご利用のすべてのGitHub Enterprise Cloudのお客様にご利用いただけます。これはエージェントのコントロールプレーンであり、組織が環境全体でエージェントの動作をより詳細に制御できるように設計された、エンタープライズガバナンス機能スイートです。&lt;/p&gt;
-&lt;p&gt;企業の管理者は、ビジネスの安全性を維持しながら、チームのためにAI機能を有効にするという重要な責務を担うことがよくあります。この責務を効果的に果たすため、エージェントのアクティビティの認識を向上させ、監査可能性を高めるとともに、カスタムエージェントをエンタープライズ対応にする補完的な機能をリリースしています。これにより、企業内でエージェントが何をしているのかという疑問に答えることが、かつてないほど容易になります。 &lt;/p&gt;
+&lt;p&gt;企業の管理者は、ビジネスの安全性を維持しながら、チームのためにAI機能を有効にするという責任を負っていることがよくあります。この責務を効果的に果たすため、エージェントのアクティビティの認識を向上させ、監査可能性を高めるとともに、カスタムエージェントをエンタープライズ対応にする補完的な機能をリリースしています。これにより、企業内でエージェントが何をしているのかという疑問に答えることが、かつてないほど容易になります。 &lt;/p&gt;
 &lt;h3 id=&quot;ai-controls-are-in-the-agent-control-plane&quot; id=&quot;ai-controls-are-in-the-agent-control-plane&quot; &gt; &lt;a class=&quot;heading-link&quot; href=&quot;#ai-controls-are-in-the-agent-control-plane&quot;&gt;AI制御はエージェント制御プレーンにあります&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;まず、エージェント コントロール プレーンの基本的な機能から始めましょう。&lt;/p&gt;
 &lt;ul&gt;
