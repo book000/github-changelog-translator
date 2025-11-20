@@ -1,13 +1,58 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/"><channel><title>Archive: 2025 - GitHub Changelog</title><atom:link href="https://github.blog/changelog/feed/" rel="self" type="application/rss+xml"></atom:link><link>https://github.blog/changelog/</link><description>Updates, ideas, and inspiration from GitHub to help developers build and design software.</description><lastBuildDate>Tue, 18 Nov 2025 23:13:50 +0000</lastBuildDate><language>en-US</language><sy:updatePeriod>hourly</sy:updatePeriod><sy:updateFrequency>1</sy:updateFrequency><generator>https://wordpress.org/?v=6.8.3</generator><image><url>https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=32%2C32</url><title>Archive: 2025 - GitHub Changelog</title><link>https://github.blog/changelog/</link><width>32</width><height>32</height></image><site xmlns="com-wordpress:feed-additions:1">153214340</site><item><title>GitHub Copilot CLI: 新しいモデル、強化されたコード検索、そしてより優れた画像サポート</title><link>https://github.blog/changelog/2025-11-18-github-copilot-cli-new-models-enhanced-code-search-and-better-image-support</link><dc:creator>Allison</dc:creator><pubDate>Tue, 18 Nov 2025 22:07:34 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2025-11-18-github-copilot-cli-new-models-enhanced-code-search-and-better-image-support</guid><description>&lt;p&gt;GitHub Copilot CLI continues to evolve with significant improvements to search capabilities, better image support, access to and support for the latest AI models, and reliability enhancements. Here&amp;#8217;s what we&amp;#8217;ve&amp;#8230;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/"><channel><title>Archive: 2025 - GitHub Changelog</title><atom:link href="https://github.blog/changelog/feed/" rel="self" type="application/rss+xml"></atom:link><link>https://github.blog/changelog/</link><description>Updates, ideas, and inspiration from GitHub to help developers build and design software.</description><lastBuildDate>Wed, 19 Nov 2025 22:44:34 +0000</lastBuildDate><language>en-US</language><sy:updatePeriod>hourly</sy:updatePeriod><sy:updateFrequency>1</sy:updateFrequency><generator>https://wordpress.org/?v=6.8.3</generator><image><url>https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=32%2C32</url><title>Archive: 2025 - GitHub Changelog</title><link>https://github.blog/changelog/</link><width>32</width><height>32</height></image><site xmlns="com-wordpress:feed-additions:1">153214340</site><item><title>CodeQL 2.23.5では、Swift 6.2のサポート、新しいJavaクエリ、分析精度の向上が追加されました。</title><link>https://github.blog/changelog/2025-11-19-codeql-2-23-5-adds-support-for-swift-6-2-new-java-queries-and-improved-analysis-accuracy</link><dc:creator>Allison</dc:creator><pubDate>Wed, 19 Nov 2025 19:43:03 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2025-11-19-codeql-2-23-5-adds-support-for-swift-6-2-new-java-queries-and-improved-analysis-accuracy</guid><description>&lt;p&gt;CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We&amp;#8217;ve recently released CodeQL 2.23.5, introducing three new Java security queries&amp;#8230;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2025-11-19-codeql-2-23-5-adds-support-for-swift-6-2-new-java-queries-and-improved-analysis-accuracy&quot;&gt;CodeQL 2.23.5 adds support for Swift 6.2, new Java queries, and improved analysis accuracy&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
+</description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
+&lt;html&gt;&lt;body&gt;&lt;p&gt; CodeQLは、GitHubコードスキャンを支える静的解析エンジンで、コード内のセキュリティ問題を検出し、修正します。先日、 &lt;a href=&quot;https://codeql.github.com/docs/codeql-overview/codeql-changelog/codeql-cli-2.23.5/&quot;&gt;CodeQL 2.23.5&lt;/a&gt;をリリースしました。このバージョンでは、同時実行の問題を検出し、コードスキャン結果の精度を向上させる3つの新しいJavaセキュリティクエリが導入されています。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;言語とフレームワークのサポート&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Swift&lt;/strong&gt; : CodeQL は Swift 6.2 をサポートするようになり、このバージョンで構築されたプロジェクトを分析できるようになりました。&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt;Rust&lt;/strong&gt; : &lt;code&gt;actix-web&lt;/code&gt; Web フレームワークのサポートが追加され、 &lt;code&gt;mysql&lt;/code&gt;および&lt;code&gt;mysql_async&lt;/code&gt;ライブラリのサポートが拡張されました。&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt;C#&lt;/strong&gt; : .NET CLI ( &lt;code&gt;dotnet&lt;/code&gt; ) が C# コンパイラ ( &lt;code&gt;csc&lt;/code&gt; ) を直接呼び出すときに macOS および Linux のトレーサー サポートが追加され、これらのプラットフォーム上の .NET 10 RC2 の基本的なトレースおよび抽出機能が提供されます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;クエリの変更&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;C#&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt; &lt;code&gt;cs/dereferenced-value-may-be-null&lt;/code&gt;クエリを完全に書き換え、誤検出を大幅に削減しました。また、このクエリは&lt;code&gt;path-problem&lt;/code&gt;クエリから&lt;code&gt;problem&lt;/code&gt;クエリに変更されたため、パスは報告されなくなりました。&lt;/li&gt;
+&lt;li&gt; &lt;code&gt;cs/constant-condition&lt;/code&gt;クエリを更新し、より広範囲にわたる信頼性の高い結果を報告できるようになりました。&lt;/li&gt;
+&lt;li&gt; &lt;code&gt;cs/web/missing-x-frame-options&lt;/code&gt;クエリが改善され、ルート「要素」にネストされた構成が正しく処理されるようになりました。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;strong&gt;Java/コトリン&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;java/sensitive-cookie-not-httponly&lt;/code&gt;クエリを実験的なものからメインのクエリ パックに昇格しました。&lt;/li&gt;
+&lt;li&gt; &lt;code&gt;@ThreadSafe&lt;/code&gt;としてマークされたクラス内の同時実行の問題を検出するために、3 つの新しいクエリを追加しました。
+&lt;ul&gt;
+&lt;li&gt; &lt;code&gt;java/escaping&lt;/code&gt;スレッドセーフなクラスから脱出した値を検出します。&lt;/li&gt;
+&lt;li&gt; &lt;code&gt;java/not-threadsafe&lt;/code&gt;スレッドセーフなクラス内のデータ競合を検出します。&lt;/li&gt;
+&lt;li&gt; &lt;code&gt;java/safe-publication&lt;/code&gt;スレッドセーフなクラス内の安全でない公開を検出します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt; &lt;code&gt;String.matches&lt;/code&gt;への呼び出しは、 &lt;code&gt;java/ssrf&lt;/code&gt;クエリのサニタイザーとして扱われるようになり、誤検知の発生を減らすことができます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;パイソン&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;py/insecure-cookie&lt;/code&gt;クエリを複数のクエリに分割しました。
+&lt;ul&gt;
+&lt;li&gt; &lt;code&gt;py/insecure-cookie&lt;/code&gt; &lt;code&gt;Secure&lt;/code&gt;フラグが設定されていない場合をチェックします。&lt;/li&gt;
+&lt;li&gt; &lt;code&gt;py/client-exposed-cookie&lt;/code&gt; &lt;code&gt;HttpOnly&lt;/code&gt;フラグが設定されていない場合をチェックします。&lt;/li&gt;
+&lt;li&gt; &lt;code&gt;py/samesite-none&lt;/code&gt; &lt;code&gt;SameSite&lt;/code&gt;属性が&lt;code&gt;None&lt;/code&gt;に設定されているケースをチェックします。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;これらのクエリは、Cookie に機密データが含まれていることが検出された場合にのみ警告を発するようになりました。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;変更点の完全なリストについては、&lt;a href=&quot;https://codeql.github.com/docs/codeql-overview/codeql-changelog/codeql-cli-2.23.5/&quot;&gt;バージョン 2.23.5 の完全な変更ログ&lt;/a&gt;を参照してください。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;可用性&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;CodeQL の新しいバージョンは、github.com の GitHub コードスキャンユーザーに自動的にデプロイされます。CodeQL 2.23.5 の新機能は、GitHub Enterprise Server (GHES) リリース 3.20 にも含まれる予定です。GHES の古いバージョンをご利用の場合は、 &lt;a href=&quot;https://docs.github.com/enterprise-server@3.18/admin/managing-code-security/managing-github-advanced-security-for-your-enterprise/configuring-code-scanning-for-your-appliance#configuring-codeql-analysis-on-a-server-without-internet-access&quot;&gt;CodeQL のバージョンを手動でアップグレードしてください&lt;/a&gt;。&lt;/p&gt;
+&lt;/body&gt;&lt;/html&gt;
+&lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2025-11-19-codeql-2-23-5-adds-support-for-swift-6-2-new-java-queries-and-improved-analysis-accuracy&quot;&gt;CodeQL 2.23.5 で Swift 6.2 のサポート、新しい Java クエリが追加され、分析精度が向上しました。&lt;/a&gt;この記事は&lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
+</content:encoded><category domain="changelog-type">Improvement</category><category domain="changelog-label">application security</category><post-id xmlns="com-wordpress:feed-additions:1">92488</post-id></item><item><title>GitHub Copilot CLI: 新しいモデル、強化されたコード検索、そしてより優れた画像サポート</title><link>https://github.blog/changelog/2025-11-18-github-copilot-cli-new-models-enhanced-code-search-and-better-image-support</link><dc:creator>Allison</dc:creator><pubDate>Tue, 18 Nov 2025 22:07:34 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2025-11-18-github-copilot-cli-new-models-enhanced-code-search-and-better-image-support</guid><description>&lt;p&gt;GitHub Copilot CLI continues to evolve with significant improvements to search capabilities, better image support, access to and support for the latest AI models, and reliability enhancements. Here&apos;s what we&apos;ve&amp;#8230;&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2025-11-18-github-copilot-cli-new-models-enhanced-code-search-and-better-image-support&quot;&gt;GitHub Copilot CLI: New models, enhanced code search, and better image support&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
-&lt;html&gt;&lt;body&gt;&lt;p&gt; GitHub Copilot CLIは、検索機能の大幅な改善、画像サポートの強化、最新のAIモデルへのアクセスとサポート、そして信頼性の向上により、進化を続けています。最近の取り組みについてご紹介します。&lt;/p&gt;
+&lt;html&gt;&lt;body&gt;&lt;p&gt; &lt;code&gt;GitHub Copilot CLI continues to evolve with significant improvements to search capabilities, better image support, access to and support for the latest AI models, and reliability enhancements. Here&amp;#39;s what we&amp;#39;ve been working on lately.&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id=&quot;latest-ai-models-now-available&quot; id=&quot;latest-ai-models-now-available&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#latest-ai-models-now-available&quot;&gt;最新のAIモデルが利用可能になりました&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;最先端の状態を維持するために、OpenAI と Google の最新モデルのサポートを追加しました。
-
- – GPT-5.1、GPT-5.1-Codex、および GPT-5.1-Codex-Mini
-
- – ジェミニ3プロ&lt;/p&gt;
+&lt;p&gt;最先端の状態を維持するために、OpenAI と Google の最新モデルのサポートを追加しました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt; GPT-5.1、GPT-5.1-Codex、および GPT-5.1-Codex-Mini&lt;/li&gt;
+&lt;li&gt;ジェミニ3プロ&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&quot;more-powerful-code-search&quot; id=&quot;more-powerful-code-search&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#more-powerful-code-search&quot;&gt;より強力なコード検索&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Copilot はコードベースをより効率的に検索できるようになりました。 &lt;code&gt;ripgrep&lt;/code&gt; Copilot CLI にバンドルし、適切なコンテキストを迅速かつ強力に見つけるための&lt;code&gt;grep&lt;/code&gt;および&lt;code&gt;glob&lt;/code&gt;ツールを追加しました。&lt;/p&gt;
 &lt;h2 id=&quot;better-image-support&quot; id=&quot;better-image-support&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#better-image-support&quot;&gt;より優れた画像サポート&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
@@ -24,21 +69,16 @@
 &lt;li&gt;Copilot の長時間実行シェルコマンドの処理を改善しました&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;reliability-and-bugfixes&quot; id=&quot;reliability-and-bugfixes&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#reliability-and-bugfixes&quot;&gt;信頼性とバグ修正&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;ユーザーから報告されたバグや信頼性の問題をいくつか修正しました。
-
- – 長時間実行されるシェルコマンドの実行時にメモリリークが発生するのを防止
-
-– カスタムエージェント設定に関するさまざまなバグ修正を実装しました
-
-– Ctrl+Cシグナルと中止操作の処理を改善
-
-– シェルツールの環境から内部の&lt;code&gt;NODE_ENV&lt;/code&gt;変数を削除し、Node 開発シナリオでの衝突を防止しました。
-
- – Windowsターミナルのキーボード入力をブロックする問題を修正しました
-
-– &lt;code&gt;/model&lt;/code&gt;コマンドでサポートされていないモデルを使用した場合のエラーメッセージを改善しました
-
-– 初回起動時に背景色の値が入力ボックスに表示される問題を修正しました&lt;/p&gt;
+&lt;p&gt;ユーザーから報告されたバグや信頼性の問題をいくつか修正しました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;長時間実行されるシェルコマンドの実行時にメモリリークを防止&lt;/li&gt;
+&lt;li&gt;カスタムエージェント設定に関するさまざまなバグ修正を実装しました&lt;/li&gt;
+&lt;li&gt;Ctrl+C シグナルと中止操作の処理が改善されました&lt;/li&gt;
+&lt;li&gt;シェルツールの環境から内部の&lt;code&gt;NODE_ENV&lt;/code&gt;変数を削除し、Node 開発シナリオでの衝突を防止しました。&lt;/li&gt;
+&lt;li&gt; Windowsターミナルのキーボード入力をブロックする問題を修正しました&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/model&lt;/code&gt;コマンドでサポートされていないモデルを使用した場合のエラー メッセージが改善されました&lt;/li&gt;
+&lt;li&gt;初回起動時に背景色の値が入力ボックスに表示される問題を修正しました&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&quot;share-your-feedback&quot; id=&quot;share-your-feedback&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#share-your-feedback&quot;&gt;フィードバックを共有する&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;ターミナルで&lt;code&gt;npm install -g @github/copilot@latest&lt;/code&gt;実行して、GitHub Copilot CLI を更新してください。/feedback &lt;code&gt;/feedback&lt;/code&gt;経由でフィードバックを送信してくださった皆様、また&lt;a href=&quot;https://github.com/github/copilot-cli&quot;&gt;公開リポジトリ&lt;/a&gt;で問題を報告してくださった皆様に感謝申し上げます。皆様からの継続的なフィードバックは、今後の改善に非常に役立っています。&lt;/p&gt;
 &lt;/body&gt;&lt;/html&gt;
@@ -171,7 +211,7 @@
 </content:encoded><category domain="changelog-type">Release</category><category domain="changelog-label">application security</category><category domain="changelog-label">supply chain security</category><post-id xmlns="com-wordpress:feed-additions:1">92405</post-id></item><item><title>JetBrains、Eclipse、Xcode 用の分離されたサブエージェントがパブリック プレビューに登場</title><link>https://github.blog/changelog/2025-11-18-isolated-subagents-for-jetbrains-eclipse-and-xcode-now-in-public-preview</link><dc:creator>Allison</dc:creator><pubDate>Tue, 18 Nov 2025 17:30:17 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2025-11-17-isolated-subagents-for-jetbrains-eclipse-and-xcode-now-in-public-preview</guid><description>&lt;p&gt;We&amp;#8217;re excited to share that isolated subagents are now in public preview across JetBrains IDEs, Eclipse, and Xcode! Empowered by isolated context, subagents let you delegate focused tasks to autonomous&amp;#8230;&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2025-11-18-isolated-subagents-for-jetbrains-eclipse-and-xcode-now-in-public-preview&quot;&gt;Isolated Subagents for JetBrains, Eclipse, and Xcode now in public preview&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
-&lt;html&gt;&lt;body&gt;&lt;p&gt; JetBrains IDE、Eclipse、Xcodeで、分離サブエージェントがパブリックプレビューを開始しました！分離コンテキストを備えたサブエージェントを使用すると、現在のチャットセッションを離れることなく、集中的なタスクを自律的なコパイロットに委任できます。コパイロットが調査、API設計、コードレビュー、プロジェクトコンテキストの収集などを行っている間も、チャットの進行を滞りなく進めることができます。各サブエージェントはそれぞれ独立したコンテキスト内で動作するため、メインの会話は明確かつ集中した状態を維持できます。&lt;/p&gt;
+&lt;html&gt;&lt;body&gt;&lt;p&gt; JetBrains IDE、Eclipse、Xcodeで、分離サブエージェントがパブリックプレビューを開始しました！分離コンテキストを備えたサブエージェントを使用すると、現在のチャットセッションを離れることなく、集中的なタスクを自律的なコパイロットに委任できます。そのため、コパイロットが調査、API設計、コードレビュー、プロジェクトコンテキストの収集などを行っている間も、チャットの進行を滞りなく進めることができます。各サブエージェントはそれぞれ独立したコンテキスト内で動作するため、メインの会話が明確かつ集中的に行われます。&lt;/p&gt;
 &lt;h2 id=&quot;%e2%9c%a8-whats-new&quot; id=&quot;%e2%9c%a8-whats-new&quot; &gt; &lt;a class=&quot;heading-link&quot; href=&quot;#%e2%9c%a8-whats-new&quot;&gt;✨ 新着情報&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;専用のサブエージェント コンテキスト&lt;/strong&gt;– 各サブエージェントは独自のコンテキストで実行されるため、長時間実行される調査や分析のプロンプトによってメインの会話履歴が圧迫されることを防ぎます。&lt;/li&gt;
@@ -216,30 +256,31 @@
 &lt;p&gt;今すぐ、独立したサブエージェントに調査と分析を委任し、主なチャットを優れたコードのリリースに集中させましょう。&lt;/p&gt;
 &lt;/body&gt;&lt;/html&gt;
 &lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2025-11-18-isolated-subagents-for-jetbrains-eclipse-and-xcode-now-in-public-preview&quot;&gt;JetBrains、Eclipse、Xcode 用の分離されたサブエージェントがパブリック プレビュー中であるという&lt;/a&gt;記事が&lt;a href=&quot;https://github.blog&quot;&gt;、GitHub ブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
-</content:encoded><category domain="changelog-type">Release</category><category domain="changelog-label">copilot</category><post-id xmlns="com-wordpress:feed-additions:1">92384</post-id></item><item><title>GitHub Copilot Next Edit Suggestions (NES) が Xcode と Eclipse 向けにパブリックプレビュー開始</title><link>https://github.blog/changelog/2025-11-18-github-copilot-next-edit-suggestions-nes-now-in-public-preview-for-xcode-and-eclipse</link><dc:creator>Allison</dc:creator><pubDate>Tue, 18 Nov 2025 17:30:11 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2025-11-17-github-copilot-next-edit-suggestions-nes-now-in-public-preview-for-xcode-and-eclipse</guid><description>&lt;p&gt;GitHub Copilot Next Edit Suggestions (NES) is now available in public preview for Xcode and Eclipse. This new feature helps developers move faster by suggesting the next logical edit based&amp;#8230;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2025-11-18-github-copilot-next-edit-suggestions-nes-now-in-public-preview-for-xcode-and-eclipse&quot;&gt;GitHub Copilot Next Edit Suggestions (NES) now in public preview for Xcode and Eclipse&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
+</content:encoded><category domain="changelog-type">Release</category><category domain="changelog-label">copilot</category><post-id xmlns="com-wordpress:feed-additions:1">92384</post-id></item><item><title>GitHub Copilot の次の編集候補 (NES) が Xcode と Eclipse 向けにパブリック プレビュー開始</title><link>https://github.blog/changelog/2025-11-18-github-copilot-next-edit-suggestions-nes-now-in-public-preview-for-xcode-and-eclipse</link><dc:creator>Allison</dc:creator><pubDate>Tue, 18 Nov 2025 17:30:11 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2025-11-17-github-copilot-next-edit-suggestions-nes-now-in-public-preview-for-xcode-and-eclipse</guid><description>&lt;p&gt;GitHub Copilot next edit suggestions (NES) is now available in public preview for Xcode and Eclipse. This new feature helps developers move faster by suggesting the next logical edit based&amp;#8230;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2025-11-18-github-copilot-next-edit-suggestions-nes-now-in-public-preview-for-xcode-and-eclipse&quot;&gt;GitHub Copilot next edit suggestions (NES) now in public preview for Xcode and Eclipse&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
-&lt;html&gt;&lt;body&gt;&lt;p&gt; GitHub CopilotのNext Edit Suggestions（NES）が、XcodeとEclipse向けにパブリックプレビューとして利用可能になりました。この新機能は、現在のコンテキストに基づいて次の論理的な編集を提案することで、開発者の作業効率を向上させ、繰り返しの作業を減らし、生産性を向上させます。&lt;/p&gt;
+&lt;html&gt;&lt;body&gt;&lt;p&gt; GitHub Copilotの次の編集候補（NES）が、XcodeとEclipseでパブリックプレビューとして利用可能になりました。この新機能は、現在のコンテキストに基づいて次の論理的な編集を提案することで、開発者の作業を迅速化し、繰り返しの作業を減らし、生産性を向上させます。&lt;/p&gt;
 &lt;h2 id=&quot;whats-new&quot; id=&quot;whats-new&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#whats-new&quot;&gt;新着情報&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;GitHub Copilot の「次の編集提案（NES）」機能は、最近の編集内容に基づいて、次に何を、どこを変更したいかを予測します。この新機能により、Copilot はコード、コメント、テストなどに対する修正を提案できます。さらに、変更内容をプレビューして即座に適用できます。編集内容を素早く移動し、コーディングフローを中断することなく作業を進めることができます。Tab キーで提案をナビゲートし、もう一度 Tab キーを押すと提案が承認されます。&lt;/p&gt;
+&lt;p&gt;GitHub Copilot の次の編集候補（NES）機能は、最近の編集内容に基づいて、次に何を、どこを変更したいかを予測します。この新機能により、Copilot はコード、コメント、テストなどに対する修正を提案できます。さらに、変更内容をプレビューして即座に適用できます。編集内容を素早く移動し、コーディングフローを中断することなく作業を進めることができます。Tab キーで提案をナビゲートし、もう一度 Tab キーを押すと提案が承認されます。&lt;/p&gt;
 &lt;h2 id=&quot;try-it-out&quot; id=&quot;try-it-out&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#try-it-out&quot;&gt;試してみる&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt; NESは現在プレビュー版で、 &lt;a href=&quot;https://github.com/github/copilotforXcode/&quot;&gt;Xcode&lt;/a&gt;および&lt;a href=&quot;https://marketplace.eclipse.org/content/github-copilot&quot;&gt;Eclipse&lt;/a&gt;ユーザーの皆様にご利用いただけます。アクセスするには、プラグインまたはアプリを最新バージョンにアップデートし、有効な&lt;a href=&quot;https://github.com/features/copilot&quot;&gt;Copilotライセンスを&lt;/a&gt;お持ちであることをご確認ください。&lt;/li&gt;
-&lt;li&gt; IDE 設定で NES を有効にします。&lt;/li&gt;
+&lt;li&gt; IDE 設定で NES を有効にします。
+&lt;ul&gt;
+&lt;li&gt; &lt;strong&gt;Xcode の場合&lt;/strong&gt;: GitHub Copilot for Xcode アプリを開き、 &lt;strong&gt;Advanced&lt;/strong&gt; &gt; &lt;strong&gt;Suggestion Settings&lt;/strong&gt;に移動して、 &lt;strong&gt;Enable next edit suggestions (NES) を&lt;/strong&gt;オンにします。&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt;Eclipse の場合&lt;/strong&gt;: GitHub Copilot アイコンをクリックし、 &lt;strong&gt;「Edit Settings」&lt;/strong&gt;を選択して、 &lt;strong&gt;「Completion」&lt;/strong&gt;セクションを見つけ、 &lt;strong&gt;「Enable next edit suggestions (NES)」&lt;/strong&gt;をオンにします。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;コーディングを始めましょう。Copilotがあなたの次の動きを予測します！NESの候補が自動的に表示されます。カーソルまたはキーボードショートカットを使って候補に移動できます。Tabキー（デフォルト）で承認するか、ガターメニューの矢印で適用してください。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt; – &lt;strong&gt;Xcode の場合&lt;/strong&gt;: GitHub Copilot for Xcode アプリを開き、&lt;strong&gt;詳細&lt;/strong&gt;&gt;&lt;strong&gt;提案設定&lt;/strong&gt;に移動して、&lt;strong&gt;次の編集提案を有効にする (NES)&lt;/strong&gt;をオンにします。
-
- – &lt;strong&gt;Eclipse の場合&lt;/strong&gt;: GitHub Copilot アイコンをクリックし、 &lt;strong&gt;「Edit Settings」&lt;/strong&gt;を選択して、 &lt;strong&gt;「Completion」&lt;/strong&gt;セクションを見つけ、 &lt;strong&gt;「Enable Next Edit Suggestions (NES)」&lt;/strong&gt;をオンにします。
-
- 3. コーディングを開始すると、Copilotがあなたの次の動きを予測します。NESの候補が自動的に表示されます。カーソルまたはキーボードショートカットを使って候補に移動できます。Tabキー（デフォルト）で承認するか、ガターメニューの矢印で適用します。&lt;/p&gt;
 &lt;h2 id=&quot;share-your-feedback&quot; id=&quot;share-your-feedback&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#share-your-feedback&quot;&gt;フィードバックを共有する&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;皆様からのフィードバックをお待ちしております。以下のチャンネルからご意見をお聞かせください。
-
- – &lt;a href=&quot;https://github.com/microsoft/copilot-eclipse-feedback/issues&quot;&gt;Eclipse用GitHubコパイロット&lt;/a&gt;
-
-– &lt;a href=&quot;https://github.com/github/CopilotForXcode/issues&quot;&gt;Xcode用GitHubコパイロット&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;皆様からのフィードバックをお待ちしております。以下のチャンネルからご意見をお聞かせください。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt; &lt;a href=&quot;https://github.com/microsoft/copilot-eclipse-feedback/issues&quot;&gt;Eclipse 用 GitHub コパイロット&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/github/CopilotForXcode/issues&quot;&gt;Xcode 用 GitHub コパイロット&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/body&gt;&lt;/html&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.blog/changelog/2025-11-18-github-copilot-next-edit-suggestions-nes-now-in-public-preview-for-xcode-and-eclipse&quot;&gt;GitHub Copilot Next Edit Suggestions (NES) が Xcode および Eclipse 向けにパブリック プレビュー中であるという&lt;/a&gt;記事が&lt;a href=&quot;https://github.blog&quot;&gt;、The GitHub Blog&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.blog/changelog/2025-11-18-github-copilot-next-edit-suggestions-nes-now-in-public-preview-for-xcode-and-eclipse&quot;&gt;GitHub Copilot の次の編集提案 (NES) が Xcode および Eclipse でパブリック プレビュー中であるという&lt;/a&gt;記事が&lt;a href=&quot;https://github.blog&quot;&gt;、GitHub ブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
 </content:encoded><category domain="changelog-type">Improvement</category><category domain="changelog-label">copilot</category><post-id xmlns="com-wordpress:feed-additions:1">92401</post-id></item><item><title>Eclipse 向け GitHub Copilot コーディングエージェントがパブリックプレビューに登場</title><link>https://github.blog/changelog/2025-11-18-github-copilot-coding-agent-for-eclipse-now-in-public-preview</link><dc:creator>Allison</dc:creator><pubDate>Tue, 18 Nov 2025 17:30:05 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2025-11-17-github-copilot-coding-agent-for-eclipse-now-in-public-preview</guid><description>&lt;p&gt;GitHub Copilot coding agent is now available in public preview for Eclipse. This release brings Copilot directly into native Eclipse workflows. What&amp;#8217;s new Delegate from Eclipse: Describe a task in&amp;#8230;&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2025-11-18-github-copilot-coding-agent-for-eclipse-now-in-public-preview&quot;&gt;GitHub Copilot coding agent for Eclipse now in public preview&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
@@ -275,48 +316,4 @@
 &lt;p&gt;今すぐ開始して、Eclipse IDE の Copilot コーディング エージェントを使用した自律開発を体験してください。&lt;/p&gt;
 &lt;/body&gt;&lt;/html&gt;
 &lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2025-11-18-github-copilot-coding-agent-for-eclipse-now-in-public-preview&quot;&gt;Eclipse 用の GitHub Copilot コーディング エージェントがパブリック プレビュー中である&lt;/a&gt;という記事が&lt;a href=&quot;https://github.blog&quot;&gt;、GitHub ブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
-</content:encoded><category domain="changelog-type">Release</category><category domain="changelog-label">copilot</category><post-id xmlns="com-wordpress:feed-additions:1">92398</post-id></item><item><title>GitHub Copilot のプランモードが JetBrains、Eclipse、Xcode でパブリックプレビュー開始</title><link>https://github.blog/changelog/2025-11-18-plan-mode-in-github-copilot-now-in-public-preview-in-jetbrains-eclipse-and-xcode</link><dc:creator>Allison</dc:creator><pubDate>Tue, 18 Nov 2025 17:30:05 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2025-11-17-plan-mode-in-github-copilot-now-in-public-preview-in-jetbrains-eclipse-and-xcode</guid><description>&lt;p&gt;We&amp;#8217;re excited to announce that plan mode in GitHub Copilot is now available in public preview for JetBrains IDEs, Eclipse, and Xcode. Here&amp;#8217;s what you need to know about this&amp;#8230;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2025-11-18-plan-mode-in-github-copilot-now-in-public-preview-in-jetbrains-eclipse-and-xcode&quot;&gt;Plan mode in GitHub Copilot now in public preview in JetBrains, Eclipse, and Xcode&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
-</description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
-&lt;html&gt;&lt;body&gt;&lt;p&gt; GitHub Copilotのプランモードが、JetBrains IDE、Eclipse、Xcodeでパブリックプレビューとしてご利用いただけるようになりました。コーディング前にブループリント戦略を提供するこの新しいCopilot機能について、知っておくべきことをご紹介します。&lt;/p&gt;
-&lt;h2 id=&quot;whats-new&quot; id=&quot;whats-new&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#whats-new&quot;&gt;新着情報&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;プランモードは、開発者がIDE内で直接、段階的な実装計画を作成、改良、実行するのに役立ちます。コードベースを分析し、詳細な実行計画を生成し、コーディングを開始する前に要件が満たされていることを検証します。&lt;/p&gt;
-&lt;p&gt;プランモードでは、お客様がプランをレビューし承認するまで、コードの変更は行われません。概要と手順の詳細を受け取ったら、それを確認するか、エージェントに引き渡して実装を依頼できます。これにより、プランモードはシームレスな複数ステップのタスクをサポートし、すべての段階で正確性と効率性を実現します。&lt;/p&gt;
-&lt;p&gt;この機能は、JetBrains、Eclipse、Xcode に追加しているエージェント基盤に基づいて構築されています。&lt;/p&gt;
-&lt;h2 id=&quot;how-to-use-plan-mode&quot; id=&quot;how-to-use-plan-mode&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#how-to-use-plan-mode&quot;&gt;プランモードの使い方&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;JetBrains IDEの場合:
-
- 1. サインインして Copilot Chat を開き、エージェントのドロップダウンからプラン モードを選択します。
-
- 2. 機能の追加、コードのリファクタリング、バグ修正など、大まかなタスクを記述し、「送信」をクリックします。（例：「HTML、CSS、JSファイルを使用してシンプルなToDoアプリを作成する」）
-
- 3. 生成された計画を確認し、ニーズに応じて「実装を開始」または「エディターで開く」を選択します。&lt;/p&gt;
-&lt;p&gt; Eclipse の場合:
-
- 1. Copilot Chat パネルにサインインし、エージェントのドロップダウンからプラン モードを選択します。
-
- 2. 機能の追加、コードのリファクタリング、バグ修正など、大まかなタスクを記述し、「送信」をクリックします。（例：「GUIとToDo項目の追加、削除、更新機能を備えたToDoアプリを作成する」）
-
- 3. 生成された計画を確認し、ニーズに応じて「実装を開始」または「エディターで開く」を選択します。&lt;/p&gt;
-&lt;p&gt; Xcodeの場合:
-
- 1. Xcode 用 GitHub Copilot を開いてサインインし、エージェントのドロップダウンからプラン モードを選択します。
-
- 2. 機能の追加、コードのリファクタリング、バグ修正など、大まかなタスクを記述し、「送信」をクリックします。（例：「GUI付きのマインスイーパーゲームを構築する」）
-
- 3. 生成された計画を確認し、ニーズに応じて「実装を開始」または「エディターで開く」を選択します。&lt;/p&gt;
-&lt;h2 id=&quot;try-it-out&quot; id=&quot;try-it-out&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#try-it-out&quot;&gt;試してみる&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;プランモードはプレビュー版で、 &lt;a href=&quot;https://plugins.jetbrains.com/plugin/17718-github-copilot&quot;&gt;JetBrains IDE&lt;/a&gt; 、 &lt;a href=&quot;https://marketplace.eclipse.org/content/github-copilot&quot;&gt;Eclipse&lt;/a&gt; 、 &lt;a href=&quot;https://github.com/github/copilotforXcode/&quot;&gt;Xcodeの&lt;/a&gt;すべてのユーザーにご利用いただけます。アクセスするには、プラグインまたはアプリを最新バージョンにアップデートする必要があります。
-
-これらの IDE の Copilot エージェント モードにアクセスするには、有効な&lt;a href=&quot;https://github.com/features/copilot&quot;&gt;Copilot ライセンス&lt;/a&gt;も必要です。&lt;/p&gt;
-&lt;h2 id=&quot;share-your-feedback&quot; id=&quot;share-your-feedback&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#share-your-feedback&quot;&gt;フィードバックを共有する&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;皆様からのフィードバックをお待ちしております。以下のチャネルからご意見をお聞かせください。
-
- – &lt;a href=&quot;https://github.com/microsoft/copilot-intellij-feedback/issues&quot;&gt;JetBrains IDE向けGitHub Copilot&lt;/a&gt;
-
- – &lt;a href=&quot;https://github.com/microsoft/copilot-eclipse-feedback/issues&quot;&gt;Eclipse用GitHubコパイロット&lt;/a&gt;
-
-– &lt;a href=&quot;https://github.com/github/CopilotForXcode/issues&quot;&gt;Xcode用GitHubコパイロット&lt;/a&gt;&lt;/p&gt;
-&lt;/body&gt;&lt;/html&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.blog/changelog/2025-11-18-plan-mode-in-github-copilot-now-in-public-preview-in-jetbrains-eclipse-and-xcode&quot;&gt;GitHub Copilot のプラン モードが JetBrains、Eclipse、Xcode でパブリック プレビュー中であるという記事が、&lt;/a&gt; &lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
-</content:encoded><category domain="changelog-type">Improvement</category><category domain="changelog-label">copilot</category><post-id xmlns="com-wordpress:feed-additions:1">92416</post-id></item></channel></rss>
+</content:encoded><category domain="changelog-type">Release</category><category domain="changelog-label">copilot</category><post-id xmlns="com-wordpress:feed-additions:1">92398</post-id></item></channel></rss>
