@@ -76,9 +76,9 @@
 </content:encoded><category domain="changelog-type">Improvement</category><category domain="changelog-label">collaboration tools</category><post-id xmlns="com-wordpress:feed-additions:1">92811</post-id></item><item><title>GitHub ディスカッションで管理者として投稿できるようになりました</title><link>https://github.blog/changelog/2025-12-11-post-as-admin-now-available-in-github-discussions</link><dc:creator>Allison</dc:creator><pubDate>Thu, 11 Dec 2025 16:45:28 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2025-12-04-post-as-admin-now-available-in-github-discussions</guid><description>&lt;p&gt;Repository administrators can now post and comment in GitHub Discussions using an &amp;#8220;Admin&amp;#8221; badge to distinguish official responses from personal contributions. The option to post as Admin appears when creating&amp;#8230;&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2025-12-11-post-as-admin-now-available-in-github-discussions&quot;&gt;Post as Admin now available in GitHub Discussions&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
-&lt;html&gt;&lt;body&gt;&lt;p&gt;リポジトリ管理者は、GitHub ディスカッションに「管理者」バッジを使用して投稿やコメントを行えるようになり、公式の回答と個人の貢献を区別できるようになりました。 &lt;/p&gt;
+&lt;html&gt;&lt;body&gt;&lt;p&gt;リポジトリ管理者は、公式の回答と個人の貢献を区別するために「管理者」バッジを使用して GitHub ディスカッションに投稿およびコメントできるようになりました。 &lt;/p&gt;
 &lt;p&gt;&lt;img decoding=&quot;async&quot; alt=&quot;ディスカッション フォーラム インターフェイスのスクリーンショット。ユーザーとして投稿するか、「管理者」として投稿するかを選択するためのドロップダウン メニューを含む「新しいディスカッションを開始」ページが表示され、新しい管理者エイリアス機能が示されています。&quot; src=&quot;https://github.com/user-attachments/assets/d49e253b-f4f9-43cc-a37e-3ee6f2a7176d&quot;&gt;&lt;/p&gt;
-&lt;p&gt;ディスカッションの作成時やコメントの追加時に、&lt;strong&gt;管理者&lt;/strong&gt;として投稿するオプションが表示されます。これにより、管理者は自身の回答がリポジトリの公式ガイダンスとなるかどうかを選択できます。これにより、コミュニティメンバーは信頼できる回答を容易に特定できると同時に、メンテナーは会話に個人的に参加する柔軟性を維持できます。この機能により、セキュリティリスクやアクセス管理の複雑化を招く一般的な回避策である、個別の管理者アカウントが不要になります。&lt;/p&gt;
+&lt;p&gt;ディスカッションの作成時やコメントの追加時に、&lt;strong&gt;管理者&lt;/strong&gt;として投稿するオプションが表示されます。これにより、管理者は自身の回答がリポジトリの公式ガイダンスとなるかどうかを選択できます。これにより、コミュニティメンバーは信頼できる回答を容易に特定できると同時に、メンテナーは会話に個人的に参加する柔軟性を維持できます。この機能により、セキュリティリスクをもたらし、アクセス管理を複雑にする一般的な回避策である、個別の管理者アカウントが不要になります。&lt;/p&gt;
 &lt;h3 id=&quot;how-to-post-as-admin&quot; id=&quot;how-to-post-as-admin&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#how-to-post-as-admin&quot;&gt;管理者として投稿する方法&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;管理者エイリアスを使用して投稿するには:&lt;/p&gt;
 &lt;ol&gt;
@@ -135,7 +135,7 @@
 &lt;p&gt;展開は段階的に行われます。新しいモデルがまだ表示されない場合は、後日改めてご確認ください。&lt;/p&gt;
 &lt;h3 id=&quot;enabling-access&quot; id=&quot;enabling-access&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#enabling-access&quot;&gt;アクセスを有効にする&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;エンタープライズプランおよびビジネスプラン&lt;/strong&gt;：管理者はCopilot設定でOpenAI GPT-5.2を有効にする必要があります。有効にすると、その組織内のユーザーはCopilotモデルピッカーで該当するモデルを確認できます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;エンタープライズプランとビジネスプラン&lt;/strong&gt;：管理者はCopilot設定でOpenAI GPT-5.2を有効にする必要があります。有効にすると、その組織内のユーザーはCopilotモデルピッカーで該当するモデルを確認できます。&lt;/li&gt;
 &lt;li&gt; &lt;strong&gt;Pro および Pro+ プラン&lt;/strong&gt;: ユーザーは、モデル ピッカーでモデルを選択し、1 回限りのプロンプトを確認することで、モデルを有効にできます。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;独自のキーを使用する&lt;/strong&gt;: Visual Studio Code 内で、ピッカーから&lt;strong&gt;[モデルの管理]&lt;/strong&gt;を選択し、 &lt;strong&gt;OpenAI GPT-5.2&lt;/strong&gt;を選択して、プロンプトが表示されたら API キーを入力します。&lt;/li&gt;
 &lt;/ul&gt;
