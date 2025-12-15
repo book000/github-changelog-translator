@@ -78,7 +78,7 @@
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
 &lt;html&gt;&lt;body&gt;&lt;p&gt;リポジトリ管理者は、公式の回答と個人の貢献を区別するために「管理者」バッジを使用して GitHub ディスカッションに投稿およびコメントできるようになりました。 &lt;/p&gt;
 &lt;p&gt;&lt;img decoding=&quot;async&quot; alt=&quot;ディスカッション フォーラム インターフェイスのスクリーンショット。ユーザーとして投稿するか、「管理者」として投稿するかを選択するためのドロップダウン メニューを含む「新しいディスカッションを開始」ページが表示され、新しい管理者エイリアス機能が示されています。&quot; src=&quot;https://github.com/user-attachments/assets/d49e253b-f4f9-43cc-a37e-3ee6f2a7176d&quot;&gt;&lt;/p&gt;
-&lt;p&gt;ディスカッションの作成時やコメントの追加時に、&lt;strong&gt;管理者&lt;/strong&gt;として投稿するオプションが表示されます。これにより、管理者は自身の回答がリポジトリの公式ガイダンスとなるかどうかを選択できます。これにより、コミュニティメンバーは信頼できる回答を容易に特定できると同時に、メンテナーは会話に個人的に参加する柔軟性を維持できます。この機能により、セキュリティリスクをもたらし、アクセス管理を複雑にする一般的な回避策である、個別の管理者アカウントが不要になります。&lt;/p&gt;
+&lt;p&gt;ディスカッションの作成時やコメントの追加時に、&lt;strong&gt;管理者&lt;/strong&gt;として投稿するオプションが表示されます。これにより、管理者は自身の回答がリポジトリの公式ガイダンスとなるかどうかを選択できます。これにより、コミュニティメンバーは信頼できる回答を容易に特定できると同時に、メンテナーは会話に個人的に参加する柔軟性を維持できます。この機能により、セキュリティリスクやアクセス管理の複雑化を招く一般的な回避策である、個別の管理者アカウントが不要になります。&lt;/p&gt;
 &lt;h3 id=&quot;how-to-post-as-admin&quot; id=&quot;how-to-post-as-admin&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#how-to-post-as-admin&quot;&gt;管理者として投稿する方法&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;管理者エイリアスを使用して投稿するには:&lt;/p&gt;
 &lt;ol&gt;
