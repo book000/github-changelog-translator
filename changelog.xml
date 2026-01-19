@@ -143,7 +143,7 @@ BYOKは、Responses APIを使用するモデルをサポートするようにな
 &lt;h2 id=&quot;key-features&quot; id=&quot;key-features&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#key-features&quot;&gt;主な特徴&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;すべての SDK は、次の一貫した API を提供します。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;マルチターンの会話&lt;/strong&gt;: コンテキストに応じたやり取りのセッション履歴を維持します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;マルチターンの会話&lt;/strong&gt;: コンテキストに応じたやり取りのためにセッション履歴を維持します。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;ツール実行&lt;/strong&gt;: 会話中にモデルが呼び出すことができるカスタム ツールを定義します。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;完全なライフサイクル制御&lt;/strong&gt;: クライアントとセッションのライフサイクルをプログラムで管理します。&lt;/li&gt;
 &lt;/ul&gt;
@@ -303,7 +303,7 @@ BYOKは、Responses APIを使用するモデルをサポートするようにな
 &lt;/ul&gt;
 &lt;p&gt;組織にタグを付けると、エンタープライズ ルールセットは、任意のプロパティの組み合わせに基づいて組織をターゲットにすることができます。 &lt;/p&gt;
 &lt;p&gt;&lt;img decoding=&quot;async&quot; src=&quot;https://github.com/user-attachments/assets/19aee9db-45e6-43b9-b956-c85b58b0bdec&quot; alt=&quot;「地域コンプライアンス」コード ルールセット設定のスクリーンショット。評価ステータス、空のバイパス リスト、地域とコンプライアンス フレームワークによって定義された対象組織が表示されています。&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;get-started&quot; id=&quot;get-started&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#get-started&quot;&gt;始める&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;get-started&quot; id=&quot;get-started&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#get-started&quot;&gt;始めましょう&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;組織のカスタム プロパティは、すべての GitHub Enterprise Cloud のお客様がご利用いただけます。&lt;/p&gt;
 &lt;p&gt;エンタープライズ管理者は、エンタープライズ設定の組織セクションでカスタム プロパティにアクセスできます。&lt;/p&gt;
 &lt;p&gt;詳細については、GitHub ドキュメントの「&lt;a href=&quot;https://gh.io/org-properties-docs&quot;&gt;企業内の組織のカスタム プロパティの管理&lt;/a&gt;」を参照してください。&lt;/p&gt;
