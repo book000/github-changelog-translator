@@ -143,7 +143,7 @@ BYOKは、Responses APIを使用するモデルをサポートするようにな
 &lt;h2 id=&quot;key-features&quot; id=&quot;key-features&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#key-features&quot;&gt;主な特徴&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;すべての SDK は、次の一貫した API を提供します。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;マルチターンの会話&lt;/strong&gt;: コンテキストに応じたやり取りのためにセッション履歴を維持します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;マルチターンの会話&lt;/strong&gt;: コンテキストに応じたやり取りのセッション履歴を維持します。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;ツール実行&lt;/strong&gt;: 会話中にモデルが呼び出すことができるカスタム ツールを定義します。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;完全なライフサイクル制御&lt;/strong&gt;: クライアントとセッションのライフサイクルをプログラムで管理します。&lt;/li&gt;
 &lt;/ul&gt;
