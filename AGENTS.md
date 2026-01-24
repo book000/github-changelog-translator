@@ -25,3 +25,12 @@
 - ログに機密情報を出力しない。
 
 ## リポジトリ固有
+- **node_version**: 20+ (.node-version)
+- **package_manager**: pnpm@10.28.1
+- **preinstall**: pnpm only (enforces pnpm usage)
+- **license**: MIT
+- **output**: Translated RSS feed published to GitHub Pages
+- **rss_url**: https://book000.github.io/github-changelog-translator/changelog.xml
+- **language_support**: Japanese translation only
+- **source**: GitHub Changelog RSS (https://github.blog/changelog/)
+- **special_tools**: run-z for task orchestration, tsx for TypeScript execution

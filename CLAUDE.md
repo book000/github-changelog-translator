@@ -13,7 +13,18 @@
 - 前提・仮定・不確実性を明示し、仮定を事実のように扱わない。
 
 ## プロジェクト概要
-- 目的: [English](README.md) | [Japanese](README-ja.md)
+Automatically translate GitHub Changelog RSS feed articles to Japanese and deliver translated content.
+
+### 技術スタック
+- **言語**: TypeScript
+- **フレームワーク**: C, L, I, /, S, t, a, n, d, a, l, o, n, e
+- **パッケージマネージャー**: pnpm
+- **主要な依存関係**:
+  - axios
+  - fast-xml-parser
+  - @book000/eslint-config
+  - tsx
+  - typescript
 
 ## 重要ルール
 - 会話言語: 日本語
@@ -42,28 +53,78 @@
 - TypeScript 使用時は `skipLibCheck` で回避しない。
 - 関数やインターフェースには docstring（JSDoc など）を記載する。
 
+### コーディング規約
+- **eslint**: @book000/eslint-config (standard + plugins)
+- **prettier**: YAML configuration (.prettierrc.yml)
+**typescript:**
+  - target: es2020
+  - module: commonjs
+  - strict: True
+  - strict_options: noImplicitAny, strictNullChecks, strictBindCallApply, noUnusedLocals, noUnusedParameters, noImplicitReturns, noFallthroughCasesInSwitch
+  - paths: {'@/*': 'src/*'}
+
 ## 相談ルール
 - Codex CLI: 実装レビュー、局所設計、整合性確認に使う。
 - Gemini CLI: 外部仕様や最新情報の確認に使う。
 - 他エージェントの指摘は黙殺せず、採用または理由を明記して不採用とする。
 
-## 開発コマンド
+### 開発コマンド
 ```bash
-# 依存関係のインストール
+# install
 pnpm install
 
-# 開発 / テスト / Lint は README を確認してください
+# dev
+tsx watch ./src/main.ts
+
+# start
+tsx ./src/main.ts
+
+# lint
+run-z lint:prettier,lint:eslint,lint:tsc
+
+# fix
+run-z fix:prettier,fix:eslint
+
+# lint:prettier
+prettier --check src
+
+# lint:eslint
+eslint . -c eslint.config.mjs
+
+# lint:tsc
+tsc
+
+# fix:eslint
+eslint . -c eslint.config.mjs --fix
+
+# fix:prettier
+prettier --write src
+
 ```
 
-## アーキテクチャと主要ファイル
+### プロジェクト構造
+
+**主要ディレクトリ:**
+- `src/ - Source code (main.ts entry point)`
+
+**重要ファイル:**
+- `package.json`
+- `tsconfig.json`
+- `eslint.config.mjs`
+- `.prettierrc.yml`
+- `README.md`
+- `README-ja.md`
 
 ## 実装パターン
+- 既存のコードパターンに従う。
+- プロジェクト固有の実装ガイドラインがある場合はそれに従う。
 
 ## テスト
 - 方針: 変更内容に応じてテストを追加する。
 
 ## ドキュメント更新ルール
 - 更新タイミング: 実装確定後、同一コミットまたは追加コミットで更新する。
+- README、API ドキュメント、コメント等は常に最新状態を保つ。
 
 ## 作業チェックリスト
 
@@ -94,3 +155,12 @@ pnpm install
 6. PR 本文の崩れがないことを確認する。
 
 ## リポジトリ固有
+- **node_version**: 20+ (.node-version)
+- **package_manager**: pnpm@10.28.1
+- **preinstall**: pnpm only (enforces pnpm usage)
+- **license**: MIT
+- **output**: Translated RSS feed published to GitHub Pages
+- **rss_url**: https://book000.github.io/github-changelog-translator/changelog.xml
+- **language_support**: Japanese translation only
+- **source**: GitHub Changelog RSS (https://github.blog/changelog/)
+- **special_tools**: run-z for task orchestration, tsx for TypeScript execution
