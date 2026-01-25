@@ -129,7 +129,7 @@ github-changelog-translator/
 │   └── workflows/              # GitHub Actions ワークフロー
 │       ├── nodejs-ci-pnpm.yml  # CI/CD パイプライン
 │       └── update-rss.yml      # 日次 RSS 更新ワークフロー
-└── dist/                       # コンパイル出力（生成）
+└── dist/                       # tsc 実行時のみ使用するコンパイル出力先（通常は tsx で直接実行）
 ```
 
 ## 実装パターン

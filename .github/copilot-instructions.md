@@ -36,7 +36,7 @@
   - インデント: 2 スペース
   - 改行コード: LF
   - クォート: シングルクォート
-  - トレイリングカンマ: あり
+  - トレイリングカンマ: es5（ES5 互換位置で有効）
 - リンター: ESLint 9.39.2 + @book000/eslint-config 1.12.40
 - TypeScript: strict モード有効
   - `skipLibCheck` での回避は禁止
