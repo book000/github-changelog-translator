@@ -49,7 +49,7 @@
 </content:encoded><category domain="changelog-type">Improvement</category><category domain="changelog-label">collaboration tools</category><post-id xmlns="com-wordpress:feed-additions:1">93435</post-id></item><item><title>GitHub Issuesの読み込みが高速化</title><link>https://github.blog/changelog/2026-01-22-faster-loading-for-github-issues</link><dc:creator>Allison</dc:creator><pubDate>Thu, 22 Jan 2026 20:45:09 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2026-01-22-faster-loading-for-github-issues</guid><description>&lt;p&gt;GitHub Issues are now significantly faster with 35% of issue views occurring in under 200ms, up from 2% at the start of the year. This is the first in a&amp;#8230;&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2026-01-22-faster-loading-for-github-issues&quot;&gt;Faster loading for GitHub Issues&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
-&lt;html&gt;&lt;body&gt;&lt;p&gt; GitHub Issues は大幅に高速化され、問題の表示時間の 35% が 200 ミリ秒未満で完了します。これは今年初めの 2% から増加しています。&lt;/p&gt;
+&lt;html&gt;&lt;body&gt;&lt;p&gt; GitHub Issues は大幅に高速化され、問題の表示の 35% が 200 ミリ秒未満で発生しており、年初は 2% でした。&lt;/p&gt;
 &lt;p&gt;これは、GitHub Issues、そしてより広義には GitHub を瞬時に感じられるようにするためにリリースする、一連のパフォーマンス改善の最初のものです。 &lt;/p&gt;
 &lt;p&gt;&lt;video width=&quot;100%&quot; loop controls autoplay muted src=&quot;https://github.com/user-attachments/assets/c68854bc-3500-4313-b561-1eaa132afc4e&quot;&gt;
 
