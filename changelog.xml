@@ -110,7 +110,7 @@
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
 &lt;html&gt;&lt;body&gt;&lt;p&gt;コンプライアンスと地域要件において、データレジデンシーがいかに重要であるかを私たちは理解しています。そのため、データレジデンシーをご利用のGitHub Enterprise Cloudのお客様には、Copilotの使用、コード生成ダッシュボード、そして関連するAPIをご利用いただけます。&lt;/p&gt;
 &lt;h3 id=&quot;whats-included&quot; id=&quot;whats-included&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#whats-included&quot;&gt;何が含まれていますか?&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;データレジデンシーを持つ GitHub Enterprise Cloud のお客様は、次の情報を確認できるようになりました。&lt;/p&gt;
+&lt;p&gt;データ レジデンシーを持つ GitHub Enterprise Cloud のお客様は、次の情報を確認できるようになりました。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt; &lt;strong&gt;Copilot 使用状況ダッシュボード&lt;/strong&gt;：チームによる GitHub Copilot の利用状況について、明確で実用的なインサイトを得ることができます。ダッシュボードでは、コード補完アクティビティ、IDE の使用状況、生成されたコード行数などを可視化できます。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;コード生成ダッシュボード&lt;/strong&gt;: 補完、チャット、エージェント機能全体で Copilot が提案、追加、または削除した行を定量化して、Copilot の出力を観察します。&lt;/li&gt;
@@ -191,7 +191,7 @@
 &lt;/ul&gt;
 &lt;p&gt;標準のGitHubホストランナーと同様に、プライベートリポジトリではGitHubプランの無料通話時間枠をご利用いただけます。macOSのarm64標準ランナーは既にプライベートリポジトリで利用可能です。今回のアップデートにより、プライベートリポジトリのarm64サポートがLinuxとWindowsにも拡張されます。&lt;/p&gt;
 &lt;p&gt;これは、コンテナ化されたサービスやマルチアーキテクチャビルドなど、プライベートリポジトリ内の標準の GitHub ホストランナーを使用してネイティブパフォーマンスを求める arm64 プロダクションをターゲットとするチームに最適です。&lt;/p&gt;
-&lt;h2 id=&quot;get-started&quot; id=&quot;get-started&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#get-started&quot;&gt;始める&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;get-started&quot; id=&quot;get-started&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#get-started&quot;&gt;始めましょう&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;arm64 でのビルドを開始するには、ワークフローの runs-on フィールドに次のサポートされているラベルのいずれかを追加します。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt; &lt;code&gt;windows-11-arm&lt;/code&gt;&lt;/li&gt;
@@ -241,13 +241,13 @@
 </content:encoded><category domain="changelog-type">Retired</category><category domain="changelog-label">account management</category><category domain="changelog-label">copilot</category><category domain="changelog-label">enterprise management tools</category><post-id xmlns="com-wordpress:feed-additions:1">93516</post-id></item><item><title>パブリックプレビューでGitHub Issuesの検索機能を改善</title><link>https://github.blog/changelog/2026-01-29-improved-search-for-github-issues-in-public-preview</link><dc:creator>Allison</dc:creator><pubDate>Thu, 29 Jan 2026 11:07:03 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2026-01-29-improved-search-for-github-issues-in-public-preview</guid><description>&lt;p&gt;It&amp;#8217;s now easier than ever to find exactly the issue you&amp;#8217;re looking for with our improved search for GitHub Issues. Built on our new semantic index, you can now find&amp;#8230;&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2026-01-29-improved-search-for-github-issues-in-public-preview&quot;&gt;Improved search for GitHub Issues in public preview&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
-&lt;html&gt;&lt;body&gt;&lt;p&gt; GitHub Issuesの検索機能が改良され、これまで以上に簡単に、探している問題を正確に見つけることができます。新しいセマンティックインデックスに基づいて、キーワードだけでなく、クエリの意味に基づいた検索結果を表示できるようになりました。&lt;/p&gt;
+&lt;html&gt;&lt;body&gt;&lt;p&gt; GitHub Issuesの検索機能が改良され、これまで以上に簡単に、探している問題を正確に見つけることができます。新しいセマンティックインデックスに基づいて構築されたため、キーワードだけでなく、クエリの意味に基づいて結果を検索できるようになりました。&lt;/p&gt;
 &lt;h1 id=&quot;whats-new&quot; id=&quot;whats-new&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#whats-new&quot;&gt;新着情報&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;「モバイルでの認証失敗」や「タイムラインの挙動がおかしい」といった自然言語を使って問題を検索すると、GitHubは問題のタイトルや説明が全く異なる表現であっても、概念的に似た結果を返します。クエリが詳細であればあるほど、より良い結果が得られます。&lt;/p&gt;
-&lt;p&gt;プレリリーステストでは、これはユーザーにとって大きな改善であることがわかりました。全体として、セマンティック検索は従来の検索と比較して検索結果が39%向上しています。 &lt;/p&gt;
+&lt;p&gt;リリース前のテストでは、これはユーザーにとって大きな改善であることが確認されました。全体として、セマンティック検索は従来の検索と比較して検索結果が39%向上しています。 &lt;/p&gt;
 &lt;p&gt;&lt;img decoding=&quot;async&quot; src=&quot;https://github.com/user-attachments/assets/64116472-5acb-4245-ace1-c79eb91c9903&quot; alt=&quot;GitHub Issuesの検索ランキングが大幅に向上したことを示す折れ線グラフ。語彙検索は平均4位と低い順位ですが、新しいセマンティック検索は一貫して1位または2位に近い結果を見つけています。&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;how-it-works&quot; id=&quot;how-it-works&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#how-it-works&quot;&gt;仕組み&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;セマンティック検索は、探しているものを自然言語で説明すると起動します。この機能を最大限に活用するため、検索結果は「最も一致した」順に自動的に並び替えられ、最も関連性の高い情報が最初に表示されるようになりました。&lt;/p&gt;
+&lt;p&gt;セマンティック検索は、探しているものを自然言語で説明すると起動します。この機能を最大限に活用するため、検索結果は「最も一致した」順に自動的に並び替えられ、最も関連性の高い情報が最初に表示されます。&lt;/p&gt;
 &lt;p&gt;完全一致が必要な検索 (引用符付きのクエリなど) の場合、GitHub は従来の語彙検索エンジンを使用して、必要な精度を提供します。&lt;/p&gt;
 &lt;p&gt;パブリック プレビュー中は、 &lt;a href=&quot;https://docs.github.com/get-started/using-github/exploring-early-access-releases-with-feature-preview&quot;&gt;機能プレビュー ダイアログ&lt;/a&gt;を使用してオプトアウトできます。&lt;/p&gt;
 &lt;h2 id=&quot;how-to-try-it&quot; id=&quot;how-to-try-it&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#how-to-try-it&quot;&gt;試す方法&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
@@ -360,11 +360,11 @@
 &lt;li&gt;&lt;strong&gt;順次タスク&lt;/strong&gt;: 複数の Copilot 割り当てを連結します。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;タスクの割り当てにより、ジョブ ID またはプル リクエスト リンクがすぐに返されるようになったため、ステータスをすぐに追跡できます。&lt;/p&gt;
-&lt;p&gt; &lt;code&gt;assign_copilot_to_issue&lt;/code&gt;ツールは、カスタム指示をサポートするようになりました。&lt;/p&gt;
+&lt;p&gt; &lt;code&gt;assign_copilot_to_issue&lt;/code&gt;ツールは、カスタム命令をサポートするようになりました。&lt;/p&gt;
 &lt;h3 id=&quot;getting-started&quot; id=&quot;getting-started&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#getting-started&quot;&gt;はじめる&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;開始するには、 &lt;code&gt;copilot&lt;/code&gt;ツールセットを有効にします。&lt;/p&gt;
 &lt;p&gt;詳細については、 &lt;a href=&quot;https://github.com/github/github-mcp-server&quot;&gt;GitHub MCP Server リポジトリ&lt;/a&gt;をご覧ください。&lt;/p&gt;
-&lt;p&gt;今すぐこれらの機能をお試しください。フィードバックがある場合は、オープンソースの&lt;a href=&quot;https://github.com/github/github-mcp-server&quot;&gt;GitHub MCP Server リポジトリ&lt;/a&gt;で問題を報告してください。&lt;/p&gt;
+&lt;p&gt;これらの機能を今すぐお試しください。フィードバックがある場合は、オープンソースの&lt;a href=&quot;https://github.com/github/github-mcp-server&quot;&gt;GitHub MCP Server リポジトリ&lt;/a&gt;で問題を報告してください。&lt;/p&gt;
 &lt;/body&gt;&lt;/html&gt;
 &lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2026-01-28-github-mcp-server-new-projects-tools-oauth-scope-filtering-and-new-features&quot;&gt;GitHub MCP Server: 新しいプロジェクト ツール、OAuth スコープ フィルタリング、および新機能に関する&lt;/a&gt;記事が、 &lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
 </content:encoded><category domain="changelog-type">Release</category><category domain="changelog-label">copilot</category><post-id xmlns="com-wordpress:feed-additions:1">93450</post-id></item></channel></rss>
