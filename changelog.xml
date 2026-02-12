@@ -19,7 +19,7 @@
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2026-02-09-gpt-5-3-codex-is-now-generally-available-for-github-copilot&quot;&gt;GPT-5.3-Codex is now generally available for GitHub Copilot&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
 &lt;html&gt;&lt;body&gt;&lt;p&gt;&lt;strong&gt;注: プラットフォームの信頼性向上に注力するため、GPT-5.3-Codex の展開を一時停止しています。展開が再開されましたら、この通知は削除されます。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt; OpenAIの最新のエージェントコーディングモデルであるGPT-5.3-Codexが、GitHub Copilotで公開されました。初期テストでは、GPT-5.3-Codexは、コーディング、エージェント、そして実世界における能力を評価するために使用するベンチマークで、新たな高スコアを達成しました。また、複雑でツール駆動型の長時間実行ワークフローにおける推論と実行が改善され、エージェントコーディングタスクにおいてGPT-5.2-Codexと比較して最大25%高速なパフォーマンスを実現しています。&lt;/p&gt;
+&lt;p&gt; OpenAIの最新のエージェントコーディングモデルであるGPT-5.3-Codexが、GitHub Copilotで公開されました。初期テストにおいて、GPT-5.3-Codexは、コーディング、エージェント、そして実世界における能力を評価するために使用するベンチマークで、新たな高スコアを達成しました。また、複雑でツール駆動型の長時間実行ワークフローにおける推論と実行が改善され、エージェントコーディングタスクにおいてGPT-5.2-Codexと比較して最大25%高速なパフォーマンスを実現しています。&lt;/p&gt;
 &lt;h3 id=&quot;availability-in-github-copilot&quot; id=&quot;availability-in-github-copilot&quot; &gt; &lt;a class=&quot;heading-link&quot; href=&quot;#availability-in-github-copilot&quot;&gt;GitHub Copilot での可用性&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;GPT-5.3-Codex は、 &lt;a href=&quot;https://github.com/features/copilot/plans?utm_source=changelog-codex53-cta&amp;utm_medium=changelog&amp;utm_campaign=newmodels&quot;&gt;Copilot Pro、Pro+、Business、および Enterprise&lt;/a&gt;ユーザーが利用できます。&lt;/p&gt;
 &lt;p&gt;次のモデル ピッカーでモデルを選択できます。&lt;/p&gt;
@@ -134,7 +134,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&quot;%f0%9f%94%a7-more-fixes-and-improvements&quot; id=&quot;%f0%9f%94%a7-more-fixes-and-improvements&quot; &gt; &lt;a class=&quot;heading-link&quot; href=&quot;#%f0%9f%94%a7-more-fixes-and-improvements&quot;&gt;🔧 さらなる修正と改善&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;修正:&lt;/strong&gt; &lt;strong&gt;「ファイルの変更」&lt;/strong&gt;タブで直接通知を開いても、通知が既読にならない問題を修正しました。通知の表示時に既読状態が正しく更新されるようになり、従来のエクスペリエンスの動作と一致するようになりました。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;修正:&lt;/strong&gt; &lt;strong&gt;「ファイルの変更」&lt;/strong&gt;タブで通知を直接開いても、通知が既読にならない問題を修正しました。通知は、クラシックエクスペリエンスの動作に合わせて、表示時に既読状態が正しく更新されるようになりました。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;修正:&lt;/strong&gt;スクロール時にファイルの差分ヘッダーが常に固定されない問題。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;修正:&lt;/strong&gt;スレッドの返信内のコード スニペットの背景色が返信の背景と区別しにくい問題を修正しました。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;修正:&lt;/strong&gt; diff 内の大きなインデックスの違いにわたってコメントするときに発生するエラー。&lt;/li&gt;
