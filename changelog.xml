@@ -42,7 +42,7 @@
 &lt;li&gt;きめ細かなアクセス制御により、完全な管理者アクセスを必要とせずに、 &lt;code&gt;View enterprise Copilot metrics&lt;/code&gt;などのカスタム エンタープライズ ロールを使用して適切なユーザーと可視性を共有できます。&lt;/li&gt;
 &lt;li&gt;データ レジデンシーを備えた GitHub Enterprise Cloud のサポートが追加され、レジデンシー要件を持つ企業が Copilot 使用状況ダッシュボードと API レポートにアクセスできるようになりました。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&quot;whats-next&quot; id=&quot;whats-next&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#whats-next&quot;&gt;次は何か&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;whats-next&quot; id=&quot;whats-next&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#whats-next&quot;&gt;次は何？&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;本日のリリースでは、組織全体でのCopilotの導入状況を把握するためのデータ基盤を提供します。多くのリーダーが次に抱く疑問は、「Copilotは効果を発揮しているのか？」です。私たちは、その答えに向けて、使用パターンとエンジニアリング成果を結び付けることで、導入状況の追跡から効果測定へと移行できるよう取り組んでいます。これらの機能が利用可能になり次第、詳細をお知らせします。&lt;/p&gt;
 &lt;p&gt;始めるには、 &lt;a href=&quot;https://docs.github.com/copilot/concepts/copilot-usage-metrics&quot;&gt;Copilot の使用状況メトリクスに関するドキュメント&lt;/a&gt;をご覧ください。GitHub&lt;a href=&quot;https://github.com/orgs/community/discussions/188142&quot;&gt;コミュニティ&lt;/a&gt;でのディスカッションにもご参加ください。&lt;/p&gt;
 &lt;/body&gt;&lt;/html&gt;
@@ -66,10 +66,10 @@
 </content:encoded><category domain="changelog-type">Improvement</category><category domain="changelog-label">actions</category><post-id xmlns="com-wordpress:feed-additions:1">94170</post-id></item><item><title>Copilot メトリクスレポートの URL の更新</title><link>https://github.blog/changelog/2026-02-26-copilot-metrics-report-urls-update</link><dc:creator>Allison</dc:creator><pubDate>Thu, 26 Feb 2026 20:11:34 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2026-02-25-copilot-metrics-report-urls-update</guid><description>&lt;p&gt;The download URLs returned by the GitHub Copilot usage metrics API now come from a new endpoint. Your report data, the API contract, and the response schema haven&amp;#8217;t changed. Action&amp;#8230;&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2026-02-26-copilot-metrics-report-urls-update&quot;&gt;Copilot metrics report URLs update&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
-&lt;html&gt;&lt;body&gt;&lt;p&gt; &lt;a href=&quot;https://docs.github.com/enterprise-cloud@latest/rest/copilot/copilot-usage-metrics?apiVersion=2022-11-28&quot;&gt;GitHub Copilot 使用状況メトリクス API&lt;/a&gt;から返されるダウンロード URL は、新しいエンドポイントから取得されるようになりました。レポートデータ、API コントラクト、レスポンススキーマは変更されていません。&lt;/p&gt;
+&lt;html&gt;&lt;body&gt;&lt;p&gt; &lt;a href=&quot;https://docs.github.com/enterprise-cloud@latest/rest/copilot/copilot-usage-metrics?apiVersion=2022-11-28&quot;&gt;GitHub Copilot 使用状況メトリクス API&lt;/a&gt;から返されるダウンロード URL は、新しいエンドポイントから取得されるようになりました。レポートデータ、API コントラクト、レスポンススキーマに変更はありません。&lt;/p&gt;
 &lt;h3 id=&quot;action-required&quot; id=&quot;action-required&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#action-required&quot;&gt;必要なアクション&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;ファイアウォール ルールで特定の CDN ドメインが許可リストに含まれている場合は、既存の copilot-reports &lt;code&gt;copilot-reports-production-*.b01.azurefd.net&lt;/code&gt; &lt;code&gt;copilot-reports-*.b01.azurefd.net&lt;/code&gt;を追加します。&lt;/li&gt;
+&lt;li&gt;ファイアウォール ルールで特定の CDN ドメインを許可リストに含める場合は、既存の copilot-reports &lt;code&gt;copilot-reports-production-*.b01.azurefd.net&lt;/code&gt; &lt;code&gt;copilot-reports-*.b01.azurefd.net&lt;/code&gt;を追加します。&lt;/li&gt;
 &lt;li&gt;ダッシュボード UI のダウンロード リンクを使用してレポートをダウンロードする場合は、変更する必要はありません。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;現在のホワイトリストドメインのリストを確認するには、 &lt;a href=&quot;https://docs.github.com/copilot/reference/copilot-allowlist-reference&quot;&gt;GitHub Copilot ホワイトリストリファレンスドキュメント&lt;/a&gt;をご覧ください。GitHub&lt;a href=&quot;https://github.com/orgs/community/discussions/categories/announcements&quot;&gt;コミュニティ&lt;/a&gt;でのディスカッションにご参加ください。&lt;/p&gt;
