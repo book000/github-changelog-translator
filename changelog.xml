@@ -91,7 +91,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;カスタムツールとエージェント&lt;/strong&gt;：ハンドラーを使用してドメイン固有のツールを定義し、エージェントがそれらを呼び出すタイミングを決定できるようにします。ユースケースに合わせてカスタマイズされた指示を持つカスタムエージェントを構築できます。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;きめ細かなシステムプロンプトのカスタマイズ&lt;/strong&gt;： &lt;code&gt;replace&lt;/code&gt; 、 &lt;code&gt;append&lt;/code&gt; 、 &lt;code&gt;prepend&lt;/code&gt; 、または動的&lt;code&gt;transform&lt;/code&gt;コールバックを使用して、Copilotシステムプロンプトの各セクションをカスタマイズできます。プロンプト全体を書き直す必要はありません。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ストリーミングとリアルタイム応答&lt;/strong&gt;：応答性の高いユーザーエクスペリエンスを実現するために、トークンごとに応答をストリーミングします。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ストリーミングとリアルタイム応答&lt;/strong&gt;：応答性の高いユーザーエクスペリエンスを実現するために、応答をトークンごとにストリーミングします。&lt;/li&gt;
 &lt;li&gt; &lt;strong&gt;Blob添付ファイル&lt;/strong&gt;：画像、スクリーンショット、バイナリデータをディスクに書き込まずにインラインで送信します。&lt;/li&gt;
 &lt;li&gt; &lt;strong&gt;OpenTelemetryのサポート&lt;/strong&gt;：すべてのSDKにわたるW3Cトレースコンテキスト伝播機能を備えた組み込み分散トレーシング。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;権限管理フレームワーク&lt;/strong&gt;：承認ハンドラーを使用して機密性の高い操作を制御するか、読み取り専用ツールとしてマークして権限を完全にスキップします。&lt;/li&gt;
@@ -111,12 +111,12 @@
 &lt;li&gt;各ユーザーがCLIアクティビティ（ &lt;code&gt;used_cli&lt;/code&gt; ）を持っているかどうか。&lt;/li&gt;
 &lt;li&gt;ユーザーごとのCLIセッション数とリクエスト数。&lt;/li&gt;
 &lt;li&gt;トークン使用量の合計（リクエストあたりの平均トークン数を含む）。&lt;/li&gt;
-&lt;li&gt;アップグレードの展開計画を支援するため、ユーザーごとに最後に確認されたCLIバージョンを表示します。&lt;/li&gt;
+&lt;li&gt;アップグレード展開の計画を支援するため、ユーザーごとに最後に確認されたCLIバージョンを表示します。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;why-this-matters&quot; id=&quot;why-this-matters&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#why-this-matters&quot;&gt;これが重要な理由&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;コマンドラインからCopilotを積極的に使用している開発者を特定し、有効化が必要な箇所を特定する。&lt;/li&gt;
-&lt;li&gt;ユーザーごとの消費パターンを把握することで、コスト配分と展開計画の策定を支援する。&lt;/li&gt;
+&lt;li&gt;コスト配分と展開計画の策定を支援するために、ユーザーごとの消費パターンを把握する。&lt;/li&gt;
 &lt;li&gt;組織全体におけるCLIバージョンの配布状況を追跡し、各チームがサポートされているバージョンを使用していることを確認してください。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;詳細については、 &lt;a href=&quot;https://docs.github.com/enterprise-cloud@latest/rest/copilot/copilot-usage-metrics?apiVersion=2026-03-10&quot;&gt;APIドキュメント&lt;/a&gt;をご覧ください。GitHub&lt;a href=&quot;https://github.com/orgs/community/discussions/categories/announcements&quot;&gt;コミュニティ&lt;/a&gt;で議論に参加しましょう。&lt;/p&gt;
@@ -158,7 +158,7 @@
 &lt;li&gt;&lt;strong&gt;エージェントモード用の&lt;code&gt;find_symbol&lt;/code&gt;ツール&lt;/strong&gt;：新しいfind_symbolツールは、エージェントに言語認識型のシンボルナビゲーション機能を提供します。これには、すべての参照の検索、型メタデータへのアクセス、宣言とスコープの理解などが含まれます。C++、C#、Razor、TypeScript、およびLSP拡張機能を備えたすべての言語に対応しています。&lt;/li&gt;
 &lt;li&gt; &lt;strong&gt;Copilot を使用したテストのプロファイル作成&lt;/strong&gt;：Test Explorer に新しく追加された「Copilot を使用したプロファイル作成」コマンドを使用すると、プロファイリングエージェントを使用して特定のテストのプロファイルを作成できます。これにより、テストが自動的に実行され、CPU および計測データが分析されて、実用的なパフォーマンスに関する洞察が得られます。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;ライブプロファイリングによるPerfTips&lt;/strong&gt; ：デバッグ時のPerfTipsがプロファイラエージェントと統合されました。デバッグ中にインラインのパフォーマンスシグナルをクリックすると、Copilotが経過時間、CPU使用率、メモリ動作を分析し、最適化のポイントを提案します。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;スマートウォッチの提案機能&lt;/strong&gt;：Copilotは、デバッグ中にウォッチウィンドウにコンテキストに応じた式候補を直接表示するようになりました。これにより、最も重要な実行時値をより迅速に監視できます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;スマートウォッチの提案&lt;/strong&gt;：Copilotは、デバッグ中にウォッチウィンドウにコンテキストに応じた式提案を直接表示するようになりました。これにより、最も重要な実行時値をより迅速に監視できます。&lt;/li&gt;
 &lt;li&gt; &lt;strong&gt;Copilot で脆弱性を修正&lt;/strong&gt;：Copilot は、ソリューション エクスプローラーから直接 NuGet パッケージの脆弱性を修正できるようになりました。脆弱性が検出されたら、 &lt;strong&gt;「GitHub Copilot で修正」&lt;/strong&gt;リンクをクリックすると、Copilot が対象となる依存関係の更新を推奨します。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;新機能の詳細については、 &lt;a href=&quot;https://devblogs.microsoft.com/visualstudio/visual-studio-march-update-build-your-own-custom-agents/&quot;&gt;Visual Studio のブログ&lt;/a&gt;と&lt;a href=&quot;https://learn.microsoft.com/visualstudio/releases/2026/release-notes&quot;&gt;リリースノート&lt;/a&gt;をご覧ください。 &lt;/p&gt;
@@ -185,7 +185,7 @@
 &lt;p&gt;今回のナビゲーションアップデートは、近日公開予定のGitHub Code Qualityの一般提供開始に向けた準備段階となります。アップデートされたナビゲーションは現在github.comで利用可能ですが、GitHub Enterprise Serverには含まれていません。&lt;/p&gt;
 &lt;p&gt; &lt;a href=&quot;https://github.com/orgs/community/discussions/177488&quot;&gt;GitHubコミュニティ&lt;/a&gt;で議論に参加しましょう。&lt;/p&gt;
 &lt;/body&gt;&lt;/html&gt;
-&lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2026-04-02-the-security-tab-is-now-security-quality&quot;&gt;「セキュリティ」タブが「セキュリティと品質」に名称変更されました&lt;/a&gt;。この記事は&lt;a href=&quot;https://github.blog&quot;&gt;GitHubブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
+&lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2026-04-02-the-security-tab-is-now-security-quality&quot;&gt;「セキュリティ」タブが「セキュリティと品質」に変更されました&lt;/a&gt;。この記事は&lt;a href=&quot;https://github.blog&quot;&gt;GitHubブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
 </content:encoded><category domain="changelog-type">Improvement</category><category domain="changelog-label">application security</category><category domain="changelog-label">enterprise management tools</category><category domain="changelog-label">platform governance</category><post-id xmlns="com-wordpress:feed-additions:1">94989</post-id></item><item><title>GitHub Issuesの検索機能が改善され、一般提供が開始されました。</title><link>https://github.blog/changelog/2026-04-02-improved-search-for-github-issues-is-now-generally-available</link><dc:creator>Allison</dc:creator><pubDate>Thu, 02 Apr 2026 13:11:31 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2026-03-27-improved-search-for-github-issues-is-now-generally-available</guid><description>&lt;p&gt;Finding the right issue just got easier. First introduced in public preview in January and expanded to the Issues dashboard in February, improved search for GitHub Issues is now generally&amp;#8230;&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2026-04-02-improved-search-for-github-issues-is-now-generally-available&quot;&gt;Improved search for GitHub Issues is now generally available&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
@@ -208,8 +208,8 @@
 &lt;h3 id=&quot;other-improvements-to-github-issues&quot; id=&quot;other-improvements-to-github-issues&quot; &gt; &lt;a class=&quot;heading-link&quot; href=&quot;#other-improvements-to-github-issues&quot;&gt;GitHub Issuesのその他の改善点&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;課題テンプレートエディタは、UIからテンプレートを編集する際に「 &lt;code&gt;Type&lt;/code&gt;フィールドを保持するようになりました。&lt;/li&gt;
-&lt;li&gt;課題検索でフィルターを使用する際、担当者のハンドル名の前に&lt;code&gt;@&lt;/code&gt;を付けてタグ付けすると、期待どおりに動作するようになりました。&lt;/li&gt;
-&lt;li&gt;カンマ区切りの&lt;code&gt;repo:&lt;/code&gt; 、 &lt;code&gt;org:&lt;/code&gt; 、 &lt;code&gt;user:&lt;/code&gt;修飾子を使用しても、Issues ダッシュボードでエラーは発生しなくなりました。&lt;/li&gt;
+&lt;li&gt;課題検索でフィルターを使用する際に、担当者のハンドル名の前に&lt;code&gt;@&lt;/code&gt;を付けてタグ付けすると、期待どおりに動作するようになりました。&lt;/li&gt;
+&lt;li&gt;カンマ区切りの&lt;code&gt;repo:&lt;/code&gt; 、 &lt;code&gt;org:&lt;/code&gt; 、および&lt;code&gt;user:&lt;/code&gt;修飾子は、Issues ダッシュボードでエラーを返さなくなりました。&lt;/li&gt;
 &lt;li&gt;折りたたまれたブロック内のマーメイド図が正しく表示されるようになりました。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/body&gt;&lt;/html&gt;
