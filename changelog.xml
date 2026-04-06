@@ -111,12 +111,12 @@
 &lt;li&gt;各ユーザーがCLIアクティビティ（ &lt;code&gt;used_cli&lt;/code&gt; ）を持っているかどうか。&lt;/li&gt;
 &lt;li&gt;ユーザーごとのCLIセッション数とリクエスト数。&lt;/li&gt;
 &lt;li&gt;トークン使用量の合計（リクエストあたりの平均トークン数を含む）。&lt;/li&gt;
-&lt;li&gt;アップグレード展開の計画を支援するため、ユーザーごとに最後に確認されたCLIバージョンを表示します。&lt;/li&gt;
+&lt;li&gt;アップグレードの展開計画を支援するため、ユーザーごとに最後に確認されたCLIバージョンを表示します。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;why-this-matters&quot; id=&quot;why-this-matters&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#why-this-matters&quot;&gt;これが重要な理由&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;コマンドラインからCopilotを積極的に使用している開発者を特定し、有効化が必要な箇所を特定する。&lt;/li&gt;
-&lt;li&gt;コスト配分と展開計画の策定を支援するために、ユーザーごとの消費パターンを把握する。&lt;/li&gt;
+&lt;li&gt;ユーザーごとの消費パターンを把握することで、コスト配分と展開計画の策定を支援する。&lt;/li&gt;
 &lt;li&gt;組織全体におけるCLIバージョンの配布状況を追跡し、各チームがサポートされているバージョンを使用していることを確認してください。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;詳細については、 &lt;a href=&quot;https://docs.github.com/enterprise-cloud@latest/rest/copilot/copilot-usage-metrics?apiVersion=2026-03-10&quot;&gt;APIドキュメント&lt;/a&gt;をご覧ください。GitHub&lt;a href=&quot;https://github.com/orgs/community/discussions/categories/announcements&quot;&gt;コミュニティ&lt;/a&gt;で議論に参加しましょう。&lt;/p&gt;
@@ -208,8 +208,8 @@
 &lt;h3 id=&quot;other-improvements-to-github-issues&quot; id=&quot;other-improvements-to-github-issues&quot; &gt; &lt;a class=&quot;heading-link&quot; href=&quot;#other-improvements-to-github-issues&quot;&gt;GitHub Issuesのその他の改善点&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;課題テンプレートエディタは、UIからテンプレートを編集する際に「 &lt;code&gt;Type&lt;/code&gt;フィールドを保持するようになりました。&lt;/li&gt;
-&lt;li&gt;課題検索でフィルターを使用する際に、担当者のハンドル名の前に&lt;code&gt;@&lt;/code&gt;を付けてタグ付けすると、期待どおりに動作するようになりました。&lt;/li&gt;
-&lt;li&gt;カンマ区切りの&lt;code&gt;repo:&lt;/code&gt; 、 &lt;code&gt;org:&lt;/code&gt; 、および&lt;code&gt;user:&lt;/code&gt;修飾子は、Issues ダッシュボードでエラーを返さなくなりました。&lt;/li&gt;
+&lt;li&gt;課題検索でフィルターを使用する際、担当者のハンドル名の前に&lt;code&gt;@&lt;/code&gt;を付けてタグ付けすると、期待どおりに動作するようになりました。&lt;/li&gt;
+&lt;li&gt;カンマ区切りの&lt;code&gt;repo:&lt;/code&gt; 、 &lt;code&gt;org:&lt;/code&gt; 、 &lt;code&gt;user:&lt;/code&gt;修飾子を使用しても、Issues ダッシュボードでエラーは発生しなくなりました。&lt;/li&gt;
 &lt;li&gt;折りたたまれたブロック内のマーメイド図が正しく表示されるようになりました。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/body&gt;&lt;/html&gt;
