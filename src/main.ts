@@ -55,7 +55,7 @@ async function translate(
       mode: 'html',
     }),
   })
-  if (!response.ok) {
+  if (response.status !== 200) {
     return null
   }
   const data = (await response.json()) as {
