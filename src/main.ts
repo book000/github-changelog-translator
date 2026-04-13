@@ -1,4 +1,3 @@
-import axios from 'axios'
 import { XMLBuilder, XMLParser } from 'fast-xml-parser'
 import fs from 'node:fs'
 import path from 'node:path'
@@ -43,30 +42,29 @@ async function translate(
   if (!GASUrl) {
     throw new Error('GAS_URL is not set')
   }
-  const response = await axios.post<{
-    response: {
-      result: string
-    }
-  }>(
-    GASUrl,
-    {
+  const response = await fetch(GASUrl, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'X-Requested-With': 'XMLHttpRequest',
+    },
+    body: JSON.stringify({
       before,
       after,
       text: message,
       mode: 'html',
-    },
-    {
-      headers: {
-        'Content-Type': 'application/json',
-        'X-Requested-With': 'XMLHttpRequest',
-      },
-    }
-  )
+    }),
+  })
   if (response.status !== 200) {
     return null
   }
-  console.log(response.data)
-  return response.data.response.result
+  const data = (await response.json()) as {
+    response: {
+      result: string
+    }
+  }
+  console.log(data)
+  return data.response.result
 }
 
 async function main() {
@@ -80,8 +78,11 @@ async function main() {
   const parser = new XMLParser({
     ignoreAttributes: false,
   })
-  const response = await axios.get(githubChangeLogURL)
-  const oldFeed: Feed = parser.parse(response.data)
+  const response = await fetch(githubChangeLogURL)
+  if (!response.ok) {
+    throw new Error(`HTTP error! status: ${response.status}`)
+  }
+  const oldFeed: Feed = parser.parse(await response.text())
   for (const item of oldFeed.rss.channel.item) {
     const title = item.title
     const content = item['content:encoded']
