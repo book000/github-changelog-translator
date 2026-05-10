@@ -33,7 +33,7 @@
 &lt;h3 id=&quot;whats-new&quot; id=&quot;whats-new&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#whats-new&quot;&gt;新着情報&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Copilotのコードレビュー提案（つまり、Copilotによって自動的に生成された行アンカー付きレビューコメント）ごとに、新しい配列には、Copilotがその提案に割り当てたコメントタイプ（例： &lt;code&gt;security&lt;/code&gt;または&lt;code&gt;bug_risk&lt;/code&gt; ）ごとの集計カウントが表示されます。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt; &lt;code&gt;comment_type&lt;/code&gt; ：Copilotがレビュー提案に割り当てたカテゴリ。&lt;/li&gt;
+&lt;li&gt; &lt;code&gt;comment_type&lt;/code&gt; : Copilot がレビュー提案に割り当てたカテゴリ。&lt;/li&gt;
 &lt;li&gt; &lt;code&gt;total_copilot_suggestions&lt;/code&gt; ：報告期間中に投稿された、そのコメントタイプのCopilotコードレビュー提案の総数。&lt;/li&gt;
 &lt;li&gt; &lt;code&gt;total_copilot_applied_suggestions&lt;/code&gt; : 開発者によって適用された提案の数。&lt;/li&gt;
 &lt;/ul&gt;
@@ -41,7 +41,7 @@
 &lt;h3 id=&quot;why-this-matters&quot; id=&quot;why-this-matters&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#why-this-matters&quot;&gt;これが重要な理由&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt; &lt;strong&gt;Copilotが何を検出しているかを理解しましょう：&lt;/strong&gt; Copilotのコードレビューがプルリクエストで最も頻繁に検出する問題のカテゴリを確認してください。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;開発者がどのフィードバックに対応しているかを測定します。&lt;/strong&gt;提案の数と適用された提案の種類を比較して、Copilot コードレビューが最も価値を発揮する箇所を確認します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;開発者がどのフィードバックに対応しているかを測定します。&lt;/strong&gt;提案の数と適用された提案の種類を比較して、Copilotコードレビューが最も価値を発揮する箇所を確認します。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;コードレビューの全体像を把握しましょう。&lt;/strong&gt;既存のCopilotコードレビューのユーザー数やプルリクエストの指標と組み合わせることで、Copilotコードレビューが&lt;strong&gt;どれだけ&lt;/strong&gt;使用されているかだけでなく、&lt;strong&gt;どのようなフィードバックが生成され、どれくらいの&lt;/strong&gt;頻度で採用されているかを把握できるようになります。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;important-notes&quot; id=&quot;important-notes&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#important-notes&quot;&gt;重要な注意事項&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
@@ -142,7 +142,7 @@
 &lt;/ul&gt;
 &lt;p&gt;変更点の完全なリストについては、&lt;a href=&quot;https://codeql.github.com/docs/codeql-overview/codeql-changelog/codeql-cli-2.25.3/&quot;&gt;バージョン 2.25.3 の完全な変更履歴&lt;/a&gt;を参照してください。CodeQL の新しいバージョンはすべて、github.com の GitHub コードスキャンを使用しているユーザーに自動的にデプロイされます。CodeQL 2.25.3 の新機能は、GitHub Enterprise Server (GHES) 3.22 リリースにも含まれます。GHES の古いバージョンを使用している場合は、 &lt;a href=&quot;https://docs.github.com/enterprise-server@3.20/admin/managing-code-security/managing-github-advanced-security-for-your-enterprise/configuring-code-scanning-for-your-appliance#configuring-codeql-analysis-on-a-server-without-internet-access&quot;&gt;CodeQL のバージョンを手動でアップグレード&lt;/a&gt;できます。&lt;/p&gt;
 &lt;/body&gt;&lt;/html&gt;
-&lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2026-05-08-codeql-2-25-3-adds-swift-6-3-support&quot;&gt;CodeQL 2.25.3 で Swift 6.3 のサポートが追加されました&lt;/a&gt;。この記事は&lt;a href=&quot;https://github.blog&quot;&gt;、GitHub Blog&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
+&lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2026-05-08-codeql-2-25-3-adds-swift-6-3-support&quot;&gt;CodeQL 2.25.3 で Swift 6.3 のサポートが追加されました&lt;/a&gt;。この記事は&lt;a href=&quot;https://github.blog&quot;&gt;、GitHub ブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
 </content:encoded><category domain="changelog-type">Improvement</category><category domain="changelog-label">application security</category><post-id xmlns="com-wordpress:feed-additions:1">95852</post-id></item><item><title>GPT-4.1の廃止予定</title><link>https://github.blog/changelog/2026-05-07-upcoming-deprecation-of-gpt-4-1</link><dc:creator>Allison</dc:creator><pubDate>Fri, 08 May 2026 00:22:08 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2026-05-07-upcoming-deprecation-of-gpt-4-1</guid><description>&lt;p&gt;We will deprecate the following model across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on 6/1/2026: Model Deprecation date Suggested alternative&amp;#8230;&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2026-05-07-upcoming-deprecation-of-gpt-4-1&quot;&gt;Upcoming deprecation of GPT-4.1&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
