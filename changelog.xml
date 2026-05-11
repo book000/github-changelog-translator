@@ -33,15 +33,15 @@
 &lt;h3 id=&quot;whats-new&quot; id=&quot;whats-new&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#whats-new&quot;&gt;新着情報&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Copilotのコードレビュー提案（つまり、Copilotによって自動的に生成された行アンカー付きレビューコメント）ごとに、新しい配列には、Copilotがその提案に割り当てたコメントタイプ（例： &lt;code&gt;security&lt;/code&gt;または&lt;code&gt;bug_risk&lt;/code&gt; ）ごとの集計カウントが表示されます。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt; &lt;code&gt;comment_type&lt;/code&gt; : Copilot がレビュー提案に割り当てたカテゴリ。&lt;/li&gt;
+&lt;li&gt; &lt;code&gt;comment_type&lt;/code&gt; ：Copilotがレビュー提案に割り当てたカテゴリ。&lt;/li&gt;
 &lt;li&gt; &lt;code&gt;total_copilot_suggestions&lt;/code&gt; ：報告期間中に投稿された、そのコメントタイプのCopilotコードレビュー提案の総数。&lt;/li&gt;
 &lt;li&gt; &lt;code&gt;total_copilot_applied_suggestions&lt;/code&gt; : 開発者によって適用された提案の数。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;内訳は、企業レベルと組織レベルの両方で、1日単位および28日間のローリングウィンドウレポートとして利用可能です。現時点ではリポジトリレベルへのドリルダウンはできませんが、将来的に対応を検討中です。&lt;/p&gt;
+&lt;p&gt;内訳は、企業レベルと組織レベルの両方で、1日単位および28日間のローリングウィンドウレポートとして利用可能です。現時点ではリポジトリレベルまでドリルダウンすることはできませんが、将来的に対応を検討中です。&lt;/p&gt;
 &lt;h3 id=&quot;why-this-matters&quot; id=&quot;why-this-matters&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#why-this-matters&quot;&gt;これが重要な理由&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt; &lt;strong&gt;Copilotが何を検出しているかを理解しましょう：&lt;/strong&gt; Copilotのコードレビューがプルリクエストで最も頻繁に検出する問題のカテゴリを確認してください。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;開発者がどのフィードバックに対応しているかを測定します。&lt;/strong&gt;提案の数と適用された提案の種類を比較して、Copilotコードレビューが最も価値を発揮する箇所を確認します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;開発者がどのフィードバックに基づいて行動しているかを測定します。&lt;/strong&gt;提案の数と適用された提案の種類を比較して、Copilot コードレビューが最も価値を発揮する箇所を確認します。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;コードレビューの全体像を把握しましょう。&lt;/strong&gt;既存のCopilotコードレビューのユーザー数やプルリクエストの指標と組み合わせることで、Copilotコードレビューが&lt;strong&gt;どれだけ&lt;/strong&gt;使用されているかだけでなく、&lt;strong&gt;どのようなフィードバックが生成され、どれくらいの&lt;/strong&gt;頻度で採用されているかを把握できるようになります。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;important-notes&quot; id=&quot;important-notes&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#important-notes&quot;&gt;重要な注意事項&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
@@ -77,7 +77,7 @@
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2026-05-08-more-flexible-secrets-and-variables-for-copilot-cloud-agent&quot;&gt;More flexible secrets and variables for Copilot cloud agent&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
 &lt;html&gt;&lt;body&gt;&lt;p&gt; &lt;a href=&quot;https://docs.github.com/copilot/concepts/agents/cloud-agent/about-cloud-agent&quot;&gt;Copilotクラウドエージェント&lt;/a&gt;にタスクを委任すると、GitHub Actionsを利用した独自の開発環境でバックグラウンドで動作します。エージェントにシークレットや変数を渡すことで、プライベートリソースへのアクセス権限を与えたり、MCPサーバーの設定を行ったりすることができます。&lt;/p&gt;
-&lt;p&gt;これまで、これらの設定はリポジトリごとに個別に、リポジトリの「アクション」設定にあるコ&lt;code&gt;copilot&lt;/code&gt;環境で構成する必要がありました。そのため、共有構成（例えば、内部パッケージレジストリトークンや共通のMCPサーバーなど）を多数のリポジトリに展開するのは困難でした。&lt;/p&gt;
+&lt;p&gt;これまで、これらの設定はリポジトリごとに個別に、 &lt;code&gt;copilot&lt;/code&gt;環境の「アクション」設定で行う必要がありました。そのため、共有設定（例えば、内部パッケージレジストリトークンや共通のMCPサーバーなど）を多数のリポジトリに展開するのは非常に困難でした。&lt;/p&gt;
 &lt;p&gt;本日より、Copilotクラウドエージェントは、既存の「アクション」、「コードスペース」、「Dependabot」タイプと並んで、専用の「エージェント」シークレットと変数を持つようになりました。これにより、以下のことが可能になります。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;組織レベルで初めてシークレットと変数を設定し&lt;/strong&gt;、組織内の任意のリポジトリまたはすべてのリポジトリで共有します。&lt;/li&gt;
