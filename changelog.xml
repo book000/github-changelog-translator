@@ -96,7 +96,7 @@
 &lt;p&gt;&lt;video loop controls autoplay muted width=&quot;100%&quot; src=&quot;https://github.com/user-attachments/assets/4439e4fe-4de9-49ce-87a9-196664ad686b&quot;&gt;&lt;/video&gt;&lt;/p&gt;
 &lt;h2 id=&quot;whats-changing&quot; id=&quot;whats-changing&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#whats-changing&quot;&gt;何が変わるのか&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;以前は、Copilot Memoryはリポジトリレベルの情報のみを保存していました。現在では、Copilot Memoryはリポジトリではなく、ユーザー個人に適用される設定も記録できるようになりました。&lt;/p&gt;
-&lt;p&gt;これは、あなたの設定が、あなたがどこで作業していても、すべてのリポジトリやCopilotエージェント間で引き継がれ、同じリポジトリ内の他のユーザーに影響を与えることなく維持されることを意味します。&lt;/p&gt;
+&lt;p&gt;これは、あなたの設定が、あなたがどこで作業していても、すべてのリポジトリやCopilotエージェントに引き継がれ、同じリポジトリ内の他のユーザーに影響を与えることなく維持されることを意味します。&lt;/p&gt;
 &lt;p&gt;ユーザーレベルの設定によるコパイロットメモリは、コパイロットが次のようなことを記憶するのに役立ちます。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;あなたが好むコミットスタイル。&lt;/li&gt;
