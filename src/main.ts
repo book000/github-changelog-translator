@@ -1,4 +1,5 @@
-import { XMLBuilder, XMLParser } from 'fast-xml-parser'
+import { Builder as XMLBuilder } from 'fast-xml-builder'
+import { XMLParser } from 'fast-xml-parser'
 import fs from 'node:fs'
 import path from 'node:path'
 
@@ -101,15 +102,13 @@ async function main() {
   const builder = new XMLBuilder({
     ignoreAttributes: false,
   })
-  const feed: {
-    toString: () => string
-  } = builder.build(oldFeed)
+  const feed: string = builder.build(oldFeed)
 
   const outputDirectory = path.dirname(outputChangeLogPath)
   if (!fs.existsSync(outputDirectory)) {
     fs.mkdirSync(outputDirectory, { recursive: true })
   }
-  fs.writeFileSync(outputChangeLogPath, feed.toString())
+  fs.writeFileSync(outputChangeLogPath, feed)
 }
 
 ;(async () => {
