@@ -1,115 +1,44 @@
-# GitHub Copilot Instructions
+# GitHub Copilot コードレビュー指示
+
+このリポジトリのプルリクエストをレビューする際の指針。
 
 ## プロジェクト概要
 
-- 目的: GitHub Changelog の RSS フィードを翻訳して配信する
-- 主な機能:
-  - GitHub Blog Changelog の RSS フィード取得
-  - Google Apps Script 経由でのタイトルと本文の翻訳（英語→日本語）
-  - 翻訳済み RSS フィードの生成と GitHub Pages での公開
-- 対象ユーザー: GitHub Changelog を日本語で読みたいユーザー
-- 配信先: https://book000.github.io/github-changelog-translator/changelog.xml
-
-## 共通ルール
-
-- 会話は日本語で行う。
-- コミットメッセージは [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) に従う。`<description>` は日本語で記載する。
-  - 例: `feat: ユーザー認証機能を追加`
-- ブランチ命名は [Conventional Branch](https://conventional-branch.github.io) に従う。`<type>` は短縮形（feat, fix）を使用する。
-  - 例: `feat/add-user-auth`
-- 日本語と英数字の間には半角スペースを入れる。
+GitHub Blog Changelog の RSS フィードを取得し、Google Apps Script（`GAS_URL`）で英語→日本語に翻訳して、翻訳済み RSS を GitHub Pages で配信するツール。処理は `src/main.ts` の単一ファイルに集約されている。
 
 ## 技術スタック
 
-- 言語: TypeScript 5.9.3
-- ランタイム: Node.js 24.13.0
-- パッケージマネージャー: pnpm 10.28.1
-- HTTP クライアント: axios 1.13.2
-- XML パーサー: fast-xml-parser 5.3.3
-- TypeScript 実行: tsx 4.21.0
-- ビルドターゲット: CommonJS (es2020)
+- 言語 / ランタイム: TypeScript（strict モード）+ Node.js、`tsx` で直接実行
+- パッケージマネージャー: pnpm（`preinstall` で npm/yarn を拒否）
+- HTTP: ネイティブ `fetch`（`axios` などの HTTP ライブラリは使用していない）
+- XML: `fast-xml-parser`（パース）と `fast-xml-builder`（生成）
+- Lint / Format: ESLint（`@book000/eslint-config`）+ Prettier
 
-## コーディング規約
+## レビュー観点
 
-- フォーマッター: Prettier 3.8.1
-  - 行幅: 80 文字
-  - インデント: 2 スペース
-  - 改行コード: LF
-  - クォート: シングルクォート
-  - トレイリングカンマ: es5（ES5 互換位置で有効）
-- リンター: ESLint 9.39.2 + @book000/eslint-config 1.12.40
-- TypeScript: strict モード有効
-  - `skipLibCheck` での回避は禁止
-- パスエイリアス: `@/*` は `src/*` にマッピング
-- コメント: 日本語で記載
-- エラーメッセージ: 英語で記載
-- 関数・インターフェースには JSDoc を日本語で記載
+- **strict モード遵守**: `any` 型の追加や `skipLibCheck` による型エラー回避を指摘する
+- **エラーハンドリング**: `fetch` の失敗・非 200 応答の扱いを確認する。既存実装はフィード取得失敗時に例外を投げ、翻訳 API が非 200 のとき `null` を返して当該項目をスキップする。この方針から外れる変更に注意
+- **環境変数**: 新規の環境変数はデフォルト値の設定と必須チェックが適切か確認する。`GAS_URL` は必須で未設定時に例外を投げる
+- **XML 処理**: `ignoreAttributes: false` など属性を保持する設定が維持されているか確認する
+- **HTTP ライブラリの追加**: ネイティブ `fetch` で足りる処理に対して新たな HTTP クライアント依存を導入していないか確認する
 
-## 開発コマンド
+## コーディング規約（レビュー時に確認）
 
-```bash
-# 依存関係のインストール
-pnpm install
+- コメントは日本語、エラーメッセージは英語で記載する
+- 関数・インターフェースには日本語の JSDoc を付与する
+- 日本語と英数字の間には半角スペースを入れる
+- Prettier / ESLint に準拠していること（フォーマットは自動修正で解消できるため、指摘は最小限でよい）
 
-# RSS フィードの取得と翻訳を実行
-pnpm start
+## セキュリティ
 
-# 開発モード（ファイル変更を監視して自動再実行）
-pnpm dev
+- `GAS_URL` などの機密情報をコード・ログ・コミットに含めていないか確認する。機密は GitHub Actions の Secrets で管理する
 
-# Lint チェック（Prettier, ESLint, TypeScript）
-pnpm lint
+## フラグ不要な既知パターン
 
-# Lint 自動修正（Prettier, ESLint）
-pnpm fix
+- テストコードが存在しないこと（本プロジェクトはテストフレームワーク未導入。品質保証は型チェック・ESLint・Prettier・CI で実施）
+- 単一ファイル構成（`src/main.ts`）であること。モジュール分割は必須ではない
+- 依存パッケージのバージョン更新 PR（Renovate による自動 PR）
 
-# Prettier チェックのみ
-pnpm lint:prettier
+## 言語
 
-# ESLint チェックのみ
-pnpm lint:eslint
-
-# TypeScript 型チェックのみ
-pnpm lint:tsc
-
-# Prettier 自動修正
-pnpm fix:prettier
-
-# ESLint 自動修正
-pnpm fix:eslint
-```
-
-## テスト方針
-
-- テストフレームワークは未導入
-- 品質保証は以下で実施:
-  - TypeScript strict モードによる型チェック
-  - ESLint による静的解析
-  - Prettier によるコードフォーマット
-  - GitHub Actions CI/CD による検証
-
-## セキュリティ / 機密情報
-
-- `GAS_URL` などの環境変数を含むファイルは Git にコミットしない。
-- ログに個人情報や認証情報を出力しない。
-- GitHub Actions の Secrets で環境変数を管理する。
-
-## ドキュメント更新
-
-コード変更時に以下のドキュメントを更新する必要がある場合は更新すること:
-
-- `README.md`: プロジェクト概要、使用方法の変更時
-- `README-ja.md`: README.md と同期して更新
-
-## リポジトリ固有
-
-- このプロジェクトは GitHub Pages にデプロイされる。
-- 翻訳処理は外部の Google Apps Script エンドポイントを呼び出す。
-- 環境変数:
-  - `GAS_URL` (必須): Google Apps Script のエンドポイント URL
-  - `GITHUB_CHANGELOG_URL` (オプション, デフォルト: https://github.blog/changelog/feed/)
-  - `BEFORE_LANGUAGE` (オプション, デフォルト: 'en')
-  - `AFTER_LANGUAGE` (オプション, デフォルト: 'ja')
-  - `OUTPUT_CHANGELOG_PATH` (オプション, デフォルト: 'output/changelog.xml')
-- GitHub Actions による日次自動実行（UTC 0:00）がスケジュールされている。
-- Renovate による依存関係の自動更新が設定されている。Renovate が作成した PR に追加コミットや更新を行ってはならない。
+レビューコメントは日本語で記載する。コミットは Conventional Commits（`<description>` は日本語）に従う。
