@@ -5,15 +5,15 @@ settings:
   excludeLinksFromLockfile: false
 
 patchedDependencies:
-  fast-xml-builder@1.2.0: 4e156303b7800b16976f2d40c31e2372c42efa67e5eabf7e09377d0918b53bea
+  fast-xml-builder@1.2.1: 4e156303b7800b16976f2d40c31e2372c42efa67e5eabf7e09377d0918b53bea
 
 importers:
 
   .:
     dependencies:
       fast-xml-builder:
-        specifier: 1.2.0
-        version: 1.2.0(patch_hash=4e156303b7800b16976f2d40c31e2372c42efa67e5eabf7e09377d0918b53bea)
+        specifier: 1.2.1
+        version: 1.2.1(patch_hash=4e156303b7800b16976f2d40c31e2372c42efa67e5eabf7e09377d0918b53bea)
       fast-xml-parser:
         specifier: 5.9.3
         version: 5.9.3
@@ -841,8 +841,8 @@ packages:
   fast-levenshtein@2.0.6:
     resolution: {integrity: sha512-DCXu6Ifhqcks7TZKY3Hxp3y6qphY5SJZmrWMDrKcERSOXWQdMhU9Ig/PYrzyw/ul9jOIyh0N4M0tbC5hodg8dw==}
 
-  fast-xml-builder@1.2.0:
-    resolution: {integrity: sha512-00aAWieqff+ZJhsXA4g1g7M8k+7AYoMUUHF+/zFb5U6Uv/P0Vl4QZo84/IcufzYalLuEj9928bXN9PbbFzMF0Q==}
+  fast-xml-builder@1.2.1:
+    resolution: {integrity: sha512-tPb5TTWfgfVx5BNSi2xV0eLr89POeXXn0dXIsCJ9m1narrWxeIyx6je9d7Rce/3NyXLbvuQmLkxq+RuxMWejvw==}
 
   fast-xml-parser@5.9.3:
     resolution: {integrity: sha512-brCNCeScma/kqa54J4PIDriSSSLssRkuYaUCpvHJulGc3HGI/xxKUCTDcYkAdqJsyb//ydpbxecjC3hB9+tb/g==}
@@ -2594,7 +2594,7 @@ snapshots:
 
   fast-levenshtein@2.0.6: {}
 
-  fast-xml-builder@1.2.0(patch_hash=4e156303b7800b16976f2d40c31e2372c42efa67e5eabf7e09377d0918b53bea):
+  fast-xml-builder@1.2.1(patch_hash=4e156303b7800b16976f2d40c31e2372c42efa67e5eabf7e09377d0918b53bea):
     dependencies:
       path-expression-matcher: 1.5.0
       xml-naming: 0.1.0
@@ -2602,7 +2602,7 @@ snapshots:
   fast-xml-parser@5.9.3:
     dependencies:
       '@nodable/entities': 2.2.0
-      fast-xml-builder: 1.2.0(patch_hash=4e156303b7800b16976f2d40c31e2372c42efa67e5eabf7e09377d0918b53bea)
+      fast-xml-builder: 1.2.1(patch_hash=4e156303b7800b16976f2d40c31e2372c42efa67e5eabf7e09377d0918b53bea)
       is-unsafe: 1.0.1
       path-expression-matcher: 1.5.0
       strnum: 2.4.1
