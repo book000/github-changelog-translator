@@ -2,3 +2,5 @@ allowBuilds:
   esbuild: true
 minimumReleaseAgeExclude:
   - '@book000/*'
+patchedDependencies:
+  fast-xml-builder@1.2.0: patches/fast-xml-builder@1.2.0.patch
