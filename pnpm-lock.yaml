@@ -4,13 +4,16 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+patchedDependencies:
+  fast-xml-builder@1.2.0: 4e156303b7800b16976f2d40c31e2372c42efa67e5eabf7e09377d0918b53bea
+
 importers:
 
   .:
     dependencies:
       fast-xml-builder:
         specifier: 1.2.0
-        version: 1.2.0
+        version: 1.2.0(patch_hash=4e156303b7800b16976f2d40c31e2372c42efa67e5eabf7e09377d0918b53bea)
       fast-xml-parser:
         specifier: 5.8.0
         version: 5.8.0
@@ -2334,7 +2337,7 @@ snapshots:
 
   fast-levenshtein@2.0.6: {}
 
-  fast-xml-builder@1.2.0:
+  fast-xml-builder@1.2.0(patch_hash=4e156303b7800b16976f2d40c31e2372c42efa67e5eabf7e09377d0918b53bea):
     dependencies:
       path-expression-matcher: 1.5.0
       xml-naming: 0.1.0
@@ -2342,7 +2345,7 @@ snapshots:
   fast-xml-parser@5.8.0:
     dependencies:
       '@nodable/entities': 2.1.1
-      fast-xml-builder: 1.2.0
+      fast-xml-builder: 1.2.0(patch_hash=4e156303b7800b16976f2d40c31e2372c42efa67e5eabf7e09377d0918b53bea)
       path-expression-matcher: 1.5.0
       strnum: 2.3.0
       xml-naming: 0.1.0
