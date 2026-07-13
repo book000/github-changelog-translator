@@ -4,7 +4,7 @@
 &lt;html&gt;&lt;body&gt;&lt;p&gt; CodeQLは、 &lt;a href=&quot;https://docs.github.com/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning-with-codeql&quot;&gt;GitHubのコードスキャンを&lt;/a&gt;支える静的解析エンジンであり、コード内のセキュリティ上の問題を検出して修正します。この度、 &lt;a href=&quot;https://codeql.github.com/docs/codeql-overview/codeql-changelog/codeql-cli-2.26.0/&quot;&gt;CodeQL 2.26.0&lt;/a&gt;をリリースしました。このバージョンでは、Kotlin 2.4.0のサポートが追加され、システムプロンプト挿入のためのJavaScriptおよびTypeScriptクエリが導入され、複数の言語における解析精度が向上しています。&lt;/p&gt;
 &lt;h2 id=&quot;language-and-framework-support&quot; id=&quot;language-and-framework-support&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#language-and-framework-support&quot;&gt;言語とフレームワークのサポート&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Kotlin&lt;/strong&gt; ：CodeQLはKotlinバージョン2.4.0までをサポートするようになりました。&lt;/p&gt;
-&lt;p&gt; &lt;strong&gt;C#&lt;/strong&gt; : Razor Page ハンドラー メソッドのパラメーター ( &lt;code&gt;OnGet&lt;/code&gt; 、 &lt;code&gt;OnPost&lt;/code&gt; 、 &lt;code&gt;OnPostAsync&lt;/code&gt;などのパラメーター) をリモート フロー ソースとして追加しました。これにより、 &lt;code&gt;cs/sql-injection&lt;/code&gt;などのセキュリティ クエリで、 &lt;code&gt;PageModel&lt;/code&gt;サブクラスのこれらのパラメーターに関連する脆弱性を検出できるようになりました。&lt;/p&gt;
+&lt;p&gt; &lt;strong&gt;C#&lt;/strong&gt; : Razor Page ハンドラー メソッドのパラメーター ( &lt;code&gt;OnGet&lt;/code&gt; 、 &lt;code&gt;OnPost&lt;/code&gt; 、 &lt;code&gt;OnPostAsync&lt;/code&gt;などのパラメーター) をリモート フロー ソースとして追加しました。これにより、 &lt;code&gt;cs/sql-injection&lt;/code&gt;などのセキュリティ クエリを使用して、 &lt;code&gt;PageModel&lt;/code&gt;サブクラスのこれらのパラメーターに関連する脆弱性を検出できるようになりました。&lt;/p&gt;
 &lt;p&gt; &lt;strong&gt;Go&lt;/strong&gt; : Go 1.21で導入された&lt;code&gt;log/slog&lt;/code&gt;パッケージ用のモデルを追加しました。go &lt;code&gt;go/log-injection&lt;/code&gt;および&lt;code&gt;go/clear-text-logging&lt;/code&gt;クエリは、 &lt;code&gt;slog&lt;/code&gt;パッケージの関数および&lt;code&gt;slog.Logger&lt;/code&gt;メソッドを使用するコード内の問題を検出できるようになりました。&lt;/p&gt;
 &lt;p&gt; &lt;strong&gt;JavaScript/TypeScript&lt;/strong&gt; : OpenAI、Anthropic、およびGoogle GenAI SDK APIの追加機能（Soraプロンプト、OpenAI Realtimeセッション指示、Anthropicレガシー完了プロンプト、Google GenAIキャッシュコンテンツおよびシステム指示など）に対応するプロンプト挿入シンクを追加しました。&lt;/p&gt;
 &lt;h2 id=&quot;query-changes&quot; id=&quot;query-changes&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#query-changes&quot;&gt;クエリの変更&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
@@ -23,12 +23,12 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;迅速&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;CryptoKitの&lt;code&gt;swift/weak-sensitive-data-hashing&lt;/code&gt;および&lt;code&gt;swift/weak-password-hashing&lt;/code&gt;クエリのモデリングを改善しました。これらのクエリで、追加の結果が検出される可能性があります。&lt;/li&gt;
+&lt;li&gt;CryptoKitの&lt;code&gt;swift/weak-sensitive-data-hashing&lt;/code&gt;および&lt;code&gt;swift/weak-password-hashing&lt;/code&gt;クエリのモデリングを改善しました。これらのクエリで、追加の結果が検出されるようになりました。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt; &lt;strong&gt;GitHub Actions&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt; &lt;code&gt;actions/pr-on-self-hosted-runner&lt;/code&gt;クエリを更新し、最新の標準ランナーラベルを認識するようにしました。これにより、誤検出が減少します。&lt;/li&gt;
-&lt;li&gt; &lt;code&gt;actions/untrusted-checkout/medium&lt;/code&gt;の名前、説明、および警告メッセージを修正し、これが非特権コンテキストに適用されることを明確化しました。&lt;/li&gt;
+&lt;li&gt; &lt;code&gt;actions/untrusted-checkout/medium&lt;/code&gt;の名称、説明、および警告メッセージを修正し、これが非特権コンテキストに適用されることを明確化しました。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;変更点の完全なリストについては、&lt;a href=&quot;https://codeql.github.com/docs/codeql-overview/codeql-changelog/codeql-cli-2.26.0/&quot;&gt;バージョン 2.26.0 の完全な変更履歴&lt;/a&gt;を参照してください。CodeQL の新しいバージョンはすべて、github.com の GitHub コードスキャンを使用しているユーザーに自動的にデプロイされます。CodeQL 2.26.0 の新機能は、今後の GitHub Enterprise Server (GHES) リリースにも含まれる予定です。GHES の古いバージョンを使用している場合は、 &lt;a href=&quot;https://docs.github.com/enterprise-server@3.20/admin/managing-code-security/managing-github-advanced-security-for-your-enterprise/configuring-code-scanning-for-your-appliance#configuring-codeql-analysis-on-a-server-without-internet-access&quot;&gt;CodeQL のバージョンを手動でアップグレード&lt;/a&gt;できます。&lt;/p&gt;
 &lt;/body&gt;&lt;/html&gt;
