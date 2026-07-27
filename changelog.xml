@@ -101,7 +101,7 @@
 &lt;html&gt;&lt;body&gt;&lt;p&gt; GitHub Actionsのチェックでプルリクエストが失敗した場合、GitHub MobileからCopilotコーディングエージェントに調査を依頼し、問題を直接修正できるようになりました。失敗したチェック画面で&lt;strong&gt;「Copilotで修正」&lt;/strong&gt;を選択してプロセスを開始してください。&lt;/p&gt;
 &lt;p&gt; Copilotは、既存のプルリクエストの上に新しいプルリクエストを作成し、失敗したチェックを分析して修正を実装しようとします。変更の準備が整うと、Copilotはレビューのためにあなたをタグ付けします。あなたは提案された解決策を検証し、追加のチェックを実行し、マージするかどうかを決定できます。&lt;/p&gt;
 &lt;p&gt;このワンタップワークフローにより、外出先でもCIの失敗に簡単に対応でき、プルリクエストをスムーズに進めることができます。&lt;/p&gt;
-&lt;p&gt;これは、 &lt;a href=&quot;https://apps.apple.com/us/app/github/id1477376905&quot;&gt;iOS&lt;/a&gt;および&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.github.android&quot;&gt;Android&lt;/a&gt;版GitHub Mobileの最新製品版で利用可能です。&lt;/p&gt;
+&lt;p&gt;これは、 &lt;a href=&quot;https://apps.apple.com/us/app/github/id1477376905&quot;&gt;iOS&lt;/a&gt;および&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.github.android&quot;&gt;Android&lt;/a&gt;版GitHub Mobileの最新製品版で利用可能になりました。&lt;/p&gt;
 &lt;p&gt; &lt;a href=&quot;https://github.com/orgs/community/discussions/categories/mobile&quot;&gt;GitHubコミュニティ&lt;/a&gt;内で議論に参加しましょう。&lt;/p&gt;
 &lt;/body&gt;&lt;/html&gt;
 &lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2026-07-23-github-mobile-fix-failing-actions-checks-with-copilot-cloud-agent&quot;&gt;GitHub Mobile: Copilotクラウドエージェントを使用して、失敗するアクションチェックを修正する、&lt;/a&gt;という記事が&lt;a href=&quot;https://github.blog&quot;&gt;GitHubブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
