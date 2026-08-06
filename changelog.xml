@@ -15,7 +15,7 @@
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2026-08-04-retiring-the-copilot-billing-preview-app&quot;&gt;Retiring the Copilot Billing Preview app&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
 &lt;html&gt;&lt;body&gt;&lt;p&gt; GitHub Copilotの請求プレビューアプリはサービスを終了し、ご利用いただけなくなりました。Copilotの利用状況は、GitHubの請求設定画面で直接確認・管理できます。&lt;/p&gt;
-&lt;p&gt;このアプリは、従量課金制への移行期間中、請求内容を理解するのに役立ちました。請求設定では、アプリの基盤となるレポートでは表示できなかった、ユーザーレベルの予算、コストセンター、使用量プールの割り当てなど、より包括的な情報を確認できるようになりました。&lt;/p&gt;
+&lt;p&gt;このアプリは、従量課金制への移行期間中、請求内容を理解するのに役立ちました。請求設定では、アプリの基となるレポートでは表示できなかった、ユーザーレベルの予算、コストセンター、使用量プールの割り当てなど、より包括的な情報を確認できるようになりました。&lt;/p&gt;
 &lt;h2 id=&quot;what-to-use-instead&quot; id=&quot;what-to-use-instead&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#what-to-use-instead&quot;&gt;代わりに何を使うべきか&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Copilotの利用料金は、請求設定で確認・管理できます。&lt;/p&gt;
 &lt;ul&gt;
