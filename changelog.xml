@@ -43,8 +43,8 @@
 &lt;html&gt;&lt;body&gt;&lt;p&gt;企業オーナーは、自社外で作成された公開GitHubアプリを自社の企業アカウントにインストールできるようになりました。これにより、サードパーティのインテグレーターは、企業管理シナリオ向けのアプリを開発できます。企業アカウントへのインストールは、企業アカウント自体へのアクセス権を付与するものであり、企業内の組織やリポジトリへのアクセス権は付与しません。&lt;/p&gt;
 &lt;p&gt;このインテグレーターシナリオをサポートするため、すべてのユーザーと組織がエンタープライズ権限を持つGitHubアプリを作成できるようになりました。&lt;/p&gt;
 &lt;p&gt;セキュリティ上の理由から、 &lt;code&gt;Enterprise organization installations&lt;/code&gt;および&lt;code&gt;Enterprise organization installation repositories&lt;/code&gt;権限を持つアプリは、企業境界を越えてインストールすることはできません。このAPIセットは、企業内の組織全体にわたるすべてのアプリのインストールを管理できるため、非常に強力です。企業間利用のためにリリースする前に、追加の保護措置と制御が必要です。アプリがこの権限を使用している場合、企業をまたいでインストールすることはできません。アプリが複数の企業にインストールされている場合、この権限を追加することはできません。 &lt;/p&gt;
-&lt;p&gt;&lt;img decoding=&quot;async&quot; alt=&quot;アプリにアクセスできる企業が1社のみであることを示す、権限に基づく制限のスクリーンショット。&quot; src=&quot;https://github.com/user-attachments/assets/06f4c2e0-9d5e-4a60-b651-cf16c4400506&quot;&gt;&lt;/p&gt;
-&lt;p&gt;まずは、 &lt;a href=&quot;https://docs.github.com/enterprise-cloud@latest/apps/using-github-apps/installing-a-github-app-on-your-enterprise&quot;&gt;「企業環境へのGitHubアプリのインストール」を&lt;/a&gt;ご覧ください。&lt;a href=&quot;https://github.com/orgs/community/discussions/164562&quot;&gt;企業環境へのインストールに関するご意見・ご感想は、GitHubコミュニティのディスカッション&lt;/a&gt;にご投稿ください。&lt;/p&gt;
+&lt;p&gt;&lt;img decoding=&quot;async&quot; alt=&quot;アプリにアクセスできる企業が1社のみとなるよう、権限に基づく制限を示すスクリーンショット。&quot; src=&quot;https://github.com/user-attachments/assets/06f4c2e0-9d5e-4a60-b651-cf16c4400506&quot;&gt;&lt;/p&gt;
+&lt;p&gt;まずは、 &lt;a href=&quot;https://docs.github.com/enterprise-cloud@latest/apps/using-github-apps/installing-a-github-app-on-your-enterprise&quot;&gt;「企業環境への GitHub アプリのインストール」を&lt;/a&gt;ご覧ください。&lt;a href=&quot;https://github.com/orgs/community/discussions/164562&quot;&gt;企業環境へのインストールに関するご意見・ご感想は、GitHub コミュニティのディスカッション&lt;/a&gt;にお寄せください。&lt;/p&gt;
 &lt;/body&gt;&lt;/html&gt;
 &lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2026-08-07-enterprises-can-now-install-third-party-github-apps&quot;&gt;企業はサードパーティ製のGitHubアプリをインストールできるようになりました&lt;/a&gt;。この記事は&lt;a href=&quot;https://github.blog&quot;&gt;GitHubブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
 </content:encoded><category domain="changelog-type">Improvement</category><category domain="changelog-label">ecosystem &amp;amp; accessibility</category><category domain="changelog-label">enterprise management tools</category><post-id xmlns="com-wordpress:feed-additions:1">98075</post-id></item><item><title>Copilotインパクトダッシュボードに投資収益率セクションが追加されました</title><link>https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section</link><dc:creator>Allison</dc:creator><pubDate>Fri, 07 Aug 2026 21:05:37 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section</guid><description>&lt;p&gt;The Copilot impact dashboard now includes a &amp;#8220;Potential return on investment&amp;#8221; section that connects what you spend on Copilot to the pull request output you get back. What&amp;#8217;s new Two&amp;#8230;&lt;/p&gt;
@@ -113,7 +113,7 @@
 &lt;li&gt; &lt;strong&gt;&lt;code&gt;agent_name&lt;/code&gt;&lt;/strong&gt; ：エージェントの表示名。表示名は変更される可能性があるため、このフィールドではなく&lt;code&gt;agent_id&lt;/code&gt;でグループ化してください。&lt;/li&gt;
 &lt;li&gt; &lt;strong&gt;&lt;code&gt;agent_id&lt;/code&gt;&lt;/strong&gt; ：エージェントの安定した識別子であり、報告期間をまたいで参加するための正しいキーです。&lt;/li&gt;
 &lt;li&gt; &lt;strong&gt;&lt;code&gt;user_initiated_interaction_count&lt;/code&gt;&lt;/strong&gt; ：ユーザーが開始したエージェントアプリジョブの開始回数。&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;&lt;code&gt;session_count&lt;/code&gt;&lt;/strong&gt; ：エージェントアプリのセッション数。集計された企業および組織レポートにのみ含まれます。ユーザーごとのエントリではこのフィールドは省略されます。&lt;/li&gt;
+&lt;li&gt; &lt;strong&gt;&lt;code&gt;session_count&lt;/code&gt;&lt;/strong&gt; ：エージェントアプリのセッション数。集計された企業および組織レポートにのみ含まれます。ユーザーごとのエントリにはこのフィールドは含まれません。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;why-this-matters&quot; id=&quot;why-this-matters&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#why-this-matters&quot;&gt;これが重要な理由&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;これまで、使用状況メトリクスにおけるエージェントのアクティビティは実質的に単一の項目として扱われていたため、Copilotのコーディングエージェントによる作業と他のエージェントによる作業を区別する方法がありませんでした。チームが複数のエージェントを採用するにつれて、どのエージェントが実際に何人のユーザーによって使用されているのか、新しく導入されたエージェントの利用状況は、それが補完するはずだったエージェントの利用状況と比べてどうなのか、といった基本的な質問に答えることが難しくなっていました。&lt;/p&gt;
@@ -240,7 +240,7 @@
 &lt;ul&gt;
 &lt;li&gt;プルリクエストごとに&lt;strong&gt;Copilotコードレビューを自動的にリクエストします&lt;/strong&gt;。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;新しいプッシュをレビューしてください&lt;/strong&gt;。これは、プルリクエストにプッシュするたびに、別のレビューを要求するものです。&lt;/li&gt;
-&lt;li&gt;プルリクエストを準備完了とマークする前にレビューを要求した&lt;strong&gt;ドラフトプルリクエストを確認してください&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;プルリクエストを準備完了とマークする前にレビューを要求した&lt;strong&gt;ドラフトプルリクエストを確認します&lt;/strong&gt;。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;ルールセットの変更は、私たちが作成した内容と一致する部分のみ行います。お客様が編集したルールセットはそのまま保持し、お客様自身が作成したルールセットには一切手を加えません。これらの設定が無効になっている場合でも、ルールセットはお客様のリポジトリに保持されるため、いつでも削除できます。 &lt;/p&gt;
 &lt;h2 id=&quot;how-to-keep-automatic-copilot-code-review&quot; id=&quot;how-to-keep-automatic-copilot-code-review&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#how-to-keep-automatic-copilot-code-review&quot;&gt;自動コパイロットコードレビューを維持する方法&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
