@@ -3,4 +3,4 @@ allowBuilds:
 minimumReleaseAgeExclude:
   - '@book000/*'
 patchedDependencies:
-  fast-xml-builder@1.3.0: patches/fast-xml-builder@1.3.0.patch
+  fast-xml-builder@1.3.1: patches/fast-xml-builder@1.3.1.patch
