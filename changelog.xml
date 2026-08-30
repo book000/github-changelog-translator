@@ -54,7 +54,7 @@
 &lt;li&gt;新しいシングルペインのエージェントレイアウト、よりシンプルなセッションコントロール、そして見つけやすくなったセッション詳細により、作業に集中できます。&lt;/li&gt;
 &lt;li&gt;各チャットターンにおけるモデルごとの詳細なチャット使用状況をご覧ください。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt; VS Code 1.135の新機能の詳細は、&lt;a href=&quot;https://aka.ms/VSCode/135&quot;&gt;リリースノート&lt;/a&gt;全文をご覧ください。&lt;/p&gt;
+&lt;p&gt; VS Code 1.135 の新機能については、&lt;a href=&quot;https://aka.ms/VSCode/135&quot;&gt;リリースノート&lt;/a&gt;全文をご覧ください。&lt;/p&gt;
 &lt;h3 id=&quot;github-copilot-for-visual-studio&quot; id=&quot;github-copilot-for-visual-studio&quot; &gt; &lt;a class=&quot;heading-link&quot; href=&quot;#github-copilot-for-visual-studio&quot;&gt;Visual Studio 用 GitHub Copilot&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;お気に入りのモデルをピン留めしたり、使用していないモデルを非表示にしたり、機能とコストを比較したり、各タスクに合わせて推論の労力を調整したりできます。&lt;/li&gt;
@@ -99,9 +99,9 @@
 &lt;li&gt;クラウドエージェントはサンドボックスを活用して、より高速なクラウド体験を提供します。&lt;/li&gt;
 &lt;li&gt; github.com 上の Copilot は、これまで Copilot クラウドエージェントでのみ使用されていたエージェントセッションエクスペリエンスに完全に移行します。その結果、チャットデータはアカウントの有効期間中保持されるようになり、28 日間ではなく、既存の Copilot クラウドエージェントエクスペリエンスと整合性が取れるようになります。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&quot;stay-opted-in&quot; id=&quot;stay-opted-in&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#stay-opted-in&quot;&gt;引き続き有効にする&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;stay-opted-in&quot; id=&quot;stay-opted-in&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#stay-opted-in&quot;&gt;引き続きオプトインする&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;github.comとGitHub MobileでCopilotを引き続き利用するために、変更は必要ありません。ただし、統合エクスペリエンスをオプトアウトした場合、新しいエクスペリエンスのリリース後、あなたまたはあなたのチームはgithub.comとGitHub MobileでCopilotにアクセスできなくなります。&lt;/p&gt;
-&lt;p&gt;ビジネスおよびエンタープライズの管理者は、2026年9月28日までにこのポリシーを確認し、自社のチームによるCopilotへのアクセス管理方法を反映していることを確認する必要があります。&lt;/p&gt;
+&lt;p&gt;ビジネスおよびエンタープライズの管理者は、2026年9月28日までにポリシーを確認し、自社のチームによるCopilotへのアクセス管理方法を反映していることを確認する必要があります。&lt;/p&gt;
 &lt;p&gt;ポリシーを更新するには：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt; github.comのCopilot設定ページにアクセスしてください。&lt;/li&gt;
@@ -212,7 +212,7 @@
 &lt;p&gt; &lt;a href=&quot;https://docs.github.com/enterprise-cloud@latest/copilot/reference/enterprise-administrators/enterprise-managed-settings&quot;&gt;エンタープライズ管理設定の詳細については、ドキュメントを&lt;/a&gt;参照するか、 &lt;a href=&quot;https://github.com/orgs/community/discussions/199139&quot;&gt;GitHub コミュニティ&lt;/a&gt;で議論に参加してください。&lt;/p&gt;
 &lt;/body&gt;&lt;/html&gt;
 &lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2026-08-26-enterprise-managed-settings-now-support-autoupdate-for-plugin-marketplaces&quot;&gt;エンタープライズ管理設定でプラグインマーケットプレイスの自動更新がサポートされるようになりました&lt;/a&gt;。この記事は&lt;a href=&quot;https://github.blog&quot;&gt;GitHubブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
-</content:encoded><category domain="changelog-type">Improvement</category><category domain="changelog-label">client apps</category><category domain="changelog-label">copilot</category><category domain="changelog-label">enterprise management tools</category><post-id xmlns="com-wordpress:feed-additions:1">98496</post-id></item><item><title>グローバルモデルポリシーが一般に利用可能</title><link>https://github.blog/changelog/2026-08-26-global-model-policy-generally-available</link><dc:creator>Allison</dc:creator><pubDate>Wed, 26 Aug 2026 22:08:38 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2026-08-26-global-model-policy-generally-available</guid><description>&lt;p&gt;In July, we announced a default model policy for generally available GitHub Copilot models on Copilot Business and Copilot Enterprise plans. Starting today, we&amp;#8217;re gradually rolling out enforcement of the&amp;#8230;&lt;/p&gt;
+</content:encoded><category domain="changelog-type">Improvement</category><category domain="changelog-label">client apps</category><category domain="changelog-label">copilot</category><category domain="changelog-label">enterprise management tools</category><post-id xmlns="com-wordpress:feed-additions:1">98496</post-id></item><item><title>グローバルモデルポリシーが一般的に利用可能</title><link>https://github.blog/changelog/2026-08-26-global-model-policy-generally-available</link><dc:creator>Allison</dc:creator><pubDate>Wed, 26 Aug 2026 22:08:38 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2026-08-26-global-model-policy-generally-available</guid><description>&lt;p&gt;In July, we announced a default model policy for generally available GitHub Copilot models on Copilot Business and Copilot Enterprise plans. Starting today, we&amp;#8217;re gradually rolling out enforcement of the&amp;#8230;&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2026-08-26-global-model-policy-generally-available&quot;&gt;Global model policy generally available&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
 &lt;html&gt;&lt;body&gt;&lt;p&gt; 7月に、Copilot BusinessおよびCopilot Enterpriseプランで一般公開されているGitHub Copilotモデル向けのデフォルトモデルポリシーを発表しました。本日より、9月1日まで段階的にポリシーの適用を開始いたしますので、適用開始時期は企業によって異なります。これまで設定されていなかったモデルおよび新たに一般公開されたモデルは、グローバルポリシーの状態を継承します。管理者は、個々のモデルに対して、独自の判断で永続的な設定を行うことができます。オープンウェイトモデルおよびデータ保持が必要なモデルは、デフォルトで無効になっています。&lt;/p&gt;
