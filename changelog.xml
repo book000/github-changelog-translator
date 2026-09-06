@@ -111,7 +111,7 @@
 </content:encoded><category domain="changelog-type">Improvement</category><category domain="changelog-label">actions</category><post-id xmlns="com-wordpress:feed-additions:1">98036</post-id></item><item><title>GitHub Copilotの一部のモデルが今後非推奨になります</title><link>https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models</link><dc:creator>Allison</dc:creator><pubDate>Thu, 03 Sep 2026 19:40:14 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models</guid><description>&lt;p&gt;We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on October 2nd, 2026: Model Deprecation date&amp;#8230;&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models&quot;&gt;Upcoming deprecation of selected GitHub Copilot models&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
-&lt;html&gt;&lt;body&gt;&lt;p&gt; 2026年10月2日をもって、GitHub Copilotのすべての機能（Copilot Chat、インライン編集、質問モード、エージェントモード、コード補完など）において、以下のモデルを廃止します。 &lt;/p&gt;
+&lt;html&gt;&lt;body&gt;&lt;p&gt; 2026年10月2日をもって、GitHub Copilotのすべての機能（Copilot Chat、インライン編集、質問モード、エージェントモード、コード補完など）において、以下のモデルを非推奨とします。 &lt;/p&gt;
 &lt;div data-target=&quot;content-table-wrap.container&quot; class=&quot;content-table-wrap&quot;&gt;&lt;content-table-wrap&gt;&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -233,7 +233,7 @@
 &lt;p&gt; &lt;strong&gt;Java/Kotlin&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt; Spring R2DBC &lt;code&gt;DatabaseClient&lt;/code&gt;およびR2DBC SPI向けに、SQLインジェクションのシンクモデルを追加しました。&lt;/li&gt;
-&lt;li&gt;引数が&lt;code&gt;CharSequence&lt;/code&gt; (たとえば、 &lt;code&gt;String&lt;/code&gt;または&lt;code&gt;StringBuilder&lt;/code&gt; ) の場合&lt;code&gt;String.valueOf(Object)&lt;/code&gt;の呼び出しを通じて汚染が伝播するようになりました。&lt;/li&gt;
+&lt;li&gt;引数が&lt;code&gt;CharSequence&lt;/code&gt; ( &lt;code&gt;String&lt;/code&gt;または&lt;code&gt;StringBuilder&lt;/code&gt;など) の場合&lt;code&gt;String.valueOf(Object)&lt;/code&gt;の呼び出しを通じて汚染が伝播するようになりました。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt; &lt;strong&gt;JavaScript/TypeScript&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -254,9 +254,9 @@
 &lt;ul&gt;
 &lt;li&gt;イベントペイロードから読み取られたアクターフィールド（例： &lt;code&gt;github.event.pull_request.user.login&lt;/code&gt; ）のチェ​​ックは、実際にそのフィールドに値が入力されるイベントのみを保護対象とするように変更されました。これにより、 &lt;code&gt;ControlCheck&lt;/code&gt;クラスを使用するクエリでアラートが増える可能性があります。&lt;/li&gt;
 &lt;li&gt; &lt;code&gt;actions/unpinned-tag&lt;/code&gt;クエリは、再利用可能なワークフローへの変更可能な参照を検出するようになりました。&lt;/li&gt;
-&lt;li&gt;モデル・アズ・データ・モデルを通じて&lt;code&gt;EnvironmentCheck&lt;/code&gt;を指定できるようになりました。環境がもはや十分なサニタイザーではなくなった場合、 &lt;code&gt;ControlCheck&lt;/code&gt;を使用したクエリでより多くの結果が得られる可能性があります。&lt;/li&gt;
+&lt;li&gt;モデル・アズ・データモデルを通じて&lt;code&gt;EnvironmentCheck&lt;/code&gt;を指定できるようになりました。環境がもはや十分なサニタイザーではなくなった場合、 &lt;code&gt;ControlCheck&lt;/code&gt;を使用したクエリでより多くの結果が得られる可能性があります。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;変更点の完全なリストについては、&lt;a href=&quot;https://codeql.github.com/docs/codeql-overview/codeql-changelog/codeql-cli-2.26.4/&quot;&gt;バージョン 2.26.4 の完全な変更履歴&lt;/a&gt;を参照してください。CodeQL の新しいバージョンはすべて、github.com の GitHub コードスキャンを使用しているユーザーに自動的にデプロイされます。CodeQL 2.26.4 の新機能は、今後の GitHub Enterprise Server (GHES) リリースにも含まれる予定です。GHES の古いバージョンを使用している場合は、 &lt;a href=&quot;https://docs.github.com/enterprise-server@3.20/admin/managing-code-security/managing-github-advanced-security-for-your-enterprise/configuring-code-scanning-for-your-appliance#configuring-codeql-analysis-on-a-server-without-internet-access&quot;&gt;CodeQL のバージョンを手動でアップグレード&lt;/a&gt;できます。&lt;/p&gt;
 &lt;/body&gt;&lt;/html&gt;
-&lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2026-09-03-codeql-2-26-4-improves-github-actions-security-detections&quot;&gt;CodeQL 2.26.4 で GitHub Actions のセキュリティ検出機能が改善されました、&lt;/a&gt;という記事が最初に&lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;に掲載されました。&lt;/p&gt;
+&lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2026-09-03-codeql-2-26-4-improves-github-actions-security-detections&quot;&gt;CodeQL 2.26.4 で GitHub Actions のセキュリティ検出機能が改善されたという&lt;/a&gt;記事が、 &lt;a href=&quot;https://github.blog&quot;&gt;GitHub Blog&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
 </content:encoded><category domain="changelog-type">Improvement</category><category domain="changelog-label">application security</category><post-id xmlns="com-wordpress:feed-additions:1">98648</post-id></item></channel></rss>
