@@ -17,14 +17,14 @@
 &lt;p&gt;詳細については、 &lt;a href=&quot;https://github.blog/changelog/2026-08-24-copilot-harness-generally-available-in-copilot-for-jetbrains&quot;&gt;リリースに関する以前の変更履歴&lt;/a&gt;を参照してください。&lt;/p&gt;
 &lt;h3 id=&quot;vs-code-1-136-release-updates&quot; id=&quot;vs-code-1-136-release-updates&quot; &gt; &lt;a class=&quot;heading-link&quot; href=&quot;#vs-code-1-136-release-updates&quot;&gt;VS Code 1.136 リリースアップデート&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt; Agent Mergeは現在パブリックプレビュー版として提供されており、レビューフィードバック、失敗したチェック、マージの競合を解決することで、プルリクエストをマージ可能な状態にします。&lt;/li&gt;
+&lt;li&gt; Agent Mergeは現在パブリックプレビュー版として提供されており、レビューフィードバック、失敗したチェック、マージの競合を解決することで、プルリクエストをマージできる状態にします。&lt;/li&gt;
 &lt;li&gt;マルチルートワークスペースは現在試験運用段階にあり、ワークスペース内のすべてのフォルダーにCopilotおよびClaudeエージェントセッションをもたらします。&lt;/li&gt;
 &lt;li&gt;チャットの背景機能は現在試験運用中で、エージェントウィンドウを内蔵パターンや独自の画像でカスタマイズできます。&lt;/li&gt;
 &lt;li&gt;チャットセッションでは、関連するチャットが階層構造で整理され、注意が必要なチャットが表示されます。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;新機能の詳細は、&lt;a href=&quot;https://aka.ms/VSCode/136&quot;&gt;リリースノート&lt;/a&gt;全文をご覧ください。&lt;/p&gt;
 &lt;/body&gt;&lt;/html&gt;
-&lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31&quot;&gt;GitHub Copilot の週刊リリース — 8 月 31 日&lt;/a&gt;は、 &lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
+&lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31&quot;&gt;GitHub Copilot の週次リリース — 8 月 31 日の&lt;/a&gt;記事は、 &lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
 </content:encoded><category domain="changelog-type">Release</category><category domain="changelog-label">copilot</category><post-id xmlns="com-wordpress:feed-additions:1">98700</post-id></item><item><title>GPT-6 AstraはGitHub Copilotで一般公開されています。</title><link>https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot</link><dc:creator>Allison</dc:creator><pubDate>Fri, 04 Sep 2026 18:59:51 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot</guid><description>&lt;p&gt;GPT-6 Astra from OpenAI is now available in GitHub Copilot. OpenAI&amp;#8217;s latest general-purpose model, GPT-6 Astra, is designed for long-horizon, autonomous coding and agentic tasks. In our internal testing, GPT-6&amp;#8230;&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot&quot;&gt;GPT-6 Astra is generally available in GitHub Copilot&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
@@ -198,7 +198,7 @@
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups&quot;&gt;Reopening Copilot Business and Enterprise signups&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
 &lt;html&gt;&lt;body&gt;&lt;p&gt;今後数週間かけて、クレジットカードまたはPayPalでお支払いいただくCopilot BusinessおよびCopilot Enterpriseのお客様向け新規登録を順次再開いたします。Copilotのご利用開始をお待ちいただいていたお客様は、ご自身のニーズに合った&lt;a href=&quot;https://github.com/features/copilot/plans?utm_campaign=Enterprise&amp;utm_medium=referral&amp;utm_source=github&quot;&gt;プランをお選びください&lt;/a&gt;。ご希望のプランがまだご利用いただけない場合は、後日改めてご確認ください。&lt;/p&gt;
-&lt;p&gt; Copilotサービスの可用性と信頼性を向上させるため、アカウント審査を強化し、クレジットカードまたはPayPalで支払うお客様の請求プロセスも更新しています。&lt;/p&gt;
+&lt;p&gt; Copilotサービスの可用性と信頼性を向上させるため、アカウント審査を強化し、クレジットカードまたはPayPalで支払うお客様向けの請求プロセスも更新しています。&lt;/p&gt;
 &lt;h2 id=&quot;whats-changing&quot; id=&quot;whats-changing&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#whats-changing&quot;&gt;何が変わるのか&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;クレジットカードまたはPayPalでお支払いいただくCopilot BusinessおよびCopilot Enterpriseのお客様には、以下の変更が適用されます。&lt;/p&gt;
 &lt;ul&gt;
