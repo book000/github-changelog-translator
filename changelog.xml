@@ -178,7 +178,7 @@
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps&quot;&gt;GitHub Copilot can now interact with desktop apps with computer use&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
 &lt;html&gt;&lt;body&gt;&lt;p&gt; GitHub Copilot CLIおよびmacOSとWindows版のGitHub Copilotアプリにおいて、コンピュータの使用機能がパブリックプレビュー版として利用可能になりました。&lt;/p&gt;
-&lt;p&gt; Copilotは、ユーザーに代わってデスクトップアプリケーションとやり取りできます（例：アクセシブルなアプリケーションコンテンツやビジュアルコンテキストの読み取り、コントロールのクリック、テキストの入力と編集、キーの押下、スクロール、ドラッグ、アプリケーション間のワークフローのナビゲーション）。これにより、API、コマンドラインインターフェイス、またはMCP統合を提供しないレガシーソフトウェアやGUIのみのソフトウェアのワークフローなど、Copilotが自動化を支援できるタスクが拡張されます。 &lt;/p&gt;
+&lt;p&gt; Copilotは、ユーザーに代わってデスクトップアプリケーションとやり取りできます（例：アクセシブルなアプリケーションコンテンツやビジュアルコンテキストの読み取り、コントロールのクリック、テキストの入力と編集、キーの押下、スクロール、ドラッグ、アプリケーション間のワークフローのナビゲーションなど）。これにより、API、コマンドラインインターフェイス、またはMCP統合を提供しないレガシーソフトウェアやGUIのみのソフトウェアのワークフローなど、Copilotが自動化を支援できるタスクが拡張されます。 &lt;/p&gt;
 &lt;p&gt;&lt;video loop controls autoplay muted width=&quot;100%&quot; aria-label=&quot;Copilot uses computer-use tools to navigate an expense-report workflow in Safari.&quot; src=&quot;https://github.com/user-attachments/assets/866a9adf-4b90-4aef-9f92-b21dae47c551&quot;&gt;
 
 &lt;/video&gt;&lt;/p&gt;
@@ -189,7 +189,7 @@
 &lt;li&gt; Copilot CLIで、 &lt;code&gt;/computer on&lt;/code&gt;を実行します。/computer &lt;code&gt;/computer show&lt;/code&gt;を使用してステータスを確認し、 &lt;code&gt;/computer off&lt;/code&gt;使用して無効にします。&lt;/li&gt;
 &lt;li&gt; GitHub Copilot アプリで、 &lt;strong&gt;[設定]&lt;/strong&gt;を開き、 &lt;strong&gt;[コンピュータの使用]&lt;/strong&gt;を選択して、 &lt;strong&gt;[コンピュータの使用を有効にする]&lt;/strong&gt;をオンにします。また&lt;code&gt;/computer on&lt;/code&gt;使用することもできます。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;コンピュータを効果的に活用するには、求める結果、使用するアプリケーション、そして重要な制約事項を明確に伝えることが重要です。例えば、Copilotにブラウザの通知を要約させたり、プレゼンテーションのコンテンツを更新させたり、デスクトップアプリケーションのワークフローに沿って情報を移動させたりといったことが可能です。&lt;/p&gt;
+&lt;p&gt;コンピュータを効果的に活用するには、求める結果、使用するアプリケーション、そして重要な制約事項を明確に伝えることが重要です。例えば、Copilotにブラウザ上の通知を要約させたり、プレゼンテーションのコンテンツを更新させたり、デスクトップアプリケーションのワークフローに沿って情報を移動させたりといったことが可能です。&lt;/p&gt;
 &lt;p&gt; &lt;a href=&quot;https://docs.github.com/copilot/concepts/agents/computer-use&quot;&gt;GitHub Copilot CLI および GitHub Copilot アプリでのコンピュータの使用方法&lt;/a&gt;について詳しくはこちらをご覧ください。&lt;/p&gt;
 &lt;/body&gt;&lt;/html&gt;
 &lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps&quot;&gt;GitHub Copilot がコンピューターを使用してデスクトップ アプリと連携できるようになりました、&lt;/a&gt;という記事が&lt;a href=&quot;https://github.blog&quot;&gt;GitHub ブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
