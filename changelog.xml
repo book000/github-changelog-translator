@@ -119,7 +119,7 @@
 &lt;p&gt;Copilotで利用可能なモデルの詳細については、 &lt;a href=&quot;https://docs.github.com/copilot/reference/ai-models/supported-models?utm_source=model-release-announcement&amp;utm_medium=changelog&amp;utm_campaign=newmodels&quot;&gt;サポートされているモデルに関するドキュメントを&lt;/a&gt;参照してください。&lt;/p&gt;
 &lt;p&gt; &lt;a href=&quot;https://github.com/orgs/community/discussions/categories/copilot-conversations?utm_source=model-release-announcement&amp;utm_medium=changelog&amp;utm_campaign=newmodels&quot;&gt;GitHubコミュニティに&lt;/a&gt;参加して、フィードバックを共有しましょう。&lt;/p&gt;
 &lt;/body&gt;&lt;/html&gt;
-&lt;p&gt; &lt;a href=&quot;https://github.blog&quot;&gt;GitHubブログ&lt;/a&gt;に最初に掲載された記事&lt;a href=&quot;https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november&quot;&gt;「11月中旬に一部のGitHub Copilotモデルが廃止されます」&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt; &lt;a href=&quot;https://github.blog&quot;&gt;GitHubブログ&lt;/a&gt;に最初に掲載された記事「 &lt;a href=&quot;https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november&quot;&gt;11月中旬に予定されている一部のGitHub Copilotモデルの非推奨化」&lt;/a&gt; 。&lt;/p&gt;
 </content:encoded><category domain="changelog-type">Retired</category><category domain="changelog-label">copilot</category><post-id xmlns="com-wordpress:feed-additions:1">99544</post-id></item><item><title>プルリクエストに対するAIスキャンが一般提供開始</title><link>https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available</link><dc:creator>Allison</dc:creator><pubDate>Thu, 15 Oct 2026 15:04:51 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available</guid><description>&lt;p&gt;Code scanning AI Scan for pull requests is now generally available. It complements CodeQL by finding vulnerabilities in pull request changes for languages and frameworks that CodeQL does not currently&amp;#8230;&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available&quot;&gt;AI Scan for pull requests generally available&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
@@ -134,7 +134,7 @@
 &lt;p&gt; &lt;a href=&quot;https://docs.github.com/billing/concepts/product-billing/github-advanced-security#how-ai-feature-usage-is-billed&quot;&gt;GitHub Advanced Security AI機能の&lt;/a&gt;&lt;a href=&quot;https://docs.github.com/enterprise-cloud@latest/code-security/concepts/code-scanning/ai-powered-security-detections&quot;&gt;プルリクエストに対するAIスキャン&lt;/a&gt;と課金について詳しくはこちらをご覧ください。&lt;/p&gt;
 &lt;p&gt; &lt;a href=&quot;https://github.com/orgs/community/discussions/201543&quot;&gt;AIスキャンコミュニティの&lt;/a&gt;ディスカッションに参加しましょう。&lt;/p&gt;
 &lt;/body&gt;&lt;/html&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available&quot;&gt;プルリクエストのAIスキャンが一般提供開始となったという&lt;/a&gt;記事が&lt;a href=&quot;https://github.blog&quot;&gt;、GitHubブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available&quot;&gt;プルリクエストに対するAIスキャンが一般提供開始となったという&lt;/a&gt;記事が&lt;a href=&quot;https://github.blog&quot;&gt;、GitHubブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
 </content:encoded><category domain="changelog-type">Release</category><category domain="changelog-label">application security</category><post-id xmlns="com-wordpress:feed-additions:1">99524</post-id></item><item><title>コードスキャンアラートのエージェント自動修正機能が一般提供開始</title><link>https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability</link><dc:creator>Allison</dc:creator><pubDate>Thu, 15 Oct 2026 13:49:20 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability</guid><description>&lt;p&gt;Agentic autofix for code scanning alerts is now generally available. It remediates alerts by working across your codebase the way a developer would: it explores relevant files, proposes a fix,&amp;#8230;&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability&quot;&gt;Agentic autofix for code scanning alerts general availability&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
@@ -206,7 +206,7 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;ハイドラフュージョン&lt;/strong&gt;&lt;/td&gt;
 &lt;td&gt;適度なトークン節約を伴うバランスの取れたアプローチ。&lt;/td&gt;
-&lt;td&gt;速度、コスト、パフォーマンスのバランスが求められるエージェント型タスク。&lt;/td&gt;
+&lt;td&gt;速度、コスト、パフォーマンスのバランスが求められるエージェントタスク。&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;ハイドラフュージョンマックス&lt;/strong&gt;&lt;/td&gt;
@@ -216,9 +216,9 @@
 &lt;/tbody&gt;
 &lt;/table&gt;&lt;/content-table-wrap&gt;&lt;/div&gt;
 &lt;p&gt;どちらのオプションも3つのクライアントすべてでサポートされているため、VS Code、GitHub Copilotアプリ、ターミナルのいずれで作業していても、最新のHydraFusionエクスペリエンスにアクセスできます。&lt;/p&gt;
-&lt;p&gt; HydraFusionおよびHydraFusion Maxは、組織のモデルポリシーに基づき、実験的機能またはプレビュー機能が有効化されたCopilot Pro、Pro+、Business、およびEnterpriseプランで利用可能です。&lt;/p&gt;
+&lt;p&gt; HydraFusionおよびHydraFusion Maxは、組織のモデルポリシーに基づき、実験的機能またはプレビュー機能が有効化された状態で、Copilot Pro、Pro+、Business、およびEnterpriseプランで利用可能です。&lt;/p&gt;
 &lt;p&gt;詳細については、 &lt;a href=&quot;https://docs.github.com/en/early-access/copilot/hydrafusion&quot;&gt;HydraFusionのドキュメント&lt;/a&gt;をご覧ください。&lt;/p&gt;
-&lt;p&gt; &lt;a href=&quot;https://github.com/orgs/community/discussions/206492&quot;&gt;HydraFusionのディスカッション&lt;/a&gt;でご意見をお聞かせください。&lt;/p&gt;
+&lt;p&gt; &lt;a href=&quot;https://github.com/orgs/community/discussions/206492&quot;&gt;HydraFusionのディスカッションフォーラム&lt;/a&gt;でご意見をお聞かせください。&lt;/p&gt;
 &lt;/body&gt;&lt;/html&gt;
 &lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option&quot;&gt;HydraFusionのアップデートと新しいMaxオプションに関する&lt;/a&gt;記事が&lt;a href=&quot;https://github.blog&quot;&gt;GitHubブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
 </content:encoded><category domain="changelog-type">Release</category><category domain="changelog-label">copilot</category><post-id xmlns="com-wordpress:feed-additions:1">99513</post-id></item><item><title>GitHub Actionsワークフローのロックファイルがパブリックプレビューで利用可能になりました</title><link>https://github.blog/changelog/2026-10-14-github-actions-workflow-lockfiles-in-public-preview</link><dc:creator>Allison</dc:creator><pubDate>Wed, 14 Oct 2026 13:49:15 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2026-10-12-github-actions-workflow-lockfiles-in-public-preview</guid><description>&lt;p&gt;GitHub Actions workflow dependency lockfiles are now in public preview for GitHub Enterprise Cloud, GitHub Enterprise Cloud with data residency, Team, and Free plans. Tags and branches can move after&amp;#8230;&lt;/p&gt;
@@ -231,7 +231,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;依存関係を固定します:&lt;/strong&gt;アクションとその推移的依存関係、および再利用可能なワークフロー依存関係について、レビュー可能なコミットを含む&lt;code&gt;.github/workflows/actions.lock&lt;/code&gt;を生成します。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;ロック機能を段階的に導入する：&lt;/strong&gt;ワークフローを個別にオンボーディングする。オンボーディングが完了すると、ワークフローには依存関係のロックファイルエントリが必要となり、GitHub Actionsは記録されたコミットを実行する。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ワークフローの実行を一貫性のあるものにする：&lt;/strong&gt; GitHub Actionsでは、オンボーディングされたワークフローの各依存関係がロックファイルに存在する必要があり、タグやブランチが移動した場合でも、記録されたコミットが使用されます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ワークフローの実行を一貫性のあるものにする：&lt;/strong&gt; GitHub Actions では、オンボーディングされたワークフローの各依存関係がロックファイルに存在する必要があり、タグやブランチが移動した場合でも、記録されたコミットが使用されます。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;古いロックファイルをチェックする：&lt;/strong&gt; CI チェックを含め、ファイルを変更せずにロックファイルが最新であることを確認します。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;ロックファイル必須&lt;/strong&gt;ポリシーもパブリックプレビュー版として利用可能です。企業、組織、リポジトリの管理者は、企業、組織、リポジトリ全体でワークフローにロックファイルの使用を必須にすることができます。 &lt;/p&gt;
