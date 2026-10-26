@@ -3,7 +3,7 @@
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
 &lt;html&gt;&lt;body&gt;&lt;p&gt; Copilotの使用状況メトリクスAPIは、開発者がCopilotで使用するより多くのツール（これまでレポートに含まれていなかったOpenCodeなどのツールを含む）からのモデル使用状況をレポートするようになりました。エンタープライズ、組織、エンタープライズユーザー、および組織ユーザーの1日および28日レポートで、新しい&lt;code&gt;totals_by_client&lt;/code&gt;配列が利用可能になりました。&lt;/p&gt;
 &lt;h3 id=&quot;whats-new&quot; id=&quot;whats-new&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#whats-new&quot;&gt;新着情報&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;各&lt;code&gt;totals_by_client&lt;/code&gt;エントリは1つのクライアントを表し、以下の内容が含まれます。&lt;/p&gt;
+&lt;p&gt;各&lt;code&gt;totals_by_client&lt;/code&gt;エントリは 1 つのクライアントを表し、以下が含まれます。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt; &lt;strong&gt;&lt;code&gt;client&lt;/code&gt;&lt;/strong&gt; : リクエストを送信したツール&lt;code&gt;claude_code&lt;/code&gt; &lt;code&gt;opencode&lt;/code&gt; &lt;code&gt;codex&lt;/code&gt; 、 &lt;code&gt;zed&lt;/code&gt; 、 &lt;code&gt;copilot_cli&lt;/code&gt; 、 &lt;code&gt;github_app&lt;/code&gt; 、 &lt;code&gt;cloud_agent&lt;/code&gt; 、 &lt;code&gt;code_review&lt;/code&gt; 、 &lt;code&gt;vscode&lt;/code&gt; 、または&lt;code&gt;jetbrains&lt;/code&gt;など。認識されないクライアントは&lt;code&gt;other&lt;/code&gt;に分類されます。&lt;/li&gt;
 &lt;li&gt; &lt;strong&gt;&lt;code&gt;request_count&lt;/code&gt;&lt;/strong&gt; ：クライアントからのモデルリクエストの成功回数。&lt;/li&gt;
@@ -21,11 +21,11 @@
 &lt;li&gt; &lt;strong&gt;CopilotコードレビューとCopilotクラウドエージェント：&lt;/strong&gt;これらのクライアントからのリクエストでは、製品がモデルを選択するため、 &lt;code&gt;product_selected&lt;/code&gt;報告されます。Copilotコードレビューのモデルは&lt;code&gt;unknown&lt;/code&gt;として報告されます。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;リクエスト数：&lt;/strong&gt; &lt;code&gt;request_count&lt;/code&gt;モデル呼び出し数をカウントしますが、プロンプト数はカウントしません。1つのプロンプトが複数のモデル呼び出しを引き起こす可能性があるため、このフィールドをプロンプト数やインタラクション数と直接比較しないでください。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;クライアント識別：&lt;/strong&gt;クライアントは、各リクエストとともに送信される統合IDによって識別されます。 &lt;code&gt;client&lt;/code&gt; 、検証済みのIDではなく、あくまでもベストエフォート型のグループとして扱われます。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;後方互換性：&lt;/strong&gt;この変更は追加的なものです。既存のフィールドは変更されず、使用状況を報告する必要がない場合は、 &lt;code&gt;totals_by_client&lt;/code&gt;は空の配列になります。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;後方互換性：&lt;/strong&gt;この変更は追加的なものです。既存のフィールドは変更されず、報告する使用状況がない場合は、 &lt;code&gt;totals_by_client&lt;/code&gt;は空の配列になります。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;まずは、 &lt;a href=&quot;https://docs.github.com/rest/copilot/copilot-usage-metrics&quot;&gt;Copilotの使用状況メトリクスAPIのドキュメント&lt;/a&gt;をご覧ください。&lt;/p&gt;
+&lt;p&gt; &lt;a href=&quot;https://docs.github.com/rest/copilot/copilot-usage-metrics&quot;&gt;Copilotの使用状況メトリクスAPIのドキュメント&lt;/a&gt;を参照して、利用を開始してください。&lt;/p&gt;
 &lt;/body&gt;&lt;/html&gt;
-&lt;p&gt; &lt;a href=&quot;https://github.blog&quot;&gt;GitHub Blog&lt;/a&gt;に最初に掲載された投稿「 &lt;a href=&quot;https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode&quot;&gt;使用状況メトリクス API が OpenCode などのツールの使用状況を追加」&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt; &lt;a href=&quot;https://github.blog&quot;&gt;GitHub Blog&lt;/a&gt;に最初に掲載された記事「 &lt;a href=&quot;https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode&quot;&gt;使用状況メトリクス API が OpenCode などのツールの使用状況を追加」&lt;/a&gt; 。&lt;/p&gt;
 </content:encoded><category domain="changelog-type">Improvement</category><category domain="changelog-label">account management</category><category domain="changelog-label">copilot</category><category domain="changelog-label">enterprise management tools</category><post-id xmlns="com-wordpress:feed-additions:1">99712</post-id></item><item><title>TeamsのGitHub Copilotを使って通知をコードに変換しましょう</title><link>https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams</link><dc:creator>Allison</dc:creator><pubDate>Fri, 23 Oct 2026 21:29:58 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams</guid><description>&lt;p&gt;The new GitHub app in Teams brings notifications and Copilot together, helping teams turn issues into fixes and ship code faster without leaving the conversation. Get notified in channels, group&amp;#8230;&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams&quot;&gt;Turn notifications into code with GitHub Copilot in Teams&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
@@ -86,10 +86,10 @@
 &lt;h2 id=&quot;always-on-validity-checks&quot; id=&quot;always-on-validity-checks&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#always-on-validity-checks&quot;&gt;常時有効性チェック&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;パブリックモニタリング機能により、サポート対象のプロバイダーのトークンの有効性が継続的に自動的にチェックされるようになりました。アラートには、認証情報が&lt;code&gt;Active&lt;/code&gt; 、 &lt;code&gt;Inactive&lt;/code&gt; 、 &lt;code&gt;Unknown&lt;/code&gt;いずれかの状態が表示されるため、セキュリティチームは有効なトークンへの対応を迅速に優先順位付けできます。&lt;/p&gt;
 &lt;h2 id=&quot;rest-api-and-webhook-integration&quot; id=&quot;rest-api-and-webhook-integration&quot; &gt; &lt;a class=&quot;heading-link&quot; href=&quot;#rest-api-and-webhook-integration&quot;&gt;REST APIとWebhookの統合&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;公開されているモニタリング結果を、独自のインシデント対応パイプラインに取り込む：&lt;/p&gt;
+&lt;p&gt;公開されている監視結果を、独自のインシデント対応パイプラインに取り込む：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt; &lt;strong&gt;REST API:&lt;/strong&gt;エンタープライズ管理者およびエンタープライズセキュリティマネージャーは&lt;code&gt;GET /enterprises/{enterprise}/secret-scanning/public-monitoring-alerts&lt;/code&gt;を使用して、属性付きの検出結果をプログラムで照会できます。これにより、アラートのメタデータ、シークレットの種類、属性、および公開された場所が返されます。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;エンタープライズWebhook：&lt;/strong&gt;組織に起因する新たな情報漏洩が検出された際にリアルタイム通知を受け取るには、企業レベルで&lt;code&gt;secret_scanning_public_monitoring_alert&lt;/code&gt; Webhookイベントを購読してください。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;エンタープライズWebhook：&lt;/strong&gt;組織に起因する新たな情報漏洩が検出された際にリアルタイム通知を受け取るには、エンタープライズレベルで&lt;code&gt;secret_scanning_public_monitoring_alert&lt;/code&gt; Webhookイベントを購読してください。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;eligibility-and-billing&quot; id=&quot;eligibility-and-billing&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#eligibility-and-billing&quot;&gt;資格要件と請求&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;GitHub Enterprise Cloudのお客様（データレジデンシー付きのGitHub Enterprise Cloudを含む）は、引き続きパブリックモニタリング機能をパブリックプレビューとして利用できます。エンタープライズ管理者およびエンタープライズセキュリティマネージャーは、エンタープライズセキュリティダッシュボードからこの機能を有効にし、アラート設定を管理できます。&lt;/p&gt;
