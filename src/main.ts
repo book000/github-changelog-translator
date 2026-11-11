@@ -80,7 +80,6 @@ async function translate(
         result?: unknown
       }
     }
-    console.log(data)
     const result = data.response?.result
     if (typeof result !== 'string' || result.trim() === '') {
       console.warn('Translation API returned an empty or invalid result')
