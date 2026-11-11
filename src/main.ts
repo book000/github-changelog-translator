@@ -3,6 +3,7 @@ import { XMLParser } from 'fast-xml-parser'
 import fs from 'node:fs'
 import path from 'node:path'
 
+/** GitHub Changelog の RSS をパースした結果のうち、本ツールが参照・出力する構造 */
 interface Feed {
   rss: {
     '@_xmlns:content': string
@@ -111,6 +112,14 @@ async function translateOrKeep(
     : { text: result, translated: true }
 }
 
+/**
+ * RSS を取得して各 item のタイトルと本文を翻訳し、翻訳済みの RSS をファイルに出力する。
+ *
+ * 取得元・翻訳言語・出力先は環境変数 `GITHUB_CHANGELOG_URL`、`BEFORE_LANGUAGE`、
+ * `AFTER_LANGUAGE`、`OUTPUT_CHANGELOG_PATH` で変更できる。
+ *
+ * @throws GAS_URL が設定されていない場合、RSS の取得・パース・出力に失敗した場合
+ */
 async function main() {
   const githubChangeLogURL =
     process.env.GITHUB_CHANGELOG_URL ?? 'https://github.blog/changelog/feed/'
