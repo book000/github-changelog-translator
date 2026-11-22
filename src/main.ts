@@ -19,7 +19,7 @@ interface Feed {
       description: string
       lastBuildDate: string
       generator: string
-      item: {
+      item?: {
         title: string | null
         link: string
         comments: string
@@ -129,6 +129,7 @@ async function main() {
 
   const parser = new XMLParser({
     ignoreAttributes: false,
+    isArray: (_name, jPath) => jPath === 'rss.channel.item',
   })
   const response = await fetch(githubChangeLogURL)
   if (!response.ok) {
@@ -136,7 +137,8 @@ async function main() {
   }
   const oldFeed: Feed = parser.parse(await response.text())
   let failedCount = 0
-  for (const item of oldFeed.rss.channel.item) {
+  const items = oldFeed.rss.channel.item ?? []
+  for (const item of items) {
     const title = item.title
     const content = item['content:encoded']
     if (!title || !content) {
