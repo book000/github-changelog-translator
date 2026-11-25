@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/"><channel><title>Archive: 2026 - GitHub Changelog</title><atom:link href="https://github.blog/changelog/feed/" rel="self" type="application/rss+xml"></atom:link><link>https://github.blog/changelog/</link><description>Updates, ideas, and inspiration from GitHub to help developers build and design software.</description><lastBuildDate>Mon, 23 Nov 2026 22:36:19 +0000</lastBuildDate><language>en-US</language><sy:updatePeriod>hourly</sy:updatePeriod><sy:updateFrequency>1</sy:updateFrequency><generator>https://wordpress.org/?v=7.1.5</generator><image><url>https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=32%2C32</url><title>Archive: 2026 - GitHub Changelog</title><link>https://github.blog/changelog/</link><width>32</width><height>32</height></image><site xmlns="com-wordpress:feed-additions:1">153214340</site><item><title>課題ステータスとリポジトリボードはパブリックプレビュー版です</title><link>https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview</link><dc:creator>Allison</dc:creator><pubDate>Mon, 23 Nov 2026 20:37:11 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview</guid><description>&lt;p&gt;Open or closed doesn&amp;#8217;t always tell you where an issue stands. You can now use more specific statuses to give your team and agents shared context about what&amp;#8217;s in flight&amp;#8230;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/"><channel><title>Archive: 2026 - GitHub Changelog</title><atom:link href="https://github.blog/changelog/feed/" rel="self" type="application/rss+xml"></atom:link><link>https://github.blog/changelog/</link><description>Updates, ideas, and inspiration from GitHub to help developers build and design software.</description><lastBuildDate>Tue, 24 Nov 2026 16:43:56 +0000</lastBuildDate><language>en-US</language><sy:updatePeriod>hourly</sy:updatePeriod><sy:updateFrequency>1</sy:updateFrequency><generator>https://wordpress.org/?v=7.1.5</generator><image><url>https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=32%2C32</url><title>Archive: 2026 - GitHub Changelog</title><link>https://github.blog/changelog/</link><width>32</width><height>32</height></image><site xmlns="com-wordpress:feed-additions:1">153214340</site><item><title>GitHub.comでの通知をより予測可能に</title><link>https://github.blog/changelog/2026-11-24-more-predictable-notifications-on-github-com</link><dc:creator>Allison</dc:creator><pubDate>Tue, 24 Nov 2026 16:40:59 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2026-11-24-more-predictable-notifications-on-github-com</guid><description>&lt;p&gt;Starting December 1, 2026, we&amp;#8217;re migrating notifications on GitHub.com over the course of a week to make subscriptions more predictable, correct unexpected behavior, and support the growing scale of activity.&amp;#8230;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2026-11-24-more-predictable-notifications-on-github-com&quot;&gt;More predictable notifications on GitHub.com&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
+</description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
+&lt;html&gt;&lt;body&gt;&lt;p&gt; 2026年12月1日より、GitHub.comの通知機能を1週間かけて移行します。これは、サブスクリプションの予測可能性を高め、予期せぬ動作を修正し、拡大するアクティビティ規模に対応するためです。&lt;/p&gt;
+&lt;p&gt;展開期間中は、ユーザーによって通知の動作が異なる場合があります。特に操作は必要ありませんが、以下の変更により、通知の管理やフィルタリング方法に影響が出る可能性があります。この変更はGitHub Enterprise Serverには適用されません。&lt;/p&gt;
+&lt;h2 id=&quot;what-is-changing&quot; id=&quot;what-is-changing&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#what-is-changing&quot;&gt;何が変わるのか&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ルーチン的な操作では再登録されません：&lt;/strong&gt;以前は、手動で登録を解除した後、コメント、プルリクエストのレビュー送信、スレッドの状態変更、マージキューの操作などの通知操作を行うと、再登録されていました。現在は、これらの操作を行っても登録解除された状態が維持されます。ただし、メンション、担当者への割り当て、プルリクエストのレビュー依頼の受信は、ユーザーの注意を必要とするため、引き続き再登録されます。
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;チームメンション通知は、現在のチームメンバーシップとメンションを反映するようになります。&lt;/strong&gt;以前は、チームメンションを削除したり、チームを脱退したりした後も通知を受け取り続けることができました。メンション後にチームに参加した場合、今後のアクティビティに関する通知は受け取れませんでした。現在は、メンションを削除したりチームを脱退したりすると、そのチームメンションに基づく今後の通知が停止されるため、通知の数が減る可能性があります。チームに参加すると、既にメンションされているスレッドでの今後のアクティビティに関する通知が有効になります。コメントなどの他の理由でも、通知が届く場合があります。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;メンションを削除しても、他の理由で受信する通知は停止しません。&lt;/strong&gt;以前は、メンションを削除すると、他の方法で参加していた場合でも通知が停止することがありました。しかし、現在は、誰かがメンションを削除しても、コメントやタスク割り当てなど、他の理由で参加している限り、購読は継続されます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;購読ページには、手動で追加した購読のみが表示されます&lt;/strong&gt;。&lt;a href=&quot;https://github.com/notifications/subscriptions&quot;&gt;購読ページに&lt;/a&gt;は、明示的に購読したスレッドのみが表示され、作成、コメント、割り当て、メンション、またはレビュー依頼などの理由で通知を受け取るスレッドは表示されません。これらの通知を管理したり、一括で購読を解除したりするには、&lt;a href=&quot;https://github.com/notifications&quot;&gt;通知受信トレイ&lt;/a&gt;を使用してください。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;通知理由には一貫した優先順位が適用されます。&lt;/strong&gt;受信トレイとメールのフッターに表示される理由は、最新のアクティビティではなく、優先順位に基づいて表示されます。表示順序は、メンション、チームメンション、割り当て、レビュー依頼、コメント、手動、作成者、状態変更、購読済みです。課題の場合、割り当てが最も優先順位が高くなります。通知理由に基づいてフィルタリングや自動化を行っている場合は、表示される理由が変わる可能性があるため、これらのルールを確認してください。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;メールヘッダーにはすべての通知理由が含まれます：&lt;/strong&gt;通知メールのヘッダーには、「メンション」や「購読済み」など、該当するすべての通知理由が含まれるようになり、通知をより適切にフィルタリングできるようになります。これらの通知理由に基づいてフィルタや自動化を使用している場合は、すべての通知理由が含まれるようになるため、内容を確認してください。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;セキュリティ勧告のコメントでチームが言及された場合、「チーム言及」という理由が表示されます。&lt;/strong&gt;リポジトリのセキュリティ勧告のコメントであなたのチームが@メンションされた場合、通知には「コメントされました」ではなく「チーム言及」と表示されます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;通知設定、監視対象リポジトリ、カスタムスレッド購読、以前に配信された通知など、その他の通知動作は変更されません。&lt;/p&gt;
+&lt;p&gt; &lt;a href=&quot;https://github.com/orgs/community/discussions/213452&quot;&gt;GitHubコミュニティ&lt;/a&gt;で議論に参加しましょう。&lt;/p&gt;
+&lt;/body&gt;&lt;/html&gt;
+&lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2026-11-24-more-predictable-notifications-on-github-com&quot;&gt;GitHub.com の通知をより予測可能にする&lt;/a&gt;記事が&lt;a href=&quot;https://github.blog&quot;&gt;、GitHub ブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
+</content:encoded><category domain="changelog-type">Improvement</category><category domain="changelog-label">community engagement</category><post-id xmlns="com-wordpress:feed-additions:1">100466</post-id></item><item><title>課題ステータスとリポジトリボードはパブリックプレビュー版です</title><link>https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview</link><dc:creator>Allison</dc:creator><pubDate>Mon, 23 Nov 2026 20:37:11 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview</guid><description>&lt;p&gt;Open or closed doesn&amp;#8217;t always tell you where an issue stands. You can now use more specific statuses to give your team and agents shared context about what&amp;#8217;s in flight&amp;#8230;&lt;/p&gt;
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview&quot;&gt;Issue statuses and repository boards are in public preview&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
 &lt;html&gt;&lt;body&gt;&lt;p&gt;オープンかクローズかだけでは、問題の現状を正確に把握することはできません。より具体的なステータスを使用することで、チームやエージェントに進行中の作業や次に取り組むべき作業に関する共通認識を提供し、リポジトリボードで進捗状況を視覚化できるようになりました。&lt;/p&gt;
@@ -16,8 +48,8 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;ステータスの自動更新。&lt;/strong&gt;ステータスを正確に保つため、以下の自動化処理が課題に適用されます。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;ドラフトのプルリクエストを課題にリンクすると、課題は&lt;strong&gt;「進行中」&lt;/strong&gt;に移動します。&lt;/li&gt;
-&lt;li&gt;ドラフトのプルリクエストを&lt;strong&gt;「レビュー準備完了」&lt;/strong&gt;としてマークすると、問題は&lt;strong&gt;「レビュー中」&lt;/strong&gt;に移動します。&lt;/li&gt;
+&lt;li&gt;下書きのプルリクエストを課題にリンクすると、課題は&lt;strong&gt;「進行中」&lt;/strong&gt;に移動します。&lt;/li&gt;
+&lt;li&gt;ドラフトのプルリクエストを&lt;strong&gt;「レビュー準備完了」&lt;/strong&gt;としてマークすると、課題は&lt;strong&gt;「レビュー中」&lt;/strong&gt;に移動します。&lt;/li&gt;
 &lt;li&gt;オープンなプルリクエストを課題にリンクすると、課題は&lt;strong&gt;「レビュー中」&lt;/strong&gt;に移動します。&lt;/li&gt;
 &lt;li&gt;課題にユーザーを割り当てると、その課題は&lt;strong&gt;Todo&lt;/strong&gt;に移動します。&lt;/li&gt;
 &lt;li&gt;問題にエージェントを割り当てると、その問題は&lt;strong&gt;「進行中」&lt;/strong&gt;に移動します。&lt;/li&gt;
@@ -27,7 +59,7 @@
 &lt;h2 id=&quot;repository-boards&quot; id=&quot;repository-boards&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#repository-boards&quot;&gt;リポジトリボード&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;リポジトリの保存済みビューがボードレイアウトに対応し、リポジトリから離れることなく作業の進捗状況を確認したり、課題を更新したりすることが簡単にできるようになりました。ワークフローのより高度な計画機能が必要な場合は、 &lt;a href=&quot;https://docs.github.com/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects&quot;&gt;GitHubプロジェクトを&lt;/a&gt;使用できます。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;新しいビューを作成するか、既存のビューを開いて、[ビューオプション] ⚙️ メニューを使用してボードレイアウトに切り替えます。&lt;/li&gt;
+&lt;li&gt;新しいビューを作成するか、既存のビューを開いて、[表示オプション]メニュー⚙️を使用してボードレイアウトに切り替えます。&lt;/li&gt;
 &lt;li&gt;ステータスごとにグループ化すると、問題が整理されて表示されます。また、問題を別の列にドラッグすると、ステータスを更新できます。&lt;/li&gt;
 &lt;li&gt;列、スイムレーン、表示フィールド、並べ替えなどを設定して、ボードをカスタマイズします。 &lt;/li&gt;
 &lt;/ul&gt;
@@ -35,7 +67,7 @@
 
 &lt;/video&gt;&lt;/p&gt;
 &lt;h2 id=&quot;issue-fields-are-now-independent-of-issue-types&quot; id=&quot;issue-fields-are-now-independent-of-issue-types&quot; &gt;&lt;a class=&quot;heading-link&quot; href=&quot;#issue-fields-are-now-independent-of-issue-types&quot;&gt;課題フィールドは課題タイプとは独立しました&lt;span class=&quot;heading-hash pl-2 text-italic text-bold&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;以前は、&lt;strong&gt;優先度&lt;/strong&gt;以外の課題フィールドを課題に表示するには、課題タイプにマッピングする必要がありました。今回の変更により、課題サイドバーのフィールドセクションにある歯車アイコン⚙️メニューから、課題タイプに関係なく、任意の課題フィールドを課題に追加できるようになりました。フィールドは、引き続き、タイプに固定されている場合のみデフォルトで表示されます。課題フィールドの詳細については、 &lt;a href=&quot;https://docs.github.com/issues/tracking-your-work-with-issues/using-issues/managing-issue-fields&quot;&gt;ドキュメント&lt;/a&gt;をご覧ください。&lt;/p&gt;
+&lt;p&gt;以前は、&lt;strong&gt;優先度&lt;/strong&gt;以外の課題フィールドを課題に表示するには、課題タイプにマッピングする必要がありました。今回の変更により、課題サイドバーのフィールドセクションにある歯車アイコン⚙️メニューから、課題タイプに関係なく、任意の課題フィールドを課題に追加できるようになりました。フィールドは、タイプに固定されている場合のみ、デフォルトで表示されます。課題フィールドの詳細については、 &lt;a href=&quot;https://docs.github.com/issues/tracking-your-work-with-issues/using-issues/managing-issue-fields&quot;&gt;ドキュメント&lt;/a&gt;をご覧ください。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/orgs/community/discussions/212171&quot;&gt;コミュニティの議論&lt;/a&gt;に参加しましょう。&lt;/p&gt;
 &lt;/body&gt;&lt;/html&gt;
 &lt;p&gt; &lt;a href=&quot;https://github.blog&quot;&gt;GitHub Blog&lt;/a&gt;に最初に投稿された記事「 &lt;a href=&quot;https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview&quot;&gt;課題ステータスとリポジトリボードがパブリックプレビューになりました」&lt;/a&gt; 。&lt;/p&gt;
@@ -159,7 +191,7 @@
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2026-11-19-github-desktop-now-supports-multiple-accounts-per-host&quot;&gt;GitHub Desktop now supports multiple accounts per host&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
 &lt;html&gt;&lt;body&gt;&lt;p&gt; GitHub Desktopでは、GitHub.com、GitHub Enterprise Server、GHE.comなど、同一ホスト上で複数のアカウントを使用してサインインできるようになりました。これは、デスクトップコミュニティで&lt;a href=&quot;https://github.com/desktop/desktop/issues/3707&quot;&gt;最も要望の多かった機能&lt;/a&gt;の一つです。&lt;/p&gt;
-&lt;p&gt;今回のリリースでは、以下のことが可能です。&lt;/p&gt;
+&lt;p&gt;今回のリリースでは、以下のことが可能になります。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt; 1つのホストに対して複数のアカウントを追加できます。追加できるアカウント数に制限はありません。&lt;/li&gt;
 &lt;li&gt;各リポジトリを特定のアカウントに関連付けることで、クローン、公開、およびGit操作時に適切な認証情報が自動的に使用されるようになります。&lt;/li&gt;
@@ -206,17 +238,4 @@
 &lt;p&gt;このプレビューはあくまでも出発点であり、完成版のプルリクエスト体験ではありません。次のプルリクエストでぜひお試しください。何が見つけやすくなりましたか？どこでまだ状況が分かりにくくなっていますか？どのような場合に従来の概要画面に戻りたくなりますか？ご意見や問題点は、&lt;a href=&quot;https://github.com/orgs/community/discussions/212186&quot;&gt;概要プレビューに関するフィードバックディスカッション&lt;/a&gt;で共有・報告してください。&lt;/p&gt;
 &lt;/body&gt;&lt;/html&gt;
 &lt;p&gt;この記事&lt;a href=&quot;https://github.blog/changelog/2026-11-19-improvements-on-the-pull-request-overview-in-public-preview&quot;&gt;「パブリックプレビューにおけるプルリクエストの概要の改善」は、&lt;/a&gt; &lt;a href=&quot;https://github.blog&quot;&gt;GitHubブログ&lt;/a&gt;に最初に掲載されました。&lt;/p&gt;
-</content:encoded><category domain="changelog-type">Improvement</category><category domain="changelog-label">collaboration tools</category><post-id xmlns="com-wordpress:feed-additions:1">100414</post-id></item><item><title>Azure DevOps からのエンタープライズ向けライブマイグレーションが一般提供開始</title><link>https://github.blog/changelog/2026-11-19-enterprise-live-migrations-from-azure-devops-generally-available</link><dc:creator>Allison</dc:creator><pubDate>Thu, 19 Nov 2026 18:50:57 +0000</pubDate><guid isPermaLink="false">https://github.blog/changelog/2026-11-19-enterprise-live-migrations-from-azure-devops-generally-available</guid><description>&lt;p&gt;Enterprise Live Migrations (ELM) from Azure DevOps Services to GitHub Enterprise Cloud with data residency is now generally available. You can move your repositories while your teams keep working, then&amp;#8230;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2026-11-19-enterprise-live-migrations-from-azure-devops-generally-available&quot;&gt;Enterprise Live Migrations from Azure DevOps generally available&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
-</description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
-&lt;html&gt;&lt;body&gt;&lt;p&gt; Azure DevOps Services から GitHub Enterprise Cloud へのエンタープライズ ライブ マイグレーション (ELM) が、データ レジデンシーを維持しながら一般提供開始となりました。チームが作業を継続しながらリポジトリを移行し、その後、お客様のスケジュールに合わせて切り替えを行うことができます。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;ポータルまたはCLIを使用して移行を管理します。Azure&lt;/strong&gt; DevOpsポータルでガイド付きエクスペリエンスを選択するか、Azure DevOps CLIを使用して移行をスクリプト化できます。移行前の検証とライフサイクル追跡により、切り替え前に問題を特定し、進捗状況を監視できます。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ご自身のスケジュールに合わせて切り替えましょう。ELM&lt;/strong&gt;はAzure DevOpsからGitHubへの変更を継続的に同期するため、開発者は移行中も貢献を続けることができます。準備が整ったら、チームの都合の良い時間に短時間の切り替えで移行を完了してください。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;開発履歴をそのまま引き継げます。ELM&lt;/strong&gt;は、Gitの履歴、ブランチ、タグ、プルリクエスト（タイトル、説明、コメント、ユーザー履歴を含む）を同期します。Azure DevOpsのブランチポリシーは、GitHubのブランチルールセットとして移行されます。&lt;/li&gt;
-&lt;li&gt; &lt;strong&gt;Azure BoardsとAzure Pipelinesは引き続きご利用いただけます。ELM&lt;/strong&gt;を使用してAzure Boardsへの接続を作成し、Azure Pipelinesを移行済みのGitHubリポジトリに再接続することで、切り替え後の手動設定を削減できます。作業項目とパイプライン定義はAzure DevOpsに保持されます。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;移行の準備はできましたか？詳細を確認し、開始するには、 &lt;a href=&quot;https://learn.microsoft.com/azure/devops/repos/enterprise-live-migrations/overview&quot;&gt;Microsoft の ELM ドキュメントを&lt;/a&gt;ご覧ください。&lt;/p&gt;
-&lt;/body&gt;&lt;/html&gt;
-&lt;p&gt; &lt;a href=&quot;https://github.blog/changelog/2026-11-19-enterprise-live-migrations-from-azure-devops-generally-available&quot;&gt;Azure DevOps からのエンタープライズライブ移行が一般提供開始となりました、&lt;/a&gt;という記事が最初に&lt;a href=&quot;https://github.blog&quot;&gt;GitHub Blog&lt;/a&gt;に掲載されました。&lt;/p&gt;
-</content:encoded><category domain="changelog-type">Release</category><category domain="changelog-label">enterprise management tools</category><post-id xmlns="com-wordpress:feed-additions:1">100407</post-id></item></channel></rss>
+</content:encoded><category domain="changelog-type">Improvement</category><category domain="changelog-label">collaboration tools</category><post-id xmlns="com-wordpress:feed-additions:1">100414</post-id></item></channel></rss>
