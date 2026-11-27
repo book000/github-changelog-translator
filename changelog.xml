@@ -208,7 +208,7 @@
 &lt;p&gt;The post &lt;a href=&quot;https://github.blog/changelog/2026-11-19-github-desktop-now-supports-multiple-accounts-per-host&quot;&gt;GitHub Desktop now supports multiple accounts per host&lt;/a&gt; appeared first on &lt;a href=&quot;https://github.blog&quot;&gt;The GitHub Blog&lt;/a&gt;.&lt;/p&gt;
 </description><content:encoded>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/REC-html40/loose.dtd&quot;&gt;
 &lt;html&gt;&lt;body&gt;&lt;p&gt; GitHub Desktopでは、GitHub.com、GitHub Enterprise Server、GHE.comなど、同一ホスト上で複数のアカウントを使用してサインインできるようになりました。これは、デスクトップコミュニティで&lt;a href=&quot;https://github.com/desktop/desktop/issues/3707&quot;&gt;最も要望の多かった機能&lt;/a&gt;の一つです。&lt;/p&gt;
-&lt;p&gt;今回のリリースでは、以下のことが可能になります。&lt;/p&gt;
+&lt;p&gt;今回のリリースでは、以下のことが可能です。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt; 1つのホストに対して複数のアカウントを追加できます。追加できるアカウント数に制限はありません。&lt;/li&gt;
 &lt;li&gt;各リポジトリを特定のアカウントに関連付けることで、クローン、公開、およびGit操作時に適切な認証情報が自動的に使用されるようになります。&lt;/li&gt;
